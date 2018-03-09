@@ -3023,54 +3023,55 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_EthernetConfiguration swig_types[11]
 #define SWIGTYPE_p_Finger swig_types[12]
 #define SWIGTYPE_p_FingersPosition swig_types[13]
-#define SWIGTYPE_p_ForcesInfo swig_types[14]
-#define SWIGTYPE_p_GeneralInformations swig_types[15]
-#define SWIGTYPE_p_Gripper swig_types[16]
-#define SWIGTYPE_p_JoystickCommand swig_types[17]
-#define SWIGTYPE_p_KinovaDevice swig_types[18]
-#define SWIGTYPE_p_Limitation swig_types[19]
-#define SWIGTYPE_p_Packet swig_types[20]
-#define SWIGTYPE_p_PacketList swig_types[21]
-#define SWIGTYPE_p_PeripheralInfo swig_types[22]
-#define SWIGTYPE_p_QuickStatus swig_types[23]
-#define SWIGTYPE_p_RS485_Message swig_types[24]
-#define SWIGTYPE_p_RobotIdentity swig_types[25]
-#define SWIGTYPE_p_SdkEthernetConfiguration swig_types[26]
-#define SWIGTYPE_p_SensorsInfo swig_types[27]
-#define SWIGTYPE_p_SingularityVector swig_types[28]
-#define SWIGTYPE_p_StickEvents swig_types[29]
-#define SWIGTYPE_p_SystemError swig_types[30]
-#define SWIGTYPE_p_SystemStatus swig_types[31]
-#define SWIGTYPE_p_TrajectoryFIFO swig_types[32]
-#define SWIGTYPE_p_TrajectoryPoint swig_types[33]
-#define SWIGTYPE_p_UserPosition swig_types[34]
-#define SWIGTYPE_p_Zone swig_types[35]
-#define SWIGTYPE_p_ZoneLimitation swig_types[36]
-#define SWIGTYPE_p_ZoneList swig_types[37]
-#define SWIGTYPE_p_ZoneShape swig_types[38]
-#define SWIGTYPE_p_allocator_type swig_types[39]
-#define SWIGTYPE_p_bool swig_types[40]
-#define SWIGTYPE_p_char swig_types[41]
-#define SWIGTYPE_p_difference_type swig_types[42]
-#define SWIGTYPE_p_double swig_types[43]
-#define SWIGTYPE_p_float swig_types[44]
-#define SWIGTYPE_p_int swig_types[45]
-#define SWIGTYPE_p_p_PyObject swig_types[46]
-#define SWIGTYPE_p_short swig_types[47]
-#define SWIGTYPE_p_size_type swig_types[48]
-#define SWIGTYPE_p_std__allocatorT_double_t swig_types[49]
-#define SWIGTYPE_p_std__allocatorT_int_t swig_types[50]
-#define SWIGTYPE_p_std__invalid_argument swig_types[51]
-#define SWIGTYPE_p_std__vectorT_Packet_std__allocatorT_Packet_t_t swig_types[52]
-#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[53]
-#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[54]
-#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[55]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[56]
-#define SWIGTYPE_p_unsigned_char swig_types[57]
-#define SWIGTYPE_p_unsigned_int swig_types[58]
-#define SWIGTYPE_p_value_type swig_types[59]
-static swig_type_info *swig_types[61];
-static swig_module_info swig_module = {swig_types, 60, 0, 0, 0, 0};
+#define SWIGTYPE_p_FloatArray swig_types[14]
+#define SWIGTYPE_p_ForcesInfo swig_types[15]
+#define SWIGTYPE_p_GeneralInformations swig_types[16]
+#define SWIGTYPE_p_Gripper swig_types[17]
+#define SWIGTYPE_p_JoystickCommand swig_types[18]
+#define SWIGTYPE_p_KinovaDevice swig_types[19]
+#define SWIGTYPE_p_Limitation swig_types[20]
+#define SWIGTYPE_p_Packet swig_types[21]
+#define SWIGTYPE_p_PacketList swig_types[22]
+#define SWIGTYPE_p_PeripheralInfo swig_types[23]
+#define SWIGTYPE_p_QuickStatus swig_types[24]
+#define SWIGTYPE_p_RS485_Message swig_types[25]
+#define SWIGTYPE_p_RobotIdentity swig_types[26]
+#define SWIGTYPE_p_SdkEthernetConfiguration swig_types[27]
+#define SWIGTYPE_p_SensorsInfo swig_types[28]
+#define SWIGTYPE_p_SingularityVector swig_types[29]
+#define SWIGTYPE_p_StickEvents swig_types[30]
+#define SWIGTYPE_p_SystemError swig_types[31]
+#define SWIGTYPE_p_SystemStatus swig_types[32]
+#define SWIGTYPE_p_TrajectoryFIFO swig_types[33]
+#define SWIGTYPE_p_TrajectoryPoint swig_types[34]
+#define SWIGTYPE_p_UserPosition swig_types[35]
+#define SWIGTYPE_p_Zone swig_types[36]
+#define SWIGTYPE_p_ZoneLimitation swig_types[37]
+#define SWIGTYPE_p_ZoneList swig_types[38]
+#define SWIGTYPE_p_ZoneShape swig_types[39]
+#define SWIGTYPE_p_allocator_type swig_types[40]
+#define SWIGTYPE_p_bool swig_types[41]
+#define SWIGTYPE_p_char swig_types[42]
+#define SWIGTYPE_p_difference_type swig_types[43]
+#define SWIGTYPE_p_double swig_types[44]
+#define SWIGTYPE_p_float swig_types[45]
+#define SWIGTYPE_p_int swig_types[46]
+#define SWIGTYPE_p_p_PyObject swig_types[47]
+#define SWIGTYPE_p_short swig_types[48]
+#define SWIGTYPE_p_size_type swig_types[49]
+#define SWIGTYPE_p_std__allocatorT_double_t swig_types[50]
+#define SWIGTYPE_p_std__allocatorT_int_t swig_types[51]
+#define SWIGTYPE_p_std__invalid_argument swig_types[52]
+#define SWIGTYPE_p_std__vectorT_Packet_std__allocatorT_Packet_t_t swig_types[53]
+#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[54]
+#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[55]
+#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[56]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[57]
+#define SWIGTYPE_p_unsigned_char swig_types[58]
+#define SWIGTYPE_p_unsigned_int swig_types[59]
+#define SWIGTYPE_p_value_type swig_types[60]
+static swig_type_info *swig_types[62];
+static swig_module_info swig_module = {swig_types, 61, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3442,6 +3443,102 @@ SWIG_From_float  (float value)
   return SWIG_From_double  (value);
 }
 
+SWIGINTERN char *AngularInfo___str__(AngularInfo *self){
+    static char tmp[512];
+    snprintf(tmp, 512, "[%f, %f, %f, %f, %f, %f]",
+      self->Actuator1,
+      self->Actuator2,
+      self->Actuator3,
+      self->Actuator4,
+      self->Actuator5,
+      self->Actuator6
+    );
+    return tmp;
+  }
+
+SWIGINTERN swig_type_info*
+SWIG_pchar_descriptor(void)
+{
+  static int init = 0;
+  static swig_type_info* info = 0;
+  if (!init) {
+    info = SWIG_TypeQuery("_p_char");
+    init = 1;
+  }
+  return info;
+}
+
+
+SWIGINTERNINLINE PyObject *
+SWIG_FromCharPtrAndSize(const char* carray, size_t size)
+{
+  if (carray) {
+    if (size > INT_MAX) {
+      swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
+      return pchar_descriptor ? 
+	SWIG_InternalNewPointerObj(const_cast< char * >(carray), pchar_descriptor, 0) : SWIG_Py_Void();
+    } else {
+#if PY_VERSION_HEX >= 0x03000000
+#if PY_VERSION_HEX >= 0x03010000
+      return PyUnicode_DecodeUTF8(carray, static_cast< Py_ssize_t >(size), "surrogateescape");
+#else
+      return PyUnicode_FromStringAndSize(carray, static_cast< Py_ssize_t >(size));
+#endif
+#else
+      return PyString_FromStringAndSize(carray, static_cast< Py_ssize_t >(size));
+#endif
+    }
+  } else {
+    return SWIG_Py_Void();
+  }
+}
+
+
+SWIGINTERNINLINE PyObject * 
+SWIG_FromCharPtr(const char *cptr)
+{ 
+  return SWIG_FromCharPtrAndSize(cptr, (cptr ? strlen(cptr) : 0));
+}
+
+SWIGINTERN char *CartesianInfo___str__(CartesianInfo *self){
+    static char tmp[512];
+    snprintf(tmp, 512, "[%f, %f, %f]",
+      self->X,
+      self->Y,
+      self->Z
+    );
+    return tmp;
+  }
+SWIGINTERN char *CartesianPosition___str__(CartesianPosition *self){
+    static char tmp[512];
+    snprintf(tmp, 512, "<kinovapy.CartesianPosition> Coordinates: Position: [%f, %f, %f], Orientation: [%f, %f, %f], Fingers: [%f, %f, %f]",
+      self->Coordinates.X,
+      self->Coordinates.Y,
+      self->Coordinates.Z,
+      self->Coordinates.ThetaX,
+      self->Coordinates.ThetaY,
+      self->Coordinates.ThetaZ,
+      self->Fingers.Finger1,
+      self->Fingers.Finger2,
+      self->Fingers.Finger3
+    );
+    return tmp;
+  }
+SWIGINTERN char *AngularPosition___str__(AngularPosition *self){
+    static char tmp[512];
+    snprintf(tmp, 512, "<kinovapy.AngularPosition> Actuators: [%f, %f, %f, %f, %f, %f], Fingers: [%f, %f, %f]",
+      self->Actuators.Actuator1,
+      self->Actuators.Actuator2,
+      self->Actuators.Actuator3,
+      self->Actuators.Actuator4,
+      self->Actuators.Actuator5,
+      self->Actuators.Actuator6,
+      self->Fingers.Finger1,
+      self->Fingers.Finger2,
+      self->Fingers.Finger3
+    );
+    return tmp;
+  }
 
 SWIGINTERN int
 SWIG_AsVal_long (PyObject *obj, long* val)
@@ -3499,19 +3596,6 @@ SWIG_AsVal_int (PyObject * obj, int *val)
     }
   }  
   return res;
-}
-
-
-SWIGINTERN swig_type_info*
-SWIG_pchar_descriptor(void)
-{
-  static int init = 0;
-  static swig_type_info* info = 0;
-  if (!init) {
-    info = SWIG_TypeQuery("_p_char");
-    init = 1;
-  }
-  return info;
 }
 
 
@@ -3639,31 +3723,6 @@ SWIG_AsCharArray(PyObject * obj, char *val, size_t size)
 }
 
 
-SWIGINTERNINLINE PyObject *
-SWIG_FromCharPtrAndSize(const char* carray, size_t size)
-{
-  if (carray) {
-    if (size > INT_MAX) {
-      swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
-      return pchar_descriptor ? 
-	SWIG_InternalNewPointerObj(const_cast< char * >(carray), pchar_descriptor, 0) : SWIG_Py_Void();
-    } else {
-#if PY_VERSION_HEX >= 0x03000000
-#if PY_VERSION_HEX >= 0x03010000
-      return PyUnicode_DecodeUTF8(carray, static_cast< Py_ssize_t >(size), "surrogateescape");
-#else
-      return PyUnicode_FromStringAndSize(carray, static_cast< Py_ssize_t >(size));
-#endif
-#else
-      return PyString_FromStringAndSize(carray, static_cast< Py_ssize_t >(size));
-#endif
-    }
-  } else {
-    return SWIG_Py_Void();
-  }
-}
-
-
 size_t
 SWIG_strnlen(const char* s, size_t maxlen)
 {
@@ -3696,6 +3755,36 @@ SWIG_From_unsigned_SS_char  (unsigned char value)
   return SWIG_From_unsigned_SS_long  (value);
 }
 
+SWIGINTERN char *ForcesInfo___str__(ForcesInfo *self){
+    static char tmp[512];
+    const float thresh = 0.1;
+    snprintf(tmp, 512, "actuator_forces: [%f, %f, %f, %f, %f, %f], 'cartesian_forces: [%f, %f, %f, %f, %f, %f]",
+      self->Actuator1 > thresh ? self->Actuator1 : 0,
+      self->Actuator2 > thresh ? self->Actuator2 : 0,
+      self->Actuator3 > thresh ? self->Actuator3 : 0,
+      self->Actuator4 > thresh ? self->Actuator4 : 0,
+      self->Actuator5 > thresh ? self->Actuator5 : 0,
+      self->Actuator6 > thresh ? self->Actuator6 : 0,
+      self->X > thresh ? self->X : 0,
+      self->Y > thresh ? self->Y : 0,
+      self->Z > thresh ? self->Z : 0,
+      self->ThetaX > thresh ? self->ThetaX : 0,
+      self->ThetaY > thresh ? self->ThetaY : 0,
+      self->ThetaZ > thresh ? self->ThetaZ : 0
+    );
+    return tmp;
+  }
+SWIGINTERN char *QuickStatus___str__(QuickStatus *self){
+    static char tmp[512];
+    snprintf(tmp, 512, "<kinovapy.QuickStatus> Fingers: (%d, %d, %d), ControlEnable: %d, ControlModule: %d, ControlFrame: %d, CartesianFault: %d, ForceControl: %d, CurrentLimit: %d, RobotType: %d, TorqueSensors: %d",
+      self->Finger1Status, self->Finger2Status, self->Finger3Status,
+      self->ControlEnableStatus, self->ControlActiveModule,
+      self->ControlFrameType, self->CartesianFaultState,
+      self->ForceControlStatus, self->CurrentLimitationStatus,
+      self->RobotType, self->TorqueSensorsStatus
+    );
+    return tmp;
+  }
 
 SWIGINTERN int
 SWIG_AsVal_short (PyObject * obj, short *val)
@@ -3717,13 +3806,6 @@ SWIGINTERNINLINE PyObject *
 SWIG_From_short  (short value)
 {    
   return SWIG_From_long  (value);
-}
-
-
-SWIGINTERNINLINE PyObject * 
-SWIG_FromCharPtr(const char *cptr)
-{ 
-  return SWIG_FromCharPtrAndSize(cptr, (cptr ? strlen(cptr) : 0));
 }
 
 
@@ -5284,21 +5366,26 @@ SWIGINTERN std::vector< double >::iterator std_vector_Sl_double_Sg__erase__SWIG_
 SWIGINTERN std::vector< double >::iterator std_vector_Sl_double_Sg__insert__SWIG_0(std::vector< double > *self,std::vector< double >::iterator pos,std::vector< double >::value_type const &x){ return self->insert(pos, x); }
 SWIGINTERN void std_vector_Sl_double_Sg__insert__SWIG_1(std::vector< double > *self,std::vector< double >::iterator pos,std::vector< double >::size_type n,std::vector< double >::value_type const &x){ self->insert(pos, n, x); }
 
-  static float *new_floatArray(size_t nelements) { 
+typedef float FloatArray;
+
+SWIGINTERN FloatArray *new_FloatArray(size_t nelements){
     return (new float[nelements]);
   }
-
-  static void delete_floatArray(float *ary) {
-    delete[] ary;
+SWIGINTERN void delete_FloatArray(FloatArray *self){
+    delete[] self;
   }
-
-  static float floatArray_getitem(float *ary, size_t index) {
-    return ary[index];
+SWIGINTERN float FloatArray___getitem__(FloatArray *self,size_t index){
+    return self[index];
   }
-  static void floatArray_setitem(float *ary, size_t index, float value) {
-    ary[index] = value;
+SWIGINTERN void FloatArray___setitem__(FloatArray *self,size_t index,float value){
+    self[index] = value;
   }
-
+SWIGINTERN float *FloatArray_cast(FloatArray *self){
+    return self;
+  }
+SWIGINTERN FloatArray *FloatArray_frompointer(float *t){
+    return static_cast< FloatArray * >(t);
+  }
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -7743,6 +7830,28 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_AngularInfo___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  AngularInfo *arg1 = (AngularInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"AngularInfo___str__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_AngularInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AngularInfo___str__" "', argument " "1"" of type '" "AngularInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< AngularInfo * >(argp1);
+  result = (char *)AngularInfo___str__(arg1);
+  resultobj = SWIG_FromCharPtr((const char *)result);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_new_AngularInfo(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   AngularInfo *result = 0 ;
@@ -8111,6 +8220,28 @@ SWIGINTERN PyObject *_wrap_CartesianInfo_InitStruct(PyObject *SWIGUNUSEDPARM(sel
   arg1 = reinterpret_cast< CartesianInfo * >(argp1);
   (arg1)->InitStruct();
   resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CartesianInfo___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianInfo *arg1 = (CartesianInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfo___str__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfo___str__" "', argument " "1"" of type '" "CartesianInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianInfo * >(argp1);
+  result = (char *)CartesianInfo___str__(arg1);
+  resultobj = SWIG_FromCharPtr((const char *)result);
   return resultobj;
 fail:
   return NULL;
@@ -9343,6 +9474,28 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_CartesianPosition___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianPosition *arg1 = (CartesianPosition *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianPosition___str__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianPosition, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianPosition___str__" "', argument " "1"" of type '" "CartesianPosition *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianPosition * >(argp1);
+  result = (char *)CartesianPosition___str__(arg1);
+  resultobj = SWIG_FromCharPtr((const char *)result);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_new_CartesianPosition(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   CartesianPosition *result = 0 ;
@@ -9503,6 +9656,28 @@ SWIGINTERN PyObject *_wrap_AngularPosition_InitStruct(PyObject *SWIGUNUSEDPARM(s
   arg1 = reinterpret_cast< AngularPosition * >(argp1);
   (arg1)->InitStruct();
   resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AngularPosition___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  AngularPosition *arg1 = (AngularPosition *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"AngularPosition___str__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_AngularPosition, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AngularPosition___str__" "', argument " "1"" of type '" "AngularPosition *""'"); 
+  }
+  arg1 = reinterpret_cast< AngularPosition * >(argp1);
+  result = (char *)AngularPosition___str__(arg1);
+  resultobj = SWIG_FromCharPtr((const char *)result);
   return resultobj;
 fail:
   return NULL;
@@ -17612,6 +17787,28 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ForcesInfo___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ForcesInfo *arg1 = (ForcesInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ForcesInfo___str__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ForcesInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ForcesInfo___str__" "', argument " "1"" of type '" "ForcesInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< ForcesInfo * >(argp1);
+  result = (char *)ForcesInfo___str__(arg1);
+  resultobj = SWIG_FromCharPtr((const char *)result);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_new_ForcesInfo(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   ForcesInfo *result = 0 ;
@@ -18375,6 +18572,28 @@ SWIGINTERN PyObject *_wrap_QuickStatus_TorqueSensorsStatus_get(PyObject *SWIGUNU
   arg1 = reinterpret_cast< QuickStatus * >(argp1);
   result = (unsigned char) ((arg1)->TorqueSensorsStatus);
   resultobj = SWIG_From_unsigned_SS_char(static_cast< unsigned char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_QuickStatus___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  QuickStatus *arg1 = (QuickStatus *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"QuickStatus___str__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_QuickStatus, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "QuickStatus___str__" "', argument " "1"" of type '" "QuickStatus *""'"); 
+  }
+  arg1 = reinterpret_cast< QuickStatus * >(argp1);
+  result = (char *)QuickStatus___str__(arg1);
+  resultobj = SWIG_FromCharPtr((const char *)result);
   return resultobj;
 fail:
   return NULL;
@@ -36447,42 +36666,42 @@ SWIGINTERN PyObject *DoubleVector_swigregister(PyObject *SWIGUNUSEDPARM(self), P
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *_wrap_new_floatArray(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_new_FloatArray(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   size_t arg1 ;
   size_t val1 ;
   int ecode1 = 0 ;
   PyObject * obj0 = 0 ;
-  float *result = 0 ;
+  FloatArray *result = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"new_floatArray",1,1,&obj0)) SWIG_fail;
+  if(!PyArg_UnpackTuple(args,(char *)"new_FloatArray",1,1,&obj0)) SWIG_fail;
   ecode1 = SWIG_AsVal_size_t(obj0, &val1);
   if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_floatArray" "', argument " "1"" of type '" "size_t""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_FloatArray" "', argument " "1"" of type '" "size_t""'");
   } 
   arg1 = static_cast< size_t >(val1);
-  result = (float *)new_floatArray(arg1);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_float, 0 |  0 );
+  result = (FloatArray *)new_FloatArray(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_FloatArray, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_delete_floatArray(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_delete_FloatArray(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  float *arg1 = (float *) 0 ;
+  FloatArray *arg1 = (FloatArray *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"delete_floatArray",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_float, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"delete_FloatArray",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_FloatArray, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_floatArray" "', argument " "1"" of type '" "float *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_FloatArray" "', argument " "1"" of type '" "FloatArray *""'"); 
   }
-  arg1 = reinterpret_cast< float * >(argp1);
-  delete_floatArray(arg1);
+  arg1 = reinterpret_cast< FloatArray * >(argp1);
+  delete_FloatArray(arg1);
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -36490,9 +36709,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_floatArray_getitem(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatArray___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  float *arg1 = (float *) 0 ;
+  FloatArray *arg1 = (FloatArray *) 0 ;
   size_t arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -36502,18 +36721,18 @@ SWIGINTERN PyObject *_wrap_floatArray_getitem(PyObject *SWIGUNUSEDPARM(self), Py
   PyObject * obj1 = 0 ;
   float result;
   
-  if(!PyArg_UnpackTuple(args,(char *)"floatArray_getitem",2,2,&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_float, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"FloatArray___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_FloatArray, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "floatArray_getitem" "', argument " "1"" of type '" "float *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatArray___getitem__" "', argument " "1"" of type '" "FloatArray *""'"); 
   }
-  arg1 = reinterpret_cast< float * >(argp1);
+  arg1 = reinterpret_cast< FloatArray * >(argp1);
   ecode2 = SWIG_AsVal_size_t(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "floatArray_getitem" "', argument " "2"" of type '" "size_t""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatArray___getitem__" "', argument " "2"" of type '" "size_t""'");
   } 
   arg2 = static_cast< size_t >(val2);
-  result = (float)floatArray_getitem(arg1,arg2);
+  result = (float)FloatArray___getitem__(arg1,arg2);
   resultobj = SWIG_From_float(static_cast< float >(result));
   return resultobj;
 fail:
@@ -36521,9 +36740,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_floatArray_setitem(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatArray___setitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  float *arg1 = (float *) 0 ;
+  FloatArray *arg1 = (FloatArray *) 0 ;
   size_t arg2 ;
   float arg3 ;
   void *argp1 = 0 ;
@@ -36536,29 +36755,80 @@ SWIGINTERN PyObject *_wrap_floatArray_setitem(PyObject *SWIGUNUSEDPARM(self), Py
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"floatArray_setitem",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_float, 0 |  0 );
+  if(!PyArg_UnpackTuple(args,(char *)"FloatArray___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_FloatArray, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "floatArray_setitem" "', argument " "1"" of type '" "float *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatArray___setitem__" "', argument " "1"" of type '" "FloatArray *""'"); 
   }
-  arg1 = reinterpret_cast< float * >(argp1);
+  arg1 = reinterpret_cast< FloatArray * >(argp1);
   ecode2 = SWIG_AsVal_size_t(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "floatArray_setitem" "', argument " "2"" of type '" "size_t""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatArray___setitem__" "', argument " "2"" of type '" "size_t""'");
   } 
   arg2 = static_cast< size_t >(val2);
   ecode3 = SWIG_AsVal_float(obj2, &val3);
   if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "floatArray_setitem" "', argument " "3"" of type '" "float""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "FloatArray___setitem__" "', argument " "3"" of type '" "float""'");
   } 
   arg3 = static_cast< float >(val3);
-  floatArray_setitem(arg1,arg2,arg3);
+  FloatArray___setitem__(arg1,arg2,arg3);
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
   return NULL;
 }
 
+
+SWIGINTERN PyObject *_wrap_FloatArray_cast(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  FloatArray *arg1 = (FloatArray *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"FloatArray_cast",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_FloatArray, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatArray_cast" "', argument " "1"" of type '" "FloatArray *""'"); 
+  }
+  arg1 = reinterpret_cast< FloatArray * >(argp1);
+  result = (float *)FloatArray_cast(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_float, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FloatArray_frompointer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  float *arg1 = (float *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  FloatArray *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"FloatArray_frompointer",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatArray_frompointer" "', argument " "1"" of type '" "float *""'"); 
+  }
+  arg1 = reinterpret_cast< float * >(argp1);
+  result = (FloatArray *)FloatArray_frompointer(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_FloatArray, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *FloatArray_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_FloatArray, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
 
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
@@ -36684,283 +36954,287 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"RETRACT_TYPE_NORMAL_STANDBY_swigconstant", RETRACT_TYPE_NORMAL_STANDBY_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"RETRACT_TYPE_NOT_INITIALIZED_swigconstant", RETRACT_TYPE_NOT_INITIALIZED_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"RETRACT_ERROR_swigconstant", RETRACT_ERROR_swigconstant, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_IPAddress_set", _wrap_EthernetConfiguration_IPAddress_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_IPAddress_get", _wrap_EthernetConfiguration_IPAddress_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_MacAddress_set", _wrap_EthernetConfiguration_MacAddress_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_MacAddress_get", _wrap_EthernetConfiguration_MacAddress_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_PortNumber_set", _wrap_EthernetConfiguration_PortNumber_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_PortNumber_get", _wrap_EthernetConfiguration_PortNumber_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_Subnet_set", _wrap_EthernetConfiguration_Subnet_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_Subnet_get", _wrap_EthernetConfiguration_Subnet_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_Gateway_set", _wrap_EthernetConfiguration_Gateway_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetConfiguration_Gateway_get", _wrap_EthernetConfiguration_Gateway_get, METH_VARARGS, NULL},
-	 { (char *)"new_EthernetConfiguration", _wrap_new_EthernetConfiguration, METH_VARARGS, NULL},
-	 { (char *)"delete_EthernetConfiguration", _wrap_delete_EthernetConfiguration, METH_VARARGS, NULL},
+	 { (char *)"EthernetConfiguration_IPAddress_set", _wrap_EthernetConfiguration_IPAddress_set, METH_VARARGS, (char *)"EthernetConfiguration_IPAddress_set(EthernetConfiguration self, unsigned char [4] IPAddress)"},
+	 { (char *)"EthernetConfiguration_IPAddress_get", _wrap_EthernetConfiguration_IPAddress_get, METH_VARARGS, (char *)"EthernetConfiguration_IPAddress_get(EthernetConfiguration self) -> unsigned char [4]"},
+	 { (char *)"EthernetConfiguration_MacAddress_set", _wrap_EthernetConfiguration_MacAddress_set, METH_VARARGS, (char *)"EthernetConfiguration_MacAddress_set(EthernetConfiguration self, unsigned char [6] MacAddress)"},
+	 { (char *)"EthernetConfiguration_MacAddress_get", _wrap_EthernetConfiguration_MacAddress_get, METH_VARARGS, (char *)"EthernetConfiguration_MacAddress_get(EthernetConfiguration self) -> unsigned char [6]"},
+	 { (char *)"EthernetConfiguration_PortNumber_set", _wrap_EthernetConfiguration_PortNumber_set, METH_VARARGS, (char *)"EthernetConfiguration_PortNumber_set(EthernetConfiguration self, unsigned short PortNumber)"},
+	 { (char *)"EthernetConfiguration_PortNumber_get", _wrap_EthernetConfiguration_PortNumber_get, METH_VARARGS, (char *)"EthernetConfiguration_PortNumber_get(EthernetConfiguration self) -> unsigned short"},
+	 { (char *)"EthernetConfiguration_Subnet_set", _wrap_EthernetConfiguration_Subnet_set, METH_VARARGS, (char *)"EthernetConfiguration_Subnet_set(EthernetConfiguration self, unsigned char [4] Subnet)"},
+	 { (char *)"EthernetConfiguration_Subnet_get", _wrap_EthernetConfiguration_Subnet_get, METH_VARARGS, (char *)"EthernetConfiguration_Subnet_get(EthernetConfiguration self) -> unsigned char [4]"},
+	 { (char *)"EthernetConfiguration_Gateway_set", _wrap_EthernetConfiguration_Gateway_set, METH_VARARGS, (char *)"EthernetConfiguration_Gateway_set(EthernetConfiguration self, unsigned char [4] Gateway)"},
+	 { (char *)"EthernetConfiguration_Gateway_get", _wrap_EthernetConfiguration_Gateway_get, METH_VARARGS, (char *)"EthernetConfiguration_Gateway_get(EthernetConfiguration self) -> unsigned char [4]"},
+	 { (char *)"new_EthernetConfiguration", _wrap_new_EthernetConfiguration, METH_VARARGS, (char *)"new_EthernetConfiguration() -> EthernetConfiguration"},
+	 { (char *)"delete_EthernetConfiguration", _wrap_delete_EthernetConfiguration, METH_VARARGS, (char *)"delete_EthernetConfiguration(EthernetConfiguration self)"},
 	 { (char *)"EthernetConfiguration_swigregister", EthernetConfiguration_swigregister, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_IPAddress_set", _wrap_SdkEthernetConfiguration_IPAddress_set, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_IPAddress_get", _wrap_SdkEthernetConfiguration_IPAddress_get, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_Subnet_set", _wrap_SdkEthernetConfiguration_Subnet_set, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_Subnet_get", _wrap_SdkEthernetConfiguration_Subnet_get, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_CommandPortNumber_set", _wrap_SdkEthernetConfiguration_CommandPortNumber_set, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_CommandPortNumber_get", _wrap_SdkEthernetConfiguration_CommandPortNumber_get, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_DiscoverPortNumber_set", _wrap_SdkEthernetConfiguration_DiscoverPortNumber_set, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_DiscoverPortNumber_get", _wrap_SdkEthernetConfiguration_DiscoverPortNumber_get, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_RobotPortNumber_set", _wrap_SdkEthernetConfiguration_RobotPortNumber_set, METH_VARARGS, NULL},
-	 { (char *)"SdkEthernetConfiguration_RobotPortNumber_get", _wrap_SdkEthernetConfiguration_RobotPortNumber_get, METH_VARARGS, NULL},
-	 { (char *)"new_SdkEthernetConfiguration", _wrap_new_SdkEthernetConfiguration, METH_VARARGS, NULL},
-	 { (char *)"delete_SdkEthernetConfiguration", _wrap_delete_SdkEthernetConfiguration, METH_VARARGS, NULL},
+	 { (char *)"SdkEthernetConfiguration_IPAddress_set", _wrap_SdkEthernetConfiguration_IPAddress_set, METH_VARARGS, (char *)"SdkEthernetConfiguration_IPAddress_set(SdkEthernetConfiguration self, unsigned int IPAddress)"},
+	 { (char *)"SdkEthernetConfiguration_IPAddress_get", _wrap_SdkEthernetConfiguration_IPAddress_get, METH_VARARGS, (char *)"SdkEthernetConfiguration_IPAddress_get(SdkEthernetConfiguration self) -> unsigned int"},
+	 { (char *)"SdkEthernetConfiguration_Subnet_set", _wrap_SdkEthernetConfiguration_Subnet_set, METH_VARARGS, (char *)"SdkEthernetConfiguration_Subnet_set(SdkEthernetConfiguration self, unsigned int Subnet)"},
+	 { (char *)"SdkEthernetConfiguration_Subnet_get", _wrap_SdkEthernetConfiguration_Subnet_get, METH_VARARGS, (char *)"SdkEthernetConfiguration_Subnet_get(SdkEthernetConfiguration self) -> unsigned int"},
+	 { (char *)"SdkEthernetConfiguration_CommandPortNumber_set", _wrap_SdkEthernetConfiguration_CommandPortNumber_set, METH_VARARGS, (char *)"SdkEthernetConfiguration_CommandPortNumber_set(SdkEthernetConfiguration self, unsigned short CommandPortNumber)"},
+	 { (char *)"SdkEthernetConfiguration_CommandPortNumber_get", _wrap_SdkEthernetConfiguration_CommandPortNumber_get, METH_VARARGS, (char *)"SdkEthernetConfiguration_CommandPortNumber_get(SdkEthernetConfiguration self) -> unsigned short"},
+	 { (char *)"SdkEthernetConfiguration_DiscoverPortNumber_set", _wrap_SdkEthernetConfiguration_DiscoverPortNumber_set, METH_VARARGS, (char *)"SdkEthernetConfiguration_DiscoverPortNumber_set(SdkEthernetConfiguration self, unsigned short DiscoverPortNumber)"},
+	 { (char *)"SdkEthernetConfiguration_DiscoverPortNumber_get", _wrap_SdkEthernetConfiguration_DiscoverPortNumber_get, METH_VARARGS, (char *)"SdkEthernetConfiguration_DiscoverPortNumber_get(SdkEthernetConfiguration self) -> unsigned short"},
+	 { (char *)"SdkEthernetConfiguration_RobotPortNumber_set", _wrap_SdkEthernetConfiguration_RobotPortNumber_set, METH_VARARGS, (char *)"SdkEthernetConfiguration_RobotPortNumber_set(SdkEthernetConfiguration self, unsigned short RobotPortNumber)"},
+	 { (char *)"SdkEthernetConfiguration_RobotPortNumber_get", _wrap_SdkEthernetConfiguration_RobotPortNumber_get, METH_VARARGS, (char *)"SdkEthernetConfiguration_RobotPortNumber_get(SdkEthernetConfiguration self) -> unsigned short"},
+	 { (char *)"new_SdkEthernetConfiguration", _wrap_new_SdkEthernetConfiguration, METH_VARARGS, (char *)"new_SdkEthernetConfiguration() -> SdkEthernetConfiguration"},
+	 { (char *)"delete_SdkEthernetConfiguration", _wrap_delete_SdkEthernetConfiguration, METH_VARARGS, (char *)"delete_SdkEthernetConfiguration(SdkEthernetConfiguration self)"},
 	 { (char *)"SdkEthernetConfiguration_swigregister", SdkEthernetConfiguration_swigregister, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator1_set", _wrap_AngularInfo_Actuator1_set, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator1_get", _wrap_AngularInfo_Actuator1_get, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator2_set", _wrap_AngularInfo_Actuator2_set, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator2_get", _wrap_AngularInfo_Actuator2_get, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator3_set", _wrap_AngularInfo_Actuator3_set, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator3_get", _wrap_AngularInfo_Actuator3_get, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator4_set", _wrap_AngularInfo_Actuator4_set, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator4_get", _wrap_AngularInfo_Actuator4_get, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator5_set", _wrap_AngularInfo_Actuator5_set, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator5_get", _wrap_AngularInfo_Actuator5_get, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator6_set", _wrap_AngularInfo_Actuator6_set, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator6_get", _wrap_AngularInfo_Actuator6_get, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator7_set", _wrap_AngularInfo_Actuator7_set, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_Actuator7_get", _wrap_AngularInfo_Actuator7_get, METH_VARARGS, NULL},
-	 { (char *)"AngularInfo_InitStruct", _wrap_AngularInfo_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_AngularInfo", _wrap_new_AngularInfo, METH_VARARGS, NULL},
-	 { (char *)"delete_AngularInfo", _wrap_delete_AngularInfo, METH_VARARGS, NULL},
+	 { (char *)"AngularInfo_Actuator1_set", _wrap_AngularInfo_Actuator1_set, METH_VARARGS, (char *)"AngularInfo_Actuator1_set(AngularInfo self, float Actuator1)"},
+	 { (char *)"AngularInfo_Actuator1_get", _wrap_AngularInfo_Actuator1_get, METH_VARARGS, (char *)"AngularInfo_Actuator1_get(AngularInfo self) -> float"},
+	 { (char *)"AngularInfo_Actuator2_set", _wrap_AngularInfo_Actuator2_set, METH_VARARGS, (char *)"AngularInfo_Actuator2_set(AngularInfo self, float Actuator2)"},
+	 { (char *)"AngularInfo_Actuator2_get", _wrap_AngularInfo_Actuator2_get, METH_VARARGS, (char *)"AngularInfo_Actuator2_get(AngularInfo self) -> float"},
+	 { (char *)"AngularInfo_Actuator3_set", _wrap_AngularInfo_Actuator3_set, METH_VARARGS, (char *)"AngularInfo_Actuator3_set(AngularInfo self, float Actuator3)"},
+	 { (char *)"AngularInfo_Actuator3_get", _wrap_AngularInfo_Actuator3_get, METH_VARARGS, (char *)"AngularInfo_Actuator3_get(AngularInfo self) -> float"},
+	 { (char *)"AngularInfo_Actuator4_set", _wrap_AngularInfo_Actuator4_set, METH_VARARGS, (char *)"AngularInfo_Actuator4_set(AngularInfo self, float Actuator4)"},
+	 { (char *)"AngularInfo_Actuator4_get", _wrap_AngularInfo_Actuator4_get, METH_VARARGS, (char *)"AngularInfo_Actuator4_get(AngularInfo self) -> float"},
+	 { (char *)"AngularInfo_Actuator5_set", _wrap_AngularInfo_Actuator5_set, METH_VARARGS, (char *)"AngularInfo_Actuator5_set(AngularInfo self, float Actuator5)"},
+	 { (char *)"AngularInfo_Actuator5_get", _wrap_AngularInfo_Actuator5_get, METH_VARARGS, (char *)"AngularInfo_Actuator5_get(AngularInfo self) -> float"},
+	 { (char *)"AngularInfo_Actuator6_set", _wrap_AngularInfo_Actuator6_set, METH_VARARGS, (char *)"AngularInfo_Actuator6_set(AngularInfo self, float Actuator6)"},
+	 { (char *)"AngularInfo_Actuator6_get", _wrap_AngularInfo_Actuator6_get, METH_VARARGS, (char *)"AngularInfo_Actuator6_get(AngularInfo self) -> float"},
+	 { (char *)"AngularInfo_Actuator7_set", _wrap_AngularInfo_Actuator7_set, METH_VARARGS, (char *)"AngularInfo_Actuator7_set(AngularInfo self, float Actuator7)"},
+	 { (char *)"AngularInfo_Actuator7_get", _wrap_AngularInfo_Actuator7_get, METH_VARARGS, (char *)"AngularInfo_Actuator7_get(AngularInfo self) -> float"},
+	 { (char *)"AngularInfo_InitStruct", _wrap_AngularInfo_InitStruct, METH_VARARGS, (char *)"AngularInfo_InitStruct(AngularInfo self)"},
+	 { (char *)"AngularInfo___str__", _wrap_AngularInfo___str__, METH_VARARGS, (char *)"AngularInfo___str__(AngularInfo self) -> char *"},
+	 { (char *)"new_AngularInfo", _wrap_new_AngularInfo, METH_VARARGS, (char *)"new_AngularInfo() -> AngularInfo"},
+	 { (char *)"delete_AngularInfo", _wrap_delete_AngularInfo, METH_VARARGS, (char *)"delete_AngularInfo(AngularInfo self)"},
 	 { (char *)"AngularInfo_swigregister", AngularInfo_swigregister, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_X_set", _wrap_CartesianInfo_X_set, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_X_get", _wrap_CartesianInfo_X_get, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_Y_set", _wrap_CartesianInfo_Y_set, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_Y_get", _wrap_CartesianInfo_Y_get, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_Z_set", _wrap_CartesianInfo_Z_set, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_Z_get", _wrap_CartesianInfo_Z_get, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_ThetaX_set", _wrap_CartesianInfo_ThetaX_set, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_ThetaX_get", _wrap_CartesianInfo_ThetaX_get, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_ThetaY_set", _wrap_CartesianInfo_ThetaY_set, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_ThetaY_get", _wrap_CartesianInfo_ThetaY_get, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_ThetaZ_set", _wrap_CartesianInfo_ThetaZ_set, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_ThetaZ_get", _wrap_CartesianInfo_ThetaZ_get, METH_VARARGS, NULL},
-	 { (char *)"CartesianInfo_InitStruct", _wrap_CartesianInfo_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_CartesianInfo", _wrap_new_CartesianInfo, METH_VARARGS, NULL},
-	 { (char *)"delete_CartesianInfo", _wrap_delete_CartesianInfo, METH_VARARGS, NULL},
+	 { (char *)"CartesianInfo_X_set", _wrap_CartesianInfo_X_set, METH_VARARGS, (char *)"CartesianInfo_X_set(CartesianInfo self, float X)"},
+	 { (char *)"CartesianInfo_X_get", _wrap_CartesianInfo_X_get, METH_VARARGS, (char *)"CartesianInfo_X_get(CartesianInfo self) -> float"},
+	 { (char *)"CartesianInfo_Y_set", _wrap_CartesianInfo_Y_set, METH_VARARGS, (char *)"CartesianInfo_Y_set(CartesianInfo self, float Y)"},
+	 { (char *)"CartesianInfo_Y_get", _wrap_CartesianInfo_Y_get, METH_VARARGS, (char *)"CartesianInfo_Y_get(CartesianInfo self) -> float"},
+	 { (char *)"CartesianInfo_Z_set", _wrap_CartesianInfo_Z_set, METH_VARARGS, (char *)"CartesianInfo_Z_set(CartesianInfo self, float Z)"},
+	 { (char *)"CartesianInfo_Z_get", _wrap_CartesianInfo_Z_get, METH_VARARGS, (char *)"CartesianInfo_Z_get(CartesianInfo self) -> float"},
+	 { (char *)"CartesianInfo_ThetaX_set", _wrap_CartesianInfo_ThetaX_set, METH_VARARGS, (char *)"CartesianInfo_ThetaX_set(CartesianInfo self, float ThetaX)"},
+	 { (char *)"CartesianInfo_ThetaX_get", _wrap_CartesianInfo_ThetaX_get, METH_VARARGS, (char *)"CartesianInfo_ThetaX_get(CartesianInfo self) -> float"},
+	 { (char *)"CartesianInfo_ThetaY_set", _wrap_CartesianInfo_ThetaY_set, METH_VARARGS, (char *)"CartesianInfo_ThetaY_set(CartesianInfo self, float ThetaY)"},
+	 { (char *)"CartesianInfo_ThetaY_get", _wrap_CartesianInfo_ThetaY_get, METH_VARARGS, (char *)"CartesianInfo_ThetaY_get(CartesianInfo self) -> float"},
+	 { (char *)"CartesianInfo_ThetaZ_set", _wrap_CartesianInfo_ThetaZ_set, METH_VARARGS, (char *)"CartesianInfo_ThetaZ_set(CartesianInfo self, float ThetaZ)"},
+	 { (char *)"CartesianInfo_ThetaZ_get", _wrap_CartesianInfo_ThetaZ_get, METH_VARARGS, (char *)"CartesianInfo_ThetaZ_get(CartesianInfo self) -> float"},
+	 { (char *)"CartesianInfo_InitStruct", _wrap_CartesianInfo_InitStruct, METH_VARARGS, (char *)"CartesianInfo_InitStruct(CartesianInfo self)"},
+	 { (char *)"CartesianInfo___str__", _wrap_CartesianInfo___str__, METH_VARARGS, (char *)"CartesianInfo___str__(CartesianInfo self) -> char *"},
+	 { (char *)"new_CartesianInfo", _wrap_new_CartesianInfo, METH_VARARGS, (char *)"new_CartesianInfo() -> CartesianInfo"},
+	 { (char *)"delete_CartesianInfo", _wrap_delete_CartesianInfo, METH_VARARGS, (char *)"delete_CartesianInfo(CartesianInfo self)"},
 	 { (char *)"CartesianInfo_swigregister", CartesianInfo_swigregister, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_Voltage_set", _wrap_SensorsInfo_Voltage_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_Voltage_get", _wrap_SensorsInfo_Voltage_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_Current_set", _wrap_SensorsInfo_Current_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_Current_get", _wrap_SensorsInfo_Current_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_AccelerationX_set", _wrap_SensorsInfo_AccelerationX_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_AccelerationX_get", _wrap_SensorsInfo_AccelerationX_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_AccelerationY_set", _wrap_SensorsInfo_AccelerationY_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_AccelerationY_get", _wrap_SensorsInfo_AccelerationY_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_AccelerationZ_set", _wrap_SensorsInfo_AccelerationZ_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_AccelerationZ_get", _wrap_SensorsInfo_AccelerationZ_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp1_set", _wrap_SensorsInfo_ActuatorTemp1_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp1_get", _wrap_SensorsInfo_ActuatorTemp1_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp2_set", _wrap_SensorsInfo_ActuatorTemp2_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp2_get", _wrap_SensorsInfo_ActuatorTemp2_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp3_set", _wrap_SensorsInfo_ActuatorTemp3_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp3_get", _wrap_SensorsInfo_ActuatorTemp3_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp4_set", _wrap_SensorsInfo_ActuatorTemp4_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp4_get", _wrap_SensorsInfo_ActuatorTemp4_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp5_set", _wrap_SensorsInfo_ActuatorTemp5_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp5_get", _wrap_SensorsInfo_ActuatorTemp5_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp6_set", _wrap_SensorsInfo_ActuatorTemp6_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp6_get", _wrap_SensorsInfo_ActuatorTemp6_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp7_set", _wrap_SensorsInfo_ActuatorTemp7_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_ActuatorTemp7_get", _wrap_SensorsInfo_ActuatorTemp7_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_FingerTemp1_set", _wrap_SensorsInfo_FingerTemp1_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_FingerTemp1_get", _wrap_SensorsInfo_FingerTemp1_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_FingerTemp2_set", _wrap_SensorsInfo_FingerTemp2_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_FingerTemp2_get", _wrap_SensorsInfo_FingerTemp2_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_FingerTemp3_set", _wrap_SensorsInfo_FingerTemp3_set, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_FingerTemp3_get", _wrap_SensorsInfo_FingerTemp3_get, METH_VARARGS, NULL},
-	 { (char *)"SensorsInfo_InitStruct", _wrap_SensorsInfo_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_SensorsInfo", _wrap_new_SensorsInfo, METH_VARARGS, NULL},
-	 { (char *)"delete_SensorsInfo", _wrap_delete_SensorsInfo, METH_VARARGS, NULL},
+	 { (char *)"SensorsInfo_Voltage_set", _wrap_SensorsInfo_Voltage_set, METH_VARARGS, (char *)"SensorsInfo_Voltage_set(SensorsInfo self, float Voltage)"},
+	 { (char *)"SensorsInfo_Voltage_get", _wrap_SensorsInfo_Voltage_get, METH_VARARGS, (char *)"SensorsInfo_Voltage_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_Current_set", _wrap_SensorsInfo_Current_set, METH_VARARGS, (char *)"SensorsInfo_Current_set(SensorsInfo self, float Current)"},
+	 { (char *)"SensorsInfo_Current_get", _wrap_SensorsInfo_Current_get, METH_VARARGS, (char *)"SensorsInfo_Current_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_AccelerationX_set", _wrap_SensorsInfo_AccelerationX_set, METH_VARARGS, (char *)"SensorsInfo_AccelerationX_set(SensorsInfo self, float AccelerationX)"},
+	 { (char *)"SensorsInfo_AccelerationX_get", _wrap_SensorsInfo_AccelerationX_get, METH_VARARGS, (char *)"SensorsInfo_AccelerationX_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_AccelerationY_set", _wrap_SensorsInfo_AccelerationY_set, METH_VARARGS, (char *)"SensorsInfo_AccelerationY_set(SensorsInfo self, float AccelerationY)"},
+	 { (char *)"SensorsInfo_AccelerationY_get", _wrap_SensorsInfo_AccelerationY_get, METH_VARARGS, (char *)"SensorsInfo_AccelerationY_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_AccelerationZ_set", _wrap_SensorsInfo_AccelerationZ_set, METH_VARARGS, (char *)"SensorsInfo_AccelerationZ_set(SensorsInfo self, float AccelerationZ)"},
+	 { (char *)"SensorsInfo_AccelerationZ_get", _wrap_SensorsInfo_AccelerationZ_get, METH_VARARGS, (char *)"SensorsInfo_AccelerationZ_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_ActuatorTemp1_set", _wrap_SensorsInfo_ActuatorTemp1_set, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp1_set(SensorsInfo self, float ActuatorTemp1)"},
+	 { (char *)"SensorsInfo_ActuatorTemp1_get", _wrap_SensorsInfo_ActuatorTemp1_get, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp1_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_ActuatorTemp2_set", _wrap_SensorsInfo_ActuatorTemp2_set, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp2_set(SensorsInfo self, float ActuatorTemp2)"},
+	 { (char *)"SensorsInfo_ActuatorTemp2_get", _wrap_SensorsInfo_ActuatorTemp2_get, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp2_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_ActuatorTemp3_set", _wrap_SensorsInfo_ActuatorTemp3_set, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp3_set(SensorsInfo self, float ActuatorTemp3)"},
+	 { (char *)"SensorsInfo_ActuatorTemp3_get", _wrap_SensorsInfo_ActuatorTemp3_get, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp3_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_ActuatorTemp4_set", _wrap_SensorsInfo_ActuatorTemp4_set, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp4_set(SensorsInfo self, float ActuatorTemp4)"},
+	 { (char *)"SensorsInfo_ActuatorTemp4_get", _wrap_SensorsInfo_ActuatorTemp4_get, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp4_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_ActuatorTemp5_set", _wrap_SensorsInfo_ActuatorTemp5_set, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp5_set(SensorsInfo self, float ActuatorTemp5)"},
+	 { (char *)"SensorsInfo_ActuatorTemp5_get", _wrap_SensorsInfo_ActuatorTemp5_get, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp5_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_ActuatorTemp6_set", _wrap_SensorsInfo_ActuatorTemp6_set, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp6_set(SensorsInfo self, float ActuatorTemp6)"},
+	 { (char *)"SensorsInfo_ActuatorTemp6_get", _wrap_SensorsInfo_ActuatorTemp6_get, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp6_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_ActuatorTemp7_set", _wrap_SensorsInfo_ActuatorTemp7_set, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp7_set(SensorsInfo self, float ActuatorTemp7)"},
+	 { (char *)"SensorsInfo_ActuatorTemp7_get", _wrap_SensorsInfo_ActuatorTemp7_get, METH_VARARGS, (char *)"SensorsInfo_ActuatorTemp7_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_FingerTemp1_set", _wrap_SensorsInfo_FingerTemp1_set, METH_VARARGS, (char *)"SensorsInfo_FingerTemp1_set(SensorsInfo self, float FingerTemp1)"},
+	 { (char *)"SensorsInfo_FingerTemp1_get", _wrap_SensorsInfo_FingerTemp1_get, METH_VARARGS, (char *)"SensorsInfo_FingerTemp1_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_FingerTemp2_set", _wrap_SensorsInfo_FingerTemp2_set, METH_VARARGS, (char *)"SensorsInfo_FingerTemp2_set(SensorsInfo self, float FingerTemp2)"},
+	 { (char *)"SensorsInfo_FingerTemp2_get", _wrap_SensorsInfo_FingerTemp2_get, METH_VARARGS, (char *)"SensorsInfo_FingerTemp2_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_FingerTemp3_set", _wrap_SensorsInfo_FingerTemp3_set, METH_VARARGS, (char *)"SensorsInfo_FingerTemp3_set(SensorsInfo self, float FingerTemp3)"},
+	 { (char *)"SensorsInfo_FingerTemp3_get", _wrap_SensorsInfo_FingerTemp3_get, METH_VARARGS, (char *)"SensorsInfo_FingerTemp3_get(SensorsInfo self) -> float"},
+	 { (char *)"SensorsInfo_InitStruct", _wrap_SensorsInfo_InitStruct, METH_VARARGS, (char *)"SensorsInfo_InitStruct(SensorsInfo self)"},
+	 { (char *)"new_SensorsInfo", _wrap_new_SensorsInfo, METH_VARARGS, (char *)"new_SensorsInfo() -> SensorsInfo"},
+	 { (char *)"delete_SensorsInfo", _wrap_delete_SensorsInfo, METH_VARARGS, (char *)"delete_SensorsInfo(SensorsInfo self)"},
 	 { (char *)"SensorsInfo_swigregister", SensorsInfo_swigregister, METH_VARARGS, NULL},
-	 { (char *)"FingersPosition_Finger1_set", _wrap_FingersPosition_Finger1_set, METH_VARARGS, NULL},
-	 { (char *)"FingersPosition_Finger1_get", _wrap_FingersPosition_Finger1_get, METH_VARARGS, NULL},
-	 { (char *)"FingersPosition_Finger2_set", _wrap_FingersPosition_Finger2_set, METH_VARARGS, NULL},
-	 { (char *)"FingersPosition_Finger2_get", _wrap_FingersPosition_Finger2_get, METH_VARARGS, NULL},
-	 { (char *)"FingersPosition_Finger3_set", _wrap_FingersPosition_Finger3_set, METH_VARARGS, NULL},
-	 { (char *)"FingersPosition_Finger3_get", _wrap_FingersPosition_Finger3_get, METH_VARARGS, NULL},
-	 { (char *)"FingersPosition_InitStruct", _wrap_FingersPosition_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_FingersPosition", _wrap_new_FingersPosition, METH_VARARGS, NULL},
-	 { (char *)"delete_FingersPosition", _wrap_delete_FingersPosition, METH_VARARGS, NULL},
+	 { (char *)"FingersPosition_Finger1_set", _wrap_FingersPosition_Finger1_set, METH_VARARGS, (char *)"FingersPosition_Finger1_set(FingersPosition self, float Finger1)"},
+	 { (char *)"FingersPosition_Finger1_get", _wrap_FingersPosition_Finger1_get, METH_VARARGS, (char *)"FingersPosition_Finger1_get(FingersPosition self) -> float"},
+	 { (char *)"FingersPosition_Finger2_set", _wrap_FingersPosition_Finger2_set, METH_VARARGS, (char *)"FingersPosition_Finger2_set(FingersPosition self, float Finger2)"},
+	 { (char *)"FingersPosition_Finger2_get", _wrap_FingersPosition_Finger2_get, METH_VARARGS, (char *)"FingersPosition_Finger2_get(FingersPosition self) -> float"},
+	 { (char *)"FingersPosition_Finger3_set", _wrap_FingersPosition_Finger3_set, METH_VARARGS, (char *)"FingersPosition_Finger3_set(FingersPosition self, float Finger3)"},
+	 { (char *)"FingersPosition_Finger3_get", _wrap_FingersPosition_Finger3_get, METH_VARARGS, (char *)"FingersPosition_Finger3_get(FingersPosition self) -> float"},
+	 { (char *)"FingersPosition_InitStruct", _wrap_FingersPosition_InitStruct, METH_VARARGS, (char *)"FingersPosition_InitStruct(FingersPosition self)"},
+	 { (char *)"new_FingersPosition", _wrap_new_FingersPosition, METH_VARARGS, (char *)"new_FingersPosition() -> FingersPosition"},
+	 { (char *)"delete_FingersPosition", _wrap_delete_FingersPosition, METH_VARARGS, (char *)"delete_FingersPosition(FingersPosition self)"},
 	 { (char *)"FingersPosition_swigregister", FingersPosition_swigregister, METH_VARARGS, NULL},
-	 { (char *)"CartesianPosition_Coordinates_set", _wrap_CartesianPosition_Coordinates_set, METH_VARARGS, NULL},
-	 { (char *)"CartesianPosition_Coordinates_get", _wrap_CartesianPosition_Coordinates_get, METH_VARARGS, NULL},
-	 { (char *)"CartesianPosition_Fingers_set", _wrap_CartesianPosition_Fingers_set, METH_VARARGS, NULL},
-	 { (char *)"CartesianPosition_Fingers_get", _wrap_CartesianPosition_Fingers_get, METH_VARARGS, NULL},
-	 { (char *)"CartesianPosition_InitStruct", _wrap_CartesianPosition_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_CartesianPosition", _wrap_new_CartesianPosition, METH_VARARGS, NULL},
-	 { (char *)"delete_CartesianPosition", _wrap_delete_CartesianPosition, METH_VARARGS, NULL},
+	 { (char *)"CartesianPosition_Coordinates_set", _wrap_CartesianPosition_Coordinates_set, METH_VARARGS, (char *)"CartesianPosition_Coordinates_set(CartesianPosition self, CartesianInfo Coordinates)"},
+	 { (char *)"CartesianPosition_Coordinates_get", _wrap_CartesianPosition_Coordinates_get, METH_VARARGS, (char *)"CartesianPosition_Coordinates_get(CartesianPosition self) -> CartesianInfo"},
+	 { (char *)"CartesianPosition_Fingers_set", _wrap_CartesianPosition_Fingers_set, METH_VARARGS, (char *)"CartesianPosition_Fingers_set(CartesianPosition self, FingersPosition Fingers)"},
+	 { (char *)"CartesianPosition_Fingers_get", _wrap_CartesianPosition_Fingers_get, METH_VARARGS, (char *)"CartesianPosition_Fingers_get(CartesianPosition self) -> FingersPosition"},
+	 { (char *)"CartesianPosition_InitStruct", _wrap_CartesianPosition_InitStruct, METH_VARARGS, (char *)"CartesianPosition_InitStruct(CartesianPosition self)"},
+	 { (char *)"CartesianPosition___str__", _wrap_CartesianPosition___str__, METH_VARARGS, (char *)"CartesianPosition___str__(CartesianPosition self) -> char *"},
+	 { (char *)"new_CartesianPosition", _wrap_new_CartesianPosition, METH_VARARGS, (char *)"new_CartesianPosition() -> CartesianPosition"},
+	 { (char *)"delete_CartesianPosition", _wrap_delete_CartesianPosition, METH_VARARGS, (char *)"delete_CartesianPosition(CartesianPosition self)"},
 	 { (char *)"CartesianPosition_swigregister", CartesianPosition_swigregister, METH_VARARGS, NULL},
-	 { (char *)"AngularPosition_Actuators_set", _wrap_AngularPosition_Actuators_set, METH_VARARGS, NULL},
-	 { (char *)"AngularPosition_Actuators_get", _wrap_AngularPosition_Actuators_get, METH_VARARGS, NULL},
-	 { (char *)"AngularPosition_Fingers_set", _wrap_AngularPosition_Fingers_set, METH_VARARGS, NULL},
-	 { (char *)"AngularPosition_Fingers_get", _wrap_AngularPosition_Fingers_get, METH_VARARGS, NULL},
-	 { (char *)"AngularPosition_InitStruct", _wrap_AngularPosition_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_AngularPosition", _wrap_new_AngularPosition, METH_VARARGS, NULL},
-	 { (char *)"delete_AngularPosition", _wrap_delete_AngularPosition, METH_VARARGS, NULL},
+	 { (char *)"AngularPosition_Actuators_set", _wrap_AngularPosition_Actuators_set, METH_VARARGS, (char *)"AngularPosition_Actuators_set(AngularPosition self, AngularInfo Actuators)"},
+	 { (char *)"AngularPosition_Actuators_get", _wrap_AngularPosition_Actuators_get, METH_VARARGS, (char *)"AngularPosition_Actuators_get(AngularPosition self) -> AngularInfo"},
+	 { (char *)"AngularPosition_Fingers_set", _wrap_AngularPosition_Fingers_set, METH_VARARGS, (char *)"AngularPosition_Fingers_set(AngularPosition self, FingersPosition Fingers)"},
+	 { (char *)"AngularPosition_Fingers_get", _wrap_AngularPosition_Fingers_get, METH_VARARGS, (char *)"AngularPosition_Fingers_get(AngularPosition self) -> FingersPosition"},
+	 { (char *)"AngularPosition_InitStruct", _wrap_AngularPosition_InitStruct, METH_VARARGS, (char *)"AngularPosition_InitStruct(AngularPosition self)"},
+	 { (char *)"AngularPosition___str__", _wrap_AngularPosition___str__, METH_VARARGS, (char *)"AngularPosition___str__(AngularPosition self) -> char *"},
+	 { (char *)"new_AngularPosition", _wrap_new_AngularPosition, METH_VARARGS, (char *)"new_AngularPosition() -> AngularPosition"},
+	 { (char *)"delete_AngularPosition", _wrap_delete_AngularPosition, METH_VARARGS, (char *)"delete_AngularPosition(AngularPosition self)"},
 	 { (char *)"AngularPosition_swigregister", AngularPosition_swigregister, METH_VARARGS, NULL},
-	 { (char *)"Limitation_speedParameter1_set", _wrap_Limitation_speedParameter1_set, METH_VARARGS, NULL},
-	 { (char *)"Limitation_speedParameter1_get", _wrap_Limitation_speedParameter1_get, METH_VARARGS, NULL},
-	 { (char *)"Limitation_speedParameter2_set", _wrap_Limitation_speedParameter2_set, METH_VARARGS, NULL},
-	 { (char *)"Limitation_speedParameter2_get", _wrap_Limitation_speedParameter2_get, METH_VARARGS, NULL},
-	 { (char *)"Limitation_speedParameter3_set", _wrap_Limitation_speedParameter3_set, METH_VARARGS, NULL},
-	 { (char *)"Limitation_speedParameter3_get", _wrap_Limitation_speedParameter3_get, METH_VARARGS, NULL},
-	 { (char *)"Limitation_forceParameter1_set", _wrap_Limitation_forceParameter1_set, METH_VARARGS, NULL},
-	 { (char *)"Limitation_forceParameter1_get", _wrap_Limitation_forceParameter1_get, METH_VARARGS, NULL},
-	 { (char *)"Limitation_forceParameter2_set", _wrap_Limitation_forceParameter2_set, METH_VARARGS, NULL},
-	 { (char *)"Limitation_forceParameter2_get", _wrap_Limitation_forceParameter2_get, METH_VARARGS, NULL},
-	 { (char *)"Limitation_forceParameter3_set", _wrap_Limitation_forceParameter3_set, METH_VARARGS, NULL},
-	 { (char *)"Limitation_forceParameter3_get", _wrap_Limitation_forceParameter3_get, METH_VARARGS, NULL},
-	 { (char *)"Limitation_accelerationParameter1_set", _wrap_Limitation_accelerationParameter1_set, METH_VARARGS, NULL},
-	 { (char *)"Limitation_accelerationParameter1_get", _wrap_Limitation_accelerationParameter1_get, METH_VARARGS, NULL},
-	 { (char *)"Limitation_accelerationParameter2_set", _wrap_Limitation_accelerationParameter2_set, METH_VARARGS, NULL},
-	 { (char *)"Limitation_accelerationParameter2_get", _wrap_Limitation_accelerationParameter2_get, METH_VARARGS, NULL},
-	 { (char *)"Limitation_accelerationParameter3_set", _wrap_Limitation_accelerationParameter3_set, METH_VARARGS, NULL},
-	 { (char *)"Limitation_accelerationParameter3_get", _wrap_Limitation_accelerationParameter3_get, METH_VARARGS, NULL},
-	 { (char *)"Limitation_InitStruct", _wrap_Limitation_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_Limitation", _wrap_new_Limitation, METH_VARARGS, NULL},
-	 { (char *)"delete_Limitation", _wrap_delete_Limitation, METH_VARARGS, NULL},
+	 { (char *)"Limitation_speedParameter1_set", _wrap_Limitation_speedParameter1_set, METH_VARARGS, (char *)"Limitation_speedParameter1_set(Limitation self, float speedParameter1)"},
+	 { (char *)"Limitation_speedParameter1_get", _wrap_Limitation_speedParameter1_get, METH_VARARGS, (char *)"Limitation_speedParameter1_get(Limitation self) -> float"},
+	 { (char *)"Limitation_speedParameter2_set", _wrap_Limitation_speedParameter2_set, METH_VARARGS, (char *)"Limitation_speedParameter2_set(Limitation self, float speedParameter2)"},
+	 { (char *)"Limitation_speedParameter2_get", _wrap_Limitation_speedParameter2_get, METH_VARARGS, (char *)"Limitation_speedParameter2_get(Limitation self) -> float"},
+	 { (char *)"Limitation_speedParameter3_set", _wrap_Limitation_speedParameter3_set, METH_VARARGS, (char *)"Limitation_speedParameter3_set(Limitation self, float speedParameter3)"},
+	 { (char *)"Limitation_speedParameter3_get", _wrap_Limitation_speedParameter3_get, METH_VARARGS, (char *)"Limitation_speedParameter3_get(Limitation self) -> float"},
+	 { (char *)"Limitation_forceParameter1_set", _wrap_Limitation_forceParameter1_set, METH_VARARGS, (char *)"Limitation_forceParameter1_set(Limitation self, float forceParameter1)"},
+	 { (char *)"Limitation_forceParameter1_get", _wrap_Limitation_forceParameter1_get, METH_VARARGS, (char *)"Limitation_forceParameter1_get(Limitation self) -> float"},
+	 { (char *)"Limitation_forceParameter2_set", _wrap_Limitation_forceParameter2_set, METH_VARARGS, (char *)"Limitation_forceParameter2_set(Limitation self, float forceParameter2)"},
+	 { (char *)"Limitation_forceParameter2_get", _wrap_Limitation_forceParameter2_get, METH_VARARGS, (char *)"Limitation_forceParameter2_get(Limitation self) -> float"},
+	 { (char *)"Limitation_forceParameter3_set", _wrap_Limitation_forceParameter3_set, METH_VARARGS, (char *)"Limitation_forceParameter3_set(Limitation self, float forceParameter3)"},
+	 { (char *)"Limitation_forceParameter3_get", _wrap_Limitation_forceParameter3_get, METH_VARARGS, (char *)"Limitation_forceParameter3_get(Limitation self) -> float"},
+	 { (char *)"Limitation_accelerationParameter1_set", _wrap_Limitation_accelerationParameter1_set, METH_VARARGS, (char *)"Limitation_accelerationParameter1_set(Limitation self, float accelerationParameter1)"},
+	 { (char *)"Limitation_accelerationParameter1_get", _wrap_Limitation_accelerationParameter1_get, METH_VARARGS, (char *)"Limitation_accelerationParameter1_get(Limitation self) -> float"},
+	 { (char *)"Limitation_accelerationParameter2_set", _wrap_Limitation_accelerationParameter2_set, METH_VARARGS, (char *)"Limitation_accelerationParameter2_set(Limitation self, float accelerationParameter2)"},
+	 { (char *)"Limitation_accelerationParameter2_get", _wrap_Limitation_accelerationParameter2_get, METH_VARARGS, (char *)"Limitation_accelerationParameter2_get(Limitation self) -> float"},
+	 { (char *)"Limitation_accelerationParameter3_set", _wrap_Limitation_accelerationParameter3_set, METH_VARARGS, (char *)"Limitation_accelerationParameter3_set(Limitation self, float accelerationParameter3)"},
+	 { (char *)"Limitation_accelerationParameter3_get", _wrap_Limitation_accelerationParameter3_get, METH_VARARGS, (char *)"Limitation_accelerationParameter3_get(Limitation self) -> float"},
+	 { (char *)"Limitation_InitStruct", _wrap_Limitation_InitStruct, METH_VARARGS, (char *)"Limitation_InitStruct(Limitation self)"},
+	 { (char *)"new_Limitation", _wrap_new_Limitation, METH_VARARGS, (char *)"new_Limitation() -> Limitation"},
+	 { (char *)"delete_Limitation", _wrap_delete_Limitation, METH_VARARGS, (char *)"delete_Limitation(Limitation self)"},
 	 { (char *)"Limitation_swigregister", Limitation_swigregister, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_Type_set", _wrap_UserPosition_Type_set, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_Type_get", _wrap_UserPosition_Type_get, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_Delay_set", _wrap_UserPosition_Delay_set, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_Delay_get", _wrap_UserPosition_Delay_get, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_CartesianPosition_set", _wrap_UserPosition_CartesianPosition_set, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_CartesianPosition_get", _wrap_UserPosition_CartesianPosition_get, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_Actuators_set", _wrap_UserPosition_Actuators_set, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_Actuators_get", _wrap_UserPosition_Actuators_get, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_HandMode_set", _wrap_UserPosition_HandMode_set, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_HandMode_get", _wrap_UserPosition_HandMode_get, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_Fingers_set", _wrap_UserPosition_Fingers_set, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_Fingers_get", _wrap_UserPosition_Fingers_get, METH_VARARGS, NULL},
-	 { (char *)"UserPosition_InitStruct", _wrap_UserPosition_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_UserPosition", _wrap_new_UserPosition, METH_VARARGS, NULL},
-	 { (char *)"delete_UserPosition", _wrap_delete_UserPosition, METH_VARARGS, NULL},
+	 { (char *)"UserPosition_Type_set", _wrap_UserPosition_Type_set, METH_VARARGS, (char *)"UserPosition_Type_set(UserPosition self, POSITION_TYPE Type)"},
+	 { (char *)"UserPosition_Type_get", _wrap_UserPosition_Type_get, METH_VARARGS, (char *)"UserPosition_Type_get(UserPosition self) -> POSITION_TYPE"},
+	 { (char *)"UserPosition_Delay_set", _wrap_UserPosition_Delay_set, METH_VARARGS, (char *)"UserPosition_Delay_set(UserPosition self, float Delay)"},
+	 { (char *)"UserPosition_Delay_get", _wrap_UserPosition_Delay_get, METH_VARARGS, (char *)"UserPosition_Delay_get(UserPosition self) -> float"},
+	 { (char *)"UserPosition_CartesianPosition_set", _wrap_UserPosition_CartesianPosition_set, METH_VARARGS, (char *)"UserPosition_CartesianPosition_set(UserPosition self, CartesianInfo CartesianPosition)"},
+	 { (char *)"UserPosition_CartesianPosition_get", _wrap_UserPosition_CartesianPosition_get, METH_VARARGS, (char *)"UserPosition_CartesianPosition_get(UserPosition self) -> CartesianInfo"},
+	 { (char *)"UserPosition_Actuators_set", _wrap_UserPosition_Actuators_set, METH_VARARGS, (char *)"UserPosition_Actuators_set(UserPosition self, AngularInfo Actuators)"},
+	 { (char *)"UserPosition_Actuators_get", _wrap_UserPosition_Actuators_get, METH_VARARGS, (char *)"UserPosition_Actuators_get(UserPosition self) -> AngularInfo"},
+	 { (char *)"UserPosition_HandMode_set", _wrap_UserPosition_HandMode_set, METH_VARARGS, (char *)"UserPosition_HandMode_set(UserPosition self, HAND_MODE HandMode)"},
+	 { (char *)"UserPosition_HandMode_get", _wrap_UserPosition_HandMode_get, METH_VARARGS, (char *)"UserPosition_HandMode_get(UserPosition self) -> HAND_MODE"},
+	 { (char *)"UserPosition_Fingers_set", _wrap_UserPosition_Fingers_set, METH_VARARGS, (char *)"UserPosition_Fingers_set(UserPosition self, FingersPosition Fingers)"},
+	 { (char *)"UserPosition_Fingers_get", _wrap_UserPosition_Fingers_get, METH_VARARGS, (char *)"UserPosition_Fingers_get(UserPosition self) -> FingersPosition"},
+	 { (char *)"UserPosition_InitStruct", _wrap_UserPosition_InitStruct, METH_VARARGS, (char *)"UserPosition_InitStruct(UserPosition self)"},
+	 { (char *)"new_UserPosition", _wrap_new_UserPosition, METH_VARARGS, (char *)"new_UserPosition() -> UserPosition"},
+	 { (char *)"delete_UserPosition", _wrap_delete_UserPosition, METH_VARARGS, (char *)"delete_UserPosition(UserPosition self)"},
 	 { (char *)"UserPosition_swigregister", UserPosition_swigregister, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryPoint_Position_set", _wrap_TrajectoryPoint_Position_set, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryPoint_Position_get", _wrap_TrajectoryPoint_Position_get, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryPoint_LimitationsActive_set", _wrap_TrajectoryPoint_LimitationsActive_set, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryPoint_LimitationsActive_get", _wrap_TrajectoryPoint_LimitationsActive_get, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryPoint_SynchroType_set", _wrap_TrajectoryPoint_SynchroType_set, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryPoint_SynchroType_get", _wrap_TrajectoryPoint_SynchroType_get, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryPoint_Limitations_set", _wrap_TrajectoryPoint_Limitations_set, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryPoint_Limitations_get", _wrap_TrajectoryPoint_Limitations_get, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryPoint_InitStruct", _wrap_TrajectoryPoint_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_TrajectoryPoint", _wrap_new_TrajectoryPoint, METH_VARARGS, NULL},
-	 { (char *)"delete_TrajectoryPoint", _wrap_delete_TrajectoryPoint, METH_VARARGS, NULL},
+	 { (char *)"TrajectoryPoint_Position_set", _wrap_TrajectoryPoint_Position_set, METH_VARARGS, (char *)"TrajectoryPoint_Position_set(TrajectoryPoint self, UserPosition Position)"},
+	 { (char *)"TrajectoryPoint_Position_get", _wrap_TrajectoryPoint_Position_get, METH_VARARGS, (char *)"TrajectoryPoint_Position_get(TrajectoryPoint self) -> UserPosition"},
+	 { (char *)"TrajectoryPoint_LimitationsActive_set", _wrap_TrajectoryPoint_LimitationsActive_set, METH_VARARGS, (char *)"TrajectoryPoint_LimitationsActive_set(TrajectoryPoint self, int LimitationsActive)"},
+	 { (char *)"TrajectoryPoint_LimitationsActive_get", _wrap_TrajectoryPoint_LimitationsActive_get, METH_VARARGS, (char *)"TrajectoryPoint_LimitationsActive_get(TrajectoryPoint self) -> int"},
+	 { (char *)"TrajectoryPoint_SynchroType_set", _wrap_TrajectoryPoint_SynchroType_set, METH_VARARGS, (char *)"TrajectoryPoint_SynchroType_set(TrajectoryPoint self, int SynchroType)"},
+	 { (char *)"TrajectoryPoint_SynchroType_get", _wrap_TrajectoryPoint_SynchroType_get, METH_VARARGS, (char *)"TrajectoryPoint_SynchroType_get(TrajectoryPoint self) -> int"},
+	 { (char *)"TrajectoryPoint_Limitations_set", _wrap_TrajectoryPoint_Limitations_set, METH_VARARGS, (char *)"TrajectoryPoint_Limitations_set(TrajectoryPoint self, Limitation Limitations)"},
+	 { (char *)"TrajectoryPoint_Limitations_get", _wrap_TrajectoryPoint_Limitations_get, METH_VARARGS, (char *)"TrajectoryPoint_Limitations_get(TrajectoryPoint self) -> Limitation"},
+	 { (char *)"TrajectoryPoint_InitStruct", _wrap_TrajectoryPoint_InitStruct, METH_VARARGS, (char *)"TrajectoryPoint_InitStruct(TrajectoryPoint self)"},
+	 { (char *)"new_TrajectoryPoint", _wrap_new_TrajectoryPoint, METH_VARARGS, (char *)"new_TrajectoryPoint() -> TrajectoryPoint"},
+	 { (char *)"delete_TrajectoryPoint", _wrap_delete_TrajectoryPoint, METH_VARARGS, (char *)"delete_TrajectoryPoint(TrajectoryPoint self)"},
 	 { (char *)"TrajectoryPoint_swigregister", TrajectoryPoint_swigregister, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryFIFO_TrajectoryCount_set", _wrap_TrajectoryFIFO_TrajectoryCount_set, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryFIFO_TrajectoryCount_get", _wrap_TrajectoryFIFO_TrajectoryCount_get, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryFIFO_UsedPercentage_set", _wrap_TrajectoryFIFO_UsedPercentage_set, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryFIFO_UsedPercentage_get", _wrap_TrajectoryFIFO_UsedPercentage_get, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryFIFO_MaxSize_set", _wrap_TrajectoryFIFO_MaxSize_set, METH_VARARGS, NULL},
-	 { (char *)"TrajectoryFIFO_MaxSize_get", _wrap_TrajectoryFIFO_MaxSize_get, METH_VARARGS, NULL},
-	 { (char *)"new_TrajectoryFIFO", _wrap_new_TrajectoryFIFO, METH_VARARGS, NULL},
-	 { (char *)"delete_TrajectoryFIFO", _wrap_delete_TrajectoryFIFO, METH_VARARGS, NULL},
+	 { (char *)"TrajectoryFIFO_TrajectoryCount_set", _wrap_TrajectoryFIFO_TrajectoryCount_set, METH_VARARGS, (char *)"TrajectoryFIFO_TrajectoryCount_set(TrajectoryFIFO self, unsigned int TrajectoryCount)"},
+	 { (char *)"TrajectoryFIFO_TrajectoryCount_get", _wrap_TrajectoryFIFO_TrajectoryCount_get, METH_VARARGS, (char *)"TrajectoryFIFO_TrajectoryCount_get(TrajectoryFIFO self) -> unsigned int"},
+	 { (char *)"TrajectoryFIFO_UsedPercentage_set", _wrap_TrajectoryFIFO_UsedPercentage_set, METH_VARARGS, (char *)"TrajectoryFIFO_UsedPercentage_set(TrajectoryFIFO self, float UsedPercentage)"},
+	 { (char *)"TrajectoryFIFO_UsedPercentage_get", _wrap_TrajectoryFIFO_UsedPercentage_get, METH_VARARGS, (char *)"TrajectoryFIFO_UsedPercentage_get(TrajectoryFIFO self) -> float"},
+	 { (char *)"TrajectoryFIFO_MaxSize_set", _wrap_TrajectoryFIFO_MaxSize_set, METH_VARARGS, (char *)"TrajectoryFIFO_MaxSize_set(TrajectoryFIFO self, unsigned int MaxSize)"},
+	 { (char *)"TrajectoryFIFO_MaxSize_get", _wrap_TrajectoryFIFO_MaxSize_get, METH_VARARGS, (char *)"TrajectoryFIFO_MaxSize_get(TrajectoryFIFO self) -> unsigned int"},
+	 { (char *)"new_TrajectoryFIFO", _wrap_new_TrajectoryFIFO, METH_VARARGS, (char *)"new_TrajectoryFIFO() -> TrajectoryFIFO"},
+	 { (char *)"delete_TrajectoryFIFO", _wrap_delete_TrajectoryFIFO, METH_VARARGS, (char *)"delete_TrajectoryFIFO(TrajectoryFIFO self)"},
 	 { (char *)"TrajectoryFIFO_swigregister", TrajectoryFIFO_swigregister, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_TranslationSingularityCount_set", _wrap_SingularityVector_TranslationSingularityCount_set, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_TranslationSingularityCount_get", _wrap_SingularityVector_TranslationSingularityCount_get, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_OrientationSingularityCount_set", _wrap_SingularityVector_OrientationSingularityCount_set, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_OrientationSingularityCount_get", _wrap_SingularityVector_OrientationSingularityCount_get, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_TranslationSingularityDistance_set", _wrap_SingularityVector_TranslationSingularityDistance_set, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_TranslationSingularityDistance_get", _wrap_SingularityVector_TranslationSingularityDistance_get, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_OrientationSingularityDistance_set", _wrap_SingularityVector_OrientationSingularityDistance_set, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_OrientationSingularityDistance_get", _wrap_SingularityVector_OrientationSingularityDistance_get, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_RepulsionVector_set", _wrap_SingularityVector_RepulsionVector_set, METH_VARARGS, NULL},
-	 { (char *)"SingularityVector_RepulsionVector_get", _wrap_SingularityVector_RepulsionVector_get, METH_VARARGS, NULL},
-	 { (char *)"new_SingularityVector", _wrap_new_SingularityVector, METH_VARARGS, NULL},
-	 { (char *)"delete_SingularityVector", _wrap_delete_SingularityVector, METH_VARARGS, NULL},
+	 { (char *)"SingularityVector_TranslationSingularityCount_set", _wrap_SingularityVector_TranslationSingularityCount_set, METH_VARARGS, (char *)"SingularityVector_TranslationSingularityCount_set(SingularityVector self, int TranslationSingularityCount)"},
+	 { (char *)"SingularityVector_TranslationSingularityCount_get", _wrap_SingularityVector_TranslationSingularityCount_get, METH_VARARGS, (char *)"SingularityVector_TranslationSingularityCount_get(SingularityVector self) -> int"},
+	 { (char *)"SingularityVector_OrientationSingularityCount_set", _wrap_SingularityVector_OrientationSingularityCount_set, METH_VARARGS, (char *)"SingularityVector_OrientationSingularityCount_set(SingularityVector self, int OrientationSingularityCount)"},
+	 { (char *)"SingularityVector_OrientationSingularityCount_get", _wrap_SingularityVector_OrientationSingularityCount_get, METH_VARARGS, (char *)"SingularityVector_OrientationSingularityCount_get(SingularityVector self) -> int"},
+	 { (char *)"SingularityVector_TranslationSingularityDistance_set", _wrap_SingularityVector_TranslationSingularityDistance_set, METH_VARARGS, (char *)"SingularityVector_TranslationSingularityDistance_set(SingularityVector self, float TranslationSingularityDistance)"},
+	 { (char *)"SingularityVector_TranslationSingularityDistance_get", _wrap_SingularityVector_TranslationSingularityDistance_get, METH_VARARGS, (char *)"SingularityVector_TranslationSingularityDistance_get(SingularityVector self) -> float"},
+	 { (char *)"SingularityVector_OrientationSingularityDistance_set", _wrap_SingularityVector_OrientationSingularityDistance_set, METH_VARARGS, (char *)"SingularityVector_OrientationSingularityDistance_set(SingularityVector self, float OrientationSingularityDistance)"},
+	 { (char *)"SingularityVector_OrientationSingularityDistance_get", _wrap_SingularityVector_OrientationSingularityDistance_get, METH_VARARGS, (char *)"SingularityVector_OrientationSingularityDistance_get(SingularityVector self) -> float"},
+	 { (char *)"SingularityVector_RepulsionVector_set", _wrap_SingularityVector_RepulsionVector_set, METH_VARARGS, (char *)"SingularityVector_RepulsionVector_set(SingularityVector self, CartesianInfo RepulsionVector)"},
+	 { (char *)"SingularityVector_RepulsionVector_get", _wrap_SingularityVector_RepulsionVector_get, METH_VARARGS, (char *)"SingularityVector_RepulsionVector_get(SingularityVector self) -> CartesianInfo"},
+	 { (char *)"new_SingularityVector", _wrap_new_SingularityVector, METH_VARARGS, (char *)"new_SingularityVector() -> SingularityVector"},
+	 { (char *)"delete_SingularityVector", _wrap_delete_SingularityVector, METH_VARARGS, (char *)"delete_SingularityVector(SingularityVector self)"},
 	 { (char *)"SingularityVector_swigregister", SingularityVector_swigregister, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_ButtonValue_set", _wrap_JoystickCommand_ButtonValue_set, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_ButtonValue_get", _wrap_JoystickCommand_ButtonValue_get, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_InclineLeftRight_set", _wrap_JoystickCommand_InclineLeftRight_set, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_InclineLeftRight_get", _wrap_JoystickCommand_InclineLeftRight_get, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_InclineForwardBackward_set", _wrap_JoystickCommand_InclineForwardBackward_set, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_InclineForwardBackward_get", _wrap_JoystickCommand_InclineForwardBackward_get, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_Rotate_set", _wrap_JoystickCommand_Rotate_set, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_Rotate_get", _wrap_JoystickCommand_Rotate_get, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_MoveLeftRight_set", _wrap_JoystickCommand_MoveLeftRight_set, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_MoveLeftRight_get", _wrap_JoystickCommand_MoveLeftRight_get, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_MoveForwardBackward_set", _wrap_JoystickCommand_MoveForwardBackward_set, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_MoveForwardBackward_get", _wrap_JoystickCommand_MoveForwardBackward_get, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_PushPull_set", _wrap_JoystickCommand_PushPull_set, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_PushPull_get", _wrap_JoystickCommand_PushPull_get, METH_VARARGS, NULL},
-	 { (char *)"JoystickCommand_InitStruct", _wrap_JoystickCommand_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_JoystickCommand", _wrap_new_JoystickCommand, METH_VARARGS, NULL},
-	 { (char *)"delete_JoystickCommand", _wrap_delete_JoystickCommand, METH_VARARGS, NULL},
+	 { (char *)"JoystickCommand_ButtonValue_set", _wrap_JoystickCommand_ButtonValue_set, METH_VARARGS, (char *)"JoystickCommand_ButtonValue_set(JoystickCommand self, short [16] ButtonValue)"},
+	 { (char *)"JoystickCommand_ButtonValue_get", _wrap_JoystickCommand_ButtonValue_get, METH_VARARGS, (char *)"JoystickCommand_ButtonValue_get(JoystickCommand self) -> short [16]"},
+	 { (char *)"JoystickCommand_InclineLeftRight_set", _wrap_JoystickCommand_InclineLeftRight_set, METH_VARARGS, (char *)"JoystickCommand_InclineLeftRight_set(JoystickCommand self, float InclineLeftRight)"},
+	 { (char *)"JoystickCommand_InclineLeftRight_get", _wrap_JoystickCommand_InclineLeftRight_get, METH_VARARGS, (char *)"JoystickCommand_InclineLeftRight_get(JoystickCommand self) -> float"},
+	 { (char *)"JoystickCommand_InclineForwardBackward_set", _wrap_JoystickCommand_InclineForwardBackward_set, METH_VARARGS, (char *)"JoystickCommand_InclineForwardBackward_set(JoystickCommand self, float InclineForwardBackward)"},
+	 { (char *)"JoystickCommand_InclineForwardBackward_get", _wrap_JoystickCommand_InclineForwardBackward_get, METH_VARARGS, (char *)"JoystickCommand_InclineForwardBackward_get(JoystickCommand self) -> float"},
+	 { (char *)"JoystickCommand_Rotate_set", _wrap_JoystickCommand_Rotate_set, METH_VARARGS, (char *)"JoystickCommand_Rotate_set(JoystickCommand self, float Rotate)"},
+	 { (char *)"JoystickCommand_Rotate_get", _wrap_JoystickCommand_Rotate_get, METH_VARARGS, (char *)"JoystickCommand_Rotate_get(JoystickCommand self) -> float"},
+	 { (char *)"JoystickCommand_MoveLeftRight_set", _wrap_JoystickCommand_MoveLeftRight_set, METH_VARARGS, (char *)"JoystickCommand_MoveLeftRight_set(JoystickCommand self, float MoveLeftRight)"},
+	 { (char *)"JoystickCommand_MoveLeftRight_get", _wrap_JoystickCommand_MoveLeftRight_get, METH_VARARGS, (char *)"JoystickCommand_MoveLeftRight_get(JoystickCommand self) -> float"},
+	 { (char *)"JoystickCommand_MoveForwardBackward_set", _wrap_JoystickCommand_MoveForwardBackward_set, METH_VARARGS, (char *)"JoystickCommand_MoveForwardBackward_set(JoystickCommand self, float MoveForwardBackward)"},
+	 { (char *)"JoystickCommand_MoveForwardBackward_get", _wrap_JoystickCommand_MoveForwardBackward_get, METH_VARARGS, (char *)"JoystickCommand_MoveForwardBackward_get(JoystickCommand self) -> float"},
+	 { (char *)"JoystickCommand_PushPull_set", _wrap_JoystickCommand_PushPull_set, METH_VARARGS, (char *)"JoystickCommand_PushPull_set(JoystickCommand self, float PushPull)"},
+	 { (char *)"JoystickCommand_PushPull_get", _wrap_JoystickCommand_PushPull_get, METH_VARARGS, (char *)"JoystickCommand_PushPull_get(JoystickCommand self) -> float"},
+	 { (char *)"JoystickCommand_InitStruct", _wrap_JoystickCommand_InitStruct, METH_VARARGS, (char *)"JoystickCommand_InitStruct(JoystickCommand self)"},
+	 { (char *)"new_JoystickCommand", _wrap_new_JoystickCommand, METH_VARARGS, (char *)"new_JoystickCommand() -> JoystickCommand"},
+	 { (char *)"delete_JoystickCommand", _wrap_delete_JoystickCommand, METH_VARARGS, (char *)"delete_JoystickCommand(JoystickCommand self)"},
 	 { (char *)"JoystickCommand_swigregister", JoystickCommand_swigregister, METH_VARARGS, NULL},
-	 { (char *)"RobotIdentity_SerialNumber_set", _wrap_RobotIdentity_SerialNumber_set, METH_VARARGS, NULL},
-	 { (char *)"RobotIdentity_SerialNumber_get", _wrap_RobotIdentity_SerialNumber_get, METH_VARARGS, NULL},
-	 { (char *)"RobotIdentity_Model_set", _wrap_RobotIdentity_Model_set, METH_VARARGS, NULL},
-	 { (char *)"RobotIdentity_Model_get", _wrap_RobotIdentity_Model_get, METH_VARARGS, NULL},
-	 { (char *)"RobotIdentity_CodeVersion_set", _wrap_RobotIdentity_CodeVersion_set, METH_VARARGS, NULL},
-	 { (char *)"RobotIdentity_CodeVersion_get", _wrap_RobotIdentity_CodeVersion_get, METH_VARARGS, NULL},
-	 { (char *)"RobotIdentity_RobotType_set", _wrap_RobotIdentity_RobotType_set, METH_VARARGS, NULL},
-	 { (char *)"RobotIdentity_RobotType_get", _wrap_RobotIdentity_RobotType_get, METH_VARARGS, NULL},
-	 { (char *)"new_RobotIdentity", _wrap_new_RobotIdentity, METH_VARARGS, NULL},
-	 { (char *)"delete_RobotIdentity", _wrap_delete_RobotIdentity, METH_VARARGS, NULL},
+	 { (char *)"RobotIdentity_SerialNumber_set", _wrap_RobotIdentity_SerialNumber_set, METH_VARARGS, (char *)"RobotIdentity_SerialNumber_set(RobotIdentity self, char [20] SerialNumber)"},
+	 { (char *)"RobotIdentity_SerialNumber_get", _wrap_RobotIdentity_SerialNumber_get, METH_VARARGS, (char *)"RobotIdentity_SerialNumber_get(RobotIdentity self) -> char [20]"},
+	 { (char *)"RobotIdentity_Model_set", _wrap_RobotIdentity_Model_set, METH_VARARGS, (char *)"RobotIdentity_Model_set(RobotIdentity self, char [20] Model)"},
+	 { (char *)"RobotIdentity_Model_get", _wrap_RobotIdentity_Model_get, METH_VARARGS, (char *)"RobotIdentity_Model_get(RobotIdentity self) -> char [20]"},
+	 { (char *)"RobotIdentity_CodeVersion_set", _wrap_RobotIdentity_CodeVersion_set, METH_VARARGS, (char *)"RobotIdentity_CodeVersion_set(RobotIdentity self, unsigned int CodeVersion)"},
+	 { (char *)"RobotIdentity_CodeVersion_get", _wrap_RobotIdentity_CodeVersion_get, METH_VARARGS, (char *)"RobotIdentity_CodeVersion_get(RobotIdentity self) -> unsigned int"},
+	 { (char *)"RobotIdentity_RobotType_set", _wrap_RobotIdentity_RobotType_set, METH_VARARGS, (char *)"RobotIdentity_RobotType_set(RobotIdentity self, int RobotType)"},
+	 { (char *)"RobotIdentity_RobotType_get", _wrap_RobotIdentity_RobotType_get, METH_VARARGS, (char *)"RobotIdentity_RobotType_get(RobotIdentity self) -> int"},
+	 { (char *)"new_RobotIdentity", _wrap_new_RobotIdentity, METH_VARARGS, (char *)"new_RobotIdentity() -> RobotIdentity"},
+	 { (char *)"delete_RobotIdentity", _wrap_delete_RobotIdentity, METH_VARARGS, (char *)"delete_RobotIdentity(RobotIdentity self)"},
 	 { (char *)"RobotIdentity_swigregister", RobotIdentity_swigregister, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_ClientID_set", _wrap_ClientConfigurations_ClientID_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_ClientID_get", _wrap_ClientConfigurations_ClientID_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_ClientName_set", _wrap_ClientConfigurations_ClientName_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_ClientName_get", _wrap_ClientConfigurations_ClientName_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Organization_set", _wrap_ClientConfigurations_Organization_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Organization_get", _wrap_ClientConfigurations_Organization_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Serial_set", _wrap_ClientConfigurations_Serial_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Serial_get", _wrap_ClientConfigurations_Serial_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Model_set", _wrap_ClientConfigurations_Model_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Model_get", _wrap_ClientConfigurations_Model_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Laterality_set", _wrap_ClientConfigurations_Laterality_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Laterality_get", _wrap_ClientConfigurations_Laterality_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxTranslationVelocity_set", _wrap_ClientConfigurations_MaxTranslationVelocity_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxTranslationVelocity_get", _wrap_ClientConfigurations_MaxTranslationVelocity_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxOrientationVelocity_set", _wrap_ClientConfigurations_MaxOrientationVelocity_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxOrientationVelocity_get", _wrap_ClientConfigurations_MaxOrientationVelocity_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxTranslationAcceleration_set", _wrap_ClientConfigurations_MaxTranslationAcceleration_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxTranslationAcceleration_get", _wrap_ClientConfigurations_MaxTranslationAcceleration_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxOrientationAcceleration_set", _wrap_ClientConfigurations_MaxOrientationAcceleration_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxOrientationAcceleration_get", _wrap_ClientConfigurations_MaxOrientationAcceleration_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxForce_set", _wrap_ClientConfigurations_MaxForce_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_MaxForce_get", _wrap_ClientConfigurations_MaxForce_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Sensibility_set", _wrap_ClientConfigurations_Sensibility_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Sensibility_get", _wrap_ClientConfigurations_Sensibility_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_DrinkingHeight_set", _wrap_ClientConfigurations_DrinkingHeight_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_DrinkingHeight_get", _wrap_ClientConfigurations_DrinkingHeight_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_ComplexRetractActive_set", _wrap_ClientConfigurations_ComplexRetractActive_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_ComplexRetractActive_get", _wrap_ClientConfigurations_ComplexRetractActive_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_RetractedPositionAngle_set", _wrap_ClientConfigurations_RetractedPositionAngle_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_RetractedPositionAngle_get", _wrap_ClientConfigurations_RetractedPositionAngle_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_RetractedPositionCount_set", _wrap_ClientConfigurations_RetractedPositionCount_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_RetractedPositionCount_get", _wrap_ClientConfigurations_RetractedPositionCount_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_RetractPositions_set", _wrap_ClientConfigurations_RetractPositions_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_RetractPositions_get", _wrap_ClientConfigurations_RetractPositions_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_DrinkingDistance_set", _wrap_ClientConfigurations_DrinkingDistance_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_DrinkingDistance_get", _wrap_ClientConfigurations_DrinkingDistance_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Fingers2and3Inverted_set", _wrap_ClientConfigurations_Fingers2and3Inverted_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Fingers2and3Inverted_get", _wrap_ClientConfigurations_Fingers2and3Inverted_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_DrinkingLenght_set", _wrap_ClientConfigurations_DrinkingLenght_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_DrinkingLenght_get", _wrap_ClientConfigurations_DrinkingLenght_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_DeletePreProgrammedPositionsAtRetract_set", _wrap_ClientConfigurations_DeletePreProgrammedPositionsAtRetract_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_DeletePreProgrammedPositionsAtRetract_get", _wrap_ClientConfigurations_DeletePreProgrammedPositionsAtRetract_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_EnableFlashErrorLog_set", _wrap_ClientConfigurations_EnableFlashErrorLog_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_EnableFlashErrorLog_get", _wrap_ClientConfigurations_EnableFlashErrorLog_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_EnableFlashPositionLog_set", _wrap_ClientConfigurations_EnableFlashPositionLog_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_EnableFlashPositionLog_get", _wrap_ClientConfigurations_EnableFlashPositionLog_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_RobotConfigSelect_set", _wrap_ClientConfigurations_RobotConfigSelect_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_RobotConfigSelect_get", _wrap_ClientConfigurations_RobotConfigSelect_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_TorqueSensorsEnable_set", _wrap_ClientConfigurations_TorqueSensorsEnable_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_TorqueSensorsEnable_get", _wrap_ClientConfigurations_TorqueSensorsEnable_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_FrameType_set", _wrap_ClientConfigurations_FrameType_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_FrameType_get", _wrap_ClientConfigurations_FrameType_get, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Expansion_set", _wrap_ClientConfigurations_Expansion_set, METH_VARARGS, NULL},
-	 { (char *)"ClientConfigurations_Expansion_get", _wrap_ClientConfigurations_Expansion_get, METH_VARARGS, NULL},
-	 { (char *)"new_ClientConfigurations", _wrap_new_ClientConfigurations, METH_VARARGS, NULL},
-	 { (char *)"delete_ClientConfigurations", _wrap_delete_ClientConfigurations, METH_VARARGS, NULL},
+	 { (char *)"ClientConfigurations_ClientID_set", _wrap_ClientConfigurations_ClientID_set, METH_VARARGS, (char *)"ClientConfigurations_ClientID_set(ClientConfigurations self, char [20] ClientID)"},
+	 { (char *)"ClientConfigurations_ClientID_get", _wrap_ClientConfigurations_ClientID_get, METH_VARARGS, (char *)"ClientConfigurations_ClientID_get(ClientConfigurations self) -> char [20]"},
+	 { (char *)"ClientConfigurations_ClientName_set", _wrap_ClientConfigurations_ClientName_set, METH_VARARGS, (char *)"ClientConfigurations_ClientName_set(ClientConfigurations self, char [20] ClientName)"},
+	 { (char *)"ClientConfigurations_ClientName_get", _wrap_ClientConfigurations_ClientName_get, METH_VARARGS, (char *)"ClientConfigurations_ClientName_get(ClientConfigurations self) -> char [20]"},
+	 { (char *)"ClientConfigurations_Organization_set", _wrap_ClientConfigurations_Organization_set, METH_VARARGS, (char *)"ClientConfigurations_Organization_set(ClientConfigurations self, char [20] Organization)"},
+	 { (char *)"ClientConfigurations_Organization_get", _wrap_ClientConfigurations_Organization_get, METH_VARARGS, (char *)"ClientConfigurations_Organization_get(ClientConfigurations self) -> char [20]"},
+	 { (char *)"ClientConfigurations_Serial_set", _wrap_ClientConfigurations_Serial_set, METH_VARARGS, (char *)"ClientConfigurations_Serial_set(ClientConfigurations self, char [20] Serial)"},
+	 { (char *)"ClientConfigurations_Serial_get", _wrap_ClientConfigurations_Serial_get, METH_VARARGS, (char *)"ClientConfigurations_Serial_get(ClientConfigurations self) -> char [20]"},
+	 { (char *)"ClientConfigurations_Model_set", _wrap_ClientConfigurations_Model_set, METH_VARARGS, (char *)"ClientConfigurations_Model_set(ClientConfigurations self, char [20] Model)"},
+	 { (char *)"ClientConfigurations_Model_get", _wrap_ClientConfigurations_Model_get, METH_VARARGS, (char *)"ClientConfigurations_Model_get(ClientConfigurations self) -> char [20]"},
+	 { (char *)"ClientConfigurations_Laterality_set", _wrap_ClientConfigurations_Laterality_set, METH_VARARGS, (char *)"ClientConfigurations_Laterality_set(ClientConfigurations self, ArmLaterality Laterality)"},
+	 { (char *)"ClientConfigurations_Laterality_get", _wrap_ClientConfigurations_Laterality_get, METH_VARARGS, (char *)"ClientConfigurations_Laterality_get(ClientConfigurations self) -> ArmLaterality"},
+	 { (char *)"ClientConfigurations_MaxTranslationVelocity_set", _wrap_ClientConfigurations_MaxTranslationVelocity_set, METH_VARARGS, (char *)"ClientConfigurations_MaxTranslationVelocity_set(ClientConfigurations self, float MaxTranslationVelocity)"},
+	 { (char *)"ClientConfigurations_MaxTranslationVelocity_get", _wrap_ClientConfigurations_MaxTranslationVelocity_get, METH_VARARGS, (char *)"ClientConfigurations_MaxTranslationVelocity_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_MaxOrientationVelocity_set", _wrap_ClientConfigurations_MaxOrientationVelocity_set, METH_VARARGS, (char *)"ClientConfigurations_MaxOrientationVelocity_set(ClientConfigurations self, float MaxOrientationVelocity)"},
+	 { (char *)"ClientConfigurations_MaxOrientationVelocity_get", _wrap_ClientConfigurations_MaxOrientationVelocity_get, METH_VARARGS, (char *)"ClientConfigurations_MaxOrientationVelocity_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_MaxTranslationAcceleration_set", _wrap_ClientConfigurations_MaxTranslationAcceleration_set, METH_VARARGS, (char *)"ClientConfigurations_MaxTranslationAcceleration_set(ClientConfigurations self, float MaxTranslationAcceleration)"},
+	 { (char *)"ClientConfigurations_MaxTranslationAcceleration_get", _wrap_ClientConfigurations_MaxTranslationAcceleration_get, METH_VARARGS, (char *)"ClientConfigurations_MaxTranslationAcceleration_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_MaxOrientationAcceleration_set", _wrap_ClientConfigurations_MaxOrientationAcceleration_set, METH_VARARGS, (char *)"ClientConfigurations_MaxOrientationAcceleration_set(ClientConfigurations self, float MaxOrientationAcceleration)"},
+	 { (char *)"ClientConfigurations_MaxOrientationAcceleration_get", _wrap_ClientConfigurations_MaxOrientationAcceleration_get, METH_VARARGS, (char *)"ClientConfigurations_MaxOrientationAcceleration_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_MaxForce_set", _wrap_ClientConfigurations_MaxForce_set, METH_VARARGS, (char *)"ClientConfigurations_MaxForce_set(ClientConfigurations self, float MaxForce)"},
+	 { (char *)"ClientConfigurations_MaxForce_get", _wrap_ClientConfigurations_MaxForce_get, METH_VARARGS, (char *)"ClientConfigurations_MaxForce_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_Sensibility_set", _wrap_ClientConfigurations_Sensibility_set, METH_VARARGS, (char *)"ClientConfigurations_Sensibility_set(ClientConfigurations self, float Sensibility)"},
+	 { (char *)"ClientConfigurations_Sensibility_get", _wrap_ClientConfigurations_Sensibility_get, METH_VARARGS, (char *)"ClientConfigurations_Sensibility_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_DrinkingHeight_set", _wrap_ClientConfigurations_DrinkingHeight_set, METH_VARARGS, (char *)"ClientConfigurations_DrinkingHeight_set(ClientConfigurations self, float DrinkingHeight)"},
+	 { (char *)"ClientConfigurations_DrinkingHeight_get", _wrap_ClientConfigurations_DrinkingHeight_get, METH_VARARGS, (char *)"ClientConfigurations_DrinkingHeight_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_ComplexRetractActive_set", _wrap_ClientConfigurations_ComplexRetractActive_set, METH_VARARGS, (char *)"ClientConfigurations_ComplexRetractActive_set(ClientConfigurations self, int ComplexRetractActive)"},
+	 { (char *)"ClientConfigurations_ComplexRetractActive_get", _wrap_ClientConfigurations_ComplexRetractActive_get, METH_VARARGS, (char *)"ClientConfigurations_ComplexRetractActive_get(ClientConfigurations self) -> int"},
+	 { (char *)"ClientConfigurations_RetractedPositionAngle_set", _wrap_ClientConfigurations_RetractedPositionAngle_set, METH_VARARGS, (char *)"ClientConfigurations_RetractedPositionAngle_set(ClientConfigurations self, float RetractedPositionAngle)"},
+	 { (char *)"ClientConfigurations_RetractedPositionAngle_get", _wrap_ClientConfigurations_RetractedPositionAngle_get, METH_VARARGS, (char *)"ClientConfigurations_RetractedPositionAngle_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_RetractedPositionCount_set", _wrap_ClientConfigurations_RetractedPositionCount_set, METH_VARARGS, (char *)"ClientConfigurations_RetractedPositionCount_set(ClientConfigurations self, int RetractedPositionCount)"},
+	 { (char *)"ClientConfigurations_RetractedPositionCount_get", _wrap_ClientConfigurations_RetractedPositionCount_get, METH_VARARGS, (char *)"ClientConfigurations_RetractedPositionCount_get(ClientConfigurations self) -> int"},
+	 { (char *)"ClientConfigurations_RetractPositions_set", _wrap_ClientConfigurations_RetractPositions_set, METH_VARARGS, (char *)"ClientConfigurations_RetractPositions_set(ClientConfigurations self, UserPosition RetractPositions)"},
+	 { (char *)"ClientConfigurations_RetractPositions_get", _wrap_ClientConfigurations_RetractPositions_get, METH_VARARGS, (char *)"ClientConfigurations_RetractPositions_get(ClientConfigurations self) -> UserPosition"},
+	 { (char *)"ClientConfigurations_DrinkingDistance_set", _wrap_ClientConfigurations_DrinkingDistance_set, METH_VARARGS, (char *)"ClientConfigurations_DrinkingDistance_set(ClientConfigurations self, float DrinkingDistance)"},
+	 { (char *)"ClientConfigurations_DrinkingDistance_get", _wrap_ClientConfigurations_DrinkingDistance_get, METH_VARARGS, (char *)"ClientConfigurations_DrinkingDistance_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_Fingers2and3Inverted_set", _wrap_ClientConfigurations_Fingers2and3Inverted_set, METH_VARARGS, (char *)"ClientConfigurations_Fingers2and3Inverted_set(ClientConfigurations self, int Fingers2and3Inverted)"},
+	 { (char *)"ClientConfigurations_Fingers2and3Inverted_get", _wrap_ClientConfigurations_Fingers2and3Inverted_get, METH_VARARGS, (char *)"ClientConfigurations_Fingers2and3Inverted_get(ClientConfigurations self) -> int"},
+	 { (char *)"ClientConfigurations_DrinkingLenght_set", _wrap_ClientConfigurations_DrinkingLenght_set, METH_VARARGS, (char *)"ClientConfigurations_DrinkingLenght_set(ClientConfigurations self, float DrinkingLenght)"},
+	 { (char *)"ClientConfigurations_DrinkingLenght_get", _wrap_ClientConfigurations_DrinkingLenght_get, METH_VARARGS, (char *)"ClientConfigurations_DrinkingLenght_get(ClientConfigurations self) -> float"},
+	 { (char *)"ClientConfigurations_DeletePreProgrammedPositionsAtRetract_set", _wrap_ClientConfigurations_DeletePreProgrammedPositionsAtRetract_set, METH_VARARGS, (char *)"ClientConfigurations_DeletePreProgrammedPositionsAtRetract_set(ClientConfigurations self, int DeletePreProgrammedPositionsAtRetract)"},
+	 { (char *)"ClientConfigurations_DeletePreProgrammedPositionsAtRetract_get", _wrap_ClientConfigurations_DeletePreProgrammedPositionsAtRetract_get, METH_VARARGS, (char *)"ClientConfigurations_DeletePreProgrammedPositionsAtRetract_get(ClientConfigurations self) -> int"},
+	 { (char *)"ClientConfigurations_EnableFlashErrorLog_set", _wrap_ClientConfigurations_EnableFlashErrorLog_set, METH_VARARGS, (char *)"ClientConfigurations_EnableFlashErrorLog_set(ClientConfigurations self, int EnableFlashErrorLog)"},
+	 { (char *)"ClientConfigurations_EnableFlashErrorLog_get", _wrap_ClientConfigurations_EnableFlashErrorLog_get, METH_VARARGS, (char *)"ClientConfigurations_EnableFlashErrorLog_get(ClientConfigurations self) -> int"},
+	 { (char *)"ClientConfigurations_EnableFlashPositionLog_set", _wrap_ClientConfigurations_EnableFlashPositionLog_set, METH_VARARGS, (char *)"ClientConfigurations_EnableFlashPositionLog_set(ClientConfigurations self, int EnableFlashPositionLog)"},
+	 { (char *)"ClientConfigurations_EnableFlashPositionLog_get", _wrap_ClientConfigurations_EnableFlashPositionLog_get, METH_VARARGS, (char *)"ClientConfigurations_EnableFlashPositionLog_get(ClientConfigurations self) -> int"},
+	 { (char *)"ClientConfigurations_RobotConfigSelect_set", _wrap_ClientConfigurations_RobotConfigSelect_set, METH_VARARGS, (char *)"ClientConfigurations_RobotConfigSelect_set(ClientConfigurations self, int RobotConfigSelect)"},
+	 { (char *)"ClientConfigurations_RobotConfigSelect_get", _wrap_ClientConfigurations_RobotConfigSelect_get, METH_VARARGS, (char *)"ClientConfigurations_RobotConfigSelect_get(ClientConfigurations self) -> int"},
+	 { (char *)"ClientConfigurations_TorqueSensorsEnable_set", _wrap_ClientConfigurations_TorqueSensorsEnable_set, METH_VARARGS, (char *)"ClientConfigurations_TorqueSensorsEnable_set(ClientConfigurations self, int TorqueSensorsEnable)"},
+	 { (char *)"ClientConfigurations_TorqueSensorsEnable_get", _wrap_ClientConfigurations_TorqueSensorsEnable_get, METH_VARARGS, (char *)"ClientConfigurations_TorqueSensorsEnable_get(ClientConfigurations self) -> int"},
+	 { (char *)"ClientConfigurations_FrameType_set", _wrap_ClientConfigurations_FrameType_set, METH_VARARGS, (char *)"ClientConfigurations_FrameType_set(ClientConfigurations self, int FrameType)"},
+	 { (char *)"ClientConfigurations_FrameType_get", _wrap_ClientConfigurations_FrameType_get, METH_VARARGS, (char *)"ClientConfigurations_FrameType_get(ClientConfigurations self) -> int"},
+	 { (char *)"ClientConfigurations_Expansion_set", _wrap_ClientConfigurations_Expansion_set, METH_VARARGS, (char *)"ClientConfigurations_Expansion_set(ClientConfigurations self, int [195] Expansion)"},
+	 { (char *)"ClientConfigurations_Expansion_get", _wrap_ClientConfigurations_Expansion_get, METH_VARARGS, (char *)"ClientConfigurations_Expansion_get(ClientConfigurations self) -> int [195]"},
+	 { (char *)"new_ClientConfigurations", _wrap_new_ClientConfigurations, METH_VARARGS, (char *)"new_ClientConfigurations() -> ClientConfigurations"},
+	 { (char *)"delete_ClientConfigurations", _wrap_delete_ClientConfigurations, METH_VARARGS, (char *)"delete_ClientConfigurations(ClientConfigurations self)"},
 	 { (char *)"ClientConfigurations_swigregister", ClientConfigurations_swigregister, METH_VARARGS, NULL},
 	 { (char *)"CF_NoFunctionality_swigconstant", CF_NoFunctionality_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"CF_Disable_EnableJoystick_swigconstant", CF_Disable_EnableJoystick_swigconstant, METH_VARARGS, NULL},
@@ -37029,70 +37303,70 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"CF_CycleDown_ModeB_list_swigconstant", CF_CycleDown_ModeB_list_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"CF_Theta7_Positive_swigconstant", CF_Theta7_Positive_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"CF_Theta7_Negative_swigconstant", CF_Theta7_Negative_swigconstant, METH_VARARGS, NULL},
-	 { (char *)"StickEvents_Minus_set", _wrap_StickEvents_Minus_set, METH_VARARGS, NULL},
-	 { (char *)"StickEvents_Minus_get", _wrap_StickEvents_Minus_get, METH_VARARGS, NULL},
-	 { (char *)"StickEvents_Plus_set", _wrap_StickEvents_Plus_set, METH_VARARGS, NULL},
-	 { (char *)"StickEvents_Plus_get", _wrap_StickEvents_Plus_get, METH_VARARGS, NULL},
-	 { (char *)"new_StickEvents", _wrap_new_StickEvents, METH_VARARGS, NULL},
-	 { (char *)"delete_StickEvents", _wrap_delete_StickEvents, METH_VARARGS, NULL},
+	 { (char *)"StickEvents_Minus_set", _wrap_StickEvents_Minus_set, METH_VARARGS, (char *)"StickEvents_Minus_set(StickEvents self, unsigned char Minus)"},
+	 { (char *)"StickEvents_Minus_get", _wrap_StickEvents_Minus_get, METH_VARARGS, (char *)"StickEvents_Minus_get(StickEvents self) -> unsigned char"},
+	 { (char *)"StickEvents_Plus_set", _wrap_StickEvents_Plus_set, METH_VARARGS, (char *)"StickEvents_Plus_set(StickEvents self, unsigned char Plus)"},
+	 { (char *)"StickEvents_Plus_get", _wrap_StickEvents_Plus_get, METH_VARARGS, (char *)"StickEvents_Plus_get(StickEvents self) -> unsigned char"},
+	 { (char *)"new_StickEvents", _wrap_new_StickEvents, METH_VARARGS, (char *)"new_StickEvents() -> StickEvents"},
+	 { (char *)"delete_StickEvents", _wrap_delete_StickEvents, METH_VARARGS, (char *)"delete_StickEvents(StickEvents self)"},
 	 { (char *)"StickEvents_swigregister", StickEvents_swigregister, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_OneClick_set", _wrap_ButtonEvents_OneClick_set, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_OneClick_get", _wrap_ButtonEvents_OneClick_get, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_TwoClick_set", _wrap_ButtonEvents_TwoClick_set, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_TwoClick_get", _wrap_ButtonEvents_TwoClick_get, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldOneSec_set", _wrap_ButtonEvents_HoldOneSec_set, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldOneSec_get", _wrap_ButtonEvents_HoldOneSec_get, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldTwoSec_set", _wrap_ButtonEvents_HoldTwoSec_set, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldTwoSec_get", _wrap_ButtonEvents_HoldTwoSec_get, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldThreeSec_set", _wrap_ButtonEvents_HoldThreeSec_set, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldThreeSec_get", _wrap_ButtonEvents_HoldThreeSec_get, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldFourSec_set", _wrap_ButtonEvents_HoldFourSec_set, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldFourSec_get", _wrap_ButtonEvents_HoldFourSec_get, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldDown_set", _wrap_ButtonEvents_HoldDown_set, METH_VARARGS, NULL},
-	 { (char *)"ButtonEvents_HoldDown_get", _wrap_ButtonEvents_HoldDown_get, METH_VARARGS, NULL},
-	 { (char *)"new_ButtonEvents", _wrap_new_ButtonEvents, METH_VARARGS, NULL},
-	 { (char *)"delete_ButtonEvents", _wrap_delete_ButtonEvents, METH_VARARGS, NULL},
+	 { (char *)"ButtonEvents_OneClick_set", _wrap_ButtonEvents_OneClick_set, METH_VARARGS, (char *)"ButtonEvents_OneClick_set(ButtonEvents self, unsigned char OneClick)"},
+	 { (char *)"ButtonEvents_OneClick_get", _wrap_ButtonEvents_OneClick_get, METH_VARARGS, (char *)"ButtonEvents_OneClick_get(ButtonEvents self) -> unsigned char"},
+	 { (char *)"ButtonEvents_TwoClick_set", _wrap_ButtonEvents_TwoClick_set, METH_VARARGS, (char *)"ButtonEvents_TwoClick_set(ButtonEvents self, unsigned char TwoClick)"},
+	 { (char *)"ButtonEvents_TwoClick_get", _wrap_ButtonEvents_TwoClick_get, METH_VARARGS, (char *)"ButtonEvents_TwoClick_get(ButtonEvents self) -> unsigned char"},
+	 { (char *)"ButtonEvents_HoldOneSec_set", _wrap_ButtonEvents_HoldOneSec_set, METH_VARARGS, (char *)"ButtonEvents_HoldOneSec_set(ButtonEvents self, unsigned char HoldOneSec)"},
+	 { (char *)"ButtonEvents_HoldOneSec_get", _wrap_ButtonEvents_HoldOneSec_get, METH_VARARGS, (char *)"ButtonEvents_HoldOneSec_get(ButtonEvents self) -> unsigned char"},
+	 { (char *)"ButtonEvents_HoldTwoSec_set", _wrap_ButtonEvents_HoldTwoSec_set, METH_VARARGS, (char *)"ButtonEvents_HoldTwoSec_set(ButtonEvents self, unsigned char HoldTwoSec)"},
+	 { (char *)"ButtonEvents_HoldTwoSec_get", _wrap_ButtonEvents_HoldTwoSec_get, METH_VARARGS, (char *)"ButtonEvents_HoldTwoSec_get(ButtonEvents self) -> unsigned char"},
+	 { (char *)"ButtonEvents_HoldThreeSec_set", _wrap_ButtonEvents_HoldThreeSec_set, METH_VARARGS, (char *)"ButtonEvents_HoldThreeSec_set(ButtonEvents self, unsigned char HoldThreeSec)"},
+	 { (char *)"ButtonEvents_HoldThreeSec_get", _wrap_ButtonEvents_HoldThreeSec_get, METH_VARARGS, (char *)"ButtonEvents_HoldThreeSec_get(ButtonEvents self) -> unsigned char"},
+	 { (char *)"ButtonEvents_HoldFourSec_set", _wrap_ButtonEvents_HoldFourSec_set, METH_VARARGS, (char *)"ButtonEvents_HoldFourSec_set(ButtonEvents self, unsigned char HoldFourSec)"},
+	 { (char *)"ButtonEvents_HoldFourSec_get", _wrap_ButtonEvents_HoldFourSec_get, METH_VARARGS, (char *)"ButtonEvents_HoldFourSec_get(ButtonEvents self) -> unsigned char"},
+	 { (char *)"ButtonEvents_HoldDown_set", _wrap_ButtonEvents_HoldDown_set, METH_VARARGS, (char *)"ButtonEvents_HoldDown_set(ButtonEvents self, unsigned char HoldDown)"},
+	 { (char *)"ButtonEvents_HoldDown_get", _wrap_ButtonEvents_HoldDown_get, METH_VARARGS, (char *)"ButtonEvents_HoldDown_get(ButtonEvents self) -> unsigned char"},
+	 { (char *)"new_ButtonEvents", _wrap_new_ButtonEvents, METH_VARARGS, (char *)"new_ButtonEvents() -> ButtonEvents"},
+	 { (char *)"delete_ButtonEvents", _wrap_delete_ButtonEvents, METH_VARARGS, (char *)"delete_ButtonEvents(ButtonEvents self)"},
 	 { (char *)"ButtonEvents_swigregister", ButtonEvents_swigregister, METH_VARARGS, NULL},
 	 { (char *)"OneAxis_swigconstant", OneAxis_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"TwoAxis_swigconstant", TwoAxis_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"ThreeAxis_swigconstant", ThreeAxis_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"SixAxis_swigconstant", SixAxis_swigconstant, METH_VARARGS, NULL},
-	 { (char *)"ControlsModeMap_DiagonalsLocked_set", _wrap_ControlsModeMap_DiagonalsLocked_set, METH_VARARGS, NULL},
-	 { (char *)"ControlsModeMap_DiagonalsLocked_get", _wrap_ControlsModeMap_DiagonalsLocked_get, METH_VARARGS, NULL},
-	 { (char *)"ControlsModeMap_Expansion_set", _wrap_ControlsModeMap_Expansion_set, METH_VARARGS, NULL},
-	 { (char *)"ControlsModeMap_Expansion_get", _wrap_ControlsModeMap_Expansion_get, METH_VARARGS, NULL},
-	 { (char *)"ControlsModeMap_ControlSticks_set", _wrap_ControlsModeMap_ControlSticks_set, METH_VARARGS, NULL},
-	 { (char *)"ControlsModeMap_ControlSticks_get", _wrap_ControlsModeMap_ControlSticks_get, METH_VARARGS, NULL},
-	 { (char *)"ControlsModeMap_ControlButtons_set", _wrap_ControlsModeMap_ControlButtons_set, METH_VARARGS, NULL},
-	 { (char *)"ControlsModeMap_ControlButtons_get", _wrap_ControlsModeMap_ControlButtons_get, METH_VARARGS, NULL},
-	 { (char *)"new_ControlsModeMap", _wrap_new_ControlsModeMap, METH_VARARGS, NULL},
-	 { (char *)"delete_ControlsModeMap", _wrap_delete_ControlsModeMap, METH_VARARGS, NULL},
+	 { (char *)"ControlsModeMap_DiagonalsLocked_set", _wrap_ControlsModeMap_DiagonalsLocked_set, METH_VARARGS, (char *)"ControlsModeMap_DiagonalsLocked_set(ControlsModeMap self, int DiagonalsLocked)"},
+	 { (char *)"ControlsModeMap_DiagonalsLocked_get", _wrap_ControlsModeMap_DiagonalsLocked_get, METH_VARARGS, (char *)"ControlsModeMap_DiagonalsLocked_get(ControlsModeMap self) -> int"},
+	 { (char *)"ControlsModeMap_Expansion_set", _wrap_ControlsModeMap_Expansion_set, METH_VARARGS, (char *)"ControlsModeMap_Expansion_set(ControlsModeMap self, int Expansion)"},
+	 { (char *)"ControlsModeMap_Expansion_get", _wrap_ControlsModeMap_Expansion_get, METH_VARARGS, (char *)"ControlsModeMap_Expansion_get(ControlsModeMap self) -> int"},
+	 { (char *)"ControlsModeMap_ControlSticks_set", _wrap_ControlsModeMap_ControlSticks_set, METH_VARARGS, (char *)"ControlsModeMap_ControlSticks_set(ControlsModeMap self, StickEvents ControlSticks)"},
+	 { (char *)"ControlsModeMap_ControlSticks_get", _wrap_ControlsModeMap_ControlSticks_get, METH_VARARGS, (char *)"ControlsModeMap_ControlSticks_get(ControlsModeMap self) -> StickEvents"},
+	 { (char *)"ControlsModeMap_ControlButtons_set", _wrap_ControlsModeMap_ControlButtons_set, METH_VARARGS, (char *)"ControlsModeMap_ControlButtons_set(ControlsModeMap self, ButtonEvents ControlButtons)"},
+	 { (char *)"ControlsModeMap_ControlButtons_get", _wrap_ControlsModeMap_ControlButtons_get, METH_VARARGS, (char *)"ControlsModeMap_ControlButtons_get(ControlsModeMap self) -> ButtonEvents"},
+	 { (char *)"new_ControlsModeMap", _wrap_new_ControlsModeMap, METH_VARARGS, (char *)"new_ControlsModeMap() -> ControlsModeMap"},
+	 { (char *)"delete_ControlsModeMap", _wrap_delete_ControlsModeMap, METH_VARARGS, (char *)"delete_ControlsModeMap(ControlsModeMap self)"},
 	 { (char *)"ControlsModeMap_swigregister", ControlsModeMap_swigregister, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_NumOfModesA_set", _wrap_ControlMapping_NumOfModesA_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_NumOfModesA_get", _wrap_ControlMapping_NumOfModesA_get, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_NumOfModesB_set", _wrap_ControlMapping_NumOfModesB_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_NumOfModesB_get", _wrap_ControlMapping_NumOfModesB_get, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_ActualModeA_set", _wrap_ControlMapping_ActualModeA_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_ActualModeA_get", _wrap_ControlMapping_ActualModeA_get, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_ActualModeB_set", _wrap_ControlMapping_ActualModeB_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_ActualModeB_get", _wrap_ControlMapping_ActualModeB_get, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_Mode_set", _wrap_ControlMapping_Mode_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_Mode_get", _wrap_ControlMapping_Mode_get, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_ModeControlsA_set", _wrap_ControlMapping_ModeControlsA_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_ModeControlsA_get", _wrap_ControlMapping_ModeControlsA_get, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_ModeControlsB_set", _wrap_ControlMapping_ModeControlsB_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMapping_ModeControlsB_get", _wrap_ControlMapping_ModeControlsB_get, METH_VARARGS, NULL},
-	 { (char *)"new_ControlMapping", _wrap_new_ControlMapping, METH_VARARGS, NULL},
-	 { (char *)"delete_ControlMapping", _wrap_delete_ControlMapping, METH_VARARGS, NULL},
+	 { (char *)"ControlMapping_NumOfModesA_set", _wrap_ControlMapping_NumOfModesA_set, METH_VARARGS, (char *)"ControlMapping_NumOfModesA_set(ControlMapping self, int NumOfModesA)"},
+	 { (char *)"ControlMapping_NumOfModesA_get", _wrap_ControlMapping_NumOfModesA_get, METH_VARARGS, (char *)"ControlMapping_NumOfModesA_get(ControlMapping self) -> int"},
+	 { (char *)"ControlMapping_NumOfModesB_set", _wrap_ControlMapping_NumOfModesB_set, METH_VARARGS, (char *)"ControlMapping_NumOfModesB_set(ControlMapping self, int NumOfModesB)"},
+	 { (char *)"ControlMapping_NumOfModesB_get", _wrap_ControlMapping_NumOfModesB_get, METH_VARARGS, (char *)"ControlMapping_NumOfModesB_get(ControlMapping self) -> int"},
+	 { (char *)"ControlMapping_ActualModeA_set", _wrap_ControlMapping_ActualModeA_set, METH_VARARGS, (char *)"ControlMapping_ActualModeA_set(ControlMapping self, int ActualModeA)"},
+	 { (char *)"ControlMapping_ActualModeA_get", _wrap_ControlMapping_ActualModeA_get, METH_VARARGS, (char *)"ControlMapping_ActualModeA_get(ControlMapping self) -> int"},
+	 { (char *)"ControlMapping_ActualModeB_set", _wrap_ControlMapping_ActualModeB_set, METH_VARARGS, (char *)"ControlMapping_ActualModeB_set(ControlMapping self, int ActualModeB)"},
+	 { (char *)"ControlMapping_ActualModeB_get", _wrap_ControlMapping_ActualModeB_get, METH_VARARGS, (char *)"ControlMapping_ActualModeB_get(ControlMapping self) -> int"},
+	 { (char *)"ControlMapping_Mode_set", _wrap_ControlMapping_Mode_set, METH_VARARGS, (char *)"ControlMapping_Mode_set(ControlMapping self, ControlMappingMode Mode)"},
+	 { (char *)"ControlMapping_Mode_get", _wrap_ControlMapping_Mode_get, METH_VARARGS, (char *)"ControlMapping_Mode_get(ControlMapping self) -> ControlMappingMode"},
+	 { (char *)"ControlMapping_ModeControlsA_set", _wrap_ControlMapping_ModeControlsA_set, METH_VARARGS, (char *)"ControlMapping_ModeControlsA_set(ControlMapping self, ControlsModeMap ModeControlsA)"},
+	 { (char *)"ControlMapping_ModeControlsA_get", _wrap_ControlMapping_ModeControlsA_get, METH_VARARGS, (char *)"ControlMapping_ModeControlsA_get(ControlMapping self) -> ControlsModeMap"},
+	 { (char *)"ControlMapping_ModeControlsB_set", _wrap_ControlMapping_ModeControlsB_set, METH_VARARGS, (char *)"ControlMapping_ModeControlsB_set(ControlMapping self, ControlsModeMap ModeControlsB)"},
+	 { (char *)"ControlMapping_ModeControlsB_get", _wrap_ControlMapping_ModeControlsB_get, METH_VARARGS, (char *)"ControlMapping_ModeControlsB_get(ControlMapping self) -> ControlsModeMap"},
+	 { (char *)"new_ControlMapping", _wrap_new_ControlMapping, METH_VARARGS, (char *)"new_ControlMapping() -> ControlMapping"},
+	 { (char *)"delete_ControlMapping", _wrap_delete_ControlMapping, METH_VARARGS, (char *)"delete_ControlMapping(ControlMapping self)"},
 	 { (char *)"ControlMapping_swigregister", ControlMapping_swigregister, METH_VARARGS, NULL},
-	 { (char *)"ControlMappingCharts_NumOfConfiguredMapping_set", _wrap_ControlMappingCharts_NumOfConfiguredMapping_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMappingCharts_NumOfConfiguredMapping_get", _wrap_ControlMappingCharts_NumOfConfiguredMapping_get, METH_VARARGS, NULL},
-	 { (char *)"ControlMappingCharts_ActualControlMapping_set", _wrap_ControlMappingCharts_ActualControlMapping_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMappingCharts_ActualControlMapping_get", _wrap_ControlMappingCharts_ActualControlMapping_get, METH_VARARGS, NULL},
-	 { (char *)"ControlMappingCharts_Mapping_set", _wrap_ControlMappingCharts_Mapping_set, METH_VARARGS, NULL},
-	 { (char *)"ControlMappingCharts_Mapping_get", _wrap_ControlMappingCharts_Mapping_get, METH_VARARGS, NULL},
-	 { (char *)"new_ControlMappingCharts", _wrap_new_ControlMappingCharts, METH_VARARGS, NULL},
-	 { (char *)"delete_ControlMappingCharts", _wrap_delete_ControlMappingCharts, METH_VARARGS, NULL},
+	 { (char *)"ControlMappingCharts_NumOfConfiguredMapping_set", _wrap_ControlMappingCharts_NumOfConfiguredMapping_set, METH_VARARGS, (char *)"ControlMappingCharts_NumOfConfiguredMapping_set(ControlMappingCharts self, int NumOfConfiguredMapping)"},
+	 { (char *)"ControlMappingCharts_NumOfConfiguredMapping_get", _wrap_ControlMappingCharts_NumOfConfiguredMapping_get, METH_VARARGS, (char *)"ControlMappingCharts_NumOfConfiguredMapping_get(ControlMappingCharts self) -> int"},
+	 { (char *)"ControlMappingCharts_ActualControlMapping_set", _wrap_ControlMappingCharts_ActualControlMapping_set, METH_VARARGS, (char *)"ControlMappingCharts_ActualControlMapping_set(ControlMappingCharts self, int ActualControlMapping)"},
+	 { (char *)"ControlMappingCharts_ActualControlMapping_get", _wrap_ControlMappingCharts_ActualControlMapping_get, METH_VARARGS, (char *)"ControlMappingCharts_ActualControlMapping_get(ControlMappingCharts self) -> int"},
+	 { (char *)"ControlMappingCharts_Mapping_set", _wrap_ControlMappingCharts_Mapping_set, METH_VARARGS, (char *)"ControlMappingCharts_Mapping_set(ControlMappingCharts self, ControlMapping Mapping)"},
+	 { (char *)"ControlMappingCharts_Mapping_get", _wrap_ControlMappingCharts_Mapping_get, METH_VARARGS, (char *)"ControlMappingCharts_Mapping_get(ControlMappingCharts self) -> ControlMapping"},
+	 { (char *)"new_ControlMappingCharts", _wrap_new_ControlMappingCharts, METH_VARARGS, (char *)"new_ControlMappingCharts() -> ControlMappingCharts"},
+	 { (char *)"delete_ControlMappingCharts", _wrap_delete_ControlMappingCharts, METH_VARARGS, (char *)"delete_ControlMappingCharts(ControlMappingCharts self)"},
 	 { (char *)"ControlMappingCharts_swigregister", ControlMappingCharts_swigregister, METH_VARARGS, NULL},
 	 { (char *)"ERROR_NOTINITIALIZED_swigconstant", ERROR_NOTINITIALIZED_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"keos_err1_swigconstant", keos_err1_swigconstant, METH_VARARGS, NULL},
@@ -37112,47 +37386,47 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"errorlog_current_ActuatorsOK_swigconstant", errorlog_current_ActuatorsOK_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"errorLog_RobotStatus_Build_Incomplete_swigconstant", errorLog_RobotStatus_Build_Incomplete_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"errorLogger_END_swigconstant", errorLogger_END_swigconstant, METH_VARARGS, NULL},
-	 { (char *)"SystemError_ErrorHeader_set", _wrap_SystemError_ErrorHeader_set, METH_VARARGS, NULL},
-	 { (char *)"SystemError_ErrorHeader_get", _wrap_SystemError_ErrorHeader_get, METH_VARARGS, NULL},
-	 { (char *)"SystemError_ErrorType_set", _wrap_SystemError_ErrorType_set, METH_VARARGS, NULL},
-	 { (char *)"SystemError_ErrorType_get", _wrap_SystemError_ErrorType_get, METH_VARARGS, NULL},
-	 { (char *)"SystemError_FirmwareVersion_set", _wrap_SystemError_FirmwareVersion_set, METH_VARARGS, NULL},
-	 { (char *)"SystemError_FirmwareVersion_get", _wrap_SystemError_FirmwareVersion_get, METH_VARARGS, NULL},
-	 { (char *)"SystemError_KeosVersion_set", _wrap_SystemError_KeosVersion_set, METH_VARARGS, NULL},
-	 { (char *)"SystemError_KeosVersion_get", _wrap_SystemError_KeosVersion_get, METH_VARARGS, NULL},
-	 { (char *)"SystemError_SystemTime_set", _wrap_SystemError_SystemTime_set, METH_VARARGS, NULL},
-	 { (char *)"SystemError_SystemTime_get", _wrap_SystemError_SystemTime_get, METH_VARARGS, NULL},
-	 { (char *)"SystemError_LayerErrorStatus_set", _wrap_SystemError_LayerErrorStatus_set, METH_VARARGS, NULL},
-	 { (char *)"SystemError_LayerErrorStatus_get", _wrap_SystemError_LayerErrorStatus_get, METH_VARARGS, NULL},
-	 { (char *)"SystemError_LifeTime_set", _wrap_SystemError_LifeTime_set, METH_VARARGS, NULL},
-	 { (char *)"SystemError_LifeTime_get", _wrap_SystemError_LifeTime_get, METH_VARARGS, NULL},
-	 { (char *)"SystemError_DataCount_set", _wrap_SystemError_DataCount_set, METH_VARARGS, NULL},
-	 { (char *)"SystemError_DataCount_get", _wrap_SystemError_DataCount_get, METH_VARARGS, NULL},
-	 { (char *)"SystemError_Data_set", _wrap_SystemError_Data_set, METH_VARARGS, NULL},
-	 { (char *)"SystemError_Data_get", _wrap_SystemError_Data_get, METH_VARARGS, NULL},
-	 { (char *)"new_SystemError", _wrap_new_SystemError, METH_VARARGS, NULL},
-	 { (char *)"delete_SystemError", _wrap_delete_SystemError, METH_VARARGS, NULL},
+	 { (char *)"SystemError_ErrorHeader_set", _wrap_SystemError_ErrorHeader_set, METH_VARARGS, (char *)"SystemError_ErrorHeader_set(SystemError self, unsigned int ErrorHeader)"},
+	 { (char *)"SystemError_ErrorHeader_get", _wrap_SystemError_ErrorHeader_get, METH_VARARGS, (char *)"SystemError_ErrorHeader_get(SystemError self) -> unsigned int"},
+	 { (char *)"SystemError_ErrorType_set", _wrap_SystemError_ErrorType_set, METH_VARARGS, (char *)"SystemError_ErrorType_set(SystemError self, errorLoggerType ErrorType)"},
+	 { (char *)"SystemError_ErrorType_get", _wrap_SystemError_ErrorType_get, METH_VARARGS, (char *)"SystemError_ErrorType_get(SystemError self) -> errorLoggerType"},
+	 { (char *)"SystemError_FirmwareVersion_set", _wrap_SystemError_FirmwareVersion_set, METH_VARARGS, (char *)"SystemError_FirmwareVersion_set(SystemError self, int FirmwareVersion)"},
+	 { (char *)"SystemError_FirmwareVersion_get", _wrap_SystemError_FirmwareVersion_get, METH_VARARGS, (char *)"SystemError_FirmwareVersion_get(SystemError self) -> int"},
+	 { (char *)"SystemError_KeosVersion_set", _wrap_SystemError_KeosVersion_set, METH_VARARGS, (char *)"SystemError_KeosVersion_set(SystemError self, int KeosVersion)"},
+	 { (char *)"SystemError_KeosVersion_get", _wrap_SystemError_KeosVersion_get, METH_VARARGS, (char *)"SystemError_KeosVersion_get(SystemError self) -> int"},
+	 { (char *)"SystemError_SystemTime_set", _wrap_SystemError_SystemTime_set, METH_VARARGS, (char *)"SystemError_SystemTime_set(SystemError self, unsigned int SystemTime)"},
+	 { (char *)"SystemError_SystemTime_get", _wrap_SystemError_SystemTime_get, METH_VARARGS, (char *)"SystemError_SystemTime_get(SystemError self) -> unsigned int"},
+	 { (char *)"SystemError_LayerErrorStatus_set", _wrap_SystemError_LayerErrorStatus_set, METH_VARARGS, (char *)"SystemError_LayerErrorStatus_set(SystemError self, bool [7] LayerErrorStatus)"},
+	 { (char *)"SystemError_LayerErrorStatus_get", _wrap_SystemError_LayerErrorStatus_get, METH_VARARGS, (char *)"SystemError_LayerErrorStatus_get(SystemError self) -> bool [7]"},
+	 { (char *)"SystemError_LifeTime_set", _wrap_SystemError_LifeTime_set, METH_VARARGS, (char *)"SystemError_LifeTime_set(SystemError self, int LifeTime)"},
+	 { (char *)"SystemError_LifeTime_get", _wrap_SystemError_LifeTime_get, METH_VARARGS, (char *)"SystemError_LifeTime_get(SystemError self) -> int"},
+	 { (char *)"SystemError_DataCount_set", _wrap_SystemError_DataCount_set, METH_VARARGS, (char *)"SystemError_DataCount_set(SystemError self, int DataCount)"},
+	 { (char *)"SystemError_DataCount_get", _wrap_SystemError_DataCount_get, METH_VARARGS, (char *)"SystemError_DataCount_get(SystemError self) -> int"},
+	 { (char *)"SystemError_Data_set", _wrap_SystemError_Data_set, METH_VARARGS, (char *)"SystemError_Data_set(SystemError self, unsigned int [50] Data)"},
+	 { (char *)"SystemError_Data_get", _wrap_SystemError_Data_get, METH_VARARGS, (char *)"SystemError_Data_get(SystemError self) -> unsigned int [50]"},
+	 { (char *)"new_SystemError", _wrap_new_SystemError, METH_VARARGS, (char *)"new_SystemError() -> SystemError"},
+	 { (char *)"delete_SystemError", _wrap_delete_SystemError, METH_VARARGS, (char *)"delete_SystemError(SystemError self)"},
 	 { (char *)"SystemError_swigregister", SystemError_swigregister, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_speedParameter1_set", _wrap_ZoneLimitation_speedParameter1_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_speedParameter1_get", _wrap_ZoneLimitation_speedParameter1_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_speedParameter2_set", _wrap_ZoneLimitation_speedParameter2_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_speedParameter2_get", _wrap_ZoneLimitation_speedParameter2_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_speedParameter3_set", _wrap_ZoneLimitation_speedParameter3_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_speedParameter3_get", _wrap_ZoneLimitation_speedParameter3_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_forceParameter1_set", _wrap_ZoneLimitation_forceParameter1_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_forceParameter1_get", _wrap_ZoneLimitation_forceParameter1_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_forceParameter2_set", _wrap_ZoneLimitation_forceParameter2_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_forceParameter2_get", _wrap_ZoneLimitation_forceParameter2_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_forceParameter3_set", _wrap_ZoneLimitation_forceParameter3_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_forceParameter3_get", _wrap_ZoneLimitation_forceParameter3_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_accelerationParameter1_set", _wrap_ZoneLimitation_accelerationParameter1_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_accelerationParameter1_get", _wrap_ZoneLimitation_accelerationParameter1_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_accelerationParameter2_set", _wrap_ZoneLimitation_accelerationParameter2_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_accelerationParameter2_get", _wrap_ZoneLimitation_accelerationParameter2_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_accelerationParameter3_set", _wrap_ZoneLimitation_accelerationParameter3_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneLimitation_accelerationParameter3_get", _wrap_ZoneLimitation_accelerationParameter3_get, METH_VARARGS, NULL},
-	 { (char *)"new_ZoneLimitation", _wrap_new_ZoneLimitation, METH_VARARGS, NULL},
-	 { (char *)"delete_ZoneLimitation", _wrap_delete_ZoneLimitation, METH_VARARGS, NULL},
+	 { (char *)"ZoneLimitation_speedParameter1_set", _wrap_ZoneLimitation_speedParameter1_set, METH_VARARGS, (char *)"ZoneLimitation_speedParameter1_set(ZoneLimitation self, float speedParameter1)"},
+	 { (char *)"ZoneLimitation_speedParameter1_get", _wrap_ZoneLimitation_speedParameter1_get, METH_VARARGS, (char *)"ZoneLimitation_speedParameter1_get(ZoneLimitation self) -> float"},
+	 { (char *)"ZoneLimitation_speedParameter2_set", _wrap_ZoneLimitation_speedParameter2_set, METH_VARARGS, (char *)"ZoneLimitation_speedParameter2_set(ZoneLimitation self, float speedParameter2)"},
+	 { (char *)"ZoneLimitation_speedParameter2_get", _wrap_ZoneLimitation_speedParameter2_get, METH_VARARGS, (char *)"ZoneLimitation_speedParameter2_get(ZoneLimitation self) -> float"},
+	 { (char *)"ZoneLimitation_speedParameter3_set", _wrap_ZoneLimitation_speedParameter3_set, METH_VARARGS, (char *)"ZoneLimitation_speedParameter3_set(ZoneLimitation self, float speedParameter3)"},
+	 { (char *)"ZoneLimitation_speedParameter3_get", _wrap_ZoneLimitation_speedParameter3_get, METH_VARARGS, (char *)"ZoneLimitation_speedParameter3_get(ZoneLimitation self) -> float"},
+	 { (char *)"ZoneLimitation_forceParameter1_set", _wrap_ZoneLimitation_forceParameter1_set, METH_VARARGS, (char *)"ZoneLimitation_forceParameter1_set(ZoneLimitation self, float forceParameter1)"},
+	 { (char *)"ZoneLimitation_forceParameter1_get", _wrap_ZoneLimitation_forceParameter1_get, METH_VARARGS, (char *)"ZoneLimitation_forceParameter1_get(ZoneLimitation self) -> float"},
+	 { (char *)"ZoneLimitation_forceParameter2_set", _wrap_ZoneLimitation_forceParameter2_set, METH_VARARGS, (char *)"ZoneLimitation_forceParameter2_set(ZoneLimitation self, float forceParameter2)"},
+	 { (char *)"ZoneLimitation_forceParameter2_get", _wrap_ZoneLimitation_forceParameter2_get, METH_VARARGS, (char *)"ZoneLimitation_forceParameter2_get(ZoneLimitation self) -> float"},
+	 { (char *)"ZoneLimitation_forceParameter3_set", _wrap_ZoneLimitation_forceParameter3_set, METH_VARARGS, (char *)"ZoneLimitation_forceParameter3_set(ZoneLimitation self, float forceParameter3)"},
+	 { (char *)"ZoneLimitation_forceParameter3_get", _wrap_ZoneLimitation_forceParameter3_get, METH_VARARGS, (char *)"ZoneLimitation_forceParameter3_get(ZoneLimitation self) -> float"},
+	 { (char *)"ZoneLimitation_accelerationParameter1_set", _wrap_ZoneLimitation_accelerationParameter1_set, METH_VARARGS, (char *)"ZoneLimitation_accelerationParameter1_set(ZoneLimitation self, float accelerationParameter1)"},
+	 { (char *)"ZoneLimitation_accelerationParameter1_get", _wrap_ZoneLimitation_accelerationParameter1_get, METH_VARARGS, (char *)"ZoneLimitation_accelerationParameter1_get(ZoneLimitation self) -> float"},
+	 { (char *)"ZoneLimitation_accelerationParameter2_set", _wrap_ZoneLimitation_accelerationParameter2_set, METH_VARARGS, (char *)"ZoneLimitation_accelerationParameter2_set(ZoneLimitation self, float accelerationParameter2)"},
+	 { (char *)"ZoneLimitation_accelerationParameter2_get", _wrap_ZoneLimitation_accelerationParameter2_get, METH_VARARGS, (char *)"ZoneLimitation_accelerationParameter2_get(ZoneLimitation self) -> float"},
+	 { (char *)"ZoneLimitation_accelerationParameter3_set", _wrap_ZoneLimitation_accelerationParameter3_set, METH_VARARGS, (char *)"ZoneLimitation_accelerationParameter3_set(ZoneLimitation self, float accelerationParameter3)"},
+	 { (char *)"ZoneLimitation_accelerationParameter3_get", _wrap_ZoneLimitation_accelerationParameter3_get, METH_VARARGS, (char *)"ZoneLimitation_accelerationParameter3_get(ZoneLimitation self) -> float"},
+	 { (char *)"new_ZoneLimitation", _wrap_new_ZoneLimitation, METH_VARARGS, (char *)"new_ZoneLimitation() -> ZoneLimitation"},
+	 { (char *)"delete_ZoneLimitation", _wrap_delete_ZoneLimitation, METH_VARARGS, (char *)"delete_ZoneLimitation(ZoneLimitation self)"},
 	 { (char *)"ZoneLimitation_swigregister", ZoneLimitation_swigregister, METH_VARARGS, NULL},
 	 { (char *)"PrismSquareBase_X_swigconstant", PrismSquareBase_X_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"PrismSquareBase_Y_swigconstant", PrismSquareBase_Y_swigconstant, METH_VARARGS, NULL},
@@ -37161,349 +37435,351 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"PrismTriangularBase_Y_swigconstant", PrismTriangularBase_Y_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"PrismTriangularBase_Z_swigconstant", PrismTriangularBase_Z_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"Pyramid_swigconstant", Pyramid_swigconstant, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator1_set", _wrap_ForcesInfo_Actuator1_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator1_get", _wrap_ForcesInfo_Actuator1_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator2_set", _wrap_ForcesInfo_Actuator2_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator2_get", _wrap_ForcesInfo_Actuator2_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator3_set", _wrap_ForcesInfo_Actuator3_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator3_get", _wrap_ForcesInfo_Actuator3_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator4_set", _wrap_ForcesInfo_Actuator4_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator4_get", _wrap_ForcesInfo_Actuator4_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator5_set", _wrap_ForcesInfo_Actuator5_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator5_get", _wrap_ForcesInfo_Actuator5_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator6_set", _wrap_ForcesInfo_Actuator6_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator6_get", _wrap_ForcesInfo_Actuator6_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator7_set", _wrap_ForcesInfo_Actuator7_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Actuator7_get", _wrap_ForcesInfo_Actuator7_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_X_set", _wrap_ForcesInfo_X_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_X_get", _wrap_ForcesInfo_X_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Y_set", _wrap_ForcesInfo_Y_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Y_get", _wrap_ForcesInfo_Y_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Z_set", _wrap_ForcesInfo_Z_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_Z_get", _wrap_ForcesInfo_Z_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_ThetaX_set", _wrap_ForcesInfo_ThetaX_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_ThetaX_get", _wrap_ForcesInfo_ThetaX_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_ThetaY_set", _wrap_ForcesInfo_ThetaY_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_ThetaY_get", _wrap_ForcesInfo_ThetaY_get, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_ThetaZ_set", _wrap_ForcesInfo_ThetaZ_set, METH_VARARGS, NULL},
-	 { (char *)"ForcesInfo_ThetaZ_get", _wrap_ForcesInfo_ThetaZ_get, METH_VARARGS, NULL},
-	 { (char *)"new_ForcesInfo", _wrap_new_ForcesInfo, METH_VARARGS, NULL},
-	 { (char *)"delete_ForcesInfo", _wrap_delete_ForcesInfo, METH_VARARGS, NULL},
+	 { (char *)"ForcesInfo_Actuator1_set", _wrap_ForcesInfo_Actuator1_set, METH_VARARGS, (char *)"ForcesInfo_Actuator1_set(ForcesInfo self, float Actuator1)"},
+	 { (char *)"ForcesInfo_Actuator1_get", _wrap_ForcesInfo_Actuator1_get, METH_VARARGS, (char *)"ForcesInfo_Actuator1_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_Actuator2_set", _wrap_ForcesInfo_Actuator2_set, METH_VARARGS, (char *)"ForcesInfo_Actuator2_set(ForcesInfo self, float Actuator2)"},
+	 { (char *)"ForcesInfo_Actuator2_get", _wrap_ForcesInfo_Actuator2_get, METH_VARARGS, (char *)"ForcesInfo_Actuator2_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_Actuator3_set", _wrap_ForcesInfo_Actuator3_set, METH_VARARGS, (char *)"ForcesInfo_Actuator3_set(ForcesInfo self, float Actuator3)"},
+	 { (char *)"ForcesInfo_Actuator3_get", _wrap_ForcesInfo_Actuator3_get, METH_VARARGS, (char *)"ForcesInfo_Actuator3_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_Actuator4_set", _wrap_ForcesInfo_Actuator4_set, METH_VARARGS, (char *)"ForcesInfo_Actuator4_set(ForcesInfo self, float Actuator4)"},
+	 { (char *)"ForcesInfo_Actuator4_get", _wrap_ForcesInfo_Actuator4_get, METH_VARARGS, (char *)"ForcesInfo_Actuator4_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_Actuator5_set", _wrap_ForcesInfo_Actuator5_set, METH_VARARGS, (char *)"ForcesInfo_Actuator5_set(ForcesInfo self, float Actuator5)"},
+	 { (char *)"ForcesInfo_Actuator5_get", _wrap_ForcesInfo_Actuator5_get, METH_VARARGS, (char *)"ForcesInfo_Actuator5_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_Actuator6_set", _wrap_ForcesInfo_Actuator6_set, METH_VARARGS, (char *)"ForcesInfo_Actuator6_set(ForcesInfo self, float Actuator6)"},
+	 { (char *)"ForcesInfo_Actuator6_get", _wrap_ForcesInfo_Actuator6_get, METH_VARARGS, (char *)"ForcesInfo_Actuator6_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_Actuator7_set", _wrap_ForcesInfo_Actuator7_set, METH_VARARGS, (char *)"ForcesInfo_Actuator7_set(ForcesInfo self, float Actuator7)"},
+	 { (char *)"ForcesInfo_Actuator7_get", _wrap_ForcesInfo_Actuator7_get, METH_VARARGS, (char *)"ForcesInfo_Actuator7_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_X_set", _wrap_ForcesInfo_X_set, METH_VARARGS, (char *)"ForcesInfo_X_set(ForcesInfo self, float X)"},
+	 { (char *)"ForcesInfo_X_get", _wrap_ForcesInfo_X_get, METH_VARARGS, (char *)"ForcesInfo_X_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_Y_set", _wrap_ForcesInfo_Y_set, METH_VARARGS, (char *)"ForcesInfo_Y_set(ForcesInfo self, float Y)"},
+	 { (char *)"ForcesInfo_Y_get", _wrap_ForcesInfo_Y_get, METH_VARARGS, (char *)"ForcesInfo_Y_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_Z_set", _wrap_ForcesInfo_Z_set, METH_VARARGS, (char *)"ForcesInfo_Z_set(ForcesInfo self, float Z)"},
+	 { (char *)"ForcesInfo_Z_get", _wrap_ForcesInfo_Z_get, METH_VARARGS, (char *)"ForcesInfo_Z_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_ThetaX_set", _wrap_ForcesInfo_ThetaX_set, METH_VARARGS, (char *)"ForcesInfo_ThetaX_set(ForcesInfo self, float ThetaX)"},
+	 { (char *)"ForcesInfo_ThetaX_get", _wrap_ForcesInfo_ThetaX_get, METH_VARARGS, (char *)"ForcesInfo_ThetaX_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_ThetaY_set", _wrap_ForcesInfo_ThetaY_set, METH_VARARGS, (char *)"ForcesInfo_ThetaY_set(ForcesInfo self, float ThetaY)"},
+	 { (char *)"ForcesInfo_ThetaY_get", _wrap_ForcesInfo_ThetaY_get, METH_VARARGS, (char *)"ForcesInfo_ThetaY_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo_ThetaZ_set", _wrap_ForcesInfo_ThetaZ_set, METH_VARARGS, (char *)"ForcesInfo_ThetaZ_set(ForcesInfo self, float ThetaZ)"},
+	 { (char *)"ForcesInfo_ThetaZ_get", _wrap_ForcesInfo_ThetaZ_get, METH_VARARGS, (char *)"ForcesInfo_ThetaZ_get(ForcesInfo self) -> float"},
+	 { (char *)"ForcesInfo___str__", _wrap_ForcesInfo___str__, METH_VARARGS, (char *)"ForcesInfo___str__(ForcesInfo self) -> char *"},
+	 { (char *)"new_ForcesInfo", _wrap_new_ForcesInfo, METH_VARARGS, (char *)"new_ForcesInfo() -> ForcesInfo"},
+	 { (char *)"delete_ForcesInfo", _wrap_delete_ForcesInfo, METH_VARARGS, (char *)"delete_ForcesInfo(ForcesInfo self)"},
 	 { (char *)"ForcesInfo_swigregister", ForcesInfo_swigregister, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_Finger1Status_set", _wrap_QuickStatus_Finger1Status_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_Finger1Status_get", _wrap_QuickStatus_Finger1Status_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_Finger2Status_set", _wrap_QuickStatus_Finger2Status_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_Finger2Status_get", _wrap_QuickStatus_Finger2Status_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_Finger3Status_set", _wrap_QuickStatus_Finger3Status_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_Finger3Status_get", _wrap_QuickStatus_Finger3Status_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_RetractType_set", _wrap_QuickStatus_RetractType_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_RetractType_get", _wrap_QuickStatus_RetractType_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_RetractComplexity_set", _wrap_QuickStatus_RetractComplexity_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_RetractComplexity_get", _wrap_QuickStatus_RetractComplexity_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_ControlEnableStatus_set", _wrap_QuickStatus_ControlEnableStatus_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_ControlEnableStatus_get", _wrap_QuickStatus_ControlEnableStatus_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_ControlActiveModule_set", _wrap_QuickStatus_ControlActiveModule_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_ControlActiveModule_get", _wrap_QuickStatus_ControlActiveModule_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_ControlFrameType_set", _wrap_QuickStatus_ControlFrameType_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_ControlFrameType_get", _wrap_QuickStatus_ControlFrameType_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_CartesianFaultState_set", _wrap_QuickStatus_CartesianFaultState_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_CartesianFaultState_get", _wrap_QuickStatus_CartesianFaultState_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_ForceControlStatus_set", _wrap_QuickStatus_ForceControlStatus_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_ForceControlStatus_get", _wrap_QuickStatus_ForceControlStatus_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_CurrentLimitationStatus_set", _wrap_QuickStatus_CurrentLimitationStatus_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_CurrentLimitationStatus_get", _wrap_QuickStatus_CurrentLimitationStatus_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_RobotType_set", _wrap_QuickStatus_RobotType_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_RobotType_get", _wrap_QuickStatus_RobotType_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_RobotEdition_set", _wrap_QuickStatus_RobotEdition_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_RobotEdition_get", _wrap_QuickStatus_RobotEdition_get, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_TorqueSensorsStatus_set", _wrap_QuickStatus_TorqueSensorsStatus_set, METH_VARARGS, NULL},
-	 { (char *)"QuickStatus_TorqueSensorsStatus_get", _wrap_QuickStatus_TorqueSensorsStatus_get, METH_VARARGS, NULL},
-	 { (char *)"new_QuickStatus", _wrap_new_QuickStatus, METH_VARARGS, NULL},
-	 { (char *)"delete_QuickStatus", _wrap_delete_QuickStatus, METH_VARARGS, NULL},
+	 { (char *)"QuickStatus_Finger1Status_set", _wrap_QuickStatus_Finger1Status_set, METH_VARARGS, (char *)"QuickStatus_Finger1Status_set(QuickStatus self, unsigned char Finger1Status)"},
+	 { (char *)"QuickStatus_Finger1Status_get", _wrap_QuickStatus_Finger1Status_get, METH_VARARGS, (char *)"QuickStatus_Finger1Status_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_Finger2Status_set", _wrap_QuickStatus_Finger2Status_set, METH_VARARGS, (char *)"QuickStatus_Finger2Status_set(QuickStatus self, unsigned char Finger2Status)"},
+	 { (char *)"QuickStatus_Finger2Status_get", _wrap_QuickStatus_Finger2Status_get, METH_VARARGS, (char *)"QuickStatus_Finger2Status_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_Finger3Status_set", _wrap_QuickStatus_Finger3Status_set, METH_VARARGS, (char *)"QuickStatus_Finger3Status_set(QuickStatus self, unsigned char Finger3Status)"},
+	 { (char *)"QuickStatus_Finger3Status_get", _wrap_QuickStatus_Finger3Status_get, METH_VARARGS, (char *)"QuickStatus_Finger3Status_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_RetractType_set", _wrap_QuickStatus_RetractType_set, METH_VARARGS, (char *)"QuickStatus_RetractType_set(QuickStatus self, unsigned char RetractType)"},
+	 { (char *)"QuickStatus_RetractType_get", _wrap_QuickStatus_RetractType_get, METH_VARARGS, (char *)"QuickStatus_RetractType_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_RetractComplexity_set", _wrap_QuickStatus_RetractComplexity_set, METH_VARARGS, (char *)"QuickStatus_RetractComplexity_set(QuickStatus self, unsigned char RetractComplexity)"},
+	 { (char *)"QuickStatus_RetractComplexity_get", _wrap_QuickStatus_RetractComplexity_get, METH_VARARGS, (char *)"QuickStatus_RetractComplexity_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_ControlEnableStatus_set", _wrap_QuickStatus_ControlEnableStatus_set, METH_VARARGS, (char *)"QuickStatus_ControlEnableStatus_set(QuickStatus self, unsigned char ControlEnableStatus)"},
+	 { (char *)"QuickStatus_ControlEnableStatus_get", _wrap_QuickStatus_ControlEnableStatus_get, METH_VARARGS, (char *)"QuickStatus_ControlEnableStatus_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_ControlActiveModule_set", _wrap_QuickStatus_ControlActiveModule_set, METH_VARARGS, (char *)"QuickStatus_ControlActiveModule_set(QuickStatus self, unsigned char ControlActiveModule)"},
+	 { (char *)"QuickStatus_ControlActiveModule_get", _wrap_QuickStatus_ControlActiveModule_get, METH_VARARGS, (char *)"QuickStatus_ControlActiveModule_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_ControlFrameType_set", _wrap_QuickStatus_ControlFrameType_set, METH_VARARGS, (char *)"QuickStatus_ControlFrameType_set(QuickStatus self, unsigned char ControlFrameType)"},
+	 { (char *)"QuickStatus_ControlFrameType_get", _wrap_QuickStatus_ControlFrameType_get, METH_VARARGS, (char *)"QuickStatus_ControlFrameType_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_CartesianFaultState_set", _wrap_QuickStatus_CartesianFaultState_set, METH_VARARGS, (char *)"QuickStatus_CartesianFaultState_set(QuickStatus self, unsigned char CartesianFaultState)"},
+	 { (char *)"QuickStatus_CartesianFaultState_get", _wrap_QuickStatus_CartesianFaultState_get, METH_VARARGS, (char *)"QuickStatus_CartesianFaultState_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_ForceControlStatus_set", _wrap_QuickStatus_ForceControlStatus_set, METH_VARARGS, (char *)"QuickStatus_ForceControlStatus_set(QuickStatus self, unsigned char ForceControlStatus)"},
+	 { (char *)"QuickStatus_ForceControlStatus_get", _wrap_QuickStatus_ForceControlStatus_get, METH_VARARGS, (char *)"QuickStatus_ForceControlStatus_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_CurrentLimitationStatus_set", _wrap_QuickStatus_CurrentLimitationStatus_set, METH_VARARGS, (char *)"QuickStatus_CurrentLimitationStatus_set(QuickStatus self, unsigned char CurrentLimitationStatus)"},
+	 { (char *)"QuickStatus_CurrentLimitationStatus_get", _wrap_QuickStatus_CurrentLimitationStatus_get, METH_VARARGS, (char *)"QuickStatus_CurrentLimitationStatus_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_RobotType_set", _wrap_QuickStatus_RobotType_set, METH_VARARGS, (char *)"QuickStatus_RobotType_set(QuickStatus self, unsigned char RobotType)"},
+	 { (char *)"QuickStatus_RobotType_get", _wrap_QuickStatus_RobotType_get, METH_VARARGS, (char *)"QuickStatus_RobotType_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_RobotEdition_set", _wrap_QuickStatus_RobotEdition_set, METH_VARARGS, (char *)"QuickStatus_RobotEdition_set(QuickStatus self, unsigned char RobotEdition)"},
+	 { (char *)"QuickStatus_RobotEdition_get", _wrap_QuickStatus_RobotEdition_get, METH_VARARGS, (char *)"QuickStatus_RobotEdition_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus_TorqueSensorsStatus_set", _wrap_QuickStatus_TorqueSensorsStatus_set, METH_VARARGS, (char *)"QuickStatus_TorqueSensorsStatus_set(QuickStatus self, unsigned char TorqueSensorsStatus)"},
+	 { (char *)"QuickStatus_TorqueSensorsStatus_get", _wrap_QuickStatus_TorqueSensorsStatus_get, METH_VARARGS, (char *)"QuickStatus_TorqueSensorsStatus_get(QuickStatus self) -> unsigned char"},
+	 { (char *)"QuickStatus___str__", _wrap_QuickStatus___str__, METH_VARARGS, (char *)"QuickStatus___str__(QuickStatus self) -> char *"},
+	 { (char *)"new_QuickStatus", _wrap_new_QuickStatus, METH_VARARGS, (char *)"new_QuickStatus() -> QuickStatus"},
+	 { (char *)"delete_QuickStatus", _wrap_delete_QuickStatus, METH_VARARGS, (char *)"delete_QuickStatus(QuickStatus self)"},
 	 { (char *)"QuickStatus_swigregister", QuickStatus_swigregister, METH_VARARGS, NULL},
-	 { (char *)"Finger_ID_set", _wrap_Finger_ID_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_ID_get", _wrap_Finger_ID_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualCommand_set", _wrap_Finger_ActualCommand_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualCommand_get", _wrap_Finger_ActualCommand_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualSpeed_set", _wrap_Finger_ActualSpeed_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualSpeed_get", _wrap_Finger_ActualSpeed_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualForce_set", _wrap_Finger_ActualForce_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualForce_get", _wrap_Finger_ActualForce_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualAcceleration_set", _wrap_Finger_ActualAcceleration_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualAcceleration_get", _wrap_Finger_ActualAcceleration_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualCurrent_set", _wrap_Finger_ActualCurrent_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualCurrent_get", _wrap_Finger_ActualCurrent_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualPosition_set", _wrap_Finger_ActualPosition_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualPosition_get", _wrap_Finger_ActualPosition_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualAverageCurrent_set", _wrap_Finger_ActualAverageCurrent_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualAverageCurrent_get", _wrap_Finger_ActualAverageCurrent_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualTemperature_set", _wrap_Finger_ActualTemperature_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_ActualTemperature_get", _wrap_Finger_ActualTemperature_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_CommunicationErrors_set", _wrap_Finger_CommunicationErrors_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_CommunicationErrors_get", _wrap_Finger_CommunicationErrors_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_OscillatorTuningValue_set", _wrap_Finger_OscillatorTuningValue_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_OscillatorTuningValue_get", _wrap_Finger_OscillatorTuningValue_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_CycleCount_set", _wrap_Finger_CycleCount_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_CycleCount_get", _wrap_Finger_CycleCount_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_RunTime_set", _wrap_Finger_RunTime_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_RunTime_get", _wrap_Finger_RunTime_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_PeakMaxTemp_set", _wrap_Finger_PeakMaxTemp_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_PeakMaxTemp_get", _wrap_Finger_PeakMaxTemp_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_PeakMinTemp_set", _wrap_Finger_PeakMinTemp_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_PeakMinTemp_get", _wrap_Finger_PeakMinTemp_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_PeakCurrent_set", _wrap_Finger_PeakCurrent_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_PeakCurrent_get", _wrap_Finger_PeakCurrent_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxSpeed_set", _wrap_Finger_MaxSpeed_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxSpeed_get", _wrap_Finger_MaxSpeed_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxForce_set", _wrap_Finger_MaxForce_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxForce_get", _wrap_Finger_MaxForce_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxAcceleration_set", _wrap_Finger_MaxAcceleration_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxAcceleration_get", _wrap_Finger_MaxAcceleration_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxCurrent_set", _wrap_Finger_MaxCurrent_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxCurrent_get", _wrap_Finger_MaxCurrent_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxAngle_set", _wrap_Finger_MaxAngle_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_MaxAngle_get", _wrap_Finger_MaxAngle_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_MinAngle_set", _wrap_Finger_MinAngle_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_MinAngle_get", _wrap_Finger_MinAngle_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_DeviceID_set", _wrap_Finger_DeviceID_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_DeviceID_get", _wrap_Finger_DeviceID_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_CodeVersion_set", _wrap_Finger_CodeVersion_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_CodeVersion_get", _wrap_Finger_CodeVersion_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_IsFingerInit_set", _wrap_Finger_IsFingerInit_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_IsFingerInit_get", _wrap_Finger_IsFingerInit_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_Index_set", _wrap_Finger_Index_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_Index_get", _wrap_Finger_Index_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_FingerAddress_set", _wrap_Finger_FingerAddress_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_FingerAddress_get", _wrap_Finger_FingerAddress_get, METH_VARARGS, NULL},
-	 { (char *)"Finger_IsFingerConnected_set", _wrap_Finger_IsFingerConnected_set, METH_VARARGS, NULL},
-	 { (char *)"Finger_IsFingerConnected_get", _wrap_Finger_IsFingerConnected_get, METH_VARARGS, NULL},
-	 { (char *)"new_Finger", _wrap_new_Finger, METH_VARARGS, NULL},
-	 { (char *)"delete_Finger", _wrap_delete_Finger, METH_VARARGS, NULL},
+	 { (char *)"Finger_ID_set", _wrap_Finger_ID_set, METH_VARARGS, (char *)"Finger_ID_set(Finger self, char [20] ID)"},
+	 { (char *)"Finger_ID_get", _wrap_Finger_ID_get, METH_VARARGS, (char *)"Finger_ID_get(Finger self) -> char [20]"},
+	 { (char *)"Finger_ActualCommand_set", _wrap_Finger_ActualCommand_set, METH_VARARGS, (char *)"Finger_ActualCommand_set(Finger self, float ActualCommand)"},
+	 { (char *)"Finger_ActualCommand_get", _wrap_Finger_ActualCommand_get, METH_VARARGS, (char *)"Finger_ActualCommand_get(Finger self) -> float"},
+	 { (char *)"Finger_ActualSpeed_set", _wrap_Finger_ActualSpeed_set, METH_VARARGS, (char *)"Finger_ActualSpeed_set(Finger self, float ActualSpeed)"},
+	 { (char *)"Finger_ActualSpeed_get", _wrap_Finger_ActualSpeed_get, METH_VARARGS, (char *)"Finger_ActualSpeed_get(Finger self) -> float"},
+	 { (char *)"Finger_ActualForce_set", _wrap_Finger_ActualForce_set, METH_VARARGS, (char *)"Finger_ActualForce_set(Finger self, float ActualForce)"},
+	 { (char *)"Finger_ActualForce_get", _wrap_Finger_ActualForce_get, METH_VARARGS, (char *)"Finger_ActualForce_get(Finger self) -> float"},
+	 { (char *)"Finger_ActualAcceleration_set", _wrap_Finger_ActualAcceleration_set, METH_VARARGS, (char *)"Finger_ActualAcceleration_set(Finger self, float ActualAcceleration)"},
+	 { (char *)"Finger_ActualAcceleration_get", _wrap_Finger_ActualAcceleration_get, METH_VARARGS, (char *)"Finger_ActualAcceleration_get(Finger self) -> float"},
+	 { (char *)"Finger_ActualCurrent_set", _wrap_Finger_ActualCurrent_set, METH_VARARGS, (char *)"Finger_ActualCurrent_set(Finger self, float ActualCurrent)"},
+	 { (char *)"Finger_ActualCurrent_get", _wrap_Finger_ActualCurrent_get, METH_VARARGS, (char *)"Finger_ActualCurrent_get(Finger self) -> float"},
+	 { (char *)"Finger_ActualPosition_set", _wrap_Finger_ActualPosition_set, METH_VARARGS, (char *)"Finger_ActualPosition_set(Finger self, float ActualPosition)"},
+	 { (char *)"Finger_ActualPosition_get", _wrap_Finger_ActualPosition_get, METH_VARARGS, (char *)"Finger_ActualPosition_get(Finger self) -> float"},
+	 { (char *)"Finger_ActualAverageCurrent_set", _wrap_Finger_ActualAverageCurrent_set, METH_VARARGS, (char *)"Finger_ActualAverageCurrent_set(Finger self, float ActualAverageCurrent)"},
+	 { (char *)"Finger_ActualAverageCurrent_get", _wrap_Finger_ActualAverageCurrent_get, METH_VARARGS, (char *)"Finger_ActualAverageCurrent_get(Finger self) -> float"},
+	 { (char *)"Finger_ActualTemperature_set", _wrap_Finger_ActualTemperature_set, METH_VARARGS, (char *)"Finger_ActualTemperature_set(Finger self, float ActualTemperature)"},
+	 { (char *)"Finger_ActualTemperature_get", _wrap_Finger_ActualTemperature_get, METH_VARARGS, (char *)"Finger_ActualTemperature_get(Finger self) -> float"},
+	 { (char *)"Finger_CommunicationErrors_set", _wrap_Finger_CommunicationErrors_set, METH_VARARGS, (char *)"Finger_CommunicationErrors_set(Finger self, int CommunicationErrors)"},
+	 { (char *)"Finger_CommunicationErrors_get", _wrap_Finger_CommunicationErrors_get, METH_VARARGS, (char *)"Finger_CommunicationErrors_get(Finger self) -> int"},
+	 { (char *)"Finger_OscillatorTuningValue_set", _wrap_Finger_OscillatorTuningValue_set, METH_VARARGS, (char *)"Finger_OscillatorTuningValue_set(Finger self, int OscillatorTuningValue)"},
+	 { (char *)"Finger_OscillatorTuningValue_get", _wrap_Finger_OscillatorTuningValue_get, METH_VARARGS, (char *)"Finger_OscillatorTuningValue_get(Finger self) -> int"},
+	 { (char *)"Finger_CycleCount_set", _wrap_Finger_CycleCount_set, METH_VARARGS, (char *)"Finger_CycleCount_set(Finger self, float CycleCount)"},
+	 { (char *)"Finger_CycleCount_get", _wrap_Finger_CycleCount_get, METH_VARARGS, (char *)"Finger_CycleCount_get(Finger self) -> float"},
+	 { (char *)"Finger_RunTime_set", _wrap_Finger_RunTime_set, METH_VARARGS, (char *)"Finger_RunTime_set(Finger self, float RunTime)"},
+	 { (char *)"Finger_RunTime_get", _wrap_Finger_RunTime_get, METH_VARARGS, (char *)"Finger_RunTime_get(Finger self) -> float"},
+	 { (char *)"Finger_PeakMaxTemp_set", _wrap_Finger_PeakMaxTemp_set, METH_VARARGS, (char *)"Finger_PeakMaxTemp_set(Finger self, float PeakMaxTemp)"},
+	 { (char *)"Finger_PeakMaxTemp_get", _wrap_Finger_PeakMaxTemp_get, METH_VARARGS, (char *)"Finger_PeakMaxTemp_get(Finger self) -> float"},
+	 { (char *)"Finger_PeakMinTemp_set", _wrap_Finger_PeakMinTemp_set, METH_VARARGS, (char *)"Finger_PeakMinTemp_set(Finger self, float PeakMinTemp)"},
+	 { (char *)"Finger_PeakMinTemp_get", _wrap_Finger_PeakMinTemp_get, METH_VARARGS, (char *)"Finger_PeakMinTemp_get(Finger self) -> float"},
+	 { (char *)"Finger_PeakCurrent_set", _wrap_Finger_PeakCurrent_set, METH_VARARGS, (char *)"Finger_PeakCurrent_set(Finger self, float PeakCurrent)"},
+	 { (char *)"Finger_PeakCurrent_get", _wrap_Finger_PeakCurrent_get, METH_VARARGS, (char *)"Finger_PeakCurrent_get(Finger self) -> float"},
+	 { (char *)"Finger_MaxSpeed_set", _wrap_Finger_MaxSpeed_set, METH_VARARGS, (char *)"Finger_MaxSpeed_set(Finger self, float MaxSpeed)"},
+	 { (char *)"Finger_MaxSpeed_get", _wrap_Finger_MaxSpeed_get, METH_VARARGS, (char *)"Finger_MaxSpeed_get(Finger self) -> float"},
+	 { (char *)"Finger_MaxForce_set", _wrap_Finger_MaxForce_set, METH_VARARGS, (char *)"Finger_MaxForce_set(Finger self, float MaxForce)"},
+	 { (char *)"Finger_MaxForce_get", _wrap_Finger_MaxForce_get, METH_VARARGS, (char *)"Finger_MaxForce_get(Finger self) -> float"},
+	 { (char *)"Finger_MaxAcceleration_set", _wrap_Finger_MaxAcceleration_set, METH_VARARGS, (char *)"Finger_MaxAcceleration_set(Finger self, float MaxAcceleration)"},
+	 { (char *)"Finger_MaxAcceleration_get", _wrap_Finger_MaxAcceleration_get, METH_VARARGS, (char *)"Finger_MaxAcceleration_get(Finger self) -> float"},
+	 { (char *)"Finger_MaxCurrent_set", _wrap_Finger_MaxCurrent_set, METH_VARARGS, (char *)"Finger_MaxCurrent_set(Finger self, float MaxCurrent)"},
+	 { (char *)"Finger_MaxCurrent_get", _wrap_Finger_MaxCurrent_get, METH_VARARGS, (char *)"Finger_MaxCurrent_get(Finger self) -> float"},
+	 { (char *)"Finger_MaxAngle_set", _wrap_Finger_MaxAngle_set, METH_VARARGS, (char *)"Finger_MaxAngle_set(Finger self, float MaxAngle)"},
+	 { (char *)"Finger_MaxAngle_get", _wrap_Finger_MaxAngle_get, METH_VARARGS, (char *)"Finger_MaxAngle_get(Finger self) -> float"},
+	 { (char *)"Finger_MinAngle_set", _wrap_Finger_MinAngle_set, METH_VARARGS, (char *)"Finger_MinAngle_set(Finger self, float MinAngle)"},
+	 { (char *)"Finger_MinAngle_get", _wrap_Finger_MinAngle_get, METH_VARARGS, (char *)"Finger_MinAngle_get(Finger self) -> float"},
+	 { (char *)"Finger_DeviceID_set", _wrap_Finger_DeviceID_set, METH_VARARGS, (char *)"Finger_DeviceID_set(Finger self, unsigned int DeviceID)"},
+	 { (char *)"Finger_DeviceID_get", _wrap_Finger_DeviceID_get, METH_VARARGS, (char *)"Finger_DeviceID_get(Finger self) -> unsigned int"},
+	 { (char *)"Finger_CodeVersion_set", _wrap_Finger_CodeVersion_set, METH_VARARGS, (char *)"Finger_CodeVersion_set(Finger self, unsigned int CodeVersion)"},
+	 { (char *)"Finger_CodeVersion_get", _wrap_Finger_CodeVersion_get, METH_VARARGS, (char *)"Finger_CodeVersion_get(Finger self) -> unsigned int"},
+	 { (char *)"Finger_IsFingerInit_set", _wrap_Finger_IsFingerInit_set, METH_VARARGS, (char *)"Finger_IsFingerInit_set(Finger self, unsigned short IsFingerInit)"},
+	 { (char *)"Finger_IsFingerInit_get", _wrap_Finger_IsFingerInit_get, METH_VARARGS, (char *)"Finger_IsFingerInit_get(Finger self) -> unsigned short"},
+	 { (char *)"Finger_Index_set", _wrap_Finger_Index_set, METH_VARARGS, (char *)"Finger_Index_set(Finger self, unsigned short Index)"},
+	 { (char *)"Finger_Index_get", _wrap_Finger_Index_get, METH_VARARGS, (char *)"Finger_Index_get(Finger self) -> unsigned short"},
+	 { (char *)"Finger_FingerAddress_set", _wrap_Finger_FingerAddress_set, METH_VARARGS, (char *)"Finger_FingerAddress_set(Finger self, unsigned short FingerAddress)"},
+	 { (char *)"Finger_FingerAddress_get", _wrap_Finger_FingerAddress_get, METH_VARARGS, (char *)"Finger_FingerAddress_get(Finger self) -> unsigned short"},
+	 { (char *)"Finger_IsFingerConnected_set", _wrap_Finger_IsFingerConnected_set, METH_VARARGS, (char *)"Finger_IsFingerConnected_set(Finger self, unsigned short IsFingerConnected)"},
+	 { (char *)"Finger_IsFingerConnected_get", _wrap_Finger_IsFingerConnected_get, METH_VARARGS, (char *)"Finger_IsFingerConnected_get(Finger self) -> unsigned short"},
+	 { (char *)"new_Finger", _wrap_new_Finger, METH_VARARGS, (char *)"new_Finger() -> Finger"},
+	 { (char *)"delete_Finger", _wrap_delete_Finger, METH_VARARGS, (char *)"delete_Finger(Finger self)"},
 	 { (char *)"Finger_swigregister", Finger_swigregister, METH_VARARGS, NULL},
-	 { (char *)"Gripper_Model_set", _wrap_Gripper_Model_set, METH_VARARGS, NULL},
-	 { (char *)"Gripper_Model_get", _wrap_Gripper_Model_get, METH_VARARGS, NULL},
-	 { (char *)"Gripper_Fingers_set", _wrap_Gripper_Fingers_set, METH_VARARGS, NULL},
-	 { (char *)"Gripper_Fingers_get", _wrap_Gripper_Fingers_get, METH_VARARGS, NULL},
-	 { (char *)"new_Gripper", _wrap_new_Gripper, METH_VARARGS, NULL},
-	 { (char *)"delete_Gripper", _wrap_delete_Gripper, METH_VARARGS, NULL},
+	 { (char *)"Gripper_Model_set", _wrap_Gripper_Model_set, METH_VARARGS, (char *)"Gripper_Model_set(Gripper self, char [20] Model)"},
+	 { (char *)"Gripper_Model_get", _wrap_Gripper_Model_get, METH_VARARGS, (char *)"Gripper_Model_get(Gripper self) -> char [20]"},
+	 { (char *)"Gripper_Fingers_set", _wrap_Gripper_Fingers_set, METH_VARARGS, (char *)"Gripper_Fingers_set(Gripper self, Finger Fingers)"},
+	 { (char *)"Gripper_Fingers_get", _wrap_Gripper_Fingers_get, METH_VARARGS, (char *)"Gripper_Fingers_get(Gripper self) -> Finger"},
+	 { (char *)"new_Gripper", _wrap_new_Gripper, METH_VARARGS, (char *)"new_Gripper() -> Gripper"},
+	 { (char *)"delete_Gripper", _wrap_delete_Gripper, METH_VARARGS, (char *)"delete_Gripper(Gripper self)"},
 	 { (char *)"Gripper_swigregister", Gripper_swigregister, METH_VARARGS, NULL},
-	 { (char *)"ZoneShape_shapeType_set", _wrap_ZoneShape_shapeType_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneShape_shapeType_get", _wrap_ZoneShape_shapeType_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneShape_Expansion1_set", _wrap_ZoneShape_Expansion1_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneShape_Expansion1_get", _wrap_ZoneShape_Expansion1_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneShape_Points_set", _wrap_ZoneShape_Points_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneShape_Points_get", _wrap_ZoneShape_Points_get, METH_VARARGS, NULL},
-	 { (char *)"new_ZoneShape", _wrap_new_ZoneShape, METH_VARARGS, NULL},
-	 { (char *)"delete_ZoneShape", _wrap_delete_ZoneShape, METH_VARARGS, NULL},
+	 { (char *)"ZoneShape_shapeType_set", _wrap_ZoneShape_shapeType_set, METH_VARARGS, (char *)"ZoneShape_shapeType_set(ZoneShape self, ShapeType shapeType)"},
+	 { (char *)"ZoneShape_shapeType_get", _wrap_ZoneShape_shapeType_get, METH_VARARGS, (char *)"ZoneShape_shapeType_get(ZoneShape self) -> ShapeType"},
+	 { (char *)"ZoneShape_Expansion1_set", _wrap_ZoneShape_Expansion1_set, METH_VARARGS, (char *)"ZoneShape_Expansion1_set(ZoneShape self, int Expansion1)"},
+	 { (char *)"ZoneShape_Expansion1_get", _wrap_ZoneShape_Expansion1_get, METH_VARARGS, (char *)"ZoneShape_Expansion1_get(ZoneShape self) -> int"},
+	 { (char *)"ZoneShape_Points_set", _wrap_ZoneShape_Points_set, METH_VARARGS, (char *)"ZoneShape_Points_set(ZoneShape self, CartesianInfo Points)"},
+	 { (char *)"ZoneShape_Points_get", _wrap_ZoneShape_Points_get, METH_VARARGS, (char *)"ZoneShape_Points_get(ZoneShape self) -> CartesianInfo"},
+	 { (char *)"new_ZoneShape", _wrap_new_ZoneShape, METH_VARARGS, (char *)"new_ZoneShape() -> ZoneShape"},
+	 { (char *)"delete_ZoneShape", _wrap_delete_ZoneShape, METH_VARARGS, (char *)"delete_ZoneShape(ZoneShape self)"},
 	 { (char *)"ZoneShape_swigregister", ZoneShape_swigregister, METH_VARARGS, NULL},
-	 { (char *)"Zone_ID_set", _wrap_Zone_ID_set, METH_VARARGS, NULL},
-	 { (char *)"Zone_ID_get", _wrap_Zone_ID_get, METH_VARARGS, NULL},
-	 { (char *)"Zone_Expansion1_set", _wrap_Zone_Expansion1_set, METH_VARARGS, NULL},
-	 { (char *)"Zone_Expansion1_get", _wrap_Zone_Expansion1_get, METH_VARARGS, NULL},
-	 { (char *)"Zone_zoneShape_set", _wrap_Zone_zoneShape_set, METH_VARARGS, NULL},
-	 { (char *)"Zone_zoneShape_get", _wrap_Zone_zoneShape_get, METH_VARARGS, NULL},
-	 { (char *)"Zone_zoneLimitation_set", _wrap_Zone_zoneLimitation_set, METH_VARARGS, NULL},
-	 { (char *)"Zone_zoneLimitation_get", _wrap_Zone_zoneLimitation_get, METH_VARARGS, NULL},
-	 { (char *)"Zone_Expansion2_set", _wrap_Zone_Expansion2_set, METH_VARARGS, NULL},
-	 { (char *)"Zone_Expansion2_get", _wrap_Zone_Expansion2_get, METH_VARARGS, NULL},
-	 { (char *)"new_Zone", _wrap_new_Zone, METH_VARARGS, NULL},
-	 { (char *)"delete_Zone", _wrap_delete_Zone, METH_VARARGS, NULL},
+	 { (char *)"Zone_ID_set", _wrap_Zone_ID_set, METH_VARARGS, (char *)"Zone_ID_set(Zone self, int ID)"},
+	 { (char *)"Zone_ID_get", _wrap_Zone_ID_get, METH_VARARGS, (char *)"Zone_ID_get(Zone self) -> int"},
+	 { (char *)"Zone_Expansion1_set", _wrap_Zone_Expansion1_set, METH_VARARGS, (char *)"Zone_Expansion1_set(Zone self, int Expansion1)"},
+	 { (char *)"Zone_Expansion1_get", _wrap_Zone_Expansion1_get, METH_VARARGS, (char *)"Zone_Expansion1_get(Zone self) -> int"},
+	 { (char *)"Zone_zoneShape_set", _wrap_Zone_zoneShape_set, METH_VARARGS, (char *)"Zone_zoneShape_set(Zone self, ZoneShape zoneShape)"},
+	 { (char *)"Zone_zoneShape_get", _wrap_Zone_zoneShape_get, METH_VARARGS, (char *)"Zone_zoneShape_get(Zone self) -> ZoneShape"},
+	 { (char *)"Zone_zoneLimitation_set", _wrap_Zone_zoneLimitation_set, METH_VARARGS, (char *)"Zone_zoneLimitation_set(Zone self, ZoneLimitation zoneLimitation)"},
+	 { (char *)"Zone_zoneLimitation_get", _wrap_Zone_zoneLimitation_get, METH_VARARGS, (char *)"Zone_zoneLimitation_get(Zone self) -> ZoneLimitation"},
+	 { (char *)"Zone_Expansion2_set", _wrap_Zone_Expansion2_set, METH_VARARGS, (char *)"Zone_Expansion2_set(Zone self, int Expansion2)"},
+	 { (char *)"Zone_Expansion2_get", _wrap_Zone_Expansion2_get, METH_VARARGS, (char *)"Zone_Expansion2_get(Zone self) -> int"},
+	 { (char *)"new_Zone", _wrap_new_Zone, METH_VARARGS, (char *)"new_Zone() -> Zone"},
+	 { (char *)"delete_Zone", _wrap_delete_Zone, METH_VARARGS, (char *)"delete_Zone(Zone self)"},
 	 { (char *)"Zone_swigregister", Zone_swigregister, METH_VARARGS, NULL},
-	 { (char *)"ZoneList_NbZones_set", _wrap_ZoneList_NbZones_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneList_NbZones_get", _wrap_ZoneList_NbZones_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneList_Expansion1_set", _wrap_ZoneList_Expansion1_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneList_Expansion1_get", _wrap_ZoneList_Expansion1_get, METH_VARARGS, NULL},
-	 { (char *)"ZoneList_Zones_set", _wrap_ZoneList_Zones_set, METH_VARARGS, NULL},
-	 { (char *)"ZoneList_Zones_get", _wrap_ZoneList_Zones_get, METH_VARARGS, NULL},
-	 { (char *)"new_ZoneList", _wrap_new_ZoneList, METH_VARARGS, NULL},
-	 { (char *)"delete_ZoneList", _wrap_delete_ZoneList, METH_VARARGS, NULL},
+	 { (char *)"ZoneList_NbZones_set", _wrap_ZoneList_NbZones_set, METH_VARARGS, (char *)"ZoneList_NbZones_set(ZoneList self, int NbZones)"},
+	 { (char *)"ZoneList_NbZones_get", _wrap_ZoneList_NbZones_get, METH_VARARGS, (char *)"ZoneList_NbZones_get(ZoneList self) -> int"},
+	 { (char *)"ZoneList_Expansion1_set", _wrap_ZoneList_Expansion1_set, METH_VARARGS, (char *)"ZoneList_Expansion1_set(ZoneList self, int Expansion1)"},
+	 { (char *)"ZoneList_Expansion1_get", _wrap_ZoneList_Expansion1_get, METH_VARARGS, (char *)"ZoneList_Expansion1_get(ZoneList self) -> int"},
+	 { (char *)"ZoneList_Zones_set", _wrap_ZoneList_Zones_set, METH_VARARGS, (char *)"ZoneList_Zones_set(ZoneList self, Zone Zones)"},
+	 { (char *)"ZoneList_Zones_get", _wrap_ZoneList_Zones_get, METH_VARARGS, (char *)"ZoneList_Zones_get(ZoneList self) -> Zone"},
+	 { (char *)"new_ZoneList", _wrap_new_ZoneList, METH_VARARGS, (char *)"new_ZoneList() -> ZoneList"},
+	 { (char *)"delete_ZoneList", _wrap_delete_ZoneList, METH_VARARGS, (char *)"delete_ZoneList(ZoneList self)"},
 	 { (char *)"ZoneList_swigregister", ZoneList_swigregister, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_JoystickActive_set", _wrap_SystemStatus_JoystickActive_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_JoystickActive_get", _wrap_SystemStatus_JoystickActive_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_RetractStatus_set", _wrap_SystemStatus_RetractStatus_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_RetractStatus_get", _wrap_SystemStatus_RetractStatus_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_DrinkingMode_set", _wrap_SystemStatus_DrinkingMode_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_DrinkingMode_get", _wrap_SystemStatus_DrinkingMode_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_ArmLaterality_set", _wrap_SystemStatus_ArmLaterality_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_ArmLaterality_get", _wrap_SystemStatus_ArmLaterality_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_TranslationActive_set", _wrap_SystemStatus_TranslationActive_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_TranslationActive_get", _wrap_SystemStatus_TranslationActive_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_RotationActive_set", _wrap_SystemStatus_RotationActive_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_RotationActive_get", _wrap_SystemStatus_RotationActive_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_FingersActive_set", _wrap_SystemStatus_FingersActive_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_FingersActive_get", _wrap_SystemStatus_FingersActive_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_WarningOverchargeForce_set", _wrap_SystemStatus_WarningOverchargeForce_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_WarningOverchargeForce_get", _wrap_SystemStatus_WarningOverchargeForce_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_WarningOverchargeFingers_set", _wrap_SystemStatus_WarningOverchargeFingers_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_WarningOverchargeFingers_get", _wrap_SystemStatus_WarningOverchargeFingers_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_WarningLowVoltage_set", _wrap_SystemStatus_WarningLowVoltage_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_WarningLowVoltage_get", _wrap_SystemStatus_WarningLowVoltage_get, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_MajorErrorOccured_set", _wrap_SystemStatus_MajorErrorOccured_set, METH_VARARGS, NULL},
-	 { (char *)"SystemStatus_MajorErrorOccured_get", _wrap_SystemStatus_MajorErrorOccured_get, METH_VARARGS, NULL},
-	 { (char *)"new_SystemStatus", _wrap_new_SystemStatus, METH_VARARGS, NULL},
-	 { (char *)"delete_SystemStatus", _wrap_delete_SystemStatus, METH_VARARGS, NULL},
+	 { (char *)"SystemStatus_JoystickActive_set", _wrap_SystemStatus_JoystickActive_set, METH_VARARGS, (char *)"SystemStatus_JoystickActive_set(SystemStatus self, unsigned int JoystickActive)"},
+	 { (char *)"SystemStatus_JoystickActive_get", _wrap_SystemStatus_JoystickActive_get, METH_VARARGS, (char *)"SystemStatus_JoystickActive_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_RetractStatus_set", _wrap_SystemStatus_RetractStatus_set, METH_VARARGS, (char *)"SystemStatus_RetractStatus_set(SystemStatus self, unsigned int RetractStatus)"},
+	 { (char *)"SystemStatus_RetractStatus_get", _wrap_SystemStatus_RetractStatus_get, METH_VARARGS, (char *)"SystemStatus_RetractStatus_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_DrinkingMode_set", _wrap_SystemStatus_DrinkingMode_set, METH_VARARGS, (char *)"SystemStatus_DrinkingMode_set(SystemStatus self, unsigned int DrinkingMode)"},
+	 { (char *)"SystemStatus_DrinkingMode_get", _wrap_SystemStatus_DrinkingMode_get, METH_VARARGS, (char *)"SystemStatus_DrinkingMode_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_ArmLaterality_set", _wrap_SystemStatus_ArmLaterality_set, METH_VARARGS, (char *)"SystemStatus_ArmLaterality_set(SystemStatus self, unsigned int ArmLaterality)"},
+	 { (char *)"SystemStatus_ArmLaterality_get", _wrap_SystemStatus_ArmLaterality_get, METH_VARARGS, (char *)"SystemStatus_ArmLaterality_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_TranslationActive_set", _wrap_SystemStatus_TranslationActive_set, METH_VARARGS, (char *)"SystemStatus_TranslationActive_set(SystemStatus self, unsigned int TranslationActive)"},
+	 { (char *)"SystemStatus_TranslationActive_get", _wrap_SystemStatus_TranslationActive_get, METH_VARARGS, (char *)"SystemStatus_TranslationActive_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_RotationActive_set", _wrap_SystemStatus_RotationActive_set, METH_VARARGS, (char *)"SystemStatus_RotationActive_set(SystemStatus self, unsigned int RotationActive)"},
+	 { (char *)"SystemStatus_RotationActive_get", _wrap_SystemStatus_RotationActive_get, METH_VARARGS, (char *)"SystemStatus_RotationActive_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_FingersActive_set", _wrap_SystemStatus_FingersActive_set, METH_VARARGS, (char *)"SystemStatus_FingersActive_set(SystemStatus self, unsigned int FingersActive)"},
+	 { (char *)"SystemStatus_FingersActive_get", _wrap_SystemStatus_FingersActive_get, METH_VARARGS, (char *)"SystemStatus_FingersActive_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_WarningOverchargeForce_set", _wrap_SystemStatus_WarningOverchargeForce_set, METH_VARARGS, (char *)"SystemStatus_WarningOverchargeForce_set(SystemStatus self, unsigned int WarningOverchargeForce)"},
+	 { (char *)"SystemStatus_WarningOverchargeForce_get", _wrap_SystemStatus_WarningOverchargeForce_get, METH_VARARGS, (char *)"SystemStatus_WarningOverchargeForce_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_WarningOverchargeFingers_set", _wrap_SystemStatus_WarningOverchargeFingers_set, METH_VARARGS, (char *)"SystemStatus_WarningOverchargeFingers_set(SystemStatus self, unsigned int WarningOverchargeFingers)"},
+	 { (char *)"SystemStatus_WarningOverchargeFingers_get", _wrap_SystemStatus_WarningOverchargeFingers_get, METH_VARARGS, (char *)"SystemStatus_WarningOverchargeFingers_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_WarningLowVoltage_set", _wrap_SystemStatus_WarningLowVoltage_set, METH_VARARGS, (char *)"SystemStatus_WarningLowVoltage_set(SystemStatus self, unsigned int WarningLowVoltage)"},
+	 { (char *)"SystemStatus_WarningLowVoltage_get", _wrap_SystemStatus_WarningLowVoltage_get, METH_VARARGS, (char *)"SystemStatus_WarningLowVoltage_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"SystemStatus_MajorErrorOccured_set", _wrap_SystemStatus_MajorErrorOccured_set, METH_VARARGS, (char *)"SystemStatus_MajorErrorOccured_set(SystemStatus self, unsigned int MajorErrorOccured)"},
+	 { (char *)"SystemStatus_MajorErrorOccured_get", _wrap_SystemStatus_MajorErrorOccured_get, METH_VARARGS, (char *)"SystemStatus_MajorErrorOccured_get(SystemStatus self) -> unsigned int"},
+	 { (char *)"new_SystemStatus", _wrap_new_SystemStatus, METH_VARARGS, (char *)"new_SystemStatus() -> SystemStatus"},
+	 { (char *)"delete_SystemStatus", _wrap_delete_SystemStatus, METH_VARARGS, (char *)"delete_SystemStatus(SystemStatus self)"},
 	 { (char *)"SystemStatus_swigregister", SystemStatus_swigregister, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_TimeAbsolute_set", _wrap_GeneralInformations_TimeAbsolute_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_TimeAbsolute_get", _wrap_GeneralInformations_TimeAbsolute_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_TimeFromStartup_set", _wrap_GeneralInformations_TimeFromStartup_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_TimeFromStartup_get", _wrap_GeneralInformations_TimeFromStartup_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_IndexStartup_set", _wrap_GeneralInformations_IndexStartup_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_IndexStartup_get", _wrap_GeneralInformations_IndexStartup_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ExpansionLong1_set", _wrap_GeneralInformations_ExpansionLong1_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ExpansionLong1_get", _wrap_GeneralInformations_ExpansionLong1_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_TimeStampSavings_set", _wrap_GeneralInformations_TimeStampSavings_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_TimeStampSavings_get", _wrap_GeneralInformations_TimeStampSavings_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ExpansionFloat_set", _wrap_GeneralInformations_ExpansionFloat_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ExpansionFloat_get", _wrap_GeneralInformations_ExpansionFloat_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_SupplyVoltage_set", _wrap_GeneralInformations_SupplyVoltage_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_SupplyVoltage_get", _wrap_GeneralInformations_SupplyVoltage_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_TotalCurrent_set", _wrap_GeneralInformations_TotalCurrent_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_TotalCurrent_get", _wrap_GeneralInformations_TotalCurrent_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Power_set", _wrap_GeneralInformations_Power_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Power_get", _wrap_GeneralInformations_Power_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_AveragePower_set", _wrap_GeneralInformations_AveragePower_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_AveragePower_get", _wrap_GeneralInformations_AveragePower_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_AccelerationX_set", _wrap_GeneralInformations_AccelerationX_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_AccelerationX_get", _wrap_GeneralInformations_AccelerationX_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_AccelerationY_set", _wrap_GeneralInformations_AccelerationY_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_AccelerationY_get", _wrap_GeneralInformations_AccelerationY_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_AccelerationZ_set", _wrap_GeneralInformations_AccelerationZ_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_AccelerationZ_get", _wrap_GeneralInformations_AccelerationZ_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_SensorExpansion1_set", _wrap_GeneralInformations_SensorExpansion1_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_SensorExpansion1_get", _wrap_GeneralInformations_SensorExpansion1_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_SensorExpansion2_set", _wrap_GeneralInformations_SensorExpansion2_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_SensorExpansion2_get", _wrap_GeneralInformations_SensorExpansion2_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_SensorExpansion3_set", _wrap_GeneralInformations_SensorExpansion3_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_SensorExpansion3_get", _wrap_GeneralInformations_SensorExpansion3_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_CodeVersion_set", _wrap_GeneralInformations_CodeVersion_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_CodeVersion_get", _wrap_GeneralInformations_CodeVersion_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_CodeRevision_set", _wrap_GeneralInformations_CodeRevision_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_CodeRevision_get", _wrap_GeneralInformations_CodeRevision_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Status_set", _wrap_GeneralInformations_Status_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Status_get", _wrap_GeneralInformations_Status_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Controller_set", _wrap_GeneralInformations_Controller_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Controller_get", _wrap_GeneralInformations_Controller_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ControlMode_set", _wrap_GeneralInformations_ControlMode_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ControlMode_get", _wrap_GeneralInformations_ControlMode_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_HandMode_set", _wrap_GeneralInformations_HandMode_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_HandMode_get", _wrap_GeneralInformations_HandMode_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ConnectedActuatorCount_set", _wrap_GeneralInformations_ConnectedActuatorCount_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ConnectedActuatorCount_get", _wrap_GeneralInformations_ConnectedActuatorCount_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_PositionType_set", _wrap_GeneralInformations_PositionType_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_PositionType_get", _wrap_GeneralInformations_PositionType_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsSpiExpansion1_set", _wrap_GeneralInformations_ErrorsSpiExpansion1_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsSpiExpansion1_get", _wrap_GeneralInformations_ErrorsSpiExpansion1_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsSpiExpansion2_set", _wrap_GeneralInformations_ErrorsSpiExpansion2_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsSpiExpansion2_get", _wrap_GeneralInformations_ErrorsSpiExpansion2_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsMainSPICount_set", _wrap_GeneralInformations_ErrorsMainSPICount_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsMainSPICount_get", _wrap_GeneralInformations_ErrorsMainSPICount_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsExternalSPICount_set", _wrap_GeneralInformations_ErrorsExternalSPICount_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsExternalSPICount_get", _wrap_GeneralInformations_ErrorsExternalSPICount_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsMainCANCount_set", _wrap_GeneralInformations_ErrorsMainCANCount_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsMainCANCount_get", _wrap_GeneralInformations_ErrorsMainCANCount_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsExternalCANCount_set", _wrap_GeneralInformations_ErrorsExternalCANCount_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ErrorsExternalCANCount_get", _wrap_GeneralInformations_ErrorsExternalCANCount_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActualSystemStatus_set", _wrap_GeneralInformations_ActualSystemStatus_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActualSystemStatus_get", _wrap_GeneralInformations_ActualSystemStatus_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Position_set", _wrap_GeneralInformations_Position_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Position_get", _wrap_GeneralInformations_Position_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Command_set", _wrap_GeneralInformations_Command_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Command_get", _wrap_GeneralInformations_Command_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Current_set", _wrap_GeneralInformations_Current_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Current_get", _wrap_GeneralInformations_Current_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Force_set", _wrap_GeneralInformations_Force_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_Force_get", _wrap_GeneralInformations_Force_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActualLimitations_set", _wrap_GeneralInformations_ActualLimitations_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActualLimitations_get", _wrap_GeneralInformations_ActualLimitations_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ControlIncrement_set", _wrap_GeneralInformations_ControlIncrement_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ControlIncrement_get", _wrap_GeneralInformations_ControlIncrement_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_FingerControlIncrement_set", _wrap_GeneralInformations_FingerControlIncrement_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_FingerControlIncrement_get", _wrap_GeneralInformations_FingerControlIncrement_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActualJoystickCommand_set", _wrap_GeneralInformations_ActualJoystickCommand_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActualJoystickCommand_get", _wrap_GeneralInformations_ActualJoystickCommand_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_PeripheralsConnected_set", _wrap_GeneralInformations_PeripheralsConnected_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_PeripheralsConnected_get", _wrap_GeneralInformations_PeripheralsConnected_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_PeripheralsDeviceID_set", _wrap_GeneralInformations_PeripheralsDeviceID_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_PeripheralsDeviceID_get", _wrap_GeneralInformations_PeripheralsDeviceID_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActuatorsTemperatures_set", _wrap_GeneralInformations_ActuatorsTemperatures_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActuatorsTemperatures_get", _wrap_GeneralInformations_ActuatorsTemperatures_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_FingersTemperatures_set", _wrap_GeneralInformations_FingersTemperatures_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_FingersTemperatures_get", _wrap_GeneralInformations_FingersTemperatures_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_FutureTemperatures_set", _wrap_GeneralInformations_FutureTemperatures_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_FutureTemperatures_get", _wrap_GeneralInformations_FutureTemperatures_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActuatorsCommErrors_set", _wrap_GeneralInformations_ActuatorsCommErrors_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ActuatorsCommErrors_get", _wrap_GeneralInformations_ActuatorsCommErrors_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_FingersCommErrors_set", _wrap_GeneralInformations_FingersCommErrors_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_FingersCommErrors_get", _wrap_GeneralInformations_FingersCommErrors_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ExpansionLong2_set", _wrap_GeneralInformations_ExpansionLong2_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ExpansionLong2_get", _wrap_GeneralInformations_ExpansionLong2_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ControlTimeAbsolute_set", _wrap_GeneralInformations_ControlTimeAbsolute_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ControlTimeAbsolute_get", _wrap_GeneralInformations_ControlTimeAbsolute_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ControlTimeFromStartup_set", _wrap_GeneralInformations_ControlTimeFromStartup_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ControlTimeFromStartup_get", _wrap_GeneralInformations_ControlTimeFromStartup_get, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ExpansionsBytes_set", _wrap_GeneralInformations_ExpansionsBytes_set, METH_VARARGS, NULL},
-	 { (char *)"GeneralInformations_ExpansionsBytes_get", _wrap_GeneralInformations_ExpansionsBytes_get, METH_VARARGS, NULL},
-	 { (char *)"new_GeneralInformations", _wrap_new_GeneralInformations, METH_VARARGS, NULL},
-	 { (char *)"delete_GeneralInformations", _wrap_delete_GeneralInformations, METH_VARARGS, NULL},
+	 { (char *)"GeneralInformations_TimeAbsolute_set", _wrap_GeneralInformations_TimeAbsolute_set, METH_VARARGS, (char *)"GeneralInformations_TimeAbsolute_set(GeneralInformations self, double TimeAbsolute)"},
+	 { (char *)"GeneralInformations_TimeAbsolute_get", _wrap_GeneralInformations_TimeAbsolute_get, METH_VARARGS, (char *)"GeneralInformations_TimeAbsolute_get(GeneralInformations self) -> double"},
+	 { (char *)"GeneralInformations_TimeFromStartup_set", _wrap_GeneralInformations_TimeFromStartup_set, METH_VARARGS, (char *)"GeneralInformations_TimeFromStartup_set(GeneralInformations self, double TimeFromStartup)"},
+	 { (char *)"GeneralInformations_TimeFromStartup_get", _wrap_GeneralInformations_TimeFromStartup_get, METH_VARARGS, (char *)"GeneralInformations_TimeFromStartup_get(GeneralInformations self) -> double"},
+	 { (char *)"GeneralInformations_IndexStartup_set", _wrap_GeneralInformations_IndexStartup_set, METH_VARARGS, (char *)"GeneralInformations_IndexStartup_set(GeneralInformations self, unsigned int IndexStartup)"},
+	 { (char *)"GeneralInformations_IndexStartup_get", _wrap_GeneralInformations_IndexStartup_get, METH_VARARGS, (char *)"GeneralInformations_IndexStartup_get(GeneralInformations self) -> unsigned int"},
+	 { (char *)"GeneralInformations_ExpansionLong1_set", _wrap_GeneralInformations_ExpansionLong1_set, METH_VARARGS, (char *)"GeneralInformations_ExpansionLong1_set(GeneralInformations self, int ExpansionLong1)"},
+	 { (char *)"GeneralInformations_ExpansionLong1_get", _wrap_GeneralInformations_ExpansionLong1_get, METH_VARARGS, (char *)"GeneralInformations_ExpansionLong1_get(GeneralInformations self) -> int"},
+	 { (char *)"GeneralInformations_TimeStampSavings_set", _wrap_GeneralInformations_TimeStampSavings_set, METH_VARARGS, (char *)"GeneralInformations_TimeStampSavings_set(GeneralInformations self, float TimeStampSavings)"},
+	 { (char *)"GeneralInformations_TimeStampSavings_get", _wrap_GeneralInformations_TimeStampSavings_get, METH_VARARGS, (char *)"GeneralInformations_TimeStampSavings_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_ExpansionFloat_set", _wrap_GeneralInformations_ExpansionFloat_set, METH_VARARGS, (char *)"GeneralInformations_ExpansionFloat_set(GeneralInformations self, float ExpansionFloat)"},
+	 { (char *)"GeneralInformations_ExpansionFloat_get", _wrap_GeneralInformations_ExpansionFloat_get, METH_VARARGS, (char *)"GeneralInformations_ExpansionFloat_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_SupplyVoltage_set", _wrap_GeneralInformations_SupplyVoltage_set, METH_VARARGS, (char *)"GeneralInformations_SupplyVoltage_set(GeneralInformations self, float SupplyVoltage)"},
+	 { (char *)"GeneralInformations_SupplyVoltage_get", _wrap_GeneralInformations_SupplyVoltage_get, METH_VARARGS, (char *)"GeneralInformations_SupplyVoltage_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_TotalCurrent_set", _wrap_GeneralInformations_TotalCurrent_set, METH_VARARGS, (char *)"GeneralInformations_TotalCurrent_set(GeneralInformations self, float TotalCurrent)"},
+	 { (char *)"GeneralInformations_TotalCurrent_get", _wrap_GeneralInformations_TotalCurrent_get, METH_VARARGS, (char *)"GeneralInformations_TotalCurrent_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_Power_set", _wrap_GeneralInformations_Power_set, METH_VARARGS, (char *)"GeneralInformations_Power_set(GeneralInformations self, float Power)"},
+	 { (char *)"GeneralInformations_Power_get", _wrap_GeneralInformations_Power_get, METH_VARARGS, (char *)"GeneralInformations_Power_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_AveragePower_set", _wrap_GeneralInformations_AveragePower_set, METH_VARARGS, (char *)"GeneralInformations_AveragePower_set(GeneralInformations self, float AveragePower)"},
+	 { (char *)"GeneralInformations_AveragePower_get", _wrap_GeneralInformations_AveragePower_get, METH_VARARGS, (char *)"GeneralInformations_AveragePower_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_AccelerationX_set", _wrap_GeneralInformations_AccelerationX_set, METH_VARARGS, (char *)"GeneralInformations_AccelerationX_set(GeneralInformations self, float AccelerationX)"},
+	 { (char *)"GeneralInformations_AccelerationX_get", _wrap_GeneralInformations_AccelerationX_get, METH_VARARGS, (char *)"GeneralInformations_AccelerationX_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_AccelerationY_set", _wrap_GeneralInformations_AccelerationY_set, METH_VARARGS, (char *)"GeneralInformations_AccelerationY_set(GeneralInformations self, float AccelerationY)"},
+	 { (char *)"GeneralInformations_AccelerationY_get", _wrap_GeneralInformations_AccelerationY_get, METH_VARARGS, (char *)"GeneralInformations_AccelerationY_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_AccelerationZ_set", _wrap_GeneralInformations_AccelerationZ_set, METH_VARARGS, (char *)"GeneralInformations_AccelerationZ_set(GeneralInformations self, float AccelerationZ)"},
+	 { (char *)"GeneralInformations_AccelerationZ_get", _wrap_GeneralInformations_AccelerationZ_get, METH_VARARGS, (char *)"GeneralInformations_AccelerationZ_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_SensorExpansion1_set", _wrap_GeneralInformations_SensorExpansion1_set, METH_VARARGS, (char *)"GeneralInformations_SensorExpansion1_set(GeneralInformations self, float SensorExpansion1)"},
+	 { (char *)"GeneralInformations_SensorExpansion1_get", _wrap_GeneralInformations_SensorExpansion1_get, METH_VARARGS, (char *)"GeneralInformations_SensorExpansion1_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_SensorExpansion2_set", _wrap_GeneralInformations_SensorExpansion2_set, METH_VARARGS, (char *)"GeneralInformations_SensorExpansion2_set(GeneralInformations self, float SensorExpansion2)"},
+	 { (char *)"GeneralInformations_SensorExpansion2_get", _wrap_GeneralInformations_SensorExpansion2_get, METH_VARARGS, (char *)"GeneralInformations_SensorExpansion2_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_SensorExpansion3_set", _wrap_GeneralInformations_SensorExpansion3_set, METH_VARARGS, (char *)"GeneralInformations_SensorExpansion3_set(GeneralInformations self, float SensorExpansion3)"},
+	 { (char *)"GeneralInformations_SensorExpansion3_get", _wrap_GeneralInformations_SensorExpansion3_get, METH_VARARGS, (char *)"GeneralInformations_SensorExpansion3_get(GeneralInformations self) -> float"},
+	 { (char *)"GeneralInformations_CodeVersion_set", _wrap_GeneralInformations_CodeVersion_set, METH_VARARGS, (char *)"GeneralInformations_CodeVersion_set(GeneralInformations self, unsigned int CodeVersion)"},
+	 { (char *)"GeneralInformations_CodeVersion_get", _wrap_GeneralInformations_CodeVersion_get, METH_VARARGS, (char *)"GeneralInformations_CodeVersion_get(GeneralInformations self) -> unsigned int"},
+	 { (char *)"GeneralInformations_CodeRevision_set", _wrap_GeneralInformations_CodeRevision_set, METH_VARARGS, (char *)"GeneralInformations_CodeRevision_set(GeneralInformations self, unsigned int CodeRevision)"},
+	 { (char *)"GeneralInformations_CodeRevision_get", _wrap_GeneralInformations_CodeRevision_get, METH_VARARGS, (char *)"GeneralInformations_CodeRevision_get(GeneralInformations self) -> unsigned int"},
+	 { (char *)"GeneralInformations_Status_set", _wrap_GeneralInformations_Status_set, METH_VARARGS, (char *)"GeneralInformations_Status_set(GeneralInformations self, unsigned short Status)"},
+	 { (char *)"GeneralInformations_Status_get", _wrap_GeneralInformations_Status_get, METH_VARARGS, (char *)"GeneralInformations_Status_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_Controller_set", _wrap_GeneralInformations_Controller_set, METH_VARARGS, (char *)"GeneralInformations_Controller_set(GeneralInformations self, unsigned short Controller)"},
+	 { (char *)"GeneralInformations_Controller_get", _wrap_GeneralInformations_Controller_get, METH_VARARGS, (char *)"GeneralInformations_Controller_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_ControlMode_set", _wrap_GeneralInformations_ControlMode_set, METH_VARARGS, (char *)"GeneralInformations_ControlMode_set(GeneralInformations self, unsigned short ControlMode)"},
+	 { (char *)"GeneralInformations_ControlMode_get", _wrap_GeneralInformations_ControlMode_get, METH_VARARGS, (char *)"GeneralInformations_ControlMode_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_HandMode_set", _wrap_GeneralInformations_HandMode_set, METH_VARARGS, (char *)"GeneralInformations_HandMode_set(GeneralInformations self, unsigned short HandMode)"},
+	 { (char *)"GeneralInformations_HandMode_get", _wrap_GeneralInformations_HandMode_get, METH_VARARGS, (char *)"GeneralInformations_HandMode_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_ConnectedActuatorCount_set", _wrap_GeneralInformations_ConnectedActuatorCount_set, METH_VARARGS, (char *)"GeneralInformations_ConnectedActuatorCount_set(GeneralInformations self, unsigned short ConnectedActuatorCount)"},
+	 { (char *)"GeneralInformations_ConnectedActuatorCount_get", _wrap_GeneralInformations_ConnectedActuatorCount_get, METH_VARARGS, (char *)"GeneralInformations_ConnectedActuatorCount_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_PositionType_set", _wrap_GeneralInformations_PositionType_set, METH_VARARGS, (char *)"GeneralInformations_PositionType_set(GeneralInformations self, unsigned short PositionType)"},
+	 { (char *)"GeneralInformations_PositionType_get", _wrap_GeneralInformations_PositionType_get, METH_VARARGS, (char *)"GeneralInformations_PositionType_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_ErrorsSpiExpansion1_set", _wrap_GeneralInformations_ErrorsSpiExpansion1_set, METH_VARARGS, (char *)"GeneralInformations_ErrorsSpiExpansion1_set(GeneralInformations self, unsigned short ErrorsSpiExpansion1)"},
+	 { (char *)"GeneralInformations_ErrorsSpiExpansion1_get", _wrap_GeneralInformations_ErrorsSpiExpansion1_get, METH_VARARGS, (char *)"GeneralInformations_ErrorsSpiExpansion1_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_ErrorsSpiExpansion2_set", _wrap_GeneralInformations_ErrorsSpiExpansion2_set, METH_VARARGS, (char *)"GeneralInformations_ErrorsSpiExpansion2_set(GeneralInformations self, unsigned short ErrorsSpiExpansion2)"},
+	 { (char *)"GeneralInformations_ErrorsSpiExpansion2_get", _wrap_GeneralInformations_ErrorsSpiExpansion2_get, METH_VARARGS, (char *)"GeneralInformations_ErrorsSpiExpansion2_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_ErrorsMainSPICount_set", _wrap_GeneralInformations_ErrorsMainSPICount_set, METH_VARARGS, (char *)"GeneralInformations_ErrorsMainSPICount_set(GeneralInformations self, unsigned short ErrorsMainSPICount)"},
+	 { (char *)"GeneralInformations_ErrorsMainSPICount_get", _wrap_GeneralInformations_ErrorsMainSPICount_get, METH_VARARGS, (char *)"GeneralInformations_ErrorsMainSPICount_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_ErrorsExternalSPICount_set", _wrap_GeneralInformations_ErrorsExternalSPICount_set, METH_VARARGS, (char *)"GeneralInformations_ErrorsExternalSPICount_set(GeneralInformations self, unsigned short ErrorsExternalSPICount)"},
+	 { (char *)"GeneralInformations_ErrorsExternalSPICount_get", _wrap_GeneralInformations_ErrorsExternalSPICount_get, METH_VARARGS, (char *)"GeneralInformations_ErrorsExternalSPICount_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_ErrorsMainCANCount_set", _wrap_GeneralInformations_ErrorsMainCANCount_set, METH_VARARGS, (char *)"GeneralInformations_ErrorsMainCANCount_set(GeneralInformations self, unsigned short ErrorsMainCANCount)"},
+	 { (char *)"GeneralInformations_ErrorsMainCANCount_get", _wrap_GeneralInformations_ErrorsMainCANCount_get, METH_VARARGS, (char *)"GeneralInformations_ErrorsMainCANCount_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_ErrorsExternalCANCount_set", _wrap_GeneralInformations_ErrorsExternalCANCount_set, METH_VARARGS, (char *)"GeneralInformations_ErrorsExternalCANCount_set(GeneralInformations self, unsigned short ErrorsExternalCANCount)"},
+	 { (char *)"GeneralInformations_ErrorsExternalCANCount_get", _wrap_GeneralInformations_ErrorsExternalCANCount_get, METH_VARARGS, (char *)"GeneralInformations_ErrorsExternalCANCount_get(GeneralInformations self) -> unsigned short"},
+	 { (char *)"GeneralInformations_ActualSystemStatus_set", _wrap_GeneralInformations_ActualSystemStatus_set, METH_VARARGS, (char *)"GeneralInformations_ActualSystemStatus_set(GeneralInformations self, SystemStatus ActualSystemStatus)"},
+	 { (char *)"GeneralInformations_ActualSystemStatus_get", _wrap_GeneralInformations_ActualSystemStatus_get, METH_VARARGS, (char *)"GeneralInformations_ActualSystemStatus_get(GeneralInformations self) -> SystemStatus"},
+	 { (char *)"GeneralInformations_Position_set", _wrap_GeneralInformations_Position_set, METH_VARARGS, (char *)"GeneralInformations_Position_set(GeneralInformations self, UserPosition Position)"},
+	 { (char *)"GeneralInformations_Position_get", _wrap_GeneralInformations_Position_get, METH_VARARGS, (char *)"GeneralInformations_Position_get(GeneralInformations self) -> UserPosition"},
+	 { (char *)"GeneralInformations_Command_set", _wrap_GeneralInformations_Command_set, METH_VARARGS, (char *)"GeneralInformations_Command_set(GeneralInformations self, UserPosition Command)"},
+	 { (char *)"GeneralInformations_Command_get", _wrap_GeneralInformations_Command_get, METH_VARARGS, (char *)"GeneralInformations_Command_get(GeneralInformations self) -> UserPosition"},
+	 { (char *)"GeneralInformations_Current_set", _wrap_GeneralInformations_Current_set, METH_VARARGS, (char *)"GeneralInformations_Current_set(GeneralInformations self, UserPosition Current)"},
+	 { (char *)"GeneralInformations_Current_get", _wrap_GeneralInformations_Current_get, METH_VARARGS, (char *)"GeneralInformations_Current_get(GeneralInformations self) -> UserPosition"},
+	 { (char *)"GeneralInformations_Force_set", _wrap_GeneralInformations_Force_set, METH_VARARGS, (char *)"GeneralInformations_Force_set(GeneralInformations self, UserPosition Force)"},
+	 { (char *)"GeneralInformations_Force_get", _wrap_GeneralInformations_Force_get, METH_VARARGS, (char *)"GeneralInformations_Force_get(GeneralInformations self) -> UserPosition"},
+	 { (char *)"GeneralInformations_ActualLimitations_set", _wrap_GeneralInformations_ActualLimitations_set, METH_VARARGS, (char *)"GeneralInformations_ActualLimitations_set(GeneralInformations self, ZoneLimitation ActualLimitations)"},
+	 { (char *)"GeneralInformations_ActualLimitations_get", _wrap_GeneralInformations_ActualLimitations_get, METH_VARARGS, (char *)"GeneralInformations_ActualLimitations_get(GeneralInformations self) -> ZoneLimitation"},
+	 { (char *)"GeneralInformations_ControlIncrement_set", _wrap_GeneralInformations_ControlIncrement_set, METH_VARARGS, (char *)"GeneralInformations_ControlIncrement_set(GeneralInformations self, float [7] ControlIncrement)"},
+	 { (char *)"GeneralInformations_ControlIncrement_get", _wrap_GeneralInformations_ControlIncrement_get, METH_VARARGS, (char *)"GeneralInformations_ControlIncrement_get(GeneralInformations self) -> float [7]"},
+	 { (char *)"GeneralInformations_FingerControlIncrement_set", _wrap_GeneralInformations_FingerControlIncrement_set, METH_VARARGS, (char *)"GeneralInformations_FingerControlIncrement_set(GeneralInformations self, float [3] FingerControlIncrement)"},
+	 { (char *)"GeneralInformations_FingerControlIncrement_get", _wrap_GeneralInformations_FingerControlIncrement_get, METH_VARARGS, (char *)"GeneralInformations_FingerControlIncrement_get(GeneralInformations self) -> float [3]"},
+	 { (char *)"GeneralInformations_ActualJoystickCommand_set", _wrap_GeneralInformations_ActualJoystickCommand_set, METH_VARARGS, (char *)"GeneralInformations_ActualJoystickCommand_set(GeneralInformations self, JoystickCommand ActualJoystickCommand)"},
+	 { (char *)"GeneralInformations_ActualJoystickCommand_get", _wrap_GeneralInformations_ActualJoystickCommand_get, METH_VARARGS, (char *)"GeneralInformations_ActualJoystickCommand_get(GeneralInformations self) -> JoystickCommand"},
+	 { (char *)"GeneralInformations_PeripheralsConnected_set", _wrap_GeneralInformations_PeripheralsConnected_set, METH_VARARGS, (char *)"GeneralInformations_PeripheralsConnected_set(GeneralInformations self, unsigned int [4] PeripheralsConnected)"},
+	 { (char *)"GeneralInformations_PeripheralsConnected_get", _wrap_GeneralInformations_PeripheralsConnected_get, METH_VARARGS, (char *)"GeneralInformations_PeripheralsConnected_get(GeneralInformations self) -> unsigned int [4]"},
+	 { (char *)"GeneralInformations_PeripheralsDeviceID_set", _wrap_GeneralInformations_PeripheralsDeviceID_set, METH_VARARGS, (char *)"GeneralInformations_PeripheralsDeviceID_set(GeneralInformations self, unsigned int [4] PeripheralsDeviceID)"},
+	 { (char *)"GeneralInformations_PeripheralsDeviceID_get", _wrap_GeneralInformations_PeripheralsDeviceID_get, METH_VARARGS, (char *)"GeneralInformations_PeripheralsDeviceID_get(GeneralInformations self) -> unsigned int [4]"},
+	 { (char *)"GeneralInformations_ActuatorsTemperatures_set", _wrap_GeneralInformations_ActuatorsTemperatures_set, METH_VARARGS, (char *)"GeneralInformations_ActuatorsTemperatures_set(GeneralInformations self, float [7] ActuatorsTemperatures)"},
+	 { (char *)"GeneralInformations_ActuatorsTemperatures_get", _wrap_GeneralInformations_ActuatorsTemperatures_get, METH_VARARGS, (char *)"GeneralInformations_ActuatorsTemperatures_get(GeneralInformations self) -> float [7]"},
+	 { (char *)"GeneralInformations_FingersTemperatures_set", _wrap_GeneralInformations_FingersTemperatures_set, METH_VARARGS, (char *)"GeneralInformations_FingersTemperatures_set(GeneralInformations self, float [3] FingersTemperatures)"},
+	 { (char *)"GeneralInformations_FingersTemperatures_get", _wrap_GeneralInformations_FingersTemperatures_get, METH_VARARGS, (char *)"GeneralInformations_FingersTemperatures_get(GeneralInformations self) -> float [3]"},
+	 { (char *)"GeneralInformations_FutureTemperatures_set", _wrap_GeneralInformations_FutureTemperatures_set, METH_VARARGS, (char *)"GeneralInformations_FutureTemperatures_set(GeneralInformations self, float [3] FutureTemperatures)"},
+	 { (char *)"GeneralInformations_FutureTemperatures_get", _wrap_GeneralInformations_FutureTemperatures_get, METH_VARARGS, (char *)"GeneralInformations_FutureTemperatures_get(GeneralInformations self) -> float [3]"},
+	 { (char *)"GeneralInformations_ActuatorsCommErrors_set", _wrap_GeneralInformations_ActuatorsCommErrors_set, METH_VARARGS, (char *)"GeneralInformations_ActuatorsCommErrors_set(GeneralInformations self, int [7] ActuatorsCommErrors)"},
+	 { (char *)"GeneralInformations_ActuatorsCommErrors_get", _wrap_GeneralInformations_ActuatorsCommErrors_get, METH_VARARGS, (char *)"GeneralInformations_ActuatorsCommErrors_get(GeneralInformations self) -> int [7]"},
+	 { (char *)"GeneralInformations_FingersCommErrors_set", _wrap_GeneralInformations_FingersCommErrors_set, METH_VARARGS, (char *)"GeneralInformations_FingersCommErrors_set(GeneralInformations self, int [3] FingersCommErrors)"},
+	 { (char *)"GeneralInformations_FingersCommErrors_get", _wrap_GeneralInformations_FingersCommErrors_get, METH_VARARGS, (char *)"GeneralInformations_FingersCommErrors_get(GeneralInformations self) -> int [3]"},
+	 { (char *)"GeneralInformations_ExpansionLong2_set", _wrap_GeneralInformations_ExpansionLong2_set, METH_VARARGS, (char *)"GeneralInformations_ExpansionLong2_set(GeneralInformations self, int ExpansionLong2)"},
+	 { (char *)"GeneralInformations_ExpansionLong2_get", _wrap_GeneralInformations_ExpansionLong2_get, METH_VARARGS, (char *)"GeneralInformations_ExpansionLong2_get(GeneralInformations self) -> int"},
+	 { (char *)"GeneralInformations_ControlTimeAbsolute_set", _wrap_GeneralInformations_ControlTimeAbsolute_set, METH_VARARGS, (char *)"GeneralInformations_ControlTimeAbsolute_set(GeneralInformations self, double ControlTimeAbsolute)"},
+	 { (char *)"GeneralInformations_ControlTimeAbsolute_get", _wrap_GeneralInformations_ControlTimeAbsolute_get, METH_VARARGS, (char *)"GeneralInformations_ControlTimeAbsolute_get(GeneralInformations self) -> double"},
+	 { (char *)"GeneralInformations_ControlTimeFromStartup_set", _wrap_GeneralInformations_ControlTimeFromStartup_set, METH_VARARGS, (char *)"GeneralInformations_ControlTimeFromStartup_set(GeneralInformations self, double ControlTimeFromStartup)"},
+	 { (char *)"GeneralInformations_ControlTimeFromStartup_get", _wrap_GeneralInformations_ControlTimeFromStartup_get, METH_VARARGS, (char *)"GeneralInformations_ControlTimeFromStartup_get(GeneralInformations self) -> double"},
+	 { (char *)"GeneralInformations_ExpansionsBytes_set", _wrap_GeneralInformations_ExpansionsBytes_set, METH_VARARGS, (char *)"GeneralInformations_ExpansionsBytes_set(GeneralInformations self, unsigned char [192] ExpansionsBytes)"},
+	 { (char *)"GeneralInformations_ExpansionsBytes_get", _wrap_GeneralInformations_ExpansionsBytes_get, METH_VARARGS, (char *)"GeneralInformations_ExpansionsBytes_get(GeneralInformations self) -> unsigned char [192]"},
+	 { (char *)"new_GeneralInformations", _wrap_new_GeneralInformations, METH_VARARGS, (char *)"new_GeneralInformations() -> GeneralInformations"},
+	 { (char *)"delete_GeneralInformations", _wrap_delete_GeneralInformations, METH_VARARGS, (char *)"delete_GeneralInformations(GeneralInformations self)"},
 	 { (char *)"GeneralInformations_swigregister", GeneralInformations_swigregister, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator1_X_set", _wrap_AngularAcceleration_Actuator1_X_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator1_X_get", _wrap_AngularAcceleration_Actuator1_X_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator1_Y_set", _wrap_AngularAcceleration_Actuator1_Y_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator1_Y_get", _wrap_AngularAcceleration_Actuator1_Y_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator1_Z_set", _wrap_AngularAcceleration_Actuator1_Z_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator1_Z_get", _wrap_AngularAcceleration_Actuator1_Z_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator2_X_set", _wrap_AngularAcceleration_Actuator2_X_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator2_X_get", _wrap_AngularAcceleration_Actuator2_X_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator2_Y_set", _wrap_AngularAcceleration_Actuator2_Y_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator2_Y_get", _wrap_AngularAcceleration_Actuator2_Y_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator2_Z_set", _wrap_AngularAcceleration_Actuator2_Z_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator2_Z_get", _wrap_AngularAcceleration_Actuator2_Z_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator3_X_set", _wrap_AngularAcceleration_Actuator3_X_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator3_X_get", _wrap_AngularAcceleration_Actuator3_X_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator3_Y_set", _wrap_AngularAcceleration_Actuator3_Y_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator3_Y_get", _wrap_AngularAcceleration_Actuator3_Y_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator3_Z_set", _wrap_AngularAcceleration_Actuator3_Z_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator3_Z_get", _wrap_AngularAcceleration_Actuator3_Z_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator4_X_set", _wrap_AngularAcceleration_Actuator4_X_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator4_X_get", _wrap_AngularAcceleration_Actuator4_X_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator4_Y_set", _wrap_AngularAcceleration_Actuator4_Y_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator4_Y_get", _wrap_AngularAcceleration_Actuator4_Y_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator4_Z_set", _wrap_AngularAcceleration_Actuator4_Z_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator4_Z_get", _wrap_AngularAcceleration_Actuator4_Z_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator5_X_set", _wrap_AngularAcceleration_Actuator5_X_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator5_X_get", _wrap_AngularAcceleration_Actuator5_X_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator5_Y_set", _wrap_AngularAcceleration_Actuator5_Y_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator5_Y_get", _wrap_AngularAcceleration_Actuator5_Y_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator5_Z_set", _wrap_AngularAcceleration_Actuator5_Z_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator5_Z_get", _wrap_AngularAcceleration_Actuator5_Z_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator6_X_set", _wrap_AngularAcceleration_Actuator6_X_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator6_X_get", _wrap_AngularAcceleration_Actuator6_X_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator6_Y_set", _wrap_AngularAcceleration_Actuator6_Y_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator6_Y_get", _wrap_AngularAcceleration_Actuator6_Y_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator6_Z_set", _wrap_AngularAcceleration_Actuator6_Z_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator6_Z_get", _wrap_AngularAcceleration_Actuator6_Z_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator7_X_set", _wrap_AngularAcceleration_Actuator7_X_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator7_X_get", _wrap_AngularAcceleration_Actuator7_X_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator7_Y_set", _wrap_AngularAcceleration_Actuator7_Y_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator7_Y_get", _wrap_AngularAcceleration_Actuator7_Y_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator7_Z_set", _wrap_AngularAcceleration_Actuator7_Z_set, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_Actuator7_Z_get", _wrap_AngularAcceleration_Actuator7_Z_get, METH_VARARGS, NULL},
-	 { (char *)"AngularAcceleration_InitStruct", _wrap_AngularAcceleration_InitStruct, METH_VARARGS, NULL},
-	 { (char *)"new_AngularAcceleration", _wrap_new_AngularAcceleration, METH_VARARGS, NULL},
-	 { (char *)"delete_AngularAcceleration", _wrap_delete_AngularAcceleration, METH_VARARGS, NULL},
+	 { (char *)"AngularAcceleration_Actuator1_X_set", _wrap_AngularAcceleration_Actuator1_X_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator1_X_set(AngularAcceleration self, float Actuator1_X)"},
+	 { (char *)"AngularAcceleration_Actuator1_X_get", _wrap_AngularAcceleration_Actuator1_X_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator1_X_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator1_Y_set", _wrap_AngularAcceleration_Actuator1_Y_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator1_Y_set(AngularAcceleration self, float Actuator1_Y)"},
+	 { (char *)"AngularAcceleration_Actuator1_Y_get", _wrap_AngularAcceleration_Actuator1_Y_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator1_Y_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator1_Z_set", _wrap_AngularAcceleration_Actuator1_Z_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator1_Z_set(AngularAcceleration self, float Actuator1_Z)"},
+	 { (char *)"AngularAcceleration_Actuator1_Z_get", _wrap_AngularAcceleration_Actuator1_Z_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator1_Z_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator2_X_set", _wrap_AngularAcceleration_Actuator2_X_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator2_X_set(AngularAcceleration self, float Actuator2_X)"},
+	 { (char *)"AngularAcceleration_Actuator2_X_get", _wrap_AngularAcceleration_Actuator2_X_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator2_X_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator2_Y_set", _wrap_AngularAcceleration_Actuator2_Y_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator2_Y_set(AngularAcceleration self, float Actuator2_Y)"},
+	 { (char *)"AngularAcceleration_Actuator2_Y_get", _wrap_AngularAcceleration_Actuator2_Y_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator2_Y_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator2_Z_set", _wrap_AngularAcceleration_Actuator2_Z_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator2_Z_set(AngularAcceleration self, float Actuator2_Z)"},
+	 { (char *)"AngularAcceleration_Actuator2_Z_get", _wrap_AngularAcceleration_Actuator2_Z_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator2_Z_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator3_X_set", _wrap_AngularAcceleration_Actuator3_X_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator3_X_set(AngularAcceleration self, float Actuator3_X)"},
+	 { (char *)"AngularAcceleration_Actuator3_X_get", _wrap_AngularAcceleration_Actuator3_X_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator3_X_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator3_Y_set", _wrap_AngularAcceleration_Actuator3_Y_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator3_Y_set(AngularAcceleration self, float Actuator3_Y)"},
+	 { (char *)"AngularAcceleration_Actuator3_Y_get", _wrap_AngularAcceleration_Actuator3_Y_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator3_Y_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator3_Z_set", _wrap_AngularAcceleration_Actuator3_Z_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator3_Z_set(AngularAcceleration self, float Actuator3_Z)"},
+	 { (char *)"AngularAcceleration_Actuator3_Z_get", _wrap_AngularAcceleration_Actuator3_Z_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator3_Z_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator4_X_set", _wrap_AngularAcceleration_Actuator4_X_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator4_X_set(AngularAcceleration self, float Actuator4_X)"},
+	 { (char *)"AngularAcceleration_Actuator4_X_get", _wrap_AngularAcceleration_Actuator4_X_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator4_X_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator4_Y_set", _wrap_AngularAcceleration_Actuator4_Y_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator4_Y_set(AngularAcceleration self, float Actuator4_Y)"},
+	 { (char *)"AngularAcceleration_Actuator4_Y_get", _wrap_AngularAcceleration_Actuator4_Y_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator4_Y_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator4_Z_set", _wrap_AngularAcceleration_Actuator4_Z_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator4_Z_set(AngularAcceleration self, float Actuator4_Z)"},
+	 { (char *)"AngularAcceleration_Actuator4_Z_get", _wrap_AngularAcceleration_Actuator4_Z_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator4_Z_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator5_X_set", _wrap_AngularAcceleration_Actuator5_X_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator5_X_set(AngularAcceleration self, float Actuator5_X)"},
+	 { (char *)"AngularAcceleration_Actuator5_X_get", _wrap_AngularAcceleration_Actuator5_X_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator5_X_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator5_Y_set", _wrap_AngularAcceleration_Actuator5_Y_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator5_Y_set(AngularAcceleration self, float Actuator5_Y)"},
+	 { (char *)"AngularAcceleration_Actuator5_Y_get", _wrap_AngularAcceleration_Actuator5_Y_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator5_Y_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator5_Z_set", _wrap_AngularAcceleration_Actuator5_Z_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator5_Z_set(AngularAcceleration self, float Actuator5_Z)"},
+	 { (char *)"AngularAcceleration_Actuator5_Z_get", _wrap_AngularAcceleration_Actuator5_Z_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator5_Z_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator6_X_set", _wrap_AngularAcceleration_Actuator6_X_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator6_X_set(AngularAcceleration self, float Actuator6_X)"},
+	 { (char *)"AngularAcceleration_Actuator6_X_get", _wrap_AngularAcceleration_Actuator6_X_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator6_X_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator6_Y_set", _wrap_AngularAcceleration_Actuator6_Y_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator6_Y_set(AngularAcceleration self, float Actuator6_Y)"},
+	 { (char *)"AngularAcceleration_Actuator6_Y_get", _wrap_AngularAcceleration_Actuator6_Y_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator6_Y_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator6_Z_set", _wrap_AngularAcceleration_Actuator6_Z_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator6_Z_set(AngularAcceleration self, float Actuator6_Z)"},
+	 { (char *)"AngularAcceleration_Actuator6_Z_get", _wrap_AngularAcceleration_Actuator6_Z_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator6_Z_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator7_X_set", _wrap_AngularAcceleration_Actuator7_X_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator7_X_set(AngularAcceleration self, float Actuator7_X)"},
+	 { (char *)"AngularAcceleration_Actuator7_X_get", _wrap_AngularAcceleration_Actuator7_X_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator7_X_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator7_Y_set", _wrap_AngularAcceleration_Actuator7_Y_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator7_Y_set(AngularAcceleration self, float Actuator7_Y)"},
+	 { (char *)"AngularAcceleration_Actuator7_Y_get", _wrap_AngularAcceleration_Actuator7_Y_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator7_Y_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_Actuator7_Z_set", _wrap_AngularAcceleration_Actuator7_Z_set, METH_VARARGS, (char *)"AngularAcceleration_Actuator7_Z_set(AngularAcceleration self, float Actuator7_Z)"},
+	 { (char *)"AngularAcceleration_Actuator7_Z_get", _wrap_AngularAcceleration_Actuator7_Z_get, METH_VARARGS, (char *)"AngularAcceleration_Actuator7_Z_get(AngularAcceleration self) -> float"},
+	 { (char *)"AngularAcceleration_InitStruct", _wrap_AngularAcceleration_InitStruct, METH_VARARGS, (char *)"AngularAcceleration_InitStruct(AngularAcceleration self)"},
+	 { (char *)"new_AngularAcceleration", _wrap_new_AngularAcceleration, METH_VARARGS, (char *)"new_AngularAcceleration() -> AngularAcceleration"},
+	 { (char *)"delete_AngularAcceleration", _wrap_delete_AngularAcceleration, METH_VARARGS, (char *)"delete_AngularAcceleration(AngularAcceleration self)"},
 	 { (char *)"AngularAcceleration_swigregister", AngularAcceleration_swigregister, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_Handle_set", _wrap_PeripheralInfo_Handle_set, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_Handle_get", _wrap_PeripheralInfo_Handle_get, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_Type_set", _wrap_PeripheralInfo_Type_set, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_Type_get", _wrap_PeripheralInfo_Type_get, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_Port_set", _wrap_PeripheralInfo_Port_set, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_Port_get", _wrap_PeripheralInfo_Port_get, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_Address_set", _wrap_PeripheralInfo_Address_set, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_Address_get", _wrap_PeripheralInfo_Address_get, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_CodeVersion_set", _wrap_PeripheralInfo_CodeVersion_set, METH_VARARGS, NULL},
-	 { (char *)"PeripheralInfo_CodeVersion_get", _wrap_PeripheralInfo_CodeVersion_get, METH_VARARGS, NULL},
-	 { (char *)"new_PeripheralInfo", _wrap_new_PeripheralInfo, METH_VARARGS, NULL},
-	 { (char *)"delete_PeripheralInfo", _wrap_delete_PeripheralInfo, METH_VARARGS, NULL},
+	 { (char *)"PeripheralInfo_Handle_set", _wrap_PeripheralInfo_Handle_set, METH_VARARGS, (char *)"PeripheralInfo_Handle_set(PeripheralInfo self, unsigned int Handle)"},
+	 { (char *)"PeripheralInfo_Handle_get", _wrap_PeripheralInfo_Handle_get, METH_VARARGS, (char *)"PeripheralInfo_Handle_get(PeripheralInfo self) -> unsigned int"},
+	 { (char *)"PeripheralInfo_Type_set", _wrap_PeripheralInfo_Type_set, METH_VARARGS, (char *)"PeripheralInfo_Type_set(PeripheralInfo self, unsigned int Type)"},
+	 { (char *)"PeripheralInfo_Type_get", _wrap_PeripheralInfo_Type_get, METH_VARARGS, (char *)"PeripheralInfo_Type_get(PeripheralInfo self) -> unsigned int"},
+	 { (char *)"PeripheralInfo_Port_set", _wrap_PeripheralInfo_Port_set, METH_VARARGS, (char *)"PeripheralInfo_Port_set(PeripheralInfo self, unsigned int Port)"},
+	 { (char *)"PeripheralInfo_Port_get", _wrap_PeripheralInfo_Port_get, METH_VARARGS, (char *)"PeripheralInfo_Port_get(PeripheralInfo self) -> unsigned int"},
+	 { (char *)"PeripheralInfo_Address_set", _wrap_PeripheralInfo_Address_set, METH_VARARGS, (char *)"PeripheralInfo_Address_set(PeripheralInfo self, unsigned int Address)"},
+	 { (char *)"PeripheralInfo_Address_get", _wrap_PeripheralInfo_Address_get, METH_VARARGS, (char *)"PeripheralInfo_Address_get(PeripheralInfo self) -> unsigned int"},
+	 { (char *)"PeripheralInfo_CodeVersion_set", _wrap_PeripheralInfo_CodeVersion_set, METH_VARARGS, (char *)"PeripheralInfo_CodeVersion_set(PeripheralInfo self, unsigned int CodeVersion)"},
+	 { (char *)"PeripheralInfo_CodeVersion_get", _wrap_PeripheralInfo_CodeVersion_get, METH_VARARGS, (char *)"PeripheralInfo_CodeVersion_get(PeripheralInfo self) -> unsigned int"},
+	 { (char *)"new_PeripheralInfo", _wrap_new_PeripheralInfo, METH_VARARGS, (char *)"new_PeripheralInfo() -> PeripheralInfo"},
+	 { (char *)"delete_PeripheralInfo", _wrap_delete_PeripheralInfo, METH_VARARGS, (char *)"delete_PeripheralInfo(PeripheralInfo self)"},
 	 { (char *)"PeripheralInfo_swigregister", PeripheralInfo_swigregister, METH_VARARGS, NULL},
 	 { (char *)"MANUAL_INPUT_swigconstant", MANUAL_INPUT_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"OPTIMAL_swigconstant", OPTIMAL_swigconstant, METH_VARARGS, NULL},
@@ -37588,78 +37864,78 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"MAX_KINOVA_DEVICE_swigconstant", MAX_KINOVA_DEVICE_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"RS485_MESSAGE_SIZE_swigconstant", RS485_MESSAGE_SIZE_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"RS485_MESSAGE_MAX_COUNT_swigconstant", RS485_MESSAGE_MAX_COUNT_swigconstant, METH_VARARGS, NULL},
-	 { (char *)"Packet_IdPacket_set", _wrap_Packet_IdPacket_set, METH_VARARGS, NULL},
-	 { (char *)"Packet_IdPacket_get", _wrap_Packet_IdPacket_get, METH_VARARGS, NULL},
-	 { (char *)"Packet_TotalPacketCount_set", _wrap_Packet_TotalPacketCount_set, METH_VARARGS, NULL},
-	 { (char *)"Packet_TotalPacketCount_get", _wrap_Packet_TotalPacketCount_get, METH_VARARGS, NULL},
-	 { (char *)"Packet_IdCommand_set", _wrap_Packet_IdCommand_set, METH_VARARGS, NULL},
-	 { (char *)"Packet_IdCommand_get", _wrap_Packet_IdCommand_get, METH_VARARGS, NULL},
-	 { (char *)"Packet_TotalDataSize_set", _wrap_Packet_TotalDataSize_set, METH_VARARGS, NULL},
-	 { (char *)"Packet_TotalDataSize_get", _wrap_Packet_TotalDataSize_get, METH_VARARGS, NULL},
-	 { (char *)"Packet_Data_set", _wrap_Packet_Data_set, METH_VARARGS, NULL},
-	 { (char *)"Packet_Data_get", _wrap_Packet_Data_get, METH_VARARGS, NULL},
-	 { (char *)"new_Packet", _wrap_new_Packet, METH_VARARGS, NULL},
-	 { (char *)"delete_Packet", _wrap_delete_Packet, METH_VARARGS, NULL},
+	 { (char *)"Packet_IdPacket_set", _wrap_Packet_IdPacket_set, METH_VARARGS, (char *)"Packet_IdPacket_set(Packet self, short IdPacket)"},
+	 { (char *)"Packet_IdPacket_get", _wrap_Packet_IdPacket_get, METH_VARARGS, (char *)"Packet_IdPacket_get(Packet self) -> short"},
+	 { (char *)"Packet_TotalPacketCount_set", _wrap_Packet_TotalPacketCount_set, METH_VARARGS, (char *)"Packet_TotalPacketCount_set(Packet self, short TotalPacketCount)"},
+	 { (char *)"Packet_TotalPacketCount_get", _wrap_Packet_TotalPacketCount_get, METH_VARARGS, (char *)"Packet_TotalPacketCount_get(Packet self) -> short"},
+	 { (char *)"Packet_IdCommand_set", _wrap_Packet_IdCommand_set, METH_VARARGS, (char *)"Packet_IdCommand_set(Packet self, short IdCommand)"},
+	 { (char *)"Packet_IdCommand_get", _wrap_Packet_IdCommand_get, METH_VARARGS, (char *)"Packet_IdCommand_get(Packet self) -> short"},
+	 { (char *)"Packet_TotalDataSize_set", _wrap_Packet_TotalDataSize_set, METH_VARARGS, (char *)"Packet_TotalDataSize_set(Packet self, short TotalDataSize)"},
+	 { (char *)"Packet_TotalDataSize_get", _wrap_Packet_TotalDataSize_get, METH_VARARGS, (char *)"Packet_TotalDataSize_get(Packet self) -> short"},
+	 { (char *)"Packet_Data_set", _wrap_Packet_Data_set, METH_VARARGS, (char *)"Packet_Data_set(Packet self, unsigned char [1456] Data)"},
+	 { (char *)"Packet_Data_get", _wrap_Packet_Data_get, METH_VARARGS, (char *)"Packet_Data_get(Packet self) -> unsigned char [1456]"},
+	 { (char *)"new_Packet", _wrap_new_Packet, METH_VARARGS, (char *)"new_Packet() -> Packet"},
+	 { (char *)"delete_Packet", _wrap_delete_Packet, METH_VARARGS, (char *)"delete_Packet(Packet self)"},
 	 { (char *)"Packet_swigregister", Packet_swigregister, METH_VARARGS, NULL},
-	 { (char *)"PacketList_packets_set", _wrap_PacketList_packets_set, METH_VARARGS, NULL},
-	 { (char *)"PacketList_packets_get", _wrap_PacketList_packets_get, METH_VARARGS, NULL},
-	 { (char *)"new_PacketList", _wrap_new_PacketList, METH_VARARGS, NULL},
-	 { (char *)"delete_PacketList", _wrap_delete_PacketList, METH_VARARGS, NULL},
+	 { (char *)"PacketList_packets_set", _wrap_PacketList_packets_set, METH_VARARGS, (char *)"PacketList_packets_set(PacketList self, std::vector< Packet,std::allocator< Packet > > * packets)"},
+	 { (char *)"PacketList_packets_get", _wrap_PacketList_packets_get, METH_VARARGS, (char *)"PacketList_packets_get(PacketList self) -> std::vector< Packet,std::allocator< Packet > > *"},
+	 { (char *)"new_PacketList", _wrap_new_PacketList, METH_VARARGS, (char *)"new_PacketList() -> PacketList"},
+	 { (char *)"delete_PacketList", _wrap_delete_PacketList, METH_VARARGS, (char *)"delete_PacketList(PacketList self)"},
 	 { (char *)"PacketList_swigregister", PacketList_swigregister, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_SerialNumber_set", _wrap_KinovaDevice_SerialNumber_set, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_SerialNumber_get", _wrap_KinovaDevice_SerialNumber_get, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_Model_set", _wrap_KinovaDevice_Model_set, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_Model_get", _wrap_KinovaDevice_Model_get, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_VersionMajor_set", _wrap_KinovaDevice_VersionMajor_set, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_VersionMajor_get", _wrap_KinovaDevice_VersionMajor_get, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_VersionMinor_set", _wrap_KinovaDevice_VersionMinor_set, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_VersionMinor_get", _wrap_KinovaDevice_VersionMinor_get, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_VersionRelease_set", _wrap_KinovaDevice_VersionRelease_set, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_VersionRelease_get", _wrap_KinovaDevice_VersionRelease_get, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_DeviceType_set", _wrap_KinovaDevice_DeviceType_set, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_DeviceType_get", _wrap_KinovaDevice_DeviceType_get, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_DeviceID_set", _wrap_KinovaDevice_DeviceID_set, METH_VARARGS, NULL},
-	 { (char *)"KinovaDevice_DeviceID_get", _wrap_KinovaDevice_DeviceID_get, METH_VARARGS, NULL},
-	 { (char *)"new_KinovaDevice", _wrap_new_KinovaDevice, METH_VARARGS, NULL},
-	 { (char *)"delete_KinovaDevice", _wrap_delete_KinovaDevice, METH_VARARGS, NULL},
+	 { (char *)"KinovaDevice_SerialNumber_set", _wrap_KinovaDevice_SerialNumber_set, METH_VARARGS, (char *)"KinovaDevice_SerialNumber_set(KinovaDevice self, char [20] SerialNumber)"},
+	 { (char *)"KinovaDevice_SerialNumber_get", _wrap_KinovaDevice_SerialNumber_get, METH_VARARGS, (char *)"KinovaDevice_SerialNumber_get(KinovaDevice self) -> char [20]"},
+	 { (char *)"KinovaDevice_Model_set", _wrap_KinovaDevice_Model_set, METH_VARARGS, (char *)"KinovaDevice_Model_set(KinovaDevice self, char [20] Model)"},
+	 { (char *)"KinovaDevice_Model_get", _wrap_KinovaDevice_Model_get, METH_VARARGS, (char *)"KinovaDevice_Model_get(KinovaDevice self) -> char [20]"},
+	 { (char *)"KinovaDevice_VersionMajor_set", _wrap_KinovaDevice_VersionMajor_set, METH_VARARGS, (char *)"KinovaDevice_VersionMajor_set(KinovaDevice self, int VersionMajor)"},
+	 { (char *)"KinovaDevice_VersionMajor_get", _wrap_KinovaDevice_VersionMajor_get, METH_VARARGS, (char *)"KinovaDevice_VersionMajor_get(KinovaDevice self) -> int"},
+	 { (char *)"KinovaDevice_VersionMinor_set", _wrap_KinovaDevice_VersionMinor_set, METH_VARARGS, (char *)"KinovaDevice_VersionMinor_set(KinovaDevice self, int VersionMinor)"},
+	 { (char *)"KinovaDevice_VersionMinor_get", _wrap_KinovaDevice_VersionMinor_get, METH_VARARGS, (char *)"KinovaDevice_VersionMinor_get(KinovaDevice self) -> int"},
+	 { (char *)"KinovaDevice_VersionRelease_set", _wrap_KinovaDevice_VersionRelease_set, METH_VARARGS, (char *)"KinovaDevice_VersionRelease_set(KinovaDevice self, int VersionRelease)"},
+	 { (char *)"KinovaDevice_VersionRelease_get", _wrap_KinovaDevice_VersionRelease_get, METH_VARARGS, (char *)"KinovaDevice_VersionRelease_get(KinovaDevice self) -> int"},
+	 { (char *)"KinovaDevice_DeviceType_set", _wrap_KinovaDevice_DeviceType_set, METH_VARARGS, (char *)"KinovaDevice_DeviceType_set(KinovaDevice self, int DeviceType)"},
+	 { (char *)"KinovaDevice_DeviceType_get", _wrap_KinovaDevice_DeviceType_get, METH_VARARGS, (char *)"KinovaDevice_DeviceType_get(KinovaDevice self) -> int"},
+	 { (char *)"KinovaDevice_DeviceID_set", _wrap_KinovaDevice_DeviceID_set, METH_VARARGS, (char *)"KinovaDevice_DeviceID_set(KinovaDevice self, int DeviceID)"},
+	 { (char *)"KinovaDevice_DeviceID_get", _wrap_KinovaDevice_DeviceID_get, METH_VARARGS, (char *)"KinovaDevice_DeviceID_get(KinovaDevice self) -> int"},
+	 { (char *)"new_KinovaDevice", _wrap_new_KinovaDevice, METH_VARARGS, (char *)"new_KinovaDevice() -> KinovaDevice"},
+	 { (char *)"delete_KinovaDevice", _wrap_delete_KinovaDevice, METH_VARARGS, (char *)"delete_KinovaDevice(KinovaDevice self)"},
 	 { (char *)"KinovaDevice_swigregister", KinovaDevice_swigregister, METH_VARARGS, NULL},
-	 { (char *)"RS485_Message_Command_set", _wrap_RS485_Message_Command_set, METH_VARARGS, NULL},
-	 { (char *)"RS485_Message_Command_get", _wrap_RS485_Message_Command_get, METH_VARARGS, NULL},
-	 { (char *)"RS485_Message_SourceAddress_set", _wrap_RS485_Message_SourceAddress_set, METH_VARARGS, NULL},
-	 { (char *)"RS485_Message_SourceAddress_get", _wrap_RS485_Message_SourceAddress_get, METH_VARARGS, NULL},
-	 { (char *)"RS485_Message_DestinationAddress_set", _wrap_RS485_Message_DestinationAddress_set, METH_VARARGS, NULL},
-	 { (char *)"RS485_Message_DestinationAddress_get", _wrap_RS485_Message_DestinationAddress_get, METH_VARARGS, NULL},
-	 { (char *)"new_RS485_Message", _wrap_new_RS485_Message, METH_VARARGS, NULL},
-	 { (char *)"delete_RS485_Message", _wrap_delete_RS485_Message, METH_VARARGS, NULL},
+	 { (char *)"RS485_Message_Command_set", _wrap_RS485_Message_Command_set, METH_VARARGS, (char *)"RS485_Message_Command_set(RS485_Message self, short Command)"},
+	 { (char *)"RS485_Message_Command_get", _wrap_RS485_Message_Command_get, METH_VARARGS, (char *)"RS485_Message_Command_get(RS485_Message self) -> short"},
+	 { (char *)"RS485_Message_SourceAddress_set", _wrap_RS485_Message_SourceAddress_set, METH_VARARGS, (char *)"RS485_Message_SourceAddress_set(RS485_Message self, unsigned char SourceAddress)"},
+	 { (char *)"RS485_Message_SourceAddress_get", _wrap_RS485_Message_SourceAddress_get, METH_VARARGS, (char *)"RS485_Message_SourceAddress_get(RS485_Message self) -> unsigned char"},
+	 { (char *)"RS485_Message_DestinationAddress_set", _wrap_RS485_Message_DestinationAddress_set, METH_VARARGS, (char *)"RS485_Message_DestinationAddress_set(RS485_Message self, unsigned char DestinationAddress)"},
+	 { (char *)"RS485_Message_DestinationAddress_get", _wrap_RS485_Message_DestinationAddress_get, METH_VARARGS, (char *)"RS485_Message_DestinationAddress_get(RS485_Message self) -> unsigned char"},
+	 { (char *)"new_RS485_Message", _wrap_new_RS485_Message, METH_VARARGS, (char *)"new_RS485_Message() -> RS485_Message"},
+	 { (char *)"delete_RS485_Message", _wrap_delete_RS485_Message, METH_VARARGS, (char *)"delete_RS485_Message(RS485_Message self)"},
 	 { (char *)"RS485_Message_swigregister", RS485_Message_swigregister, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_localIpAddress_set", _wrap_EthernetCommConfig_localIpAddress_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_localIpAddress_get", _wrap_EthernetCommConfig_localIpAddress_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_subnetMask_set", _wrap_EthernetCommConfig_subnetMask_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_subnetMask_get", _wrap_EthernetCommConfig_subnetMask_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_robotIpAddress_set", _wrap_EthernetCommConfig_robotIpAddress_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_robotIpAddress_get", _wrap_EthernetCommConfig_robotIpAddress_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_localCmdport_set", _wrap_EthernetCommConfig_localCmdport_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_localCmdport_get", _wrap_EthernetCommConfig_localCmdport_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_localBcastPort_set", _wrap_EthernetCommConfig_localBcastPort_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_localBcastPort_get", _wrap_EthernetCommConfig_localBcastPort_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_robotPort_set", _wrap_EthernetCommConfig_robotPort_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_robotPort_get", _wrap_EthernetCommConfig_robotPort_get, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_rxTimeOutInMs_set", _wrap_EthernetCommConfig_rxTimeOutInMs_set, METH_VARARGS, NULL},
-	 { (char *)"EthernetCommConfig_rxTimeOutInMs_get", _wrap_EthernetCommConfig_rxTimeOutInMs_get, METH_VARARGS, NULL},
-	 { (char *)"new_EthernetCommConfig", _wrap_new_EthernetCommConfig, METH_VARARGS, NULL},
-	 { (char *)"delete_EthernetCommConfig", _wrap_delete_EthernetCommConfig, METH_VARARGS, NULL},
+	 { (char *)"EthernetCommConfig_localIpAddress_set", _wrap_EthernetCommConfig_localIpAddress_set, METH_VARARGS, (char *)"EthernetCommConfig_localIpAddress_set(EthernetCommConfig self, unsigned long localIpAddress)"},
+	 { (char *)"EthernetCommConfig_localIpAddress_get", _wrap_EthernetCommConfig_localIpAddress_get, METH_VARARGS, (char *)"EthernetCommConfig_localIpAddress_get(EthernetCommConfig self) -> unsigned long"},
+	 { (char *)"EthernetCommConfig_subnetMask_set", _wrap_EthernetCommConfig_subnetMask_set, METH_VARARGS, (char *)"EthernetCommConfig_subnetMask_set(EthernetCommConfig self, unsigned long subnetMask)"},
+	 { (char *)"EthernetCommConfig_subnetMask_get", _wrap_EthernetCommConfig_subnetMask_get, METH_VARARGS, (char *)"EthernetCommConfig_subnetMask_get(EthernetCommConfig self) -> unsigned long"},
+	 { (char *)"EthernetCommConfig_robotIpAddress_set", _wrap_EthernetCommConfig_robotIpAddress_set, METH_VARARGS, (char *)"EthernetCommConfig_robotIpAddress_set(EthernetCommConfig self, unsigned long robotIpAddress)"},
+	 { (char *)"EthernetCommConfig_robotIpAddress_get", _wrap_EthernetCommConfig_robotIpAddress_get, METH_VARARGS, (char *)"EthernetCommConfig_robotIpAddress_get(EthernetCommConfig self) -> unsigned long"},
+	 { (char *)"EthernetCommConfig_localCmdport_set", _wrap_EthernetCommConfig_localCmdport_set, METH_VARARGS, (char *)"EthernetCommConfig_localCmdport_set(EthernetCommConfig self, unsigned short localCmdport)"},
+	 { (char *)"EthernetCommConfig_localCmdport_get", _wrap_EthernetCommConfig_localCmdport_get, METH_VARARGS, (char *)"EthernetCommConfig_localCmdport_get(EthernetCommConfig self) -> unsigned short"},
+	 { (char *)"EthernetCommConfig_localBcastPort_set", _wrap_EthernetCommConfig_localBcastPort_set, METH_VARARGS, (char *)"EthernetCommConfig_localBcastPort_set(EthernetCommConfig self, unsigned short localBcastPort)"},
+	 { (char *)"EthernetCommConfig_localBcastPort_get", _wrap_EthernetCommConfig_localBcastPort_get, METH_VARARGS, (char *)"EthernetCommConfig_localBcastPort_get(EthernetCommConfig self) -> unsigned short"},
+	 { (char *)"EthernetCommConfig_robotPort_set", _wrap_EthernetCommConfig_robotPort_set, METH_VARARGS, (char *)"EthernetCommConfig_robotPort_set(EthernetCommConfig self, unsigned short robotPort)"},
+	 { (char *)"EthernetCommConfig_robotPort_get", _wrap_EthernetCommConfig_robotPort_get, METH_VARARGS, (char *)"EthernetCommConfig_robotPort_get(EthernetCommConfig self) -> unsigned short"},
+	 { (char *)"EthernetCommConfig_rxTimeOutInMs_set", _wrap_EthernetCommConfig_rxTimeOutInMs_set, METH_VARARGS, (char *)"EthernetCommConfig_rxTimeOutInMs_set(EthernetCommConfig self, unsigned long rxTimeOutInMs)"},
+	 { (char *)"EthernetCommConfig_rxTimeOutInMs_get", _wrap_EthernetCommConfig_rxTimeOutInMs_get, METH_VARARGS, (char *)"EthernetCommConfig_rxTimeOutInMs_get(EthernetCommConfig self) -> unsigned long"},
+	 { (char *)"new_EthernetCommConfig", _wrap_new_EthernetCommConfig, METH_VARARGS, (char *)"new_EthernetCommConfig() -> EthernetCommConfig"},
+	 { (char *)"delete_EthernetCommConfig", _wrap_delete_EthernetCommConfig, METH_VARARGS, (char *)"delete_EthernetCommConfig(EthernetCommConfig self)"},
 	 { (char *)"EthernetCommConfig_swigregister", EthernetCommConfig_swigregister, METH_VARARGS, NULL},
-	 { (char *)"GetDeviceCount", _wrap_GetDeviceCount, METH_VARARGS, NULL},
-	 { (char *)"InitCommunication", _wrap_InitCommunication, METH_VARARGS, NULL},
-	 { (char *)"CloseCommunication", _wrap_CloseCommunication, METH_VARARGS, NULL},
-	 { (char *)"SendPacket", _wrap_SendPacket, METH_VARARGS, NULL},
-	 { (char *)"ScanForNewDevice", _wrap_ScanForNewDevice, METH_VARARGS, NULL},
-	 { (char *)"GetDevices", _wrap_GetDevices, METH_VARARGS, NULL},
-	 { (char *)"SetActiveDevice", _wrap_SetActiveDevice, METH_VARARGS, NULL},
-	 { (char *)"GetActiveDevice", _wrap_GetActiveDevice, METH_VARARGS, NULL},
-	 { (char *)"OpenRS485_Read", _wrap_OpenRS485_Read, METH_VARARGS, NULL},
-	 { (char *)"OpenRS485_Write", _wrap_OpenRS485_Write, METH_VARARGS, NULL},
-	 { (char *)"OpenRS485_Activate", _wrap_OpenRS485_Activate, METH_VARARGS, NULL},
+	 { (char *)"GetDeviceCount", _wrap_GetDeviceCount, METH_VARARGS, (char *)"GetDeviceCount(int & result) -> int"},
+	 { (char *)"InitCommunication", _wrap_InitCommunication, METH_VARARGS, (char *)"InitCommunication() -> int"},
+	 { (char *)"CloseCommunication", _wrap_CloseCommunication, METH_VARARGS, (char *)"CloseCommunication() -> int"},
+	 { (char *)"SendPacket", _wrap_SendPacket, METH_VARARGS, (char *)"SendPacket(Packet packetOut, Packet packetIn, int & result) -> Packet"},
+	 { (char *)"ScanForNewDevice", _wrap_ScanForNewDevice, METH_VARARGS, (char *)"ScanForNewDevice() -> int"},
+	 { (char *)"GetDevices", _wrap_GetDevices, METH_VARARGS, (char *)"GetDevices(KinovaDevice list, int & result) -> int"},
+	 { (char *)"SetActiveDevice", _wrap_SetActiveDevice, METH_VARARGS, (char *)"SetActiveDevice(KinovaDevice device) -> int"},
+	 { (char *)"GetActiveDevice", _wrap_GetActiveDevice, METH_VARARGS, (char *)"GetActiveDevice(KinovaDevice device) -> int"},
+	 { (char *)"OpenRS485_Read", _wrap_OpenRS485_Read, METH_VARARGS, (char *)"OpenRS485_Read(RS485_Message PackagesIn, int QuantityWanted, int & ReceivedQtyIn) -> int"},
+	 { (char *)"OpenRS485_Write", _wrap_OpenRS485_Write, METH_VARARGS, (char *)"OpenRS485_Write(RS485_Message PackagesOut, int QtyToSend, int & QtySent) -> int"},
+	 { (char *)"OpenRS485_Activate", _wrap_OpenRS485_Activate, METH_VARARGS, (char *)"OpenRS485_Activate() -> int"},
 	 { (char *)"COMM_LAYER_PATH_swigconstant", COMM_LAYER_PATH_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"COMM_LAYER_ETHERNET_PATH_swigconstant", COMM_LAYER_ETHERNET_PATH_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"ERROR_INIT_API_swigconstant", ERROR_INIT_API_swigconstant, METH_VARARGS, NULL},
@@ -37697,232 +37973,301 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"GRAVITY_PAYLOAD_SIZE_swigconstant", GRAVITY_PAYLOAD_SIZE_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"IP_ADDRESS_LENGTH_swigconstant", IP_ADDRESS_LENGTH_swigconstant, METH_VARARGS, NULL},
 	 { (char *)"MAC_ADDRESS_LENGTH_swigconstant", MAC_ADDRESS_LENGTH_swigconstant, METH_VARARGS, NULL},
-	 { (char *)"RefresDevicesList", _wrap_RefresDevicesList, METH_VARARGS, NULL},
-	 { (char *)"InitAPI", _wrap_InitAPI, METH_VARARGS, NULL},
-	 { (char *)"CloseAPI", _wrap_CloseAPI, METH_VARARGS, NULL},
-	 { (char *)"GetCodeVersion", _wrap_GetCodeVersion, METH_VARARGS, NULL},
-	 { (char *)"GetAPIVersion", _wrap_GetAPIVersion, METH_VARARGS, NULL},
-	 { (char *)"GetCartesianPosition", _wrap_GetCartesianPosition, METH_VARARGS, NULL},
-	 { (char *)"GetAngularPosition", _wrap_GetAngularPosition, METH_VARARGS, NULL},
-	 { (char *)"GetCartesianForce", _wrap_GetCartesianForce, METH_VARARGS, NULL},
-	 { (char *)"GetAngularForce", _wrap_GetAngularForce, METH_VARARGS, NULL},
-	 { (char *)"GetAngularCurrent", _wrap_GetAngularCurrent, METH_VARARGS, NULL},
-	 { (char *)"GetActualTrajectoryInfo", _wrap_GetActualTrajectoryInfo, METH_VARARGS, NULL},
-	 { (char *)"GetGlobalTrajectoryInfo", _wrap_GetGlobalTrajectoryInfo, METH_VARARGS, NULL},
-	 { (char *)"GetSensorsInfo", _wrap_GetSensorsInfo, METH_VARARGS, NULL},
-	 { (char *)"GetSingularityVector", _wrap_GetSingularityVector, METH_VARARGS, NULL},
-	 { (char *)"SetAngularControl", _wrap_SetAngularControl, METH_VARARGS, NULL},
-	 { (char *)"SetCartesianControl", _wrap_SetCartesianControl, METH_VARARGS, NULL},
-	 { (char *)"StartControlAPI", _wrap_StartControlAPI, METH_VARARGS, NULL},
-	 { (char *)"StopControlAPI", _wrap_StopControlAPI, METH_VARARGS, NULL},
-	 { (char *)"RestoreFactoryDefault", _wrap_RestoreFactoryDefault, METH_VARARGS, NULL},
-	 { (char *)"SendJoystickCommand", _wrap_SendJoystickCommand, METH_VARARGS, NULL},
-	 { (char *)"SendAdvanceTrajectory", _wrap_SendAdvanceTrajectory, METH_VARARGS, NULL},
-	 { (char *)"SendBasicTrajectory", _wrap_SendBasicTrajectory, METH_VARARGS, NULL},
-	 { (char *)"GetClientConfigurations", _wrap_GetClientConfigurations, METH_VARARGS, NULL},
-	 { (char *)"SetClientConfigurations", _wrap_SetClientConfigurations, METH_VARARGS, NULL},
-	 { (char *)"EraseAllTrajectories", _wrap_EraseAllTrajectories, METH_VARARGS, NULL},
-	 { (char *)"GetPositionCurrentActuators", _wrap_GetPositionCurrentActuators, METH_VARARGS, NULL},
-	 { (char *)"SetActuatorPID", _wrap_SetActuatorPID, METH_VARARGS, NULL},
-	 { (char *)"GetAngularCommand", _wrap_GetAngularCommand, METH_VARARGS, NULL},
-	 { (char *)"GetCartesianCommand", _wrap_GetCartesianCommand, METH_VARARGS, NULL},
-	 { (char *)"GetAngularCurrentMotor", _wrap_GetAngularCurrentMotor, METH_VARARGS, NULL},
-	 { (char *)"GetAngularVelocity", _wrap_GetAngularVelocity, METH_VARARGS, NULL},
-	 { (char *)"GetControlType", _wrap_GetControlType, METH_VARARGS, NULL},
-	 { (char *)"StartForceControl", _wrap_StartForceControl, METH_VARARGS, NULL},
-	 { (char *)"StopForceControl", _wrap_StopForceControl, METH_VARARGS, NULL},
-	 { (char *)"StartRedundantJointNullSpaceMotion", _wrap_StartRedundantJointNullSpaceMotion, METH_VARARGS, NULL},
-	 { (char *)"StopRedundantJointNullSpaceMotion", _wrap_StopRedundantJointNullSpaceMotion, METH_VARARGS, NULL},
-	 { (char *)"ActivateExtraProtectionPinchingWrist", _wrap_ActivateExtraProtectionPinchingWrist, METH_VARARGS, NULL},
-	 { (char *)"ActivateCollisionAutomaticAvoidance", _wrap_ActivateCollisionAutomaticAvoidance, METH_VARARGS, NULL},
-	 { (char *)"ActivateSingularityAutomaticAvoidance", _wrap_ActivateSingularityAutomaticAvoidance, METH_VARARGS, NULL},
-	 { (char *)"ActivateAutoNullSpaceMotionCartesian", _wrap_ActivateAutoNullSpaceMotionCartesian, METH_VARARGS, NULL},
-	 { (char *)"StartCurrentLimitation", _wrap_StartCurrentLimitation, METH_VARARGS, NULL},
-	 { (char *)"StopCurrentLimitation", _wrap_StopCurrentLimitation, METH_VARARGS, NULL},
-	 { (char *)"GetSystemErrorCount", _wrap_GetSystemErrorCount, METH_VARARGS, NULL},
-	 { (char *)"GetSystemError", _wrap_GetSystemError, METH_VARARGS, NULL},
-	 { (char *)"ClearErrorLog", _wrap_ClearErrorLog, METH_VARARGS, NULL},
-	 { (char *)"EraseAllProtectionZones", _wrap_EraseAllProtectionZones, METH_VARARGS, NULL},
-	 { (char *)"SetSerialNumber", _wrap_SetSerialNumber, METH_VARARGS, NULL},
-	 { (char *)"SetDefaultGravityParam", _wrap_SetDefaultGravityParam, METH_VARARGS, NULL},
-	 { (char *)"GetControlMapping", _wrap_GetControlMapping, METH_VARARGS, NULL},
-	 { (char *)"GetProtectionZone", _wrap_GetProtectionZone, METH_VARARGS, NULL},
-	 { (char *)"SetProtectionZone", _wrap_SetProtectionZone, METH_VARARGS, NULL},
-	 { (char *)"GetGripperStatus", _wrap_GetGripperStatus, METH_VARARGS, NULL},
-	 { (char *)"GetQuickStatus", _wrap_GetQuickStatus, METH_VARARGS, NULL},
-	 { (char *)"GetForcesInfo", _wrap_GetForcesInfo, METH_VARARGS, NULL},
-	 { (char *)"SetControlMapping", _wrap_SetControlMapping, METH_VARARGS, NULL},
-	 { (char *)"ProgramFlash", _wrap_ProgramFlash, METH_VARARGS, NULL},
-	 { (char *)"SetJointZero", _wrap_SetJointZero, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueZero", _wrap_SetTorqueZero, METH_VARARGS, NULL},
-	 { (char *)"SetActuatorPIDFilter", _wrap_SetActuatorPIDFilter, METH_VARARGS, NULL},
-	 { (char *)"SetActuatorAddress", _wrap_SetActuatorAddress, METH_VARARGS, NULL},
-	 { (char *)"GetGeneralInformations", _wrap_GetGeneralInformations, METH_VARARGS, NULL},
-	 { (char *)"SetFrameType", _wrap_SetFrameType, METH_VARARGS, NULL},
-	 { (char *)"SetCartesianForceMinMax", _wrap_SetCartesianForceMinMax, METH_VARARGS, NULL},
-	 { (char *)"SetCartesianInertiaDamping", _wrap_SetCartesianInertiaDamping, METH_VARARGS, NULL},
-	 { (char *)"SetAngularTorqueMinMax", _wrap_SetAngularTorqueMinMax, METH_VARARGS, NULL},
-	 { (char *)"SetAngularInertiaDamping", _wrap_SetAngularInertiaDamping, METH_VARARGS, NULL},
-	 { (char *)"SetDevValue", _wrap_SetDevValue, METH_VARARGS, NULL},
-	 { (char *)"GetDevValue", _wrap_GetDevValue, METH_VARARGS, NULL},
-	 { (char *)"SetSpasmFilterValues", _wrap_SetSpasmFilterValues, METH_VARARGS, NULL},
-	 { (char *)"GetSpasmFilterValues", _wrap_GetSpasmFilterValues, METH_VARARGS, NULL},
-	 { (char *)"MoveHome", _wrap_MoveHome, METH_VARARGS, NULL},
-	 { (char *)"GetAngularForceGravityFree", _wrap_GetAngularForceGravityFree, METH_VARARGS, NULL},
-	 { (char *)"GetActuatorAcceleration", _wrap_GetActuatorAcceleration, METH_VARARGS, NULL},
-	 { (char *)"InitFingers", _wrap_InitFingers, METH_VARARGS, NULL},
-	 { (char *)"GetPeripheralInventory", _wrap_GetPeripheralInventory, METH_VARARGS, NULL},
-	 { (char *)"SetModel", _wrap_SetModel, METH_VARARGS, NULL},
-	 { (char *)"GetJoystickValue", _wrap_GetJoystickValue, METH_VARARGS, NULL},
-	 { (char *)"SetRobotConfiguration", _wrap_SetRobotConfiguration, METH_VARARGS, NULL},
-	 { (char *)"GetCommandVelocity", _wrap_GetCommandVelocity, METH_VARARGS, NULL},
-	 { (char *)"GetEndEffectorOffset", _wrap_GetEndEffectorOffset, METH_VARARGS, NULL},
-	 { (char *)"SetEndEffectorOffset", _wrap_SetEndEffectorOffset, METH_VARARGS, NULL},
-	 { (char *)"SendAngularTorqueCommand", _wrap_SendAngularTorqueCommand, METH_VARARGS, NULL},
-	 { (char *)"SendCartesianForceCommand", _wrap_SendCartesianForceCommand, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueActuatorGain", _wrap_SetTorqueActuatorGain, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueActuatorDamping", _wrap_SetTorqueActuatorDamping, METH_VARARGS, NULL},
-	 { (char *)"SwitchTrajectoryTorque", _wrap_SwitchTrajectoryTorque, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueCommandMax", _wrap_SetTorqueCommandMax, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueSafetyFactor", _wrap_SetTorqueSafetyFactor, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueGainMax", _wrap_SetTorqueGainMax, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueRateLimiter", _wrap_SetTorqueRateLimiter, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueFeedCurrent", _wrap_SetTorqueFeedCurrent, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueFeedVelocity", _wrap_SetTorqueFeedVelocity, METH_VARARGS, NULL},
-	 { (char *)"SetTorquePositionLimitDampingGain", _wrap_SetTorquePositionLimitDampingGain, METH_VARARGS, NULL},
-	 { (char *)"SetTorquePositionLimitDampingMax", _wrap_SetTorquePositionLimitDampingMax, METH_VARARGS, NULL},
-	 { (char *)"SetTorquePositionLimitRepulsGain", _wrap_SetTorquePositionLimitRepulsGain, METH_VARARGS, NULL},
-	 { (char *)"SetTorquePositionLimitRepulsMax", _wrap_SetTorquePositionLimitRepulsMax, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueFilterVelocity", _wrap_SetTorqueFilterVelocity, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueFilterMeasuredTorque", _wrap_SetTorqueFilterMeasuredTorque, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueFilterError", _wrap_SetTorqueFilterError, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueFilterControlEffort", _wrap_SetTorqueFilterControlEffort, METH_VARARGS, NULL},
-	 { (char *)"SetGravityType", _wrap_SetGravityType, METH_VARARGS, NULL},
-	 { (char *)"SetGravityVector", _wrap_SetGravityVector, METH_VARARGS, NULL},
-	 { (char *)"SetGravityOptimalZParam", _wrap_SetGravityOptimalZParam, METH_VARARGS, NULL},
-	 { (char *)"SetGravityManualInputParam", _wrap_SetGravityManualInputParam, METH_VARARGS, NULL},
-	 { (char *)"GetAngularTorqueCommand", _wrap_GetAngularTorqueCommand, METH_VARARGS, NULL},
-	 { (char *)"GetAngularTorqueGravityEstimation", _wrap_GetAngularTorqueGravityEstimation, METH_VARARGS, NULL},
-	 { (char *)"SetActuatorMaxVelocity", _wrap_SetActuatorMaxVelocity, METH_VARARGS, NULL},
-	 { (char *)"SetSwitchThreshold", _wrap_SetSwitchThreshold, METH_VARARGS, NULL},
-	 { (char *)"SetPositionLimitDistance", _wrap_SetPositionLimitDistance, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueControlType", _wrap_SetTorqueControlType, METH_VARARGS, NULL},
-	 { (char *)"SetGravityPayload", _wrap_SetGravityPayload, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueVibrationController", _wrap_SetTorqueVibrationController, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueRobotProtection", _wrap_SetTorqueRobotProtection, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueVelocityLimitFilter", _wrap_SetTorqueVelocityLimitFilter, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueFeedFilter", _wrap_SetTorqueFeedFilter, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueStaticFriction", _wrap_SetTorqueStaticFriction, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueErrorDeadband", _wrap_SetTorqueErrorDeadband, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueBrake", _wrap_SetTorqueBrake, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueInactivityTimeActuator", _wrap_SetTorqueInactivityTimeActuator, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueInactivityTimeMainController", _wrap_SetTorqueInactivityTimeMainController, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueDampingMax", _wrap_SetTorqueDampingMax, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueFeedVelocityUnderGain", _wrap_SetTorqueFeedVelocityUnderGain, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueFeedCurrentVoltage", _wrap_SetTorqueFeedCurrentVoltage, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueStaticFrictionMax", _wrap_SetTorqueStaticFrictionMax, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueErrorResend", _wrap_SetTorqueErrorResend, METH_VARARGS, NULL},
-	 { (char *)"RunGravityZEstimationSequence", _wrap_RunGravityZEstimationSequence, METH_VARARGS, NULL},
-	 { (char *)"RunGravityZEstimationSequence7DOF", _wrap_RunGravityZEstimationSequence7DOF, METH_VARARGS, NULL},
-	 { (char *)"GetTrajectoryTorqueMode", _wrap_GetTrajectoryTorqueMode, METH_VARARGS, NULL},
-	 { (char *)"SetTorqueInactivityType", _wrap_SetTorqueInactivityType, METH_VARARGS, NULL},
-	 { (char *)"SetLocalMACAddress", _wrap_SetLocalMACAddress, METH_VARARGS, NULL},
-	 { (char *)"delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator_value", _wrap_SwigPyIterator_value, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator_incr", _wrap_SwigPyIterator_incr, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator_decr", _wrap_SwigPyIterator_decr, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator_distance", _wrap_SwigPyIterator_distance, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator_equal", _wrap_SwigPyIterator_equal, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator_copy", _wrap_SwigPyIterator_copy, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator_next", _wrap_SwigPyIterator_next, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator___next__", _wrap_SwigPyIterator___next__, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator_previous", _wrap_SwigPyIterator_previous, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator_advance", _wrap_SwigPyIterator_advance, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator___eq__", _wrap_SwigPyIterator___eq__, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator___ne__", _wrap_SwigPyIterator___ne__, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator___iadd__", _wrap_SwigPyIterator___iadd__, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator___isub__", _wrap_SwigPyIterator___isub__, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator___add__", _wrap_SwigPyIterator___add__, METH_VARARGS, NULL},
-	 { (char *)"SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, NULL},
+	 { (char *)"RefresDevicesList", _wrap_RefresDevicesList, METH_VARARGS, (char *)"RefresDevicesList() -> int"},
+	 { (char *)"InitAPI", _wrap_InitAPI, METH_VARARGS, (char *)"InitAPI() -> int"},
+	 { (char *)"CloseAPI", _wrap_CloseAPI, METH_VARARGS, (char *)"CloseAPI() -> int"},
+	 { (char *)"GetCodeVersion", _wrap_GetCodeVersion, METH_VARARGS, (char *)"GetCodeVersion(int [42] Response) -> int"},
+	 { (char *)"GetAPIVersion", _wrap_GetAPIVersion, METH_VARARGS, (char *)"GetAPIVersion(int [3] Response) -> int"},
+	 { (char *)"GetCartesianPosition", _wrap_GetCartesianPosition, METH_VARARGS, (char *)"GetCartesianPosition(CartesianPosition Response) -> int"},
+	 { (char *)"GetAngularPosition", _wrap_GetAngularPosition, METH_VARARGS, (char *)"GetAngularPosition(AngularPosition Response) -> int"},
+	 { (char *)"GetCartesianForce", _wrap_GetCartesianForce, METH_VARARGS, (char *)"GetCartesianForce(CartesianPosition Response) -> int"},
+	 { (char *)"GetAngularForce", _wrap_GetAngularForce, METH_VARARGS, (char *)"GetAngularForce(AngularPosition Response) -> int"},
+	 { (char *)"GetAngularCurrent", _wrap_GetAngularCurrent, METH_VARARGS, (char *)"GetAngularCurrent(AngularPosition Response) -> int"},
+	 { (char *)"GetActualTrajectoryInfo", _wrap_GetActualTrajectoryInfo, METH_VARARGS, (char *)"GetActualTrajectoryInfo(TrajectoryPoint Response) -> int"},
+	 { (char *)"GetGlobalTrajectoryInfo", _wrap_GetGlobalTrajectoryInfo, METH_VARARGS, (char *)"GetGlobalTrajectoryInfo(TrajectoryFIFO Response) -> int"},
+	 { (char *)"GetSensorsInfo", _wrap_GetSensorsInfo, METH_VARARGS, (char *)"GetSensorsInfo(SensorsInfo Response) -> int"},
+	 { (char *)"GetSingularityVector", _wrap_GetSingularityVector, METH_VARARGS, (char *)"GetSingularityVector(SingularityVector Response) -> int"},
+	 { (char *)"SetAngularControl", _wrap_SetAngularControl, METH_VARARGS, (char *)"SetAngularControl() -> int"},
+	 { (char *)"SetCartesianControl", _wrap_SetCartesianControl, METH_VARARGS, (char *)"SetCartesianControl() -> int"},
+	 { (char *)"StartControlAPI", _wrap_StartControlAPI, METH_VARARGS, (char *)"StartControlAPI() -> int"},
+	 { (char *)"StopControlAPI", _wrap_StopControlAPI, METH_VARARGS, (char *)"StopControlAPI() -> int"},
+	 { (char *)"RestoreFactoryDefault", _wrap_RestoreFactoryDefault, METH_VARARGS, (char *)"RestoreFactoryDefault() -> int"},
+	 { (char *)"SendJoystickCommand", _wrap_SendJoystickCommand, METH_VARARGS, (char *)"SendJoystickCommand(JoystickCommand joystickCommand) -> int"},
+	 { (char *)"SendAdvanceTrajectory", _wrap_SendAdvanceTrajectory, METH_VARARGS, (char *)"SendAdvanceTrajectory(TrajectoryPoint trajectory) -> int"},
+	 { (char *)"SendBasicTrajectory", _wrap_SendBasicTrajectory, METH_VARARGS, (char *)"SendBasicTrajectory(TrajectoryPoint trajectory) -> int"},
+	 { (char *)"GetClientConfigurations", _wrap_GetClientConfigurations, METH_VARARGS, (char *)"GetClientConfigurations(ClientConfigurations config) -> int"},
+	 { (char *)"SetClientConfigurations", _wrap_SetClientConfigurations, METH_VARARGS, (char *)"SetClientConfigurations(ClientConfigurations config) -> int"},
+	 { (char *)"EraseAllTrajectories", _wrap_EraseAllTrajectories, METH_VARARGS, (char *)"EraseAllTrajectories() -> int"},
+	 { (char *)"GetPositionCurrentActuators", _wrap_GetPositionCurrentActuators, METH_VARARGS, (char *)"GetPositionCurrentActuators(float [12] Response) -> int"},
+	 { (char *)"SetActuatorPID", _wrap_SetActuatorPID, METH_VARARGS, (char *)"SetActuatorPID(unsigned int address, float P, float I, float D) -> int"},
+	 { (char *)"GetAngularCommand", _wrap_GetAngularCommand, METH_VARARGS, (char *)"GetAngularCommand(AngularPosition Response) -> int"},
+	 { (char *)"GetCartesianCommand", _wrap_GetCartesianCommand, METH_VARARGS, (char *)"GetCartesianCommand(CartesianPosition Response) -> int"},
+	 { (char *)"GetAngularCurrentMotor", _wrap_GetAngularCurrentMotor, METH_VARARGS, (char *)"GetAngularCurrentMotor(AngularPosition Response) -> int"},
+	 { (char *)"GetAngularVelocity", _wrap_GetAngularVelocity, METH_VARARGS, (char *)"GetAngularVelocity(AngularPosition Response) -> int"},
+	 { (char *)"GetControlType", _wrap_GetControlType, METH_VARARGS, (char *)"GetControlType(int & Response) -> int"},
+	 { (char *)"StartForceControl", _wrap_StartForceControl, METH_VARARGS, (char *)"StartForceControl() -> int"},
+	 { (char *)"StopForceControl", _wrap_StopForceControl, METH_VARARGS, (char *)"StopForceControl() -> int"},
+	 { (char *)"StartRedundantJointNullSpaceMotion", _wrap_StartRedundantJointNullSpaceMotion, METH_VARARGS, (char *)"StartRedundantJointNullSpaceMotion() -> int"},
+	 { (char *)"StopRedundantJointNullSpaceMotion", _wrap_StopRedundantJointNullSpaceMotion, METH_VARARGS, (char *)"StopRedundantJointNullSpaceMotion() -> int"},
+	 { (char *)"ActivateExtraProtectionPinchingWrist", _wrap_ActivateExtraProtectionPinchingWrist, METH_VARARGS, (char *)"ActivateExtraProtectionPinchingWrist(int state) -> int"},
+	 { (char *)"ActivateCollisionAutomaticAvoidance", _wrap_ActivateCollisionAutomaticAvoidance, METH_VARARGS, (char *)"ActivateCollisionAutomaticAvoidance(int state) -> int"},
+	 { (char *)"ActivateSingularityAutomaticAvoidance", _wrap_ActivateSingularityAutomaticAvoidance, METH_VARARGS, (char *)"ActivateSingularityAutomaticAvoidance(int state) -> int"},
+	 { (char *)"ActivateAutoNullSpaceMotionCartesian", _wrap_ActivateAutoNullSpaceMotionCartesian, METH_VARARGS, (char *)"ActivateAutoNullSpaceMotionCartesian(int state) -> int"},
+	 { (char *)"StartCurrentLimitation", _wrap_StartCurrentLimitation, METH_VARARGS, (char *)"StartCurrentLimitation() -> int"},
+	 { (char *)"StopCurrentLimitation", _wrap_StopCurrentLimitation, METH_VARARGS, (char *)"StopCurrentLimitation() -> int"},
+	 { (char *)"GetSystemErrorCount", _wrap_GetSystemErrorCount, METH_VARARGS, (char *)"GetSystemErrorCount(unsigned int & Response) -> int"},
+	 { (char *)"GetSystemError", _wrap_GetSystemError, METH_VARARGS, (char *)"GetSystemError(unsigned int indexError, SystemError Response) -> int"},
+	 { (char *)"ClearErrorLog", _wrap_ClearErrorLog, METH_VARARGS, (char *)"ClearErrorLog() -> int"},
+	 { (char *)"EraseAllProtectionZones", _wrap_EraseAllProtectionZones, METH_VARARGS, (char *)"EraseAllProtectionZones() -> int"},
+	 { (char *)"SetSerialNumber", _wrap_SetSerialNumber, METH_VARARGS, (char *)"SetSerialNumber(char [20] Command, char [20] temp) -> int"},
+	 { (char *)"SetDefaultGravityParam", _wrap_SetDefaultGravityParam, METH_VARARGS, (char *)"SetDefaultGravityParam(float [42] Command) -> int"},
+	 { (char *)"GetControlMapping", _wrap_GetControlMapping, METH_VARARGS, (char *)"GetControlMapping(ControlMappingCharts Response) -> int"},
+	 { (char *)"GetProtectionZone", _wrap_GetProtectionZone, METH_VARARGS, (char *)"GetProtectionZone(ZoneList Response) -> int"},
+	 { (char *)"SetProtectionZone", _wrap_SetProtectionZone, METH_VARARGS, (char *)"SetProtectionZone(ZoneList Command) -> int"},
+	 { (char *)"GetGripperStatus", _wrap_GetGripperStatus, METH_VARARGS, (char *)"GetGripperStatus(Gripper Response) -> int"},
+	 { (char *)"GetQuickStatus", _wrap_GetQuickStatus, METH_VARARGS, (char *)"GetQuickStatus(QuickStatus Response) -> int"},
+	 { (char *)"GetForcesInfo", _wrap_GetForcesInfo, METH_VARARGS, (char *)"GetForcesInfo(ForcesInfo Response) -> int"},
+	 { (char *)"SetControlMapping", _wrap_SetControlMapping, METH_VARARGS, (char *)"SetControlMapping(ControlMappingCharts Command) -> int"},
+	 { (char *)"ProgramFlash", _wrap_ProgramFlash, METH_VARARGS, (char *)"ProgramFlash(char const * filename) -> int"},
+	 { (char *)"SetJointZero", _wrap_SetJointZero, METH_VARARGS, (char *)"SetJointZero(int ActuatorAdress) -> int"},
+	 { (char *)"SetTorqueZero", _wrap_SetTorqueZero, METH_VARARGS, (char *)"SetTorqueZero(int ActuatorAdress) -> int"},
+	 { (char *)"SetActuatorPIDFilter", _wrap_SetActuatorPIDFilter, METH_VARARGS, (char *)"SetActuatorPIDFilter(int ActuatorAdress, float filterP, float filterI, float filterD) -> int"},
+	 { (char *)"SetActuatorAddress", _wrap_SetActuatorAddress, METH_VARARGS, (char *)"SetActuatorAddress(int ActuatorAdress, int newAddress) -> int"},
+	 { (char *)"GetGeneralInformations", _wrap_GetGeneralInformations, METH_VARARGS, (char *)"GetGeneralInformations(GeneralInformations Response) -> int"},
+	 { (char *)"SetFrameType", _wrap_SetFrameType, METH_VARARGS, (char *)"SetFrameType(int frameType) -> int"},
+	 { (char *)"SetCartesianForceMinMax", _wrap_SetCartesianForceMinMax, METH_VARARGS, (char *)"SetCartesianForceMinMax(CartesianInfo min, CartesianInfo max) -> int"},
+	 { (char *)"SetCartesianInertiaDamping", _wrap_SetCartesianInertiaDamping, METH_VARARGS, (char *)"SetCartesianInertiaDamping(CartesianInfo inertia, CartesianInfo damping) -> int"},
+	 { (char *)"SetAngularTorqueMinMax", _wrap_SetAngularTorqueMinMax, METH_VARARGS, (char *)"SetAngularTorqueMinMax(AngularInfo min, AngularInfo max) -> int"},
+	 { (char *)"SetAngularInertiaDamping", _wrap_SetAngularInertiaDamping, METH_VARARGS, (char *)"SetAngularInertiaDamping(AngularInfo inertia, AngularInfo damping) -> int"},
+	 { (char *)"SetDevValue", _wrap_SetDevValue, METH_VARARGS, (char *)"SetDevValue(std::vector< float,std::allocator< float > > command) -> int"},
+	 { (char *)"GetDevValue", _wrap_GetDevValue, METH_VARARGS, (char *)"GetDevValue(std::vector< float,std::allocator< float > > & Response) -> int"},
+	 { (char *)"SetSpasmFilterValues", _wrap_SetSpasmFilterValues, METH_VARARGS, (char *)"SetSpasmFilterValues(float [1] Command, int activationStatus) -> int"},
+	 { (char *)"GetSpasmFilterValues", _wrap_GetSpasmFilterValues, METH_VARARGS, (char *)"GetSpasmFilterValues(float [1] Response, int & activationStatus) -> int"},
+	 { (char *)"MoveHome", _wrap_MoveHome, METH_VARARGS, (char *)"MoveHome() -> int"},
+	 { (char *)"GetAngularForceGravityFree", _wrap_GetAngularForceGravityFree, METH_VARARGS, (char *)"GetAngularForceGravityFree(AngularPosition Response) -> int"},
+	 { (char *)"GetActuatorAcceleration", _wrap_GetActuatorAcceleration, METH_VARARGS, (char *)"GetActuatorAcceleration(AngularAcceleration Response) -> int"},
+	 { (char *)"InitFingers", _wrap_InitFingers, METH_VARARGS, (char *)"InitFingers() -> int"},
+	 { (char *)"GetPeripheralInventory", _wrap_GetPeripheralInventory, METH_VARARGS, (char *)"GetPeripheralInventory(PeripheralInfo list) -> int"},
+	 { (char *)"SetModel", _wrap_SetModel, METH_VARARGS, (char *)"SetModel(char [20] Command, char [20] temp) -> int"},
+	 { (char *)"GetJoystickValue", _wrap_GetJoystickValue, METH_VARARGS, (char *)"GetJoystickValue(JoystickCommand joystickCommand) -> int"},
+	 { (char *)"SetRobotConfiguration", _wrap_SetRobotConfiguration, METH_VARARGS, (char *)"SetRobotConfiguration(int ConfigID) -> int"},
+	 { (char *)"GetCommandVelocity", _wrap_GetCommandVelocity, METH_VARARGS, (char *)"GetCommandVelocity(float [6] cartesianVelocity, float [7] angularVelocity) -> int"},
+	 { (char *)"GetEndEffectorOffset", _wrap_GetEndEffectorOffset, METH_VARARGS, (char *)"GetEndEffectorOffset(unsigned int & status, float & x, float & y, float & z) -> int"},
+	 { (char *)"SetEndEffectorOffset", _wrap_SetEndEffectorOffset, METH_VARARGS, (char *)"SetEndEffectorOffset(unsigned int status, float x, float y, float z) -> int"},
+	 { (char *)"SendAngularTorqueCommand", _wrap_SendAngularTorqueCommand, METH_VARARGS, (char *)"SendAngularTorqueCommand(float [70] Command) -> int"},
+	 { (char *)"SendCartesianForceCommand", _wrap_SendCartesianForceCommand, METH_VARARGS, (char *)"SendCartesianForceCommand(float [70] Command) -> int"},
+	 { (char *)"SetTorqueActuatorGain", _wrap_SetTorqueActuatorGain, METH_VARARGS, (char *)"SetTorqueActuatorGain(float [70] Command) -> int"},
+	 { (char *)"SetTorqueActuatorDamping", _wrap_SetTorqueActuatorDamping, METH_VARARGS, (char *)"SetTorqueActuatorDamping(float [70] Command) -> int"},
+	 { (char *)"SwitchTrajectoryTorque", _wrap_SwitchTrajectoryTorque, METH_VARARGS, (char *)"SwitchTrajectoryTorque(GENERALCONTROL_TYPE type) -> int"},
+	 { (char *)"SetTorqueCommandMax", _wrap_SetTorqueCommandMax, METH_VARARGS, (char *)"SetTorqueCommandMax(float [70] Command) -> int"},
+	 { (char *)"SetTorqueSafetyFactor", _wrap_SetTorqueSafetyFactor, METH_VARARGS, (char *)"SetTorqueSafetyFactor(float factor) -> int"},
+	 { (char *)"SetTorqueGainMax", _wrap_SetTorqueGainMax, METH_VARARGS, (char *)"SetTorqueGainMax(float [70] Command) -> int"},
+	 { (char *)"SetTorqueRateLimiter", _wrap_SetTorqueRateLimiter, METH_VARARGS, (char *)"SetTorqueRateLimiter(float [70] Command) -> int"},
+	 { (char *)"SetTorqueFeedCurrent", _wrap_SetTorqueFeedCurrent, METH_VARARGS, (char *)"SetTorqueFeedCurrent(float [70] Command) -> int"},
+	 { (char *)"SetTorqueFeedVelocity", _wrap_SetTorqueFeedVelocity, METH_VARARGS, (char *)"SetTorqueFeedVelocity(float [70] Command) -> int"},
+	 { (char *)"SetTorquePositionLimitDampingGain", _wrap_SetTorquePositionLimitDampingGain, METH_VARARGS, (char *)"SetTorquePositionLimitDampingGain(float [70] Command) -> int"},
+	 { (char *)"SetTorquePositionLimitDampingMax", _wrap_SetTorquePositionLimitDampingMax, METH_VARARGS, (char *)"SetTorquePositionLimitDampingMax(float [70] Command) -> int"},
+	 { (char *)"SetTorquePositionLimitRepulsGain", _wrap_SetTorquePositionLimitRepulsGain, METH_VARARGS, (char *)"SetTorquePositionLimitRepulsGain(float [70] Command) -> int"},
+	 { (char *)"SetTorquePositionLimitRepulsMax", _wrap_SetTorquePositionLimitRepulsMax, METH_VARARGS, (char *)"SetTorquePositionLimitRepulsMax(float [70] Command) -> int"},
+	 { (char *)"SetTorqueFilterVelocity", _wrap_SetTorqueFilterVelocity, METH_VARARGS, (char *)"SetTorqueFilterVelocity(float [70] Command) -> int"},
+	 { (char *)"SetTorqueFilterMeasuredTorque", _wrap_SetTorqueFilterMeasuredTorque, METH_VARARGS, (char *)"SetTorqueFilterMeasuredTorque(float [70] Command) -> int"},
+	 { (char *)"SetTorqueFilterError", _wrap_SetTorqueFilterError, METH_VARARGS, (char *)"SetTorqueFilterError(float [70] Command) -> int"},
+	 { (char *)"SetTorqueFilterControlEffort", _wrap_SetTorqueFilterControlEffort, METH_VARARGS, (char *)"SetTorqueFilterControlEffort(float [70] Command) -> int"},
+	 { (char *)"SetGravityType", _wrap_SetGravityType, METH_VARARGS, (char *)"SetGravityType(GRAVITY_TYPE type) -> int"},
+	 { (char *)"SetGravityVector", _wrap_SetGravityVector, METH_VARARGS, (char *)"SetGravityVector(float [3] gravityVector) -> int"},
+	 { (char *)"SetGravityOptimalZParam", _wrap_SetGravityOptimalZParam, METH_VARARGS, (char *)"SetGravityOptimalZParam(float [42] Command) -> int"},
+	 { (char *)"SetGravityManualInputParam", _wrap_SetGravityManualInputParam, METH_VARARGS, (char *)"SetGravityManualInputParam(float [42] Command) -> int"},
+	 { (char *)"GetAngularTorqueCommand", _wrap_GetAngularTorqueCommand, METH_VARARGS, (char *)"GetAngularTorqueCommand(float [70] Command) -> int"},
+	 { (char *)"GetAngularTorqueGravityEstimation", _wrap_GetAngularTorqueGravityEstimation, METH_VARARGS, (char *)"GetAngularTorqueGravityEstimation(float [70] Command) -> int"},
+	 { (char *)"SetActuatorMaxVelocity", _wrap_SetActuatorMaxVelocity, METH_VARARGS, (char *)"SetActuatorMaxVelocity(float [70] Command) -> int"},
+	 { (char *)"SetSwitchThreshold", _wrap_SetSwitchThreshold, METH_VARARGS, (char *)"SetSwitchThreshold(float [70] Command) -> int"},
+	 { (char *)"SetPositionLimitDistance", _wrap_SetPositionLimitDistance, METH_VARARGS, (char *)"SetPositionLimitDistance(float [70] Command) -> int"},
+	 { (char *)"SetTorqueControlType", _wrap_SetTorqueControlType, METH_VARARGS, (char *)"SetTorqueControlType(TORQUECONTROL_TYPE type) -> int"},
+	 { (char *)"SetGravityPayload", _wrap_SetGravityPayload, METH_VARARGS, (char *)"SetGravityPayload(float [4] Command) -> int"},
+	 { (char *)"SetTorqueVibrationController", _wrap_SetTorqueVibrationController, METH_VARARGS, (char *)"SetTorqueVibrationController(float activationStatus) -> int"},
+	 { (char *)"SetTorqueRobotProtection", _wrap_SetTorqueRobotProtection, METH_VARARGS, (char *)"SetTorqueRobotProtection(int protectionLevel) -> int"},
+	 { (char *)"SetTorqueVelocityLimitFilter", _wrap_SetTorqueVelocityLimitFilter, METH_VARARGS, (char *)"SetTorqueVelocityLimitFilter(float [70] Command) -> int"},
+	 { (char *)"SetTorqueFeedFilter", _wrap_SetTorqueFeedFilter, METH_VARARGS, (char *)"SetTorqueFeedFilter(float [70] Command) -> int"},
+	 { (char *)"SetTorqueStaticFriction", _wrap_SetTorqueStaticFriction, METH_VARARGS, (char *)"SetTorqueStaticFriction(float [70] Command) -> int"},
+	 { (char *)"SetTorqueErrorDeadband", _wrap_SetTorqueErrorDeadband, METH_VARARGS, (char *)"SetTorqueErrorDeadband(float [70] Command) -> int"},
+	 { (char *)"SetTorqueBrake", _wrap_SetTorqueBrake, METH_VARARGS, (char *)"SetTorqueBrake(float [70] Command) -> int"},
+	 { (char *)"SetTorqueInactivityTimeActuator", _wrap_SetTorqueInactivityTimeActuator, METH_VARARGS, (char *)"SetTorqueInactivityTimeActuator(float [70] Command) -> int"},
+	 { (char *)"SetTorqueInactivityTimeMainController", _wrap_SetTorqueInactivityTimeMainController, METH_VARARGS, (char *)"SetTorqueInactivityTimeMainController(int time) -> int"},
+	 { (char *)"SetTorqueDampingMax", _wrap_SetTorqueDampingMax, METH_VARARGS, (char *)"SetTorqueDampingMax(float [70] Command) -> int"},
+	 { (char *)"SetTorqueFeedVelocityUnderGain", _wrap_SetTorqueFeedVelocityUnderGain, METH_VARARGS, (char *)"SetTorqueFeedVelocityUnderGain(float [70] Command) -> int"},
+	 { (char *)"SetTorqueFeedCurrentVoltage", _wrap_SetTorqueFeedCurrentVoltage, METH_VARARGS, (char *)"SetTorqueFeedCurrentVoltage(float [70] Command) -> int"},
+	 { (char *)"SetTorqueStaticFrictionMax", _wrap_SetTorqueStaticFrictionMax, METH_VARARGS, (char *)"SetTorqueStaticFrictionMax(float [70] Command) -> int"},
+	 { (char *)"SetTorqueErrorResend", _wrap_SetTorqueErrorResend, METH_VARARGS, (char *)"SetTorqueErrorResend(float [70] Command) -> int"},
+	 { (char *)"RunGravityZEstimationSequence", _wrap_RunGravityZEstimationSequence, METH_VARARGS, (char *)"RunGravityZEstimationSequence(ROBOT_TYPE type, double [16] OptimalzParam) -> int"},
+	 { (char *)"RunGravityZEstimationSequence7DOF", _wrap_RunGravityZEstimationSequence7DOF, METH_VARARGS, (char *)"RunGravityZEstimationSequence7DOF(ROBOT_TYPE type, float [19] OptimalzParam) -> int"},
+	 { (char *)"GetTrajectoryTorqueMode", _wrap_GetTrajectoryTorqueMode, METH_VARARGS, (char *)"GetTrajectoryTorqueMode(int & arg1) -> int"},
+	 { (char *)"SetTorqueInactivityType", _wrap_SetTorqueInactivityType, METH_VARARGS, (char *)"SetTorqueInactivityType(int arg1) -> int"},
+	 { (char *)"SetLocalMACAddress", _wrap_SetLocalMACAddress, METH_VARARGS, (char *)"SetLocalMACAddress(unsigned char [6] mac, char [20] temp) -> int"},
+	 { (char *)"delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_VARARGS, (char *)"delete_SwigPyIterator(SwigPyIterator self)"},
+	 { (char *)"SwigPyIterator_value", _wrap_SwigPyIterator_value, METH_VARARGS, (char *)"SwigPyIterator_value(SwigPyIterator self) -> PyObject *"},
+	 { (char *)"SwigPyIterator_incr", _wrap_SwigPyIterator_incr, METH_VARARGS, (char *)"\n"
+		"incr(size_t n=1) -> SwigPyIterator\n"
+		"SwigPyIterator_incr(SwigPyIterator self) -> SwigPyIterator\n"
+		""},
+	 { (char *)"SwigPyIterator_decr", _wrap_SwigPyIterator_decr, METH_VARARGS, (char *)"\n"
+		"decr(size_t n=1) -> SwigPyIterator\n"
+		"SwigPyIterator_decr(SwigPyIterator self) -> SwigPyIterator\n"
+		""},
+	 { (char *)"SwigPyIterator_distance", _wrap_SwigPyIterator_distance, METH_VARARGS, (char *)"SwigPyIterator_distance(SwigPyIterator self, SwigPyIterator x) -> ptrdiff_t"},
+	 { (char *)"SwigPyIterator_equal", _wrap_SwigPyIterator_equal, METH_VARARGS, (char *)"SwigPyIterator_equal(SwigPyIterator self, SwigPyIterator x) -> bool"},
+	 { (char *)"SwigPyIterator_copy", _wrap_SwigPyIterator_copy, METH_VARARGS, (char *)"SwigPyIterator_copy(SwigPyIterator self) -> SwigPyIterator"},
+	 { (char *)"SwigPyIterator_next", _wrap_SwigPyIterator_next, METH_VARARGS, (char *)"SwigPyIterator_next(SwigPyIterator self) -> PyObject *"},
+	 { (char *)"SwigPyIterator___next__", _wrap_SwigPyIterator___next__, METH_VARARGS, (char *)"SwigPyIterator___next__(SwigPyIterator self) -> PyObject *"},
+	 { (char *)"SwigPyIterator_previous", _wrap_SwigPyIterator_previous, METH_VARARGS, (char *)"SwigPyIterator_previous(SwigPyIterator self) -> PyObject *"},
+	 { (char *)"SwigPyIterator_advance", _wrap_SwigPyIterator_advance, METH_VARARGS, (char *)"SwigPyIterator_advance(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"},
+	 { (char *)"SwigPyIterator___eq__", _wrap_SwigPyIterator___eq__, METH_VARARGS, (char *)"SwigPyIterator___eq__(SwigPyIterator self, SwigPyIterator x) -> bool"},
+	 { (char *)"SwigPyIterator___ne__", _wrap_SwigPyIterator___ne__, METH_VARARGS, (char *)"SwigPyIterator___ne__(SwigPyIterator self, SwigPyIterator x) -> bool"},
+	 { (char *)"SwigPyIterator___iadd__", _wrap_SwigPyIterator___iadd__, METH_VARARGS, (char *)"SwigPyIterator___iadd__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"},
+	 { (char *)"SwigPyIterator___isub__", _wrap_SwigPyIterator___isub__, METH_VARARGS, (char *)"SwigPyIterator___isub__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"},
+	 { (char *)"SwigPyIterator___add__", _wrap_SwigPyIterator___add__, METH_VARARGS, (char *)"SwigPyIterator___add__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"},
+	 { (char *)"SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, (char *)"\n"
+		"__sub__(ptrdiff_t n) -> SwigPyIterator\n"
+		"SwigPyIterator___sub__(SwigPyIterator self, SwigPyIterator x) -> ptrdiff_t\n"
+		""},
 	 { (char *)"SwigPyIterator_swigregister", SwigPyIterator_swigregister, METH_VARARGS, NULL},
-	 { (char *)"IntVector_iterator", _wrap_IntVector_iterator, METH_VARARGS, NULL},
-	 { (char *)"IntVector___nonzero__", _wrap_IntVector___nonzero__, METH_VARARGS, NULL},
-	 { (char *)"IntVector___bool__", _wrap_IntVector___bool__, METH_VARARGS, NULL},
-	 { (char *)"IntVector___len__", _wrap_IntVector___len__, METH_VARARGS, NULL},
-	 { (char *)"IntVector___getslice__", _wrap_IntVector___getslice__, METH_VARARGS, NULL},
-	 { (char *)"IntVector___setslice__", _wrap_IntVector___setslice__, METH_VARARGS, NULL},
-	 { (char *)"IntVector___delslice__", _wrap_IntVector___delslice__, METH_VARARGS, NULL},
-	 { (char *)"IntVector___delitem__", _wrap_IntVector___delitem__, METH_VARARGS, NULL},
-	 { (char *)"IntVector___getitem__", _wrap_IntVector___getitem__, METH_VARARGS, NULL},
-	 { (char *)"IntVector___setitem__", _wrap_IntVector___setitem__, METH_VARARGS, NULL},
-	 { (char *)"IntVector_pop", _wrap_IntVector_pop, METH_VARARGS, NULL},
-	 { (char *)"IntVector_append", _wrap_IntVector_append, METH_VARARGS, NULL},
-	 { (char *)"IntVector_empty", _wrap_IntVector_empty, METH_VARARGS, NULL},
-	 { (char *)"IntVector_size", _wrap_IntVector_size, METH_VARARGS, NULL},
-	 { (char *)"IntVector_swap", _wrap_IntVector_swap, METH_VARARGS, NULL},
-	 { (char *)"IntVector_begin", _wrap_IntVector_begin, METH_VARARGS, NULL},
-	 { (char *)"IntVector_end", _wrap_IntVector_end, METH_VARARGS, NULL},
-	 { (char *)"IntVector_rbegin", _wrap_IntVector_rbegin, METH_VARARGS, NULL},
-	 { (char *)"IntVector_rend", _wrap_IntVector_rend, METH_VARARGS, NULL},
-	 { (char *)"IntVector_clear", _wrap_IntVector_clear, METH_VARARGS, NULL},
-	 { (char *)"IntVector_get_allocator", _wrap_IntVector_get_allocator, METH_VARARGS, NULL},
-	 { (char *)"IntVector_pop_back", _wrap_IntVector_pop_back, METH_VARARGS, NULL},
-	 { (char *)"IntVector_erase", _wrap_IntVector_erase, METH_VARARGS, NULL},
-	 { (char *)"new_IntVector", _wrap_new_IntVector, METH_VARARGS, NULL},
-	 { (char *)"IntVector_push_back", _wrap_IntVector_push_back, METH_VARARGS, NULL},
-	 { (char *)"IntVector_front", _wrap_IntVector_front, METH_VARARGS, NULL},
-	 { (char *)"IntVector_back", _wrap_IntVector_back, METH_VARARGS, NULL},
-	 { (char *)"IntVector_assign", _wrap_IntVector_assign, METH_VARARGS, NULL},
-	 { (char *)"IntVector_resize", _wrap_IntVector_resize, METH_VARARGS, NULL},
-	 { (char *)"IntVector_insert", _wrap_IntVector_insert, METH_VARARGS, NULL},
-	 { (char *)"IntVector_reserve", _wrap_IntVector_reserve, METH_VARARGS, NULL},
-	 { (char *)"IntVector_capacity", _wrap_IntVector_capacity, METH_VARARGS, NULL},
-	 { (char *)"delete_IntVector", _wrap_delete_IntVector, METH_VARARGS, NULL},
+	 { (char *)"IntVector_iterator", _wrap_IntVector_iterator, METH_VARARGS, (char *)"IntVector_iterator(IntVector self) -> SwigPyIterator"},
+	 { (char *)"IntVector___nonzero__", _wrap_IntVector___nonzero__, METH_VARARGS, (char *)"IntVector___nonzero__(IntVector self) -> bool"},
+	 { (char *)"IntVector___bool__", _wrap_IntVector___bool__, METH_VARARGS, (char *)"IntVector___bool__(IntVector self) -> bool"},
+	 { (char *)"IntVector___len__", _wrap_IntVector___len__, METH_VARARGS, (char *)"IntVector___len__(IntVector self) -> std::vector< int >::size_type"},
+	 { (char *)"IntVector___getslice__", _wrap_IntVector___getslice__, METH_VARARGS, (char *)"IntVector___getslice__(IntVector self, std::vector< int >::difference_type i, std::vector< int >::difference_type j) -> IntVector"},
+	 { (char *)"IntVector___setslice__", _wrap_IntVector___setslice__, METH_VARARGS, (char *)"\n"
+		"__setslice__(std::vector< int >::difference_type i, std::vector< int >::difference_type j)\n"
+		"IntVector___setslice__(IntVector self, std::vector< int >::difference_type i, std::vector< int >::difference_type j, IntVector v)\n"
+		""},
+	 { (char *)"IntVector___delslice__", _wrap_IntVector___delslice__, METH_VARARGS, (char *)"IntVector___delslice__(IntVector self, std::vector< int >::difference_type i, std::vector< int >::difference_type j)"},
+	 { (char *)"IntVector___delitem__", _wrap_IntVector___delitem__, METH_VARARGS, (char *)"\n"
+		"__delitem__(std::vector< int >::difference_type i)\n"
+		"IntVector___delitem__(IntVector self, PySliceObject * slice)\n"
+		""},
+	 { (char *)"IntVector___getitem__", _wrap_IntVector___getitem__, METH_VARARGS, (char *)"\n"
+		"__getitem__(PySliceObject * slice) -> IntVector\n"
+		"IntVector___getitem__(IntVector self, std::vector< int >::difference_type i) -> std::vector< int >::value_type const &\n"
+		""},
+	 { (char *)"IntVector___setitem__", _wrap_IntVector___setitem__, METH_VARARGS, (char *)"\n"
+		"__setitem__(PySliceObject * slice, IntVector v)\n"
+		"__setitem__(PySliceObject * slice)\n"
+		"IntVector___setitem__(IntVector self, std::vector< int >::difference_type i, std::vector< int >::value_type const & x)\n"
+		""},
+	 { (char *)"IntVector_pop", _wrap_IntVector_pop, METH_VARARGS, (char *)"IntVector_pop(IntVector self) -> std::vector< int >::value_type"},
+	 { (char *)"IntVector_append", _wrap_IntVector_append, METH_VARARGS, (char *)"IntVector_append(IntVector self, std::vector< int >::value_type const & x)"},
+	 { (char *)"IntVector_empty", _wrap_IntVector_empty, METH_VARARGS, (char *)"IntVector_empty(IntVector self) -> bool"},
+	 { (char *)"IntVector_size", _wrap_IntVector_size, METH_VARARGS, (char *)"IntVector_size(IntVector self) -> std::vector< int >::size_type"},
+	 { (char *)"IntVector_swap", _wrap_IntVector_swap, METH_VARARGS, (char *)"IntVector_swap(IntVector self, IntVector v)"},
+	 { (char *)"IntVector_begin", _wrap_IntVector_begin, METH_VARARGS, (char *)"IntVector_begin(IntVector self) -> std::vector< int >::iterator"},
+	 { (char *)"IntVector_end", _wrap_IntVector_end, METH_VARARGS, (char *)"IntVector_end(IntVector self) -> std::vector< int >::iterator"},
+	 { (char *)"IntVector_rbegin", _wrap_IntVector_rbegin, METH_VARARGS, (char *)"IntVector_rbegin(IntVector self) -> std::vector< int >::reverse_iterator"},
+	 { (char *)"IntVector_rend", _wrap_IntVector_rend, METH_VARARGS, (char *)"IntVector_rend(IntVector self) -> std::vector< int >::reverse_iterator"},
+	 { (char *)"IntVector_clear", _wrap_IntVector_clear, METH_VARARGS, (char *)"IntVector_clear(IntVector self)"},
+	 { (char *)"IntVector_get_allocator", _wrap_IntVector_get_allocator, METH_VARARGS, (char *)"IntVector_get_allocator(IntVector self) -> std::vector< int >::allocator_type"},
+	 { (char *)"IntVector_pop_back", _wrap_IntVector_pop_back, METH_VARARGS, (char *)"IntVector_pop_back(IntVector self)"},
+	 { (char *)"IntVector_erase", _wrap_IntVector_erase, METH_VARARGS, (char *)"\n"
+		"erase(std::vector< int >::iterator pos) -> std::vector< int >::iterator\n"
+		"IntVector_erase(IntVector self, std::vector< int >::iterator first, std::vector< int >::iterator last) -> std::vector< int >::iterator\n"
+		""},
+	 { (char *)"new_IntVector", _wrap_new_IntVector, METH_VARARGS, (char *)"\n"
+		"IntVector()\n"
+		"IntVector(IntVector arg2)\n"
+		"IntVector(std::vector< int >::size_type size)\n"
+		"new_IntVector(std::vector< int >::size_type size, std::vector< int >::value_type const & value) -> IntVector\n"
+		""},
+	 { (char *)"IntVector_push_back", _wrap_IntVector_push_back, METH_VARARGS, (char *)"IntVector_push_back(IntVector self, std::vector< int >::value_type const & x)"},
+	 { (char *)"IntVector_front", _wrap_IntVector_front, METH_VARARGS, (char *)"IntVector_front(IntVector self) -> std::vector< int >::value_type const &"},
+	 { (char *)"IntVector_back", _wrap_IntVector_back, METH_VARARGS, (char *)"IntVector_back(IntVector self) -> std::vector< int >::value_type const &"},
+	 { (char *)"IntVector_assign", _wrap_IntVector_assign, METH_VARARGS, (char *)"IntVector_assign(IntVector self, std::vector< int >::size_type n, std::vector< int >::value_type const & x)"},
+	 { (char *)"IntVector_resize", _wrap_IntVector_resize, METH_VARARGS, (char *)"\n"
+		"resize(std::vector< int >::size_type new_size)\n"
+		"IntVector_resize(IntVector self, std::vector< int >::size_type new_size, std::vector< int >::value_type const & x)\n"
+		""},
+	 { (char *)"IntVector_insert", _wrap_IntVector_insert, METH_VARARGS, (char *)"\n"
+		"insert(std::vector< int >::iterator pos, std::vector< int >::value_type const & x) -> std::vector< int >::iterator\n"
+		"IntVector_insert(IntVector self, std::vector< int >::iterator pos, std::vector< int >::size_type n, std::vector< int >::value_type const & x)\n"
+		""},
+	 { (char *)"IntVector_reserve", _wrap_IntVector_reserve, METH_VARARGS, (char *)"IntVector_reserve(IntVector self, std::vector< int >::size_type n)"},
+	 { (char *)"IntVector_capacity", _wrap_IntVector_capacity, METH_VARARGS, (char *)"IntVector_capacity(IntVector self) -> std::vector< int >::size_type"},
+	 { (char *)"delete_IntVector", _wrap_delete_IntVector, METH_VARARGS, (char *)"delete_IntVector(IntVector self)"},
 	 { (char *)"IntVector_swigregister", IntVector_swigregister, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_iterator", _wrap_DoubleVector_iterator, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector___nonzero__", _wrap_DoubleVector___nonzero__, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector___bool__", _wrap_DoubleVector___bool__, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector___len__", _wrap_DoubleVector___len__, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector___getslice__", _wrap_DoubleVector___getslice__, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector___setslice__", _wrap_DoubleVector___setslice__, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector___delslice__", _wrap_DoubleVector___delslice__, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector___delitem__", _wrap_DoubleVector___delitem__, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector___getitem__", _wrap_DoubleVector___getitem__, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector___setitem__", _wrap_DoubleVector___setitem__, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_pop", _wrap_DoubleVector_pop, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_append", _wrap_DoubleVector_append, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_empty", _wrap_DoubleVector_empty, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_size", _wrap_DoubleVector_size, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_swap", _wrap_DoubleVector_swap, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_begin", _wrap_DoubleVector_begin, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_end", _wrap_DoubleVector_end, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_rbegin", _wrap_DoubleVector_rbegin, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_rend", _wrap_DoubleVector_rend, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_clear", _wrap_DoubleVector_clear, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_get_allocator", _wrap_DoubleVector_get_allocator, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_pop_back", _wrap_DoubleVector_pop_back, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_erase", _wrap_DoubleVector_erase, METH_VARARGS, NULL},
-	 { (char *)"new_DoubleVector", _wrap_new_DoubleVector, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_push_back", _wrap_DoubleVector_push_back, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_front", _wrap_DoubleVector_front, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_back", _wrap_DoubleVector_back, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_assign", _wrap_DoubleVector_assign, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_resize", _wrap_DoubleVector_resize, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_insert", _wrap_DoubleVector_insert, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_reserve", _wrap_DoubleVector_reserve, METH_VARARGS, NULL},
-	 { (char *)"DoubleVector_capacity", _wrap_DoubleVector_capacity, METH_VARARGS, NULL},
-	 { (char *)"delete_DoubleVector", _wrap_delete_DoubleVector, METH_VARARGS, NULL},
+	 { (char *)"DoubleVector_iterator", _wrap_DoubleVector_iterator, METH_VARARGS, (char *)"DoubleVector_iterator(DoubleVector self) -> SwigPyIterator"},
+	 { (char *)"DoubleVector___nonzero__", _wrap_DoubleVector___nonzero__, METH_VARARGS, (char *)"DoubleVector___nonzero__(DoubleVector self) -> bool"},
+	 { (char *)"DoubleVector___bool__", _wrap_DoubleVector___bool__, METH_VARARGS, (char *)"DoubleVector___bool__(DoubleVector self) -> bool"},
+	 { (char *)"DoubleVector___len__", _wrap_DoubleVector___len__, METH_VARARGS, (char *)"DoubleVector___len__(DoubleVector self) -> std::vector< double >::size_type"},
+	 { (char *)"DoubleVector___getslice__", _wrap_DoubleVector___getslice__, METH_VARARGS, (char *)"DoubleVector___getslice__(DoubleVector self, std::vector< double >::difference_type i, std::vector< double >::difference_type j) -> DoubleVector"},
+	 { (char *)"DoubleVector___setslice__", _wrap_DoubleVector___setslice__, METH_VARARGS, (char *)"\n"
+		"__setslice__(std::vector< double >::difference_type i, std::vector< double >::difference_type j)\n"
+		"DoubleVector___setslice__(DoubleVector self, std::vector< double >::difference_type i, std::vector< double >::difference_type j, DoubleVector v)\n"
+		""},
+	 { (char *)"DoubleVector___delslice__", _wrap_DoubleVector___delslice__, METH_VARARGS, (char *)"DoubleVector___delslice__(DoubleVector self, std::vector< double >::difference_type i, std::vector< double >::difference_type j)"},
+	 { (char *)"DoubleVector___delitem__", _wrap_DoubleVector___delitem__, METH_VARARGS, (char *)"\n"
+		"__delitem__(std::vector< double >::difference_type i)\n"
+		"DoubleVector___delitem__(DoubleVector self, PySliceObject * slice)\n"
+		""},
+	 { (char *)"DoubleVector___getitem__", _wrap_DoubleVector___getitem__, METH_VARARGS, (char *)"\n"
+		"__getitem__(PySliceObject * slice) -> DoubleVector\n"
+		"DoubleVector___getitem__(DoubleVector self, std::vector< double >::difference_type i) -> std::vector< double >::value_type const &\n"
+		""},
+	 { (char *)"DoubleVector___setitem__", _wrap_DoubleVector___setitem__, METH_VARARGS, (char *)"\n"
+		"__setitem__(PySliceObject * slice, DoubleVector v)\n"
+		"__setitem__(PySliceObject * slice)\n"
+		"DoubleVector___setitem__(DoubleVector self, std::vector< double >::difference_type i, std::vector< double >::value_type const & x)\n"
+		""},
+	 { (char *)"DoubleVector_pop", _wrap_DoubleVector_pop, METH_VARARGS, (char *)"DoubleVector_pop(DoubleVector self) -> std::vector< double >::value_type"},
+	 { (char *)"DoubleVector_append", _wrap_DoubleVector_append, METH_VARARGS, (char *)"DoubleVector_append(DoubleVector self, std::vector< double >::value_type const & x)"},
+	 { (char *)"DoubleVector_empty", _wrap_DoubleVector_empty, METH_VARARGS, (char *)"DoubleVector_empty(DoubleVector self) -> bool"},
+	 { (char *)"DoubleVector_size", _wrap_DoubleVector_size, METH_VARARGS, (char *)"DoubleVector_size(DoubleVector self) -> std::vector< double >::size_type"},
+	 { (char *)"DoubleVector_swap", _wrap_DoubleVector_swap, METH_VARARGS, (char *)"DoubleVector_swap(DoubleVector self, DoubleVector v)"},
+	 { (char *)"DoubleVector_begin", _wrap_DoubleVector_begin, METH_VARARGS, (char *)"DoubleVector_begin(DoubleVector self) -> std::vector< double >::iterator"},
+	 { (char *)"DoubleVector_end", _wrap_DoubleVector_end, METH_VARARGS, (char *)"DoubleVector_end(DoubleVector self) -> std::vector< double >::iterator"},
+	 { (char *)"DoubleVector_rbegin", _wrap_DoubleVector_rbegin, METH_VARARGS, (char *)"DoubleVector_rbegin(DoubleVector self) -> std::vector< double >::reverse_iterator"},
+	 { (char *)"DoubleVector_rend", _wrap_DoubleVector_rend, METH_VARARGS, (char *)"DoubleVector_rend(DoubleVector self) -> std::vector< double >::reverse_iterator"},
+	 { (char *)"DoubleVector_clear", _wrap_DoubleVector_clear, METH_VARARGS, (char *)"DoubleVector_clear(DoubleVector self)"},
+	 { (char *)"DoubleVector_get_allocator", _wrap_DoubleVector_get_allocator, METH_VARARGS, (char *)"DoubleVector_get_allocator(DoubleVector self) -> std::vector< double >::allocator_type"},
+	 { (char *)"DoubleVector_pop_back", _wrap_DoubleVector_pop_back, METH_VARARGS, (char *)"DoubleVector_pop_back(DoubleVector self)"},
+	 { (char *)"DoubleVector_erase", _wrap_DoubleVector_erase, METH_VARARGS, (char *)"\n"
+		"erase(std::vector< double >::iterator pos) -> std::vector< double >::iterator\n"
+		"DoubleVector_erase(DoubleVector self, std::vector< double >::iterator first, std::vector< double >::iterator last) -> std::vector< double >::iterator\n"
+		""},
+	 { (char *)"new_DoubleVector", _wrap_new_DoubleVector, METH_VARARGS, (char *)"\n"
+		"DoubleVector()\n"
+		"DoubleVector(DoubleVector arg2)\n"
+		"DoubleVector(std::vector< double >::size_type size)\n"
+		"new_DoubleVector(std::vector< double >::size_type size, std::vector< double >::value_type const & value) -> DoubleVector\n"
+		""},
+	 { (char *)"DoubleVector_push_back", _wrap_DoubleVector_push_back, METH_VARARGS, (char *)"DoubleVector_push_back(DoubleVector self, std::vector< double >::value_type const & x)"},
+	 { (char *)"DoubleVector_front", _wrap_DoubleVector_front, METH_VARARGS, (char *)"DoubleVector_front(DoubleVector self) -> std::vector< double >::value_type const &"},
+	 { (char *)"DoubleVector_back", _wrap_DoubleVector_back, METH_VARARGS, (char *)"DoubleVector_back(DoubleVector self) -> std::vector< double >::value_type const &"},
+	 { (char *)"DoubleVector_assign", _wrap_DoubleVector_assign, METH_VARARGS, (char *)"DoubleVector_assign(DoubleVector self, std::vector< double >::size_type n, std::vector< double >::value_type const & x)"},
+	 { (char *)"DoubleVector_resize", _wrap_DoubleVector_resize, METH_VARARGS, (char *)"\n"
+		"resize(std::vector< double >::size_type new_size)\n"
+		"DoubleVector_resize(DoubleVector self, std::vector< double >::size_type new_size, std::vector< double >::value_type const & x)\n"
+		""},
+	 { (char *)"DoubleVector_insert", _wrap_DoubleVector_insert, METH_VARARGS, (char *)"\n"
+		"insert(std::vector< double >::iterator pos, std::vector< double >::value_type const & x) -> std::vector< double >::iterator\n"
+		"DoubleVector_insert(DoubleVector self, std::vector< double >::iterator pos, std::vector< double >::size_type n, std::vector< double >::value_type const & x)\n"
+		""},
+	 { (char *)"DoubleVector_reserve", _wrap_DoubleVector_reserve, METH_VARARGS, (char *)"DoubleVector_reserve(DoubleVector self, std::vector< double >::size_type n)"},
+	 { (char *)"DoubleVector_capacity", _wrap_DoubleVector_capacity, METH_VARARGS, (char *)"DoubleVector_capacity(DoubleVector self) -> std::vector< double >::size_type"},
+	 { (char *)"delete_DoubleVector", _wrap_delete_DoubleVector, METH_VARARGS, (char *)"delete_DoubleVector(DoubleVector self)"},
 	 { (char *)"DoubleVector_swigregister", DoubleVector_swigregister, METH_VARARGS, NULL},
-	 { (char *)"new_floatArray", _wrap_new_floatArray, METH_VARARGS, NULL},
-	 { (char *)"delete_floatArray", _wrap_delete_floatArray, METH_VARARGS, NULL},
-	 { (char *)"floatArray_getitem", _wrap_floatArray_getitem, METH_VARARGS, NULL},
-	 { (char *)"floatArray_setitem", _wrap_floatArray_setitem, METH_VARARGS, NULL},
+	 { (char *)"new_FloatArray", _wrap_new_FloatArray, METH_VARARGS, (char *)"new_FloatArray(size_t nelements) -> FloatArray"},
+	 { (char *)"delete_FloatArray", _wrap_delete_FloatArray, METH_VARARGS, (char *)"delete_FloatArray(FloatArray self)"},
+	 { (char *)"FloatArray___getitem__", _wrap_FloatArray___getitem__, METH_VARARGS, (char *)"FloatArray___getitem__(FloatArray self, size_t index) -> float"},
+	 { (char *)"FloatArray___setitem__", _wrap_FloatArray___setitem__, METH_VARARGS, (char *)"FloatArray___setitem__(FloatArray self, size_t index, float value)"},
+	 { (char *)"FloatArray_cast", _wrap_FloatArray_cast, METH_VARARGS, (char *)"FloatArray_cast(FloatArray self) -> float *"},
+	 { (char *)"FloatArray_frompointer", _wrap_FloatArray_frompointer, METH_VARARGS, (char *)"FloatArray_frompointer(float * t) -> FloatArray"},
+	 { (char *)"FloatArray_swigregister", FloatArray_swigregister, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
+static void *_p_FloatArrayTo_p_float(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((float *)  ((FloatArray *) x));
+}
 static swig_type_info _swigt__p_AngularAcceleration = {"_p_AngularAcceleration", "AngularAcceleration *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_AngularInfo = {"_p_AngularInfo", "AngularInfo *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_AngularPosition = {"_p_AngularPosition", "AngularPosition *", 0, 0, (void*)0, 0};
@@ -37937,6 +38282,7 @@ static swig_type_info _swigt__p_EthernetCommConfig = {"_p_EthernetCommConfig", "
 static swig_type_info _swigt__p_EthernetConfiguration = {"_p_EthernetConfiguration", "EthernetConfiguration *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Finger = {"_p_Finger", "Finger *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_FingersPosition = {"_p_FingersPosition", "FingersPosition *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_FloatArray = {"_p_FloatArray", "FloatArray *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ForcesInfo = {"_p_ForcesInfo", "ForcesInfo *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_GeneralInformations = {"_p_GeneralInformations", "GeneralInformations *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gripper = {"_p_Gripper", "Gripper *", 0, 0, (void*)0, 0};
@@ -37999,6 +38345,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_EthernetConfiguration,
   &_swigt__p_Finger,
   &_swigt__p_FingersPosition,
+  &_swigt__p_FloatArray,
   &_swigt__p_ForcesInfo,
   &_swigt__p_GeneralInformations,
   &_swigt__p_Gripper,
@@ -38061,6 +38408,7 @@ static swig_cast_info _swigc__p_EthernetCommConfig[] = {  {&_swigt__p_EthernetCo
 static swig_cast_info _swigc__p_EthernetConfiguration[] = {  {&_swigt__p_EthernetConfiguration, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Finger[] = {  {&_swigt__p_Finger, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_FingersPosition[] = {  {&_swigt__p_FingersPosition, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_FloatArray[] = {  {&_swigt__p_FloatArray, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ForcesInfo[] = {  {&_swigt__p_ForcesInfo, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_GeneralInformations[] = {  {&_swigt__p_GeneralInformations, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Gripper[] = {  {&_swigt__p_Gripper, 0, 0, 0},{0, 0, 0, 0}};
@@ -38091,7 +38439,7 @@ static swig_cast_info _swigc__p_bool[] = {  {&_swigt__p_bool, 0, 0, 0},{0, 0, 0,
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_double[] = {  {&_swigt__p_double, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_float[] = {  {&_swigt__p_float, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_float[] = {  {&_swigt__p_float, 0, 0, 0},  {&_swigt__p_FloatArray, _p_FloatArrayTo_p_float, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_PyObject[] = {  {&_swigt__p_p_PyObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_short[] = {  {&_swigt__p_short, 0, 0, 0},{0, 0, 0, 0}};
@@ -38123,6 +38471,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_EthernetConfiguration,
   _swigc__p_Finger,
   _swigc__p_FingersPosition,
+  _swigc__p_FloatArray,
   _swigc__p_ForcesInfo,
   _swigc__p_GeneralInformations,
   _swigc__p_Gripper,

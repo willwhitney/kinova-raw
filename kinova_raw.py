@@ -466,6 +466,8 @@ RETRACT_TYPE_NOT_INITIALIZED = _kinova_raw.RETRACT_TYPE_NOT_INITIALIZED
 _kinova_raw.RETRACT_ERROR_swigconstant(_kinova_raw)
 RETRACT_ERROR = _kinova_raw.RETRACT_ERROR
 class EthernetConfiguration(object):
+    """Proxy of C++ EthernetConfiguration class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     IPAddress = _swig_property(_kinova_raw.EthernetConfiguration_IPAddress_get, _kinova_raw.EthernetConfiguration_IPAddress_set)
@@ -475,6 +477,7 @@ class EthernetConfiguration(object):
     Gateway = _swig_property(_kinova_raw.EthernetConfiguration_Gateway_get, _kinova_raw.EthernetConfiguration_Gateway_set)
 
     def __init__(self):
+        """__init__(EthernetConfiguration self) -> EthernetConfiguration"""
         this = _kinova_raw.new_EthernetConfiguration()
         try:
             self.this.append(this)
@@ -493,6 +496,8 @@ USB_HEADER_SIZE = cvar.USB_HEADER_SIZE
 USB_DATA_SIZE = cvar.USB_DATA_SIZE
 
 class SdkEthernetConfiguration(object):
+    """Proxy of C++ SdkEthernetConfiguration class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     IPAddress = _swig_property(_kinova_raw.SdkEthernetConfiguration_IPAddress_get, _kinova_raw.SdkEthernetConfiguration_IPAddress_set)
@@ -502,6 +507,7 @@ class SdkEthernetConfiguration(object):
     RobotPortNumber = _swig_property(_kinova_raw.SdkEthernetConfiguration_RobotPortNumber_get, _kinova_raw.SdkEthernetConfiguration_RobotPortNumber_set)
 
     def __init__(self):
+        """__init__(SdkEthernetConfiguration self) -> SdkEthernetConfiguration"""
         this = _kinova_raw.new_SdkEthernetConfiguration()
         try:
             self.this.append(this)
@@ -513,6 +519,8 @@ SdkEthernetConfiguration_swigregister = _kinova_raw.SdkEthernetConfiguration_swi
 SdkEthernetConfiguration_swigregister(SdkEthernetConfiguration)
 
 class AngularInfo(object):
+    """Proxy of C++ AngularInfo class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Actuator1 = _swig_property(_kinova_raw.AngularInfo_Actuator1_get, _kinova_raw.AngularInfo_Actuator1_set)
@@ -524,9 +532,17 @@ class AngularInfo(object):
     Actuator7 = _swig_property(_kinova_raw.AngularInfo_Actuator7_get, _kinova_raw.AngularInfo_Actuator7_set)
 
     def InitStruct(self):
+        """InitStruct(AngularInfo self)"""
         return _kinova_raw.AngularInfo_InitStruct(self)
 
+
+    def __str__(self):
+        """__str__(AngularInfo self) -> char *"""
+        return _kinova_raw.AngularInfo___str__(self)
+
+
     def __init__(self):
+        """__init__(AngularInfo self) -> AngularInfo"""
         this = _kinova_raw.new_AngularInfo()
         try:
             self.this.append(this)
@@ -538,6 +554,8 @@ AngularInfo_swigregister = _kinova_raw.AngularInfo_swigregister
 AngularInfo_swigregister(AngularInfo)
 
 class CartesianInfo(object):
+    """Proxy of C++ CartesianInfo class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     X = _swig_property(_kinova_raw.CartesianInfo_X_get, _kinova_raw.CartesianInfo_X_set)
@@ -548,9 +566,17 @@ class CartesianInfo(object):
     ThetaZ = _swig_property(_kinova_raw.CartesianInfo_ThetaZ_get, _kinova_raw.CartesianInfo_ThetaZ_set)
 
     def InitStruct(self):
+        """InitStruct(CartesianInfo self)"""
         return _kinova_raw.CartesianInfo_InitStruct(self)
 
+
+    def __str__(self):
+        """__str__(CartesianInfo self) -> char *"""
+        return _kinova_raw.CartesianInfo___str__(self)
+
+
     def __init__(self):
+        """__init__(CartesianInfo self) -> CartesianInfo"""
         this = _kinova_raw.new_CartesianInfo()
         try:
             self.this.append(this)
@@ -562,6 +588,8 @@ CartesianInfo_swigregister = _kinova_raw.CartesianInfo_swigregister
 CartesianInfo_swigregister(CartesianInfo)
 
 class SensorsInfo(object):
+    """Proxy of C++ SensorsInfo class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Voltage = _swig_property(_kinova_raw.SensorsInfo_Voltage_get, _kinova_raw.SensorsInfo_Voltage_set)
@@ -581,9 +609,12 @@ class SensorsInfo(object):
     FingerTemp3 = _swig_property(_kinova_raw.SensorsInfo_FingerTemp3_get, _kinova_raw.SensorsInfo_FingerTemp3_set)
 
     def InitStruct(self):
+        """InitStruct(SensorsInfo self)"""
         return _kinova_raw.SensorsInfo_InitStruct(self)
 
+
     def __init__(self):
+        """__init__(SensorsInfo self) -> SensorsInfo"""
         this = _kinova_raw.new_SensorsInfo()
         try:
             self.this.append(this)
@@ -595,6 +626,8 @@ SensorsInfo_swigregister = _kinova_raw.SensorsInfo_swigregister
 SensorsInfo_swigregister(SensorsInfo)
 
 class FingersPosition(object):
+    """Proxy of C++ FingersPosition class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Finger1 = _swig_property(_kinova_raw.FingersPosition_Finger1_get, _kinova_raw.FingersPosition_Finger1_set)
@@ -602,9 +635,12 @@ class FingersPosition(object):
     Finger3 = _swig_property(_kinova_raw.FingersPosition_Finger3_get, _kinova_raw.FingersPosition_Finger3_set)
 
     def InitStruct(self):
+        """InitStruct(FingersPosition self)"""
         return _kinova_raw.FingersPosition_InitStruct(self)
 
+
     def __init__(self):
+        """__init__(FingersPosition self) -> FingersPosition"""
         this = _kinova_raw.new_FingersPosition()
         try:
             self.this.append(this)
@@ -616,15 +652,25 @@ FingersPosition_swigregister = _kinova_raw.FingersPosition_swigregister
 FingersPosition_swigregister(FingersPosition)
 
 class CartesianPosition(object):
+    """Proxy of C++ CartesianPosition class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Coordinates = _swig_property(_kinova_raw.CartesianPosition_Coordinates_get, _kinova_raw.CartesianPosition_Coordinates_set)
     Fingers = _swig_property(_kinova_raw.CartesianPosition_Fingers_get, _kinova_raw.CartesianPosition_Fingers_set)
 
     def InitStruct(self):
+        """InitStruct(CartesianPosition self)"""
         return _kinova_raw.CartesianPosition_InitStruct(self)
 
+
+    def __str__(self):
+        """__str__(CartesianPosition self) -> char *"""
+        return _kinova_raw.CartesianPosition___str__(self)
+
+
     def __init__(self):
+        """__init__(CartesianPosition self) -> CartesianPosition"""
         this = _kinova_raw.new_CartesianPosition()
         try:
             self.this.append(this)
@@ -636,15 +682,25 @@ CartesianPosition_swigregister = _kinova_raw.CartesianPosition_swigregister
 CartesianPosition_swigregister(CartesianPosition)
 
 class AngularPosition(object):
+    """Proxy of C++ AngularPosition class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Actuators = _swig_property(_kinova_raw.AngularPosition_Actuators_get, _kinova_raw.AngularPosition_Actuators_set)
     Fingers = _swig_property(_kinova_raw.AngularPosition_Fingers_get, _kinova_raw.AngularPosition_Fingers_set)
 
     def InitStruct(self):
+        """InitStruct(AngularPosition self)"""
         return _kinova_raw.AngularPosition_InitStruct(self)
 
+
+    def __str__(self):
+        """__str__(AngularPosition self) -> char *"""
+        return _kinova_raw.AngularPosition___str__(self)
+
+
     def __init__(self):
+        """__init__(AngularPosition self) -> AngularPosition"""
         this = _kinova_raw.new_AngularPosition()
         try:
             self.this.append(this)
@@ -656,6 +712,8 @@ AngularPosition_swigregister = _kinova_raw.AngularPosition_swigregister
 AngularPosition_swigregister(AngularPosition)
 
 class Limitation(object):
+    """Proxy of C++ Limitation class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     speedParameter1 = _swig_property(_kinova_raw.Limitation_speedParameter1_get, _kinova_raw.Limitation_speedParameter1_set)
@@ -669,9 +727,12 @@ class Limitation(object):
     accelerationParameter3 = _swig_property(_kinova_raw.Limitation_accelerationParameter3_get, _kinova_raw.Limitation_accelerationParameter3_set)
 
     def InitStruct(self):
+        """InitStruct(Limitation self)"""
         return _kinova_raw.Limitation_InitStruct(self)
 
+
     def __init__(self):
+        """__init__(Limitation self) -> Limitation"""
         this = _kinova_raw.new_Limitation()
         try:
             self.this.append(this)
@@ -683,6 +744,8 @@ Limitation_swigregister = _kinova_raw.Limitation_swigregister
 Limitation_swigregister(Limitation)
 
 class UserPosition(object):
+    """Proxy of C++ UserPosition class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Type = _swig_property(_kinova_raw.UserPosition_Type_get, _kinova_raw.UserPosition_Type_set)
@@ -693,9 +756,12 @@ class UserPosition(object):
     Fingers = _swig_property(_kinova_raw.UserPosition_Fingers_get, _kinova_raw.UserPosition_Fingers_set)
 
     def InitStruct(self):
+        """InitStruct(UserPosition self)"""
         return _kinova_raw.UserPosition_InitStruct(self)
 
+
     def __init__(self):
+        """__init__(UserPosition self) -> UserPosition"""
         this = _kinova_raw.new_UserPosition()
         try:
             self.this.append(this)
@@ -707,6 +773,8 @@ UserPosition_swigregister = _kinova_raw.UserPosition_swigregister
 UserPosition_swigregister(UserPosition)
 
 class TrajectoryPoint(object):
+    """Proxy of C++ TrajectoryPoint class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Position = _swig_property(_kinova_raw.TrajectoryPoint_Position_get, _kinova_raw.TrajectoryPoint_Position_set)
@@ -715,9 +783,12 @@ class TrajectoryPoint(object):
     Limitations = _swig_property(_kinova_raw.TrajectoryPoint_Limitations_get, _kinova_raw.TrajectoryPoint_Limitations_set)
 
     def InitStruct(self):
+        """InitStruct(TrajectoryPoint self)"""
         return _kinova_raw.TrajectoryPoint_InitStruct(self)
 
+
     def __init__(self):
+        """__init__(TrajectoryPoint self) -> TrajectoryPoint"""
         this = _kinova_raw.new_TrajectoryPoint()
         try:
             self.this.append(this)
@@ -729,6 +800,8 @@ TrajectoryPoint_swigregister = _kinova_raw.TrajectoryPoint_swigregister
 TrajectoryPoint_swigregister(TrajectoryPoint)
 
 class TrajectoryFIFO(object):
+    """Proxy of C++ TrajectoryFIFO class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     TrajectoryCount = _swig_property(_kinova_raw.TrajectoryFIFO_TrajectoryCount_get, _kinova_raw.TrajectoryFIFO_TrajectoryCount_set)
@@ -736,6 +809,7 @@ class TrajectoryFIFO(object):
     MaxSize = _swig_property(_kinova_raw.TrajectoryFIFO_MaxSize_get, _kinova_raw.TrajectoryFIFO_MaxSize_set)
 
     def __init__(self):
+        """__init__(TrajectoryFIFO self) -> TrajectoryFIFO"""
         this = _kinova_raw.new_TrajectoryFIFO()
         try:
             self.this.append(this)
@@ -747,6 +821,8 @@ TrajectoryFIFO_swigregister = _kinova_raw.TrajectoryFIFO_swigregister
 TrajectoryFIFO_swigregister(TrajectoryFIFO)
 
 class SingularityVector(object):
+    """Proxy of C++ SingularityVector class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     TranslationSingularityCount = _swig_property(_kinova_raw.SingularityVector_TranslationSingularityCount_get, _kinova_raw.SingularityVector_TranslationSingularityCount_set)
@@ -756,6 +832,7 @@ class SingularityVector(object):
     RepulsionVector = _swig_property(_kinova_raw.SingularityVector_RepulsionVector_get, _kinova_raw.SingularityVector_RepulsionVector_set)
 
     def __init__(self):
+        """__init__(SingularityVector self) -> SingularityVector"""
         this = _kinova_raw.new_SingularityVector()
         try:
             self.this.append(this)
@@ -767,6 +844,8 @@ SingularityVector_swigregister = _kinova_raw.SingularityVector_swigregister
 SingularityVector_swigregister(SingularityVector)
 
 class JoystickCommand(object):
+    """Proxy of C++ JoystickCommand class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     ButtonValue = _swig_property(_kinova_raw.JoystickCommand_ButtonValue_get, _kinova_raw.JoystickCommand_ButtonValue_set)
@@ -778,9 +857,12 @@ class JoystickCommand(object):
     PushPull = _swig_property(_kinova_raw.JoystickCommand_PushPull_get, _kinova_raw.JoystickCommand_PushPull_set)
 
     def InitStruct(self):
+        """InitStruct(JoystickCommand self)"""
         return _kinova_raw.JoystickCommand_InitStruct(self)
 
+
     def __init__(self):
+        """__init__(JoystickCommand self) -> JoystickCommand"""
         this = _kinova_raw.new_JoystickCommand()
         try:
             self.this.append(this)
@@ -792,6 +874,8 @@ JoystickCommand_swigregister = _kinova_raw.JoystickCommand_swigregister
 JoystickCommand_swigregister(JoystickCommand)
 
 class RobotIdentity(object):
+    """Proxy of C++ RobotIdentity class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     SerialNumber = _swig_property(_kinova_raw.RobotIdentity_SerialNumber_get, _kinova_raw.RobotIdentity_SerialNumber_set)
@@ -800,6 +884,7 @@ class RobotIdentity(object):
     RobotType = _swig_property(_kinova_raw.RobotIdentity_RobotType_get, _kinova_raw.RobotIdentity_RobotType_set)
 
     def __init__(self):
+        """__init__(RobotIdentity self) -> RobotIdentity"""
         this = _kinova_raw.new_RobotIdentity()
         try:
             self.this.append(this)
@@ -811,6 +896,8 @@ RobotIdentity_swigregister = _kinova_raw.RobotIdentity_swigregister
 RobotIdentity_swigregister(RobotIdentity)
 
 class ClientConfigurations(object):
+    """Proxy of C++ ClientConfigurations class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     ClientID = _swig_property(_kinova_raw.ClientConfigurations_ClientID_get, _kinova_raw.ClientConfigurations_ClientID_set)
@@ -842,6 +929,7 @@ class ClientConfigurations(object):
     Expansion = _swig_property(_kinova_raw.ClientConfigurations_Expansion_get, _kinova_raw.ClientConfigurations_Expansion_set)
 
     def __init__(self):
+        """__init__(ClientConfigurations self) -> ClientConfigurations"""
         this = _kinova_raw.new_ClientConfigurations()
         try:
             self.this.append(this)
@@ -1054,12 +1142,15 @@ CF_Theta7_Positive = _kinova_raw.CF_Theta7_Positive
 _kinova_raw.CF_Theta7_Negative_swigconstant(_kinova_raw)
 CF_Theta7_Negative = _kinova_raw.CF_Theta7_Negative
 class StickEvents(object):
+    """Proxy of C++ StickEvents class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Minus = _swig_property(_kinova_raw.StickEvents_Minus_get, _kinova_raw.StickEvents_Minus_set)
     Plus = _swig_property(_kinova_raw.StickEvents_Plus_get, _kinova_raw.StickEvents_Plus_set)
 
     def __init__(self):
+        """__init__(StickEvents self) -> StickEvents"""
         this = _kinova_raw.new_StickEvents()
         try:
             self.this.append(this)
@@ -1071,6 +1162,8 @@ StickEvents_swigregister = _kinova_raw.StickEvents_swigregister
 StickEvents_swigregister(StickEvents)
 
 class ButtonEvents(object):
+    """Proxy of C++ ButtonEvents class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     OneClick = _swig_property(_kinova_raw.ButtonEvents_OneClick_get, _kinova_raw.ButtonEvents_OneClick_set)
@@ -1082,6 +1175,7 @@ class ButtonEvents(object):
     HoldDown = _swig_property(_kinova_raw.ButtonEvents_HoldDown_get, _kinova_raw.ButtonEvents_HoldDown_set)
 
     def __init__(self):
+        """__init__(ButtonEvents self) -> ButtonEvents"""
         this = _kinova_raw.new_ButtonEvents()
         try:
             self.this.append(this)
@@ -1105,6 +1199,8 @@ ThreeAxis = _kinova_raw.ThreeAxis
 _kinova_raw.SixAxis_swigconstant(_kinova_raw)
 SixAxis = _kinova_raw.SixAxis
 class ControlsModeMap(object):
+    """Proxy of C++ ControlsModeMap class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     DiagonalsLocked = _swig_property(_kinova_raw.ControlsModeMap_DiagonalsLocked_get, _kinova_raw.ControlsModeMap_DiagonalsLocked_set)
@@ -1113,6 +1209,7 @@ class ControlsModeMap(object):
     ControlButtons = _swig_property(_kinova_raw.ControlsModeMap_ControlButtons_get, _kinova_raw.ControlsModeMap_ControlButtons_set)
 
     def __init__(self):
+        """__init__(ControlsModeMap self) -> ControlsModeMap"""
         this = _kinova_raw.new_ControlsModeMap()
         try:
             self.this.append(this)
@@ -1124,6 +1221,8 @@ ControlsModeMap_swigregister = _kinova_raw.ControlsModeMap_swigregister
 ControlsModeMap_swigregister(ControlsModeMap)
 
 class ControlMapping(object):
+    """Proxy of C++ ControlMapping class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     NumOfModesA = _swig_property(_kinova_raw.ControlMapping_NumOfModesA_get, _kinova_raw.ControlMapping_NumOfModesA_set)
@@ -1135,6 +1234,7 @@ class ControlMapping(object):
     ModeControlsB = _swig_property(_kinova_raw.ControlMapping_ModeControlsB_get, _kinova_raw.ControlMapping_ModeControlsB_set)
 
     def __init__(self):
+        """__init__(ControlMapping self) -> ControlMapping"""
         this = _kinova_raw.new_ControlMapping()
         try:
             self.this.append(this)
@@ -1146,6 +1246,8 @@ ControlMapping_swigregister = _kinova_raw.ControlMapping_swigregister
 ControlMapping_swigregister(ControlMapping)
 
 class ControlMappingCharts(object):
+    """Proxy of C++ ControlMappingCharts class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     NumOfConfiguredMapping = _swig_property(_kinova_raw.ControlMappingCharts_NumOfConfiguredMapping_get, _kinova_raw.ControlMappingCharts_NumOfConfiguredMapping_set)
@@ -1153,6 +1255,7 @@ class ControlMappingCharts(object):
     Mapping = _swig_property(_kinova_raw.ControlMappingCharts_Mapping_get, _kinova_raw.ControlMappingCharts_Mapping_set)
 
     def __init__(self):
+        """__init__(ControlMappingCharts self) -> ControlMappingCharts"""
         this = _kinova_raw.new_ControlMappingCharts()
         try:
             self.this.append(this)
@@ -1218,6 +1321,8 @@ errorLog_RobotStatus_Build_Incomplete = _kinova_raw.errorLog_RobotStatus_Build_I
 _kinova_raw.errorLogger_END_swigconstant(_kinova_raw)
 errorLogger_END = _kinova_raw.errorLogger_END
 class SystemError(object):
+    """Proxy of C++ SystemError class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     ErrorHeader = _swig_property(_kinova_raw.SystemError_ErrorHeader_get, _kinova_raw.SystemError_ErrorHeader_set)
@@ -1231,6 +1336,7 @@ class SystemError(object):
     Data = _swig_property(_kinova_raw.SystemError_Data_get, _kinova_raw.SystemError_Data_set)
 
     def __init__(self):
+        """__init__(SystemError self) -> SystemError"""
         this = _kinova_raw.new_SystemError()
         try:
             self.this.append(this)
@@ -1242,6 +1348,8 @@ SystemError_swigregister = _kinova_raw.SystemError_swigregister
 SystemError_swigregister(SystemError)
 
 class ZoneLimitation(object):
+    """Proxy of C++ ZoneLimitation class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     speedParameter1 = _swig_property(_kinova_raw.ZoneLimitation_speedParameter1_get, _kinova_raw.ZoneLimitation_speedParameter1_set)
@@ -1255,6 +1363,7 @@ class ZoneLimitation(object):
     accelerationParameter3 = _swig_property(_kinova_raw.ZoneLimitation_accelerationParameter3_get, _kinova_raw.ZoneLimitation_accelerationParameter3_set)
 
     def __init__(self):
+        """__init__(ZoneLimitation self) -> ZoneLimitation"""
         this = _kinova_raw.new_ZoneLimitation()
         try:
             self.this.append(this)
@@ -1287,6 +1396,8 @@ PrismTriangularBase_Z = _kinova_raw.PrismTriangularBase_Z
 _kinova_raw.Pyramid_swigconstant(_kinova_raw)
 Pyramid = _kinova_raw.Pyramid
 class ForcesInfo(object):
+    """Proxy of C++ ForcesInfo class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Actuator1 = _swig_property(_kinova_raw.ForcesInfo_Actuator1_get, _kinova_raw.ForcesInfo_Actuator1_set)
@@ -1303,7 +1414,13 @@ class ForcesInfo(object):
     ThetaY = _swig_property(_kinova_raw.ForcesInfo_ThetaY_get, _kinova_raw.ForcesInfo_ThetaY_set)
     ThetaZ = _swig_property(_kinova_raw.ForcesInfo_ThetaZ_get, _kinova_raw.ForcesInfo_ThetaZ_set)
 
+    def __str__(self):
+        """__str__(ForcesInfo self) -> char *"""
+        return _kinova_raw.ForcesInfo___str__(self)
+
+
     def __init__(self):
+        """__init__(ForcesInfo self) -> ForcesInfo"""
         this = _kinova_raw.new_ForcesInfo()
         try:
             self.this.append(this)
@@ -1315,6 +1432,8 @@ ForcesInfo_swigregister = _kinova_raw.ForcesInfo_swigregister
 ForcesInfo_swigregister(ForcesInfo)
 
 class QuickStatus(object):
+    """Proxy of C++ QuickStatus class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Finger1Status = _swig_property(_kinova_raw.QuickStatus_Finger1Status_get, _kinova_raw.QuickStatus_Finger1Status_set)
@@ -1332,7 +1451,13 @@ class QuickStatus(object):
     RobotEdition = _swig_property(_kinova_raw.QuickStatus_RobotEdition_get, _kinova_raw.QuickStatus_RobotEdition_set)
     TorqueSensorsStatus = _swig_property(_kinova_raw.QuickStatus_TorqueSensorsStatus_get, _kinova_raw.QuickStatus_TorqueSensorsStatus_set)
 
+    def __str__(self):
+        """__str__(QuickStatus self) -> char *"""
+        return _kinova_raw.QuickStatus___str__(self)
+
+
     def __init__(self):
+        """__init__(QuickStatus self) -> QuickStatus"""
         this = _kinova_raw.new_QuickStatus()
         try:
             self.this.append(this)
@@ -1344,6 +1469,8 @@ QuickStatus_swigregister = _kinova_raw.QuickStatus_swigregister
 QuickStatus_swigregister(QuickStatus)
 
 class Finger(object):
+    """Proxy of C++ Finger class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     ID = _swig_property(_kinova_raw.Finger_ID_get, _kinova_raw.Finger_ID_set)
@@ -1376,6 +1503,7 @@ class Finger(object):
     IsFingerConnected = _swig_property(_kinova_raw.Finger_IsFingerConnected_get, _kinova_raw.Finger_IsFingerConnected_set)
 
     def __init__(self):
+        """__init__(Finger self) -> Finger"""
         this = _kinova_raw.new_Finger()
         try:
             self.this.append(this)
@@ -1387,12 +1515,15 @@ Finger_swigregister = _kinova_raw.Finger_swigregister
 Finger_swigregister(Finger)
 
 class Gripper(object):
+    """Proxy of C++ Gripper class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Model = _swig_property(_kinova_raw.Gripper_Model_get, _kinova_raw.Gripper_Model_set)
     Fingers = _swig_property(_kinova_raw.Gripper_Fingers_get, _kinova_raw.Gripper_Fingers_set)
 
     def __init__(self):
+        """__init__(Gripper self) -> Gripper"""
         this = _kinova_raw.new_Gripper()
         try:
             self.this.append(this)
@@ -1404,6 +1535,8 @@ Gripper_swigregister = _kinova_raw.Gripper_swigregister
 Gripper_swigregister(Gripper)
 
 class ZoneShape(object):
+    """Proxy of C++ ZoneShape class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     shapeType = _swig_property(_kinova_raw.ZoneShape_shapeType_get, _kinova_raw.ZoneShape_shapeType_set)
@@ -1411,6 +1544,7 @@ class ZoneShape(object):
     Points = _swig_property(_kinova_raw.ZoneShape_Points_get, _kinova_raw.ZoneShape_Points_set)
 
     def __init__(self):
+        """__init__(ZoneShape self) -> ZoneShape"""
         this = _kinova_raw.new_ZoneShape()
         try:
             self.this.append(this)
@@ -1422,6 +1556,8 @@ ZoneShape_swigregister = _kinova_raw.ZoneShape_swigregister
 ZoneShape_swigregister(ZoneShape)
 
 class Zone(object):
+    """Proxy of C++ Zone class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     ID = _swig_property(_kinova_raw.Zone_ID_get, _kinova_raw.Zone_ID_set)
@@ -1431,6 +1567,7 @@ class Zone(object):
     Expansion2 = _swig_property(_kinova_raw.Zone_Expansion2_get, _kinova_raw.Zone_Expansion2_set)
 
     def __init__(self):
+        """__init__(Zone self) -> Zone"""
         this = _kinova_raw.new_Zone()
         try:
             self.this.append(this)
@@ -1442,6 +1579,8 @@ Zone_swigregister = _kinova_raw.Zone_swigregister
 Zone_swigregister(Zone)
 
 class ZoneList(object):
+    """Proxy of C++ ZoneList class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     NbZones = _swig_property(_kinova_raw.ZoneList_NbZones_get, _kinova_raw.ZoneList_NbZones_set)
@@ -1449,6 +1588,7 @@ class ZoneList(object):
     Zones = _swig_property(_kinova_raw.ZoneList_Zones_get, _kinova_raw.ZoneList_Zones_set)
 
     def __init__(self):
+        """__init__(ZoneList self) -> ZoneList"""
         this = _kinova_raw.new_ZoneList()
         try:
             self.this.append(this)
@@ -1460,6 +1600,8 @@ ZoneList_swigregister = _kinova_raw.ZoneList_swigregister
 ZoneList_swigregister(ZoneList)
 
 class SystemStatus(object):
+    """Proxy of C++ SystemStatus class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     JoystickActive = _swig_property(_kinova_raw.SystemStatus_JoystickActive_get, _kinova_raw.SystemStatus_JoystickActive_set)
@@ -1475,6 +1617,7 @@ class SystemStatus(object):
     MajorErrorOccured = _swig_property(_kinova_raw.SystemStatus_MajorErrorOccured_get, _kinova_raw.SystemStatus_MajorErrorOccured_set)
 
     def __init__(self):
+        """__init__(SystemStatus self) -> SystemStatus"""
         this = _kinova_raw.new_SystemStatus()
         try:
             self.this.append(this)
@@ -1486,6 +1629,8 @@ SystemStatus_swigregister = _kinova_raw.SystemStatus_swigregister
 SystemStatus_swigregister(SystemStatus)
 
 class GeneralInformations(object):
+    """Proxy of C++ GeneralInformations class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     TimeAbsolute = _swig_property(_kinova_raw.GeneralInformations_TimeAbsolute_get, _kinova_raw.GeneralInformations_TimeAbsolute_set)
@@ -1540,6 +1685,7 @@ class GeneralInformations(object):
     ExpansionsBytes = _swig_property(_kinova_raw.GeneralInformations_ExpansionsBytes_get, _kinova_raw.GeneralInformations_ExpansionsBytes_set)
 
     def __init__(self):
+        """__init__(GeneralInformations self) -> GeneralInformations"""
         this = _kinova_raw.new_GeneralInformations()
         try:
             self.this.append(this)
@@ -1551,6 +1697,8 @@ GeneralInformations_swigregister = _kinova_raw.GeneralInformations_swigregister
 GeneralInformations_swigregister(GeneralInformations)
 
 class AngularAcceleration(object):
+    """Proxy of C++ AngularAcceleration class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Actuator1_X = _swig_property(_kinova_raw.AngularAcceleration_Actuator1_X_get, _kinova_raw.AngularAcceleration_Actuator1_X_set)
@@ -1576,9 +1724,12 @@ class AngularAcceleration(object):
     Actuator7_Z = _swig_property(_kinova_raw.AngularAcceleration_Actuator7_Z_get, _kinova_raw.AngularAcceleration_Actuator7_Z_set)
 
     def InitStruct(self):
+        """InitStruct(AngularAcceleration self)"""
         return _kinova_raw.AngularAcceleration_InitStruct(self)
 
+
     def __init__(self):
+        """__init__(AngularAcceleration self) -> AngularAcceleration"""
         this = _kinova_raw.new_AngularAcceleration()
         try:
             self.this.append(this)
@@ -1590,6 +1741,8 @@ AngularAcceleration_swigregister = _kinova_raw.AngularAcceleration_swigregister
 AngularAcceleration_swigregister(AngularAcceleration)
 
 class PeripheralInfo(object):
+    """Proxy of C++ PeripheralInfo class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Handle = _swig_property(_kinova_raw.PeripheralInfo_Handle_get, _kinova_raw.PeripheralInfo_Handle_set)
@@ -1599,6 +1752,7 @@ class PeripheralInfo(object):
     CodeVersion = _swig_property(_kinova_raw.PeripheralInfo_CodeVersion_get, _kinova_raw.PeripheralInfo_CodeVersion_set)
 
     def __init__(self):
+        """__init__(PeripheralInfo self) -> PeripheralInfo"""
         this = _kinova_raw.new_PeripheralInfo()
         try:
             self.this.append(this)
@@ -1859,6 +2013,8 @@ RS485_MESSAGE_SIZE = _kinova_raw.RS485_MESSAGE_SIZE
 _kinova_raw.RS485_MESSAGE_MAX_COUNT_swigconstant(_kinova_raw)
 RS485_MESSAGE_MAX_COUNT = _kinova_raw.RS485_MESSAGE_MAX_COUNT
 class Packet(object):
+    """Proxy of C++ Packet class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     IdPacket = _swig_property(_kinova_raw.Packet_IdPacket_get, _kinova_raw.Packet_IdPacket_set)
@@ -1868,6 +2024,7 @@ class Packet(object):
     Data = _swig_property(_kinova_raw.Packet_Data_get, _kinova_raw.Packet_Data_set)
 
     def __init__(self):
+        """__init__(Packet self) -> Packet"""
         this = _kinova_raw.new_Packet()
         try:
             self.this.append(this)
@@ -1879,11 +2036,14 @@ Packet_swigregister = _kinova_raw.Packet_swigregister
 Packet_swigregister(Packet)
 
 class PacketList(object):
+    """Proxy of C++ PacketList class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     packets = _swig_property(_kinova_raw.PacketList_packets_get, _kinova_raw.PacketList_packets_set)
 
     def __init__(self):
+        """__init__(PacketList self) -> PacketList"""
         this = _kinova_raw.new_PacketList()
         try:
             self.this.append(this)
@@ -1895,6 +2055,8 @@ PacketList_swigregister = _kinova_raw.PacketList_swigregister
 PacketList_swigregister(PacketList)
 
 class KinovaDevice(object):
+    """Proxy of C++ KinovaDevice class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     SerialNumber = _swig_property(_kinova_raw.KinovaDevice_SerialNumber_get, _kinova_raw.KinovaDevice_SerialNumber_set)
@@ -1906,6 +2068,7 @@ class KinovaDevice(object):
     DeviceID = _swig_property(_kinova_raw.KinovaDevice_DeviceID_get, _kinova_raw.KinovaDevice_DeviceID_set)
 
     def __init__(self):
+        """__init__(KinovaDevice self) -> KinovaDevice"""
         this = _kinova_raw.new_KinovaDevice()
         try:
             self.this.append(this)
@@ -1917,6 +2080,8 @@ KinovaDevice_swigregister = _kinova_raw.KinovaDevice_swigregister
 KinovaDevice_swigregister(KinovaDevice)
 
 class RS485_Message(object):
+    """Proxy of C++ RS485_Message class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     Command = _swig_property(_kinova_raw.RS485_Message_Command_get, _kinova_raw.RS485_Message_Command_set)
@@ -1924,6 +2089,7 @@ class RS485_Message(object):
     DestinationAddress = _swig_property(_kinova_raw.RS485_Message_DestinationAddress_get, _kinova_raw.RS485_Message_DestinationAddress_set)
 
     def __init__(self):
+        """__init__(RS485_Message self) -> RS485_Message"""
         this = _kinova_raw.new_RS485_Message()
         try:
             self.this.append(this)
@@ -1935,6 +2101,8 @@ RS485_Message_swigregister = _kinova_raw.RS485_Message_swigregister
 RS485_Message_swigregister(RS485_Message)
 
 class EthernetCommConfig(object):
+    """Proxy of C++ EthernetCommConfig class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     localIpAddress = _swig_property(_kinova_raw.EthernetCommConfig_localIpAddress_get, _kinova_raw.EthernetCommConfig_localIpAddress_set)
@@ -1946,6 +2114,7 @@ class EthernetCommConfig(object):
     rxTimeOutInMs = _swig_property(_kinova_raw.EthernetCommConfig_rxTimeOutInMs_get, _kinova_raw.EthernetCommConfig_rxTimeOutInMs_set)
 
     def __init__(self):
+        """__init__(EthernetCommConfig self) -> EthernetCommConfig"""
         this = _kinova_raw.new_EthernetCommConfig()
         try:
             self.this.append(this)
@@ -1958,48 +2127,48 @@ EthernetCommConfig_swigregister(EthernetCommConfig)
 
 
 def GetDeviceCount(result):
+    """GetDeviceCount(int & result) -> int"""
     return _kinova_raw.GetDeviceCount(result)
-GetDeviceCount = _kinova_raw.GetDeviceCount
 
 def InitCommunication():
+    """InitCommunication() -> int"""
     return _kinova_raw.InitCommunication()
-InitCommunication = _kinova_raw.InitCommunication
 
 def CloseCommunication():
+    """CloseCommunication() -> int"""
     return _kinova_raw.CloseCommunication()
-CloseCommunication = _kinova_raw.CloseCommunication
 
 def SendPacket(packetOut, packetIn, result):
+    """SendPacket(Packet packetOut, Packet packetIn, int & result) -> Packet"""
     return _kinova_raw.SendPacket(packetOut, packetIn, result)
-SendPacket = _kinova_raw.SendPacket
 
 def ScanForNewDevice():
+    """ScanForNewDevice() -> int"""
     return _kinova_raw.ScanForNewDevice()
-ScanForNewDevice = _kinova_raw.ScanForNewDevice
 
 def GetDevices(list, result):
+    """GetDevices(KinovaDevice list, int & result) -> int"""
     return _kinova_raw.GetDevices(list, result)
-GetDevices = _kinova_raw.GetDevices
 
 def SetActiveDevice(device):
+    """SetActiveDevice(KinovaDevice device) -> int"""
     return _kinova_raw.SetActiveDevice(device)
-SetActiveDevice = _kinova_raw.SetActiveDevice
 
 def GetActiveDevice(device):
+    """GetActiveDevice(KinovaDevice device) -> int"""
     return _kinova_raw.GetActiveDevice(device)
-GetActiveDevice = _kinova_raw.GetActiveDevice
 
 def OpenRS485_Read(PackagesIn, QuantityWanted, ReceivedQtyIn):
+    """OpenRS485_Read(RS485_Message PackagesIn, int QuantityWanted, int & ReceivedQtyIn) -> int"""
     return _kinova_raw.OpenRS485_Read(PackagesIn, QuantityWanted, ReceivedQtyIn)
-OpenRS485_Read = _kinova_raw.OpenRS485_Read
 
 def OpenRS485_Write(PackagesOut, QtyToSend, QtySent):
+    """OpenRS485_Write(RS485_Message PackagesOut, int QtyToSend, int & QtySent) -> int"""
     return _kinova_raw.OpenRS485_Write(PackagesOut, QtyToSend, QtySent)
-OpenRS485_Write = _kinova_raw.OpenRS485_Write
 
 def OpenRS485_Activate():
+    """OpenRS485_Activate() -> int"""
     return _kinova_raw.OpenRS485_Activate()
-OpenRS485_Activate = _kinova_raw.OpenRS485_Activate
 
 _kinova_raw.COMM_LAYER_PATH_swigconstant(_kinova_raw)
 COMM_LAYER_PATH = _kinova_raw.COMM_LAYER_PATH
@@ -2113,525 +2282,527 @@ _kinova_raw.MAC_ADDRESS_LENGTH_swigconstant(_kinova_raw)
 MAC_ADDRESS_LENGTH = _kinova_raw.MAC_ADDRESS_LENGTH
 
 def RefresDevicesList():
+    """RefresDevicesList() -> int"""
     return _kinova_raw.RefresDevicesList()
-RefresDevicesList = _kinova_raw.RefresDevicesList
 
 def InitAPI():
+    """InitAPI() -> int"""
     return _kinova_raw.InitAPI()
-InitAPI = _kinova_raw.InitAPI
 
 def CloseAPI():
+    """CloseAPI() -> int"""
     return _kinova_raw.CloseAPI()
-CloseAPI = _kinova_raw.CloseAPI
 
 def GetCodeVersion(Response):
+    """GetCodeVersion(int [42] Response) -> int"""
     return _kinova_raw.GetCodeVersion(Response)
-GetCodeVersion = _kinova_raw.GetCodeVersion
 
 def GetAPIVersion(Response):
+    """GetAPIVersion(int [3] Response) -> int"""
     return _kinova_raw.GetAPIVersion(Response)
-GetAPIVersion = _kinova_raw.GetAPIVersion
 
 def GetCartesianPosition(Response):
+    """GetCartesianPosition(CartesianPosition Response) -> int"""
     return _kinova_raw.GetCartesianPosition(Response)
-GetCartesianPosition = _kinova_raw.GetCartesianPosition
 
 def GetAngularPosition(Response):
+    """GetAngularPosition(AngularPosition Response) -> int"""
     return _kinova_raw.GetAngularPosition(Response)
-GetAngularPosition = _kinova_raw.GetAngularPosition
 
 def GetCartesianForce(Response):
+    """GetCartesianForce(CartesianPosition Response) -> int"""
     return _kinova_raw.GetCartesianForce(Response)
-GetCartesianForce = _kinova_raw.GetCartesianForce
 
 def GetAngularForce(Response):
+    """GetAngularForce(AngularPosition Response) -> int"""
     return _kinova_raw.GetAngularForce(Response)
-GetAngularForce = _kinova_raw.GetAngularForce
 
 def GetAngularCurrent(Response):
+    """GetAngularCurrent(AngularPosition Response) -> int"""
     return _kinova_raw.GetAngularCurrent(Response)
-GetAngularCurrent = _kinova_raw.GetAngularCurrent
 
 def GetActualTrajectoryInfo(Response):
+    """GetActualTrajectoryInfo(TrajectoryPoint Response) -> int"""
     return _kinova_raw.GetActualTrajectoryInfo(Response)
-GetActualTrajectoryInfo = _kinova_raw.GetActualTrajectoryInfo
 
 def GetGlobalTrajectoryInfo(Response):
+    """GetGlobalTrajectoryInfo(TrajectoryFIFO Response) -> int"""
     return _kinova_raw.GetGlobalTrajectoryInfo(Response)
-GetGlobalTrajectoryInfo = _kinova_raw.GetGlobalTrajectoryInfo
 
 def GetSensorsInfo(Response):
+    """GetSensorsInfo(SensorsInfo Response) -> int"""
     return _kinova_raw.GetSensorsInfo(Response)
-GetSensorsInfo = _kinova_raw.GetSensorsInfo
 
 def GetSingularityVector(Response):
+    """GetSingularityVector(SingularityVector Response) -> int"""
     return _kinova_raw.GetSingularityVector(Response)
-GetSingularityVector = _kinova_raw.GetSingularityVector
 
 def SetAngularControl():
+    """SetAngularControl() -> int"""
     return _kinova_raw.SetAngularControl()
-SetAngularControl = _kinova_raw.SetAngularControl
 
 def SetCartesianControl():
+    """SetCartesianControl() -> int"""
     return _kinova_raw.SetCartesianControl()
-SetCartesianControl = _kinova_raw.SetCartesianControl
 
 def StartControlAPI():
+    """StartControlAPI() -> int"""
     return _kinova_raw.StartControlAPI()
-StartControlAPI = _kinova_raw.StartControlAPI
 
 def StopControlAPI():
+    """StopControlAPI() -> int"""
     return _kinova_raw.StopControlAPI()
-StopControlAPI = _kinova_raw.StopControlAPI
 
 def RestoreFactoryDefault():
+    """RestoreFactoryDefault() -> int"""
     return _kinova_raw.RestoreFactoryDefault()
-RestoreFactoryDefault = _kinova_raw.RestoreFactoryDefault
 
 def SendJoystickCommand(joystickCommand):
+    """SendJoystickCommand(JoystickCommand joystickCommand) -> int"""
     return _kinova_raw.SendJoystickCommand(joystickCommand)
-SendJoystickCommand = _kinova_raw.SendJoystickCommand
 
 def SendAdvanceTrajectory(trajectory):
+    """SendAdvanceTrajectory(TrajectoryPoint trajectory) -> int"""
     return _kinova_raw.SendAdvanceTrajectory(trajectory)
-SendAdvanceTrajectory = _kinova_raw.SendAdvanceTrajectory
 
 def SendBasicTrajectory(trajectory):
+    """SendBasicTrajectory(TrajectoryPoint trajectory) -> int"""
     return _kinova_raw.SendBasicTrajectory(trajectory)
-SendBasicTrajectory = _kinova_raw.SendBasicTrajectory
 
 def GetClientConfigurations(config):
+    """GetClientConfigurations(ClientConfigurations config) -> int"""
     return _kinova_raw.GetClientConfigurations(config)
-GetClientConfigurations = _kinova_raw.GetClientConfigurations
 
 def SetClientConfigurations(config):
+    """SetClientConfigurations(ClientConfigurations config) -> int"""
     return _kinova_raw.SetClientConfigurations(config)
-SetClientConfigurations = _kinova_raw.SetClientConfigurations
 
 def EraseAllTrajectories():
+    """EraseAllTrajectories() -> int"""
     return _kinova_raw.EraseAllTrajectories()
-EraseAllTrajectories = _kinova_raw.EraseAllTrajectories
 
 def GetPositionCurrentActuators(Response):
+    """GetPositionCurrentActuators(float [12] Response) -> int"""
     return _kinova_raw.GetPositionCurrentActuators(Response)
-GetPositionCurrentActuators = _kinova_raw.GetPositionCurrentActuators
 
 def SetActuatorPID(address, P, I, D):
+    """SetActuatorPID(unsigned int address, float P, float I, float D) -> int"""
     return _kinova_raw.SetActuatorPID(address, P, I, D)
-SetActuatorPID = _kinova_raw.SetActuatorPID
 
 def GetAngularCommand(Response):
+    """GetAngularCommand(AngularPosition Response) -> int"""
     return _kinova_raw.GetAngularCommand(Response)
-GetAngularCommand = _kinova_raw.GetAngularCommand
 
 def GetCartesianCommand(Response):
+    """GetCartesianCommand(CartesianPosition Response) -> int"""
     return _kinova_raw.GetCartesianCommand(Response)
-GetCartesianCommand = _kinova_raw.GetCartesianCommand
 
 def GetAngularCurrentMotor(Response):
+    """GetAngularCurrentMotor(AngularPosition Response) -> int"""
     return _kinova_raw.GetAngularCurrentMotor(Response)
-GetAngularCurrentMotor = _kinova_raw.GetAngularCurrentMotor
 
 def GetAngularVelocity(Response):
+    """GetAngularVelocity(AngularPosition Response) -> int"""
     return _kinova_raw.GetAngularVelocity(Response)
-GetAngularVelocity = _kinova_raw.GetAngularVelocity
 
 def GetControlType(Response):
+    """GetControlType(int & Response) -> int"""
     return _kinova_raw.GetControlType(Response)
-GetControlType = _kinova_raw.GetControlType
 
 def StartForceControl():
+    """StartForceControl() -> int"""
     return _kinova_raw.StartForceControl()
-StartForceControl = _kinova_raw.StartForceControl
 
 def StopForceControl():
+    """StopForceControl() -> int"""
     return _kinova_raw.StopForceControl()
-StopForceControl = _kinova_raw.StopForceControl
 
 def StartRedundantJointNullSpaceMotion():
+    """StartRedundantJointNullSpaceMotion() -> int"""
     return _kinova_raw.StartRedundantJointNullSpaceMotion()
-StartRedundantJointNullSpaceMotion = _kinova_raw.StartRedundantJointNullSpaceMotion
 
 def StopRedundantJointNullSpaceMotion():
+    """StopRedundantJointNullSpaceMotion() -> int"""
     return _kinova_raw.StopRedundantJointNullSpaceMotion()
-StopRedundantJointNullSpaceMotion = _kinova_raw.StopRedundantJointNullSpaceMotion
 
 def ActivateExtraProtectionPinchingWrist(state):
+    """ActivateExtraProtectionPinchingWrist(int state) -> int"""
     return _kinova_raw.ActivateExtraProtectionPinchingWrist(state)
-ActivateExtraProtectionPinchingWrist = _kinova_raw.ActivateExtraProtectionPinchingWrist
 
 def ActivateCollisionAutomaticAvoidance(state):
+    """ActivateCollisionAutomaticAvoidance(int state) -> int"""
     return _kinova_raw.ActivateCollisionAutomaticAvoidance(state)
-ActivateCollisionAutomaticAvoidance = _kinova_raw.ActivateCollisionAutomaticAvoidance
 
 def ActivateSingularityAutomaticAvoidance(state):
+    """ActivateSingularityAutomaticAvoidance(int state) -> int"""
     return _kinova_raw.ActivateSingularityAutomaticAvoidance(state)
-ActivateSingularityAutomaticAvoidance = _kinova_raw.ActivateSingularityAutomaticAvoidance
 
 def ActivateAutoNullSpaceMotionCartesian(state):
+    """ActivateAutoNullSpaceMotionCartesian(int state) -> int"""
     return _kinova_raw.ActivateAutoNullSpaceMotionCartesian(state)
-ActivateAutoNullSpaceMotionCartesian = _kinova_raw.ActivateAutoNullSpaceMotionCartesian
 
 def StartCurrentLimitation():
+    """StartCurrentLimitation() -> int"""
     return _kinova_raw.StartCurrentLimitation()
-StartCurrentLimitation = _kinova_raw.StartCurrentLimitation
 
 def StopCurrentLimitation():
+    """StopCurrentLimitation() -> int"""
     return _kinova_raw.StopCurrentLimitation()
-StopCurrentLimitation = _kinova_raw.StopCurrentLimitation
 
 def GetSystemErrorCount(Response):
+    """GetSystemErrorCount(unsigned int & Response) -> int"""
     return _kinova_raw.GetSystemErrorCount(Response)
-GetSystemErrorCount = _kinova_raw.GetSystemErrorCount
 
 def GetSystemError(indexError, Response):
+    """GetSystemError(unsigned int indexError, SystemError Response) -> int"""
     return _kinova_raw.GetSystemError(indexError, Response)
-GetSystemError = _kinova_raw.GetSystemError
 
 def ClearErrorLog():
+    """ClearErrorLog() -> int"""
     return _kinova_raw.ClearErrorLog()
-ClearErrorLog = _kinova_raw.ClearErrorLog
 
 def EraseAllProtectionZones():
+    """EraseAllProtectionZones() -> int"""
     return _kinova_raw.EraseAllProtectionZones()
-EraseAllProtectionZones = _kinova_raw.EraseAllProtectionZones
 
 def SetSerialNumber(Command, temp):
+    """SetSerialNumber(char [20] Command, char [20] temp) -> int"""
     return _kinova_raw.SetSerialNumber(Command, temp)
-SetSerialNumber = _kinova_raw.SetSerialNumber
 
 def SetDefaultGravityParam(Command):
+    """SetDefaultGravityParam(float [42] Command) -> int"""
     return _kinova_raw.SetDefaultGravityParam(Command)
-SetDefaultGravityParam = _kinova_raw.SetDefaultGravityParam
 
 def GetControlMapping(Response):
+    """GetControlMapping(ControlMappingCharts Response) -> int"""
     return _kinova_raw.GetControlMapping(Response)
-GetControlMapping = _kinova_raw.GetControlMapping
 
 def GetProtectionZone(Response):
+    """GetProtectionZone(ZoneList Response) -> int"""
     return _kinova_raw.GetProtectionZone(Response)
-GetProtectionZone = _kinova_raw.GetProtectionZone
 
 def SetProtectionZone(Command):
+    """SetProtectionZone(ZoneList Command) -> int"""
     return _kinova_raw.SetProtectionZone(Command)
-SetProtectionZone = _kinova_raw.SetProtectionZone
 
 def GetGripperStatus(Response):
+    """GetGripperStatus(Gripper Response) -> int"""
     return _kinova_raw.GetGripperStatus(Response)
-GetGripperStatus = _kinova_raw.GetGripperStatus
 
 def GetQuickStatus(Response):
+    """GetQuickStatus(QuickStatus Response) -> int"""
     return _kinova_raw.GetQuickStatus(Response)
-GetQuickStatus = _kinova_raw.GetQuickStatus
 
 def GetForcesInfo(Response):
+    """GetForcesInfo(ForcesInfo Response) -> int"""
     return _kinova_raw.GetForcesInfo(Response)
-GetForcesInfo = _kinova_raw.GetForcesInfo
 
 def SetControlMapping(Command):
+    """SetControlMapping(ControlMappingCharts Command) -> int"""
     return _kinova_raw.SetControlMapping(Command)
-SetControlMapping = _kinova_raw.SetControlMapping
 
 def ProgramFlash(filename):
+    """ProgramFlash(char const * filename) -> int"""
     return _kinova_raw.ProgramFlash(filename)
-ProgramFlash = _kinova_raw.ProgramFlash
 
 def SetJointZero(ActuatorAdress):
+    """SetJointZero(int ActuatorAdress) -> int"""
     return _kinova_raw.SetJointZero(ActuatorAdress)
-SetJointZero = _kinova_raw.SetJointZero
 
 def SetTorqueZero(ActuatorAdress):
+    """SetTorqueZero(int ActuatorAdress) -> int"""
     return _kinova_raw.SetTorqueZero(ActuatorAdress)
-SetTorqueZero = _kinova_raw.SetTorqueZero
 
 def SetActuatorPIDFilter(ActuatorAdress, filterP, filterI, filterD):
+    """SetActuatorPIDFilter(int ActuatorAdress, float filterP, float filterI, float filterD) -> int"""
     return _kinova_raw.SetActuatorPIDFilter(ActuatorAdress, filterP, filterI, filterD)
-SetActuatorPIDFilter = _kinova_raw.SetActuatorPIDFilter
 
 def SetActuatorAddress(ActuatorAdress, newAddress):
+    """SetActuatorAddress(int ActuatorAdress, int newAddress) -> int"""
     return _kinova_raw.SetActuatorAddress(ActuatorAdress, newAddress)
-SetActuatorAddress = _kinova_raw.SetActuatorAddress
 
 def GetGeneralInformations(Response):
+    """GetGeneralInformations(GeneralInformations Response) -> int"""
     return _kinova_raw.GetGeneralInformations(Response)
-GetGeneralInformations = _kinova_raw.GetGeneralInformations
 
 def SetFrameType(frameType):
+    """SetFrameType(int frameType) -> int"""
     return _kinova_raw.SetFrameType(frameType)
-SetFrameType = _kinova_raw.SetFrameType
 
 def SetCartesianForceMinMax(min, max):
+    """SetCartesianForceMinMax(CartesianInfo min, CartesianInfo max) -> int"""
     return _kinova_raw.SetCartesianForceMinMax(min, max)
-SetCartesianForceMinMax = _kinova_raw.SetCartesianForceMinMax
 
 def SetCartesianInertiaDamping(inertia, damping):
+    """SetCartesianInertiaDamping(CartesianInfo inertia, CartesianInfo damping) -> int"""
     return _kinova_raw.SetCartesianInertiaDamping(inertia, damping)
-SetCartesianInertiaDamping = _kinova_raw.SetCartesianInertiaDamping
 
 def SetAngularTorqueMinMax(min, max):
+    """SetAngularTorqueMinMax(AngularInfo min, AngularInfo max) -> int"""
     return _kinova_raw.SetAngularTorqueMinMax(min, max)
-SetAngularTorqueMinMax = _kinova_raw.SetAngularTorqueMinMax
 
 def SetAngularInertiaDamping(inertia, damping):
+    """SetAngularInertiaDamping(AngularInfo inertia, AngularInfo damping) -> int"""
     return _kinova_raw.SetAngularInertiaDamping(inertia, damping)
-SetAngularInertiaDamping = _kinova_raw.SetAngularInertiaDamping
 
 def SetDevValue(command):
+    """SetDevValue(std::vector< float,std::allocator< float > > command) -> int"""
     return _kinova_raw.SetDevValue(command)
-SetDevValue = _kinova_raw.SetDevValue
 
 def GetDevValue(Response):
+    """GetDevValue(std::vector< float,std::allocator< float > > & Response) -> int"""
     return _kinova_raw.GetDevValue(Response)
-GetDevValue = _kinova_raw.GetDevValue
 
 def SetSpasmFilterValues(Command, activationStatus):
+    """SetSpasmFilterValues(float [1] Command, int activationStatus) -> int"""
     return _kinova_raw.SetSpasmFilterValues(Command, activationStatus)
-SetSpasmFilterValues = _kinova_raw.SetSpasmFilterValues
 
 def GetSpasmFilterValues(Response, activationStatus):
+    """GetSpasmFilterValues(float [1] Response, int & activationStatus) -> int"""
     return _kinova_raw.GetSpasmFilterValues(Response, activationStatus)
-GetSpasmFilterValues = _kinova_raw.GetSpasmFilterValues
 
 def MoveHome():
+    """MoveHome() -> int"""
     return _kinova_raw.MoveHome()
-MoveHome = _kinova_raw.MoveHome
 
 def GetAngularForceGravityFree(Response):
+    """GetAngularForceGravityFree(AngularPosition Response) -> int"""
     return _kinova_raw.GetAngularForceGravityFree(Response)
-GetAngularForceGravityFree = _kinova_raw.GetAngularForceGravityFree
 
 def GetActuatorAcceleration(Response):
+    """GetActuatorAcceleration(AngularAcceleration Response) -> int"""
     return _kinova_raw.GetActuatorAcceleration(Response)
-GetActuatorAcceleration = _kinova_raw.GetActuatorAcceleration
 
 def InitFingers():
+    """InitFingers() -> int"""
     return _kinova_raw.InitFingers()
-InitFingers = _kinova_raw.InitFingers
 
 def GetPeripheralInventory(list):
+    """GetPeripheralInventory(PeripheralInfo list) -> int"""
     return _kinova_raw.GetPeripheralInventory(list)
-GetPeripheralInventory = _kinova_raw.GetPeripheralInventory
 
 def SetModel(Command, temp):
+    """SetModel(char [20] Command, char [20] temp) -> int"""
     return _kinova_raw.SetModel(Command, temp)
-SetModel = _kinova_raw.SetModel
 
 def GetJoystickValue(joystickCommand):
+    """GetJoystickValue(JoystickCommand joystickCommand) -> int"""
     return _kinova_raw.GetJoystickValue(joystickCommand)
-GetJoystickValue = _kinova_raw.GetJoystickValue
 
 def SetRobotConfiguration(ConfigID):
+    """SetRobotConfiguration(int ConfigID) -> int"""
     return _kinova_raw.SetRobotConfiguration(ConfigID)
-SetRobotConfiguration = _kinova_raw.SetRobotConfiguration
 
 def GetCommandVelocity(cartesianVelocity, angularVelocity):
+    """GetCommandVelocity(float [6] cartesianVelocity, float [7] angularVelocity) -> int"""
     return _kinova_raw.GetCommandVelocity(cartesianVelocity, angularVelocity)
-GetCommandVelocity = _kinova_raw.GetCommandVelocity
 
 def GetEndEffectorOffset(status, x, y, z):
+    """GetEndEffectorOffset(unsigned int & status, float & x, float & y, float & z) -> int"""
     return _kinova_raw.GetEndEffectorOffset(status, x, y, z)
-GetEndEffectorOffset = _kinova_raw.GetEndEffectorOffset
 
 def SetEndEffectorOffset(status, x, y, z):
+    """SetEndEffectorOffset(unsigned int status, float x, float y, float z) -> int"""
     return _kinova_raw.SetEndEffectorOffset(status, x, y, z)
-SetEndEffectorOffset = _kinova_raw.SetEndEffectorOffset
 
 def SendAngularTorqueCommand(Command):
+    """SendAngularTorqueCommand(float [70] Command) -> int"""
     return _kinova_raw.SendAngularTorqueCommand(Command)
-SendAngularTorqueCommand = _kinova_raw.SendAngularTorqueCommand
 
 def SendCartesianForceCommand(Command):
+    """SendCartesianForceCommand(float [70] Command) -> int"""
     return _kinova_raw.SendCartesianForceCommand(Command)
-SendCartesianForceCommand = _kinova_raw.SendCartesianForceCommand
 
 def SetTorqueActuatorGain(Command):
+    """SetTorqueActuatorGain(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueActuatorGain(Command)
-SetTorqueActuatorGain = _kinova_raw.SetTorqueActuatorGain
 
 def SetTorqueActuatorDamping(Command):
+    """SetTorqueActuatorDamping(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueActuatorDamping(Command)
-SetTorqueActuatorDamping = _kinova_raw.SetTorqueActuatorDamping
 
 def SwitchTrajectoryTorque(type):
+    """SwitchTrajectoryTorque(GENERALCONTROL_TYPE type) -> int"""
     return _kinova_raw.SwitchTrajectoryTorque(type)
-SwitchTrajectoryTorque = _kinova_raw.SwitchTrajectoryTorque
 
 def SetTorqueCommandMax(Command):
+    """SetTorqueCommandMax(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueCommandMax(Command)
-SetTorqueCommandMax = _kinova_raw.SetTorqueCommandMax
 
 def SetTorqueSafetyFactor(factor):
+    """SetTorqueSafetyFactor(float factor) -> int"""
     return _kinova_raw.SetTorqueSafetyFactor(factor)
-SetTorqueSafetyFactor = _kinova_raw.SetTorqueSafetyFactor
 
 def SetTorqueGainMax(Command):
+    """SetTorqueGainMax(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueGainMax(Command)
-SetTorqueGainMax = _kinova_raw.SetTorqueGainMax
 
 def SetTorqueRateLimiter(Command):
+    """SetTorqueRateLimiter(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueRateLimiter(Command)
-SetTorqueRateLimiter = _kinova_raw.SetTorqueRateLimiter
 
 def SetTorqueFeedCurrent(Command):
+    """SetTorqueFeedCurrent(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueFeedCurrent(Command)
-SetTorqueFeedCurrent = _kinova_raw.SetTorqueFeedCurrent
 
 def SetTorqueFeedVelocity(Command):
+    """SetTorqueFeedVelocity(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueFeedVelocity(Command)
-SetTorqueFeedVelocity = _kinova_raw.SetTorqueFeedVelocity
 
 def SetTorquePositionLimitDampingGain(Command):
+    """SetTorquePositionLimitDampingGain(float [70] Command) -> int"""
     return _kinova_raw.SetTorquePositionLimitDampingGain(Command)
-SetTorquePositionLimitDampingGain = _kinova_raw.SetTorquePositionLimitDampingGain
 
 def SetTorquePositionLimitDampingMax(Command):
+    """SetTorquePositionLimitDampingMax(float [70] Command) -> int"""
     return _kinova_raw.SetTorquePositionLimitDampingMax(Command)
-SetTorquePositionLimitDampingMax = _kinova_raw.SetTorquePositionLimitDampingMax
 
 def SetTorquePositionLimitRepulsGain(Command):
+    """SetTorquePositionLimitRepulsGain(float [70] Command) -> int"""
     return _kinova_raw.SetTorquePositionLimitRepulsGain(Command)
-SetTorquePositionLimitRepulsGain = _kinova_raw.SetTorquePositionLimitRepulsGain
 
 def SetTorquePositionLimitRepulsMax(Command):
+    """SetTorquePositionLimitRepulsMax(float [70] Command) -> int"""
     return _kinova_raw.SetTorquePositionLimitRepulsMax(Command)
-SetTorquePositionLimitRepulsMax = _kinova_raw.SetTorquePositionLimitRepulsMax
 
 def SetTorqueFilterVelocity(Command):
+    """SetTorqueFilterVelocity(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueFilterVelocity(Command)
-SetTorqueFilterVelocity = _kinova_raw.SetTorqueFilterVelocity
 
 def SetTorqueFilterMeasuredTorque(Command):
+    """SetTorqueFilterMeasuredTorque(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueFilterMeasuredTorque(Command)
-SetTorqueFilterMeasuredTorque = _kinova_raw.SetTorqueFilterMeasuredTorque
 
 def SetTorqueFilterError(Command):
+    """SetTorqueFilterError(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueFilterError(Command)
-SetTorqueFilterError = _kinova_raw.SetTorqueFilterError
 
 def SetTorqueFilterControlEffort(Command):
+    """SetTorqueFilterControlEffort(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueFilterControlEffort(Command)
-SetTorqueFilterControlEffort = _kinova_raw.SetTorqueFilterControlEffort
 
 def SetGravityType(type):
+    """SetGravityType(GRAVITY_TYPE type) -> int"""
     return _kinova_raw.SetGravityType(type)
-SetGravityType = _kinova_raw.SetGravityType
 
 def SetGravityVector(gravityVector):
+    """SetGravityVector(float [3] gravityVector) -> int"""
     return _kinova_raw.SetGravityVector(gravityVector)
-SetGravityVector = _kinova_raw.SetGravityVector
 
 def SetGravityOptimalZParam(Command):
+    """SetGravityOptimalZParam(float [42] Command) -> int"""
     return _kinova_raw.SetGravityOptimalZParam(Command)
-SetGravityOptimalZParam = _kinova_raw.SetGravityOptimalZParam
 
 def SetGravityManualInputParam(Command):
+    """SetGravityManualInputParam(float [42] Command) -> int"""
     return _kinova_raw.SetGravityManualInputParam(Command)
-SetGravityManualInputParam = _kinova_raw.SetGravityManualInputParam
 
 def GetAngularTorqueCommand(Command):
+    """GetAngularTorqueCommand(float [70] Command) -> int"""
     return _kinova_raw.GetAngularTorqueCommand(Command)
-GetAngularTorqueCommand = _kinova_raw.GetAngularTorqueCommand
 
 def GetAngularTorqueGravityEstimation(Command):
+    """GetAngularTorqueGravityEstimation(float [70] Command) -> int"""
     return _kinova_raw.GetAngularTorqueGravityEstimation(Command)
-GetAngularTorqueGravityEstimation = _kinova_raw.GetAngularTorqueGravityEstimation
 
 def SetActuatorMaxVelocity(Command):
+    """SetActuatorMaxVelocity(float [70] Command) -> int"""
     return _kinova_raw.SetActuatorMaxVelocity(Command)
-SetActuatorMaxVelocity = _kinova_raw.SetActuatorMaxVelocity
 
 def SetSwitchThreshold(Command):
+    """SetSwitchThreshold(float [70] Command) -> int"""
     return _kinova_raw.SetSwitchThreshold(Command)
-SetSwitchThreshold = _kinova_raw.SetSwitchThreshold
 
 def SetPositionLimitDistance(Command):
+    """SetPositionLimitDistance(float [70] Command) -> int"""
     return _kinova_raw.SetPositionLimitDistance(Command)
-SetPositionLimitDistance = _kinova_raw.SetPositionLimitDistance
 
 def SetTorqueControlType(type):
+    """SetTorqueControlType(TORQUECONTROL_TYPE type) -> int"""
     return _kinova_raw.SetTorqueControlType(type)
-SetTorqueControlType = _kinova_raw.SetTorqueControlType
 
 def SetGravityPayload(Command):
+    """SetGravityPayload(float [4] Command) -> int"""
     return _kinova_raw.SetGravityPayload(Command)
-SetGravityPayload = _kinova_raw.SetGravityPayload
 
 def SetTorqueVibrationController(activationStatus):
+    """SetTorqueVibrationController(float activationStatus) -> int"""
     return _kinova_raw.SetTorqueVibrationController(activationStatus)
-SetTorqueVibrationController = _kinova_raw.SetTorqueVibrationController
 
 def SetTorqueRobotProtection(protectionLevel):
+    """SetTorqueRobotProtection(int protectionLevel) -> int"""
     return _kinova_raw.SetTorqueRobotProtection(protectionLevel)
-SetTorqueRobotProtection = _kinova_raw.SetTorqueRobotProtection
 
 def SetTorqueVelocityLimitFilter(Command):
+    """SetTorqueVelocityLimitFilter(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueVelocityLimitFilter(Command)
-SetTorqueVelocityLimitFilter = _kinova_raw.SetTorqueVelocityLimitFilter
 
 def SetTorqueFeedFilter(Command):
+    """SetTorqueFeedFilter(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueFeedFilter(Command)
-SetTorqueFeedFilter = _kinova_raw.SetTorqueFeedFilter
 
 def SetTorqueStaticFriction(Command):
+    """SetTorqueStaticFriction(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueStaticFriction(Command)
-SetTorqueStaticFriction = _kinova_raw.SetTorqueStaticFriction
 
 def SetTorqueErrorDeadband(Command):
+    """SetTorqueErrorDeadband(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueErrorDeadband(Command)
-SetTorqueErrorDeadband = _kinova_raw.SetTorqueErrorDeadband
 
 def SetTorqueBrake(Command):
+    """SetTorqueBrake(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueBrake(Command)
-SetTorqueBrake = _kinova_raw.SetTorqueBrake
 
 def SetTorqueInactivityTimeActuator(Command):
+    """SetTorqueInactivityTimeActuator(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueInactivityTimeActuator(Command)
-SetTorqueInactivityTimeActuator = _kinova_raw.SetTorqueInactivityTimeActuator
 
 def SetTorqueInactivityTimeMainController(time):
+    """SetTorqueInactivityTimeMainController(int time) -> int"""
     return _kinova_raw.SetTorqueInactivityTimeMainController(time)
-SetTorqueInactivityTimeMainController = _kinova_raw.SetTorqueInactivityTimeMainController
 
 def SetTorqueDampingMax(Command):
+    """SetTorqueDampingMax(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueDampingMax(Command)
-SetTorqueDampingMax = _kinova_raw.SetTorqueDampingMax
 
 def SetTorqueFeedVelocityUnderGain(Command):
+    """SetTorqueFeedVelocityUnderGain(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueFeedVelocityUnderGain(Command)
-SetTorqueFeedVelocityUnderGain = _kinova_raw.SetTorqueFeedVelocityUnderGain
 
 def SetTorqueFeedCurrentVoltage(Command):
+    """SetTorqueFeedCurrentVoltage(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueFeedCurrentVoltage(Command)
-SetTorqueFeedCurrentVoltage = _kinova_raw.SetTorqueFeedCurrentVoltage
 
 def SetTorqueStaticFrictionMax(Command):
+    """SetTorqueStaticFrictionMax(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueStaticFrictionMax(Command)
-SetTorqueStaticFrictionMax = _kinova_raw.SetTorqueStaticFrictionMax
 
 def SetTorqueErrorResend(Command):
+    """SetTorqueErrorResend(float [70] Command) -> int"""
     return _kinova_raw.SetTorqueErrorResend(Command)
-SetTorqueErrorResend = _kinova_raw.SetTorqueErrorResend
 
 def RunGravityZEstimationSequence(type, OptimalzParam):
+    """RunGravityZEstimationSequence(ROBOT_TYPE type, double [16] OptimalzParam) -> int"""
     return _kinova_raw.RunGravityZEstimationSequence(type, OptimalzParam)
-RunGravityZEstimationSequence = _kinova_raw.RunGravityZEstimationSequence
 
 def RunGravityZEstimationSequence7DOF(type, OptimalzParam):
+    """RunGravityZEstimationSequence7DOF(ROBOT_TYPE type, float [19] OptimalzParam) -> int"""
     return _kinova_raw.RunGravityZEstimationSequence7DOF(type, OptimalzParam)
-RunGravityZEstimationSequence7DOF = _kinova_raw.RunGravityZEstimationSequence7DOF
 
 def GetTrajectoryTorqueMode(arg1):
+    """GetTrajectoryTorqueMode(int & arg1) -> int"""
     return _kinova_raw.GetTrajectoryTorqueMode(arg1)
-GetTrajectoryTorqueMode = _kinova_raw.GetTrajectoryTorqueMode
 
 def SetTorqueInactivityType(arg1):
+    """SetTorqueInactivityType(int arg1) -> int"""
     return _kinova_raw.SetTorqueInactivityType(arg1)
-SetTorqueInactivityType = _kinova_raw.SetTorqueInactivityType
 
 def SetLocalMACAddress(mac, temp):
+    """SetLocalMACAddress(unsigned char [6] mac, char [20] temp) -> int"""
     return _kinova_raw.SetLocalMACAddress(mac, temp)
-SetLocalMACAddress = _kinova_raw.SetLocalMACAddress
 class SwigPyIterator(object):
+    """Proxy of C++ swig::SwigPyIterator class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
 
     def __init__(self, *args, **kwargs):
@@ -2641,133 +2812,244 @@ class SwigPyIterator(object):
     __del__ = lambda self: None
 
     def value(self):
+        """value(SwigPyIterator self) -> PyObject *"""
         return _kinova_raw.SwigPyIterator_value(self)
 
+
     def incr(self, n=1):
+        """
+        incr(SwigPyIterator self, size_t n=1) -> SwigPyIterator
+        incr(SwigPyIterator self) -> SwigPyIterator
+        """
         return _kinova_raw.SwigPyIterator_incr(self, n)
 
+
     def decr(self, n=1):
+        """
+        decr(SwigPyIterator self, size_t n=1) -> SwigPyIterator
+        decr(SwigPyIterator self) -> SwigPyIterator
+        """
         return _kinova_raw.SwigPyIterator_decr(self, n)
 
+
     def distance(self, x):
+        """distance(SwigPyIterator self, SwigPyIterator x) -> ptrdiff_t"""
         return _kinova_raw.SwigPyIterator_distance(self, x)
 
+
     def equal(self, x):
+        """equal(SwigPyIterator self, SwigPyIterator x) -> bool"""
         return _kinova_raw.SwigPyIterator_equal(self, x)
 
+
     def copy(self):
+        """copy(SwigPyIterator self) -> SwigPyIterator"""
         return _kinova_raw.SwigPyIterator_copy(self)
 
+
     def next(self):
+        """next(SwigPyIterator self) -> PyObject *"""
         return _kinova_raw.SwigPyIterator_next(self)
 
+
     def __next__(self):
+        """__next__(SwigPyIterator self) -> PyObject *"""
         return _kinova_raw.SwigPyIterator___next__(self)
 
+
     def previous(self):
+        """previous(SwigPyIterator self) -> PyObject *"""
         return _kinova_raw.SwigPyIterator_previous(self)
 
+
     def advance(self, n):
+        """advance(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"""
         return _kinova_raw.SwigPyIterator_advance(self, n)
 
+
     def __eq__(self, x):
+        """__eq__(SwigPyIterator self, SwigPyIterator x) -> bool"""
         return _kinova_raw.SwigPyIterator___eq__(self, x)
 
+
     def __ne__(self, x):
+        """__ne__(SwigPyIterator self, SwigPyIterator x) -> bool"""
         return _kinova_raw.SwigPyIterator___ne__(self, x)
 
+
     def __iadd__(self, n):
+        """__iadd__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"""
         return _kinova_raw.SwigPyIterator___iadd__(self, n)
 
+
     def __isub__(self, n):
+        """__isub__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"""
         return _kinova_raw.SwigPyIterator___isub__(self, n)
 
+
     def __add__(self, n):
+        """__add__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator"""
         return _kinova_raw.SwigPyIterator___add__(self, n)
 
+
     def __sub__(self, *args):
+        """
+        __sub__(SwigPyIterator self, ptrdiff_t n) -> SwigPyIterator
+        __sub__(SwigPyIterator self, SwigPyIterator x) -> ptrdiff_t
+        """
         return _kinova_raw.SwigPyIterator___sub__(self, *args)
+
     def __iter__(self):
         return self
 SwigPyIterator_swigregister = _kinova_raw.SwigPyIterator_swigregister
 SwigPyIterator_swigregister(SwigPyIterator)
 
 class IntVector(object):
+    """Proxy of C++ std::vector<(int)> class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
 
     def iterator(self):
+        """iterator(IntVector self) -> SwigPyIterator"""
         return _kinova_raw.IntVector_iterator(self)
+
     def __iter__(self):
         return self.iterator()
 
     def __nonzero__(self):
+        """__nonzero__(IntVector self) -> bool"""
         return _kinova_raw.IntVector___nonzero__(self)
 
+
     def __bool__(self):
+        """__bool__(IntVector self) -> bool"""
         return _kinova_raw.IntVector___bool__(self)
 
+
     def __len__(self):
+        """__len__(IntVector self) -> std::vector< int >::size_type"""
         return _kinova_raw.IntVector___len__(self)
 
+
     def __getslice__(self, i, j):
+        """__getslice__(IntVector self, std::vector< int >::difference_type i, std::vector< int >::difference_type j) -> IntVector"""
         return _kinova_raw.IntVector___getslice__(self, i, j)
 
+
     def __setslice__(self, *args):
+        """
+        __setslice__(IntVector self, std::vector< int >::difference_type i, std::vector< int >::difference_type j)
+        __setslice__(IntVector self, std::vector< int >::difference_type i, std::vector< int >::difference_type j, IntVector v)
+        """
         return _kinova_raw.IntVector___setslice__(self, *args)
 
+
     def __delslice__(self, i, j):
+        """__delslice__(IntVector self, std::vector< int >::difference_type i, std::vector< int >::difference_type j)"""
         return _kinova_raw.IntVector___delslice__(self, i, j)
 
+
     def __delitem__(self, *args):
+        """
+        __delitem__(IntVector self, std::vector< int >::difference_type i)
+        __delitem__(IntVector self, PySliceObject * slice)
+        """
         return _kinova_raw.IntVector___delitem__(self, *args)
 
+
     def __getitem__(self, *args):
+        """
+        __getitem__(IntVector self, PySliceObject * slice) -> IntVector
+        __getitem__(IntVector self, std::vector< int >::difference_type i) -> std::vector< int >::value_type const &
+        """
         return _kinova_raw.IntVector___getitem__(self, *args)
 
+
     def __setitem__(self, *args):
+        """
+        __setitem__(IntVector self, PySliceObject * slice, IntVector v)
+        __setitem__(IntVector self, PySliceObject * slice)
+        __setitem__(IntVector self, std::vector< int >::difference_type i, std::vector< int >::value_type const & x)
+        """
         return _kinova_raw.IntVector___setitem__(self, *args)
 
+
     def pop(self):
+        """pop(IntVector self) -> std::vector< int >::value_type"""
         return _kinova_raw.IntVector_pop(self)
 
+
     def append(self, x):
+        """append(IntVector self, std::vector< int >::value_type const & x)"""
         return _kinova_raw.IntVector_append(self, x)
 
+
     def empty(self):
+        """empty(IntVector self) -> bool"""
         return _kinova_raw.IntVector_empty(self)
 
+
     def size(self):
+        """size(IntVector self) -> std::vector< int >::size_type"""
         return _kinova_raw.IntVector_size(self)
 
+
     def swap(self, v):
+        """swap(IntVector self, IntVector v)"""
         return _kinova_raw.IntVector_swap(self, v)
 
+
     def begin(self):
+        """begin(IntVector self) -> std::vector< int >::iterator"""
         return _kinova_raw.IntVector_begin(self)
 
+
     def end(self):
+        """end(IntVector self) -> std::vector< int >::iterator"""
         return _kinova_raw.IntVector_end(self)
 
+
     def rbegin(self):
+        """rbegin(IntVector self) -> std::vector< int >::reverse_iterator"""
         return _kinova_raw.IntVector_rbegin(self)
 
+
     def rend(self):
+        """rend(IntVector self) -> std::vector< int >::reverse_iterator"""
         return _kinova_raw.IntVector_rend(self)
 
+
     def clear(self):
+        """clear(IntVector self)"""
         return _kinova_raw.IntVector_clear(self)
 
+
     def get_allocator(self):
+        """get_allocator(IntVector self) -> std::vector< int >::allocator_type"""
         return _kinova_raw.IntVector_get_allocator(self)
 
+
     def pop_back(self):
+        """pop_back(IntVector self)"""
         return _kinova_raw.IntVector_pop_back(self)
 
+
     def erase(self, *args):
+        """
+        erase(IntVector self, std::vector< int >::iterator pos) -> std::vector< int >::iterator
+        erase(IntVector self, std::vector< int >::iterator first, std::vector< int >::iterator last) -> std::vector< int >::iterator
+        """
         return _kinova_raw.IntVector_erase(self, *args)
 
+
     def __init__(self, *args):
+        """
+        __init__(std::vector<(int)> self) -> IntVector
+        __init__(std::vector<(int)> self, IntVector arg2) -> IntVector
+        __init__(std::vector<(int)> self, std::vector< int >::size_type size) -> IntVector
+        __init__(std::vector<(int)> self, std::vector< int >::size_type size, std::vector< int >::value_type const & value) -> IntVector
+        """
         this = _kinova_raw.new_IntVector(*args)
         try:
             self.this.append(this)
@@ -2775,109 +3057,201 @@ class IntVector(object):
             self.this = this
 
     def push_back(self, x):
+        """push_back(IntVector self, std::vector< int >::value_type const & x)"""
         return _kinova_raw.IntVector_push_back(self, x)
 
+
     def front(self):
+        """front(IntVector self) -> std::vector< int >::value_type const &"""
         return _kinova_raw.IntVector_front(self)
 
+
     def back(self):
+        """back(IntVector self) -> std::vector< int >::value_type const &"""
         return _kinova_raw.IntVector_back(self)
 
+
     def assign(self, n, x):
+        """assign(IntVector self, std::vector< int >::size_type n, std::vector< int >::value_type const & x)"""
         return _kinova_raw.IntVector_assign(self, n, x)
 
+
     def resize(self, *args):
+        """
+        resize(IntVector self, std::vector< int >::size_type new_size)
+        resize(IntVector self, std::vector< int >::size_type new_size, std::vector< int >::value_type const & x)
+        """
         return _kinova_raw.IntVector_resize(self, *args)
 
+
     def insert(self, *args):
+        """
+        insert(IntVector self, std::vector< int >::iterator pos, std::vector< int >::value_type const & x) -> std::vector< int >::iterator
+        insert(IntVector self, std::vector< int >::iterator pos, std::vector< int >::size_type n, std::vector< int >::value_type const & x)
+        """
         return _kinova_raw.IntVector_insert(self, *args)
 
+
     def reserve(self, n):
+        """reserve(IntVector self, std::vector< int >::size_type n)"""
         return _kinova_raw.IntVector_reserve(self, n)
 
+
     def capacity(self):
+        """capacity(IntVector self) -> std::vector< int >::size_type"""
         return _kinova_raw.IntVector_capacity(self)
+
     __swig_destroy__ = _kinova_raw.delete_IntVector
     __del__ = lambda self: None
 IntVector_swigregister = _kinova_raw.IntVector_swigregister
 IntVector_swigregister(IntVector)
 
 class DoubleVector(object):
+    """Proxy of C++ std::vector<(double)> class."""
+
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
 
     def iterator(self):
+        """iterator(DoubleVector self) -> SwigPyIterator"""
         return _kinova_raw.DoubleVector_iterator(self)
+
     def __iter__(self):
         return self.iterator()
 
     def __nonzero__(self):
+        """__nonzero__(DoubleVector self) -> bool"""
         return _kinova_raw.DoubleVector___nonzero__(self)
 
+
     def __bool__(self):
+        """__bool__(DoubleVector self) -> bool"""
         return _kinova_raw.DoubleVector___bool__(self)
 
+
     def __len__(self):
+        """__len__(DoubleVector self) -> std::vector< double >::size_type"""
         return _kinova_raw.DoubleVector___len__(self)
 
+
     def __getslice__(self, i, j):
+        """__getslice__(DoubleVector self, std::vector< double >::difference_type i, std::vector< double >::difference_type j) -> DoubleVector"""
         return _kinova_raw.DoubleVector___getslice__(self, i, j)
 
+
     def __setslice__(self, *args):
+        """
+        __setslice__(DoubleVector self, std::vector< double >::difference_type i, std::vector< double >::difference_type j)
+        __setslice__(DoubleVector self, std::vector< double >::difference_type i, std::vector< double >::difference_type j, DoubleVector v)
+        """
         return _kinova_raw.DoubleVector___setslice__(self, *args)
 
+
     def __delslice__(self, i, j):
+        """__delslice__(DoubleVector self, std::vector< double >::difference_type i, std::vector< double >::difference_type j)"""
         return _kinova_raw.DoubleVector___delslice__(self, i, j)
 
+
     def __delitem__(self, *args):
+        """
+        __delitem__(DoubleVector self, std::vector< double >::difference_type i)
+        __delitem__(DoubleVector self, PySliceObject * slice)
+        """
         return _kinova_raw.DoubleVector___delitem__(self, *args)
 
+
     def __getitem__(self, *args):
+        """
+        __getitem__(DoubleVector self, PySliceObject * slice) -> DoubleVector
+        __getitem__(DoubleVector self, std::vector< double >::difference_type i) -> std::vector< double >::value_type const &
+        """
         return _kinova_raw.DoubleVector___getitem__(self, *args)
 
+
     def __setitem__(self, *args):
+        """
+        __setitem__(DoubleVector self, PySliceObject * slice, DoubleVector v)
+        __setitem__(DoubleVector self, PySliceObject * slice)
+        __setitem__(DoubleVector self, std::vector< double >::difference_type i, std::vector< double >::value_type const & x)
+        """
         return _kinova_raw.DoubleVector___setitem__(self, *args)
 
+
     def pop(self):
+        """pop(DoubleVector self) -> std::vector< double >::value_type"""
         return _kinova_raw.DoubleVector_pop(self)
 
+
     def append(self, x):
+        """append(DoubleVector self, std::vector< double >::value_type const & x)"""
         return _kinova_raw.DoubleVector_append(self, x)
 
+
     def empty(self):
+        """empty(DoubleVector self) -> bool"""
         return _kinova_raw.DoubleVector_empty(self)
 
+
     def size(self):
+        """size(DoubleVector self) -> std::vector< double >::size_type"""
         return _kinova_raw.DoubleVector_size(self)
 
+
     def swap(self, v):
+        """swap(DoubleVector self, DoubleVector v)"""
         return _kinova_raw.DoubleVector_swap(self, v)
 
+
     def begin(self):
+        """begin(DoubleVector self) -> std::vector< double >::iterator"""
         return _kinova_raw.DoubleVector_begin(self)
 
+
     def end(self):
+        """end(DoubleVector self) -> std::vector< double >::iterator"""
         return _kinova_raw.DoubleVector_end(self)
 
+
     def rbegin(self):
+        """rbegin(DoubleVector self) -> std::vector< double >::reverse_iterator"""
         return _kinova_raw.DoubleVector_rbegin(self)
 
+
     def rend(self):
+        """rend(DoubleVector self) -> std::vector< double >::reverse_iterator"""
         return _kinova_raw.DoubleVector_rend(self)
 
+
     def clear(self):
+        """clear(DoubleVector self)"""
         return _kinova_raw.DoubleVector_clear(self)
 
+
     def get_allocator(self):
+        """get_allocator(DoubleVector self) -> std::vector< double >::allocator_type"""
         return _kinova_raw.DoubleVector_get_allocator(self)
 
+
     def pop_back(self):
+        """pop_back(DoubleVector self)"""
         return _kinova_raw.DoubleVector_pop_back(self)
 
+
     def erase(self, *args):
+        """
+        erase(DoubleVector self, std::vector< double >::iterator pos) -> std::vector< double >::iterator
+        erase(DoubleVector self, std::vector< double >::iterator first, std::vector< double >::iterator last) -> std::vector< double >::iterator
+        """
         return _kinova_raw.DoubleVector_erase(self, *args)
 
+
     def __init__(self, *args):
+        """
+        __init__(std::vector<(double)> self) -> DoubleVector
+        __init__(std::vector<(double)> self, DoubleVector arg2) -> DoubleVector
+        __init__(std::vector<(double)> self, std::vector< double >::size_type size) -> DoubleVector
+        __init__(std::vector<(double)> self, std::vector< double >::size_type size, std::vector< double >::value_type const & value) -> DoubleVector
+        """
         this = _kinova_raw.new_DoubleVector(*args)
         try:
             self.this.append(this)
@@ -2885,48 +3259,97 @@ class DoubleVector(object):
             self.this = this
 
     def push_back(self, x):
+        """push_back(DoubleVector self, std::vector< double >::value_type const & x)"""
         return _kinova_raw.DoubleVector_push_back(self, x)
 
+
     def front(self):
+        """front(DoubleVector self) -> std::vector< double >::value_type const &"""
         return _kinova_raw.DoubleVector_front(self)
 
+
     def back(self):
+        """back(DoubleVector self) -> std::vector< double >::value_type const &"""
         return _kinova_raw.DoubleVector_back(self)
 
+
     def assign(self, n, x):
+        """assign(DoubleVector self, std::vector< double >::size_type n, std::vector< double >::value_type const & x)"""
         return _kinova_raw.DoubleVector_assign(self, n, x)
 
+
     def resize(self, *args):
+        """
+        resize(DoubleVector self, std::vector< double >::size_type new_size)
+        resize(DoubleVector self, std::vector< double >::size_type new_size, std::vector< double >::value_type const & x)
+        """
         return _kinova_raw.DoubleVector_resize(self, *args)
 
+
     def insert(self, *args):
+        """
+        insert(DoubleVector self, std::vector< double >::iterator pos, std::vector< double >::value_type const & x) -> std::vector< double >::iterator
+        insert(DoubleVector self, std::vector< double >::iterator pos, std::vector< double >::size_type n, std::vector< double >::value_type const & x)
+        """
         return _kinova_raw.DoubleVector_insert(self, *args)
 
+
     def reserve(self, n):
+        """reserve(DoubleVector self, std::vector< double >::size_type n)"""
         return _kinova_raw.DoubleVector_reserve(self, n)
 
+
     def capacity(self):
+        """capacity(DoubleVector self) -> std::vector< double >::size_type"""
         return _kinova_raw.DoubleVector_capacity(self)
+
     __swig_destroy__ = _kinova_raw.delete_DoubleVector
     __del__ = lambda self: None
 DoubleVector_swigregister = _kinova_raw.DoubleVector_swigregister
 DoubleVector_swigregister(DoubleVector)
 
+class FloatArray(object):
+    """Proxy of C++ FloatArray class."""
 
-def new_floatArray(nelements):
-    return _kinova_raw.new_floatArray(nelements)
-new_floatArray = _kinova_raw.new_floatArray
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
 
-def delete_floatArray(ary):
-    return _kinova_raw.delete_floatArray(ary)
-delete_floatArray = _kinova_raw.delete_floatArray
+    def __init__(self, nelements):
+        """__init__(FloatArray self, size_t nelements) -> FloatArray"""
+        this = _kinova_raw.new_FloatArray(nelements)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+    __swig_destroy__ = _kinova_raw.delete_FloatArray
+    __del__ = lambda self: None
 
-def floatArray_getitem(ary, index):
-    return _kinova_raw.floatArray_getitem(ary, index)
-floatArray_getitem = _kinova_raw.floatArray_getitem
+    def __getitem__(self, index):
+        """__getitem__(FloatArray self, size_t index) -> float"""
+        return _kinova_raw.FloatArray___getitem__(self, index)
 
-def floatArray_setitem(ary, index, value):
-    return _kinova_raw.floatArray_setitem(ary, index, value)
-floatArray_setitem = _kinova_raw.floatArray_setitem
+
+    def __setitem__(self, index, value):
+        """__setitem__(FloatArray self, size_t index, float value)"""
+        return _kinova_raw.FloatArray___setitem__(self, index, value)
+
+
+    def cast(self):
+        """cast(FloatArray self) -> float *"""
+        return _kinova_raw.FloatArray_cast(self)
+
+
+    def frompointer(t):
+        """frompointer(float * t) -> FloatArray"""
+        return _kinova_raw.FloatArray_frompointer(t)
+
+    frompointer = staticmethod(frompointer)
+FloatArray_swigregister = _kinova_raw.FloatArray_swigregister
+FloatArray_swigregister(FloatArray)
+
+def FloatArray_frompointer(t):
+    """FloatArray_frompointer(float * t) -> FloatArray"""
+    return _kinova_raw.FloatArray_frompointer(t)
+
 
 
