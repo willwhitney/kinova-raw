@@ -522,7 +522,6 @@ class AngularInfo(object):
     """Proxy of C++ AngularInfo class."""
 
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
-    __repr__ = _swig_repr
     Actuator1 = _swig_property(_kinova_raw.AngularInfo_Actuator1_get, _kinova_raw.AngularInfo_Actuator1_set)
     Actuator2 = _swig_property(_kinova_raw.AngularInfo_Actuator2_get, _kinova_raw.AngularInfo_Actuator2_set)
     Actuator3 = _swig_property(_kinova_raw.AngularInfo_Actuator3_get, _kinova_raw.AngularInfo_Actuator3_set)
@@ -536,9 +535,24 @@ class AngularInfo(object):
         return _kinova_raw.AngularInfo_InitStruct(self)
 
 
-    def __str__(self):
-        """__str__(AngularInfo self) -> char *"""
-        return _kinova_raw.AngularInfo___str__(self)
+    def __repr__(self):
+        """__repr__(AngularInfo self) -> char *"""
+        return _kinova_raw.AngularInfo___repr__(self)
+
+
+    def __len__(self):
+        """__len__(AngularInfo self) -> int"""
+        return _kinova_raw.AngularInfo___len__(self)
+
+
+    def __getitem__(self, i):
+        """__getitem__(AngularInfo self, int i) -> float"""
+        return _kinova_raw.AngularInfo___getitem__(self, i)
+
+
+    def __setitem__(self, i, angle):
+        """__setitem__(AngularInfo self, int i, float angle)"""
+        return _kinova_raw.AngularInfo___setitem__(self, i, angle)
 
 
     def __init__(self):
@@ -557,7 +571,6 @@ class CartesianInfo(object):
     """Proxy of C++ CartesianInfo class."""
 
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
-    __repr__ = _swig_repr
     X = _swig_property(_kinova_raw.CartesianInfo_X_get, _kinova_raw.CartesianInfo_X_set)
     Y = _swig_property(_kinova_raw.CartesianInfo_Y_get, _kinova_raw.CartesianInfo_Y_set)
     Z = _swig_property(_kinova_raw.CartesianInfo_Z_get, _kinova_raw.CartesianInfo_Z_set)
@@ -570,9 +583,24 @@ class CartesianInfo(object):
         return _kinova_raw.CartesianInfo_InitStruct(self)
 
 
-    def __str__(self):
-        """__str__(CartesianInfo self) -> char *"""
-        return _kinova_raw.CartesianInfo___str__(self)
+    def __repr__(self):
+        """__repr__(CartesianInfo self) -> char *"""
+        return _kinova_raw.CartesianInfo___repr__(self)
+
+
+    def __len__(self):
+        """__len__(CartesianInfo self) -> int"""
+        return _kinova_raw.CartesianInfo___len__(self)
+
+
+    def __getitem__(self, i):
+        """__getitem__(CartesianInfo self, int i) -> float"""
+        return _kinova_raw.CartesianInfo___getitem__(self, i)
+
+
+    def __setitem__(self, i, position):
+        """__setitem__(CartesianInfo self, int i, float position)"""
+        return _kinova_raw.CartesianInfo___setitem__(self, i, position)
 
 
     def __init__(self):
@@ -629,7 +657,6 @@ class FingersPosition(object):
     """Proxy of C++ FingersPosition class."""
 
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
-    __repr__ = _swig_repr
     Finger1 = _swig_property(_kinova_raw.FingersPosition_Finger1_get, _kinova_raw.FingersPosition_Finger1_set)
     Finger2 = _swig_property(_kinova_raw.FingersPosition_Finger2_get, _kinova_raw.FingersPosition_Finger2_set)
     Finger3 = _swig_property(_kinova_raw.FingersPosition_Finger3_get, _kinova_raw.FingersPosition_Finger3_set)
@@ -637,6 +664,26 @@ class FingersPosition(object):
     def InitStruct(self):
         """InitStruct(FingersPosition self)"""
         return _kinova_raw.FingersPosition_InitStruct(self)
+
+
+    def __repr__(self):
+        """__repr__(FingersPosition self) -> char *"""
+        return _kinova_raw.FingersPosition___repr__(self)
+
+
+    def __len__(self):
+        """__len__(FingersPosition self) -> int"""
+        return _kinova_raw.FingersPosition___len__(self)
+
+
+    def __getitem__(self, i):
+        """__getitem__(FingersPosition self, int i) -> float"""
+        return _kinova_raw.FingersPosition___getitem__(self, i)
+
+
+    def __setitem__(self, i, position):
+        """__setitem__(FingersPosition self, int i, float position)"""
+        return _kinova_raw.FingersPosition___setitem__(self, i, position)
 
 
     def __init__(self):
@@ -655,7 +702,6 @@ class CartesianPosition(object):
     """Proxy of C++ CartesianPosition class."""
 
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
-    __repr__ = _swig_repr
     Coordinates = _swig_property(_kinova_raw.CartesianPosition_Coordinates_get, _kinova_raw.CartesianPosition_Coordinates_set)
     Fingers = _swig_property(_kinova_raw.CartesianPosition_Fingers_get, _kinova_raw.CartesianPosition_Fingers_set)
 
@@ -664,9 +710,9 @@ class CartesianPosition(object):
         return _kinova_raw.CartesianPosition_InitStruct(self)
 
 
-    def __str__(self):
-        """__str__(CartesianPosition self) -> char *"""
-        return _kinova_raw.CartesianPosition___str__(self)
+    def __repr__(self):
+        """__repr__(CartesianPosition self) -> char *"""
+        return _kinova_raw.CartesianPosition___repr__(self)
 
 
     def __init__(self):
@@ -685,7 +731,6 @@ class AngularPosition(object):
     """Proxy of C++ AngularPosition class."""
 
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
-    __repr__ = _swig_repr
     Actuators = _swig_property(_kinova_raw.AngularPosition_Actuators_get, _kinova_raw.AngularPosition_Actuators_set)
     Fingers = _swig_property(_kinova_raw.AngularPosition_Fingers_get, _kinova_raw.AngularPosition_Fingers_set)
 
@@ -694,9 +739,9 @@ class AngularPosition(object):
         return _kinova_raw.AngularPosition_InitStruct(self)
 
 
-    def __str__(self):
-        """__str__(AngularPosition self) -> char *"""
-        return _kinova_raw.AngularPosition___str__(self)
+    def __repr__(self):
+        """__repr__(AngularPosition self) -> char *"""
+        return _kinova_raw.AngularPosition___repr__(self)
 
 
     def __init__(self):
@@ -1399,7 +1444,6 @@ class ForcesInfo(object):
     """Proxy of C++ ForcesInfo class."""
 
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
-    __repr__ = _swig_repr
     Actuator1 = _swig_property(_kinova_raw.ForcesInfo_Actuator1_get, _kinova_raw.ForcesInfo_Actuator1_set)
     Actuator2 = _swig_property(_kinova_raw.ForcesInfo_Actuator2_get, _kinova_raw.ForcesInfo_Actuator2_set)
     Actuator3 = _swig_property(_kinova_raw.ForcesInfo_Actuator3_get, _kinova_raw.ForcesInfo_Actuator3_set)
@@ -1414,9 +1458,9 @@ class ForcesInfo(object):
     ThetaY = _swig_property(_kinova_raw.ForcesInfo_ThetaY_get, _kinova_raw.ForcesInfo_ThetaY_set)
     ThetaZ = _swig_property(_kinova_raw.ForcesInfo_ThetaZ_get, _kinova_raw.ForcesInfo_ThetaZ_set)
 
-    def __str__(self):
-        """__str__(ForcesInfo self) -> char *"""
-        return _kinova_raw.ForcesInfo___str__(self)
+    def __repr__(self):
+        """__repr__(ForcesInfo self) -> char *"""
+        return _kinova_raw.ForcesInfo___repr__(self)
 
 
     def __init__(self):
@@ -1435,7 +1479,6 @@ class QuickStatus(object):
     """Proxy of C++ QuickStatus class."""
 
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
-    __repr__ = _swig_repr
     Finger1Status = _swig_property(_kinova_raw.QuickStatus_Finger1Status_get, _kinova_raw.QuickStatus_Finger1Status_set)
     Finger2Status = _swig_property(_kinova_raw.QuickStatus_Finger2Status_get, _kinova_raw.QuickStatus_Finger2Status_set)
     Finger3Status = _swig_property(_kinova_raw.QuickStatus_Finger3Status_get, _kinova_raw.QuickStatus_Finger3Status_set)
@@ -1451,9 +1494,9 @@ class QuickStatus(object):
     RobotEdition = _swig_property(_kinova_raw.QuickStatus_RobotEdition_get, _kinova_raw.QuickStatus_RobotEdition_set)
     TorqueSensorsStatus = _swig_property(_kinova_raw.QuickStatus_TorqueSensorsStatus_get, _kinova_raw.QuickStatus_TorqueSensorsStatus_set)
 
-    def __str__(self):
-        """__str__(QuickStatus self) -> char *"""
-        return _kinova_raw.QuickStatus___str__(self)
+    def __repr__(self):
+        """__repr__(QuickStatus self) -> char *"""
+        return _kinova_raw.QuickStatus___repr__(self)
 
 
     def __init__(self):

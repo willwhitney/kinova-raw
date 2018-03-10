@@ -2,6 +2,8 @@ import time
 
 import kinova_raw as raw
 
+import ipdb
+
 ERROR_TBL = {}
 for name, value in raw.__dict__.iteritems():
     if "error" in name.lower() and type(value) is int and value is not 1:
@@ -50,9 +52,69 @@ def move_cartesian_delta(x, y, z):
     trajectory_point.Position.CartesianPosition = position.Coordinates
     add_trajectory_point(trajectory_point)
 
+def move_cartesian(x, y, z):
+    # start with the current position so we don't move fingers or wrist
+    position = get_cartesian_position()
+    position.Coordinates.X = x
+    position.Coordinates.Y = y
+    position.Coordinates.Z = z
+
+    trajectory_point = raw.TrajectoryPoint()
+    trajectory_point.InitStruct()
+    trajectory_point.Type = raw.CARTESIAN_POSITION
+    trajectory_point.Position.CartesianPosition = position.Coordinates
+    add_trajectory_point(trajectory_point)
+
+def move_angular(angles):
+    assert(len(angles) == 6)
+    # start with the current position so we don't move the fingers
+    position = get_angular_position()
+    for i in range(len(position.Actuators)):
+        # i+1 because the actuator names start with Actuator1
+        position.Actuators[i] = angles[i]
+
+    trajectory_point = raw.TrajectoryPoint()
+    trajectory_point.InitStruct()
+    trajectory_point.Position.Type = raw.ANGULAR_POSITION
+    trajectory_point.Position.Actuators = position.Actuators
+    add_trajectory_point(trajectory_point)
+
+def move_angular_delta(deltas):
+    assert(len(deltas) == 6)
+
+    position = get_angular_position()
+    angles = list(position.Actuators)
+    move_angular([angle + delta for angle, delta in zip(angles, deltas)])
+
+def move_fingers(angles):
+    assert(len(angles) == 3)
+
+    position = get_angular_position()
+    finger_pos = position.Fingers
+    # print(finger_pos)
+    for i in range(len(finger_pos)):
+        # print(i, finger_pos, angles)
+        finger_pos[i] = angles[i] * 6800.0
+
+    trajectory_point = raw.TrajectoryPoint()
+    trajectory_point.InitStruct()
+    trajectory_point.Position.Type = raw.ANGULAR_POSITION
+    trajectory_point.Position.Actuators = position.Actuators
+    trajectory_point.Position.Fingers = finger_pos
+    add_trajectory_point(trajectory_point)
+
+def move_fingers_delta(deltas):
+    assert(len(deltas) == 3)
+
+    position = get_angular_position()
+    finger_pos = position.Fingers
+    move_fingers([angle/6800. + delta for angle, delta in zip(finger_pos, deltas)])
+
+def clear_trajectory_queue():
+    raw.EraseAllTrajectories()
 
 def move_home():
-    raw.MoveHome()
+    maybe_err(raw.MoveHome())
 
 def close():
     raw.CloseCommunication()

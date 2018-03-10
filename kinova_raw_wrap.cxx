@@ -3190,7 +3190,9 @@ namespace swig {
   /* #include "Kinova.API.EthCommLayerUbuntu.h" */
   #include "Kinova.API.UsbCommandLayerUbuntu.h"
   /* #include "Kinova.API.EthCommandLayerUbuntu.h" */
+  /* void print_array(float arr[6]); */
 
+  static int INDEX_EXCEPT = 0; // flag to save error state
 
 
 SWIGINTERNINLINE PyObject*
@@ -3443,7 +3445,7 @@ SWIG_From_float  (float value)
   return SWIG_From_double  (value);
 }
 
-SWIGINTERN char *AngularInfo___str__(AngularInfo *self){
+SWIGINTERN char *AngularInfo___repr__(AngularInfo *self){
     static char tmp[512];
     snprintf(tmp, 512, "[%f, %f, %f, %f, %f, %f]",
       self->Actuator1,
@@ -3500,44 +3502,8 @@ SWIG_FromCharPtr(const char *cptr)
   return SWIG_FromCharPtrAndSize(cptr, (cptr ? strlen(cptr) : 0));
 }
 
-SWIGINTERN char *CartesianInfo___str__(CartesianInfo *self){
-    static char tmp[512];
-    snprintf(tmp, 512, "[%f, %f, %f]",
-      self->X,
-      self->Y,
-      self->Z
-    );
-    return tmp;
-  }
-SWIGINTERN char *CartesianPosition___str__(CartesianPosition *self){
-    static char tmp[512];
-    snprintf(tmp, 512, "<kinovapy.CartesianPosition> Coordinates: Position: [%f, %f, %f], Orientation: [%f, %f, %f], Fingers: [%f, %f, %f]",
-      self->Coordinates.X,
-      self->Coordinates.Y,
-      self->Coordinates.Z,
-      self->Coordinates.ThetaX,
-      self->Coordinates.ThetaY,
-      self->Coordinates.ThetaZ,
-      self->Fingers.Finger1,
-      self->Fingers.Finger2,
-      self->Fingers.Finger3
-    );
-    return tmp;
-  }
-SWIGINTERN char *AngularPosition___str__(AngularPosition *self){
-    static char tmp[512];
-    snprintf(tmp, 512, "<kinovapy.AngularPosition> Actuators: [%f, %f, %f, %f, %f, %f], Fingers: [%f, %f, %f]",
-      self->Actuators.Actuator1,
-      self->Actuators.Actuator2,
-      self->Actuators.Actuator3,
-      self->Actuators.Actuator4,
-      self->Actuators.Actuator5,
-      self->Actuators.Actuator6,
-      self->Fingers.Finger1,
-      self->Fingers.Finger2,
-      self->Fingers.Finger3
-    );
-    return tmp;
+SWIGINTERN int AngularInfo___len__(AngularInfo *self){
+    return 6;
   }
 
 SWIGINTERN int
@@ -3598,6 +3564,180 @@ SWIG_AsVal_int (PyObject * obj, int *val)
   return res;
 }
 
+SWIGINTERN float AngularInfo___getitem__(AngularInfo *self,int i){
+    switch (i) {
+      case 0:
+      return self->Actuator1;
+      break;
+      case 1:
+      return self->Actuator2;
+      break;
+      case 2:
+      return self->Actuator3;
+      break;
+      case 3:
+      return self->Actuator4;
+      break;
+      case 4:
+      return self->Actuator5;
+      break;
+      case 5:
+      return self->Actuator6;
+      break;
+
+      default:
+      INDEX_EXCEPT = 1;
+      return 0;
+    }
+  }
+SWIGINTERN void AngularInfo___setitem__(AngularInfo *self,int i,float angle){
+    switch (i) {
+      case 0:
+      self->Actuator1 = angle;
+      break;
+      case 1:
+      self->Actuator2 = angle;
+      break;
+      case 2:
+      self->Actuator3 = angle;
+      break;
+      case 3:
+      self->Actuator4 = angle;
+      break;
+      case 4:
+      self->Actuator5 = angle;
+      break;
+      case 5:
+      self->Actuator6 = angle;
+      break;
+
+      default:
+      INDEX_EXCEPT = 1;
+      return;
+    }
+  }
+SWIGINTERN char *CartesianInfo___repr__(CartesianInfo *self){
+    static char tmp[512];
+    snprintf(tmp, 512, "[%f, %f, %f]",
+      self->X,
+      self->Y,
+      self->Z
+    );
+    return tmp;
+  }
+SWIGINTERN int CartesianInfo___len__(CartesianInfo *self){
+    return 3;
+  }
+SWIGINTERN float CartesianInfo___getitem__(CartesianInfo *self,int i){
+    switch (i) {
+      case 0:
+      return self->X;
+      break;
+      case 1:
+      return self->Y;
+      break;
+      case 2:
+      return self->Z;
+      break;
+
+      default:
+      INDEX_EXCEPT = 1;
+      return 0;
+    }
+  }
+SWIGINTERN void CartesianInfo___setitem__(CartesianInfo *self,int i,float position){
+    switch (i) {
+      case 0:
+      self->X = position;
+      break;
+      case 1:
+      self->Y = position;
+      break;
+      case 2:
+      self->Z = position;
+      break;
+
+      default:
+      INDEX_EXCEPT = 1;
+      return;
+    }
+  }
+SWIGINTERN char *FingersPosition___repr__(FingersPosition *self){
+    static char tmp[512];
+    snprintf(tmp, 512, "[%f, %f, %f]",
+      self->Finger1,
+      self->Finger2,
+      self->Finger3
+    );
+    return tmp;
+  }
+SWIGINTERN int FingersPosition___len__(FingersPosition *self){
+    return 3;
+  }
+SWIGINTERN float FingersPosition___getitem__(FingersPosition *self,int i){
+    switch (i) {
+      case 0:
+      return self->Finger1;
+      break;
+      case 1:
+      return self->Finger2;
+      break;
+      case 2:
+      return self->Finger3;
+      break;
+
+      default:
+      INDEX_EXCEPT = 1;
+      return 0;
+    }
+  }
+SWIGINTERN void FingersPosition___setitem__(FingersPosition *self,int i,float position){
+    switch (i) {
+      case 0:
+      self->Finger1 = position;
+      break;
+      case 1:
+      self->Finger2 = position;
+      break;
+      case 2:
+      self->Finger3 = position;
+      break;
+
+      default:
+      INDEX_EXCEPT = 1;
+      return;
+    }
+  }
+SWIGINTERN char *CartesianPosition___repr__(CartesianPosition *self){
+    static char tmp[512];
+    snprintf(tmp, 512, "<kinovapy.CartesianPosition> Coordinates: Position: [%f, %f, %f], Orientation: [%f, %f, %f], Fingers: [%f, %f, %f]",
+      self->Coordinates.X,
+      self->Coordinates.Y,
+      self->Coordinates.Z,
+      self->Coordinates.ThetaX,
+      self->Coordinates.ThetaY,
+      self->Coordinates.ThetaZ,
+      self->Fingers.Finger1,
+      self->Fingers.Finger2,
+      self->Fingers.Finger3
+    );
+    return tmp;
+  }
+SWIGINTERN char *AngularPosition___repr__(AngularPosition *self){
+    static char tmp[512];
+    snprintf(tmp, 512, "<kinovapy.AngularPosition> Actuators: [%f, %f, %f, %f, %f, %f], Fingers: [%f, %f, %f]",
+      self->Actuators.Actuator1,
+      self->Actuators.Actuator2,
+      self->Actuators.Actuator3,
+      self->Actuators.Actuator4,
+      self->Actuators.Actuator5,
+      self->Actuators.Actuator6,
+      self->Fingers.Finger1,
+      self->Fingers.Finger2,
+      self->Fingers.Finger3
+    );
+    return tmp;
+  }
 
 SWIGINTERN int
 SWIG_AsCharPtrAndSize(PyObject *obj, char** cptr, size_t* psize, int *alloc)
@@ -3755,7 +3895,7 @@ SWIG_From_unsigned_SS_char  (unsigned char value)
   return SWIG_From_unsigned_SS_long  (value);
 }
 
-SWIGINTERN char *ForcesInfo___str__(ForcesInfo *self){
+SWIGINTERN char *ForcesInfo___repr__(ForcesInfo *self){
     static char tmp[512];
     const float thresh = 0.1;
     snprintf(tmp, 512, "actuator_forces: [%f, %f, %f, %f, %f, %f], 'cartesian_forces: [%f, %f, %f, %f, %f, %f]",
@@ -3774,7 +3914,7 @@ SWIGINTERN char *ForcesInfo___str__(ForcesInfo *self){
     );
     return tmp;
   }
-SWIGINTERN char *QuickStatus___str__(QuickStatus *self){
+SWIGINTERN char *QuickStatus___repr__(QuickStatus *self){
     static char tmp[512];
     snprintf(tmp, 512, "<kinovapy.QuickStatus> Fingers: (%d, %d, %d), ControlEnable: %d, ControlModule: %d, ControlFrame: %d, CartesianFault: %d, ForceControl: %d, CurrentLimit: %d, RobotType: %d, TorqueSensors: %d",
       self->Finger1Status, self->Finger2Status, self->Finger3Status,
@@ -7830,7 +7970,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_AngularInfo___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_AngularInfo___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   AngularInfo *arg1 = (AngularInfo *) 0 ;
   void *argp1 = 0 ;
@@ -7838,14 +7978,120 @@ SWIGINTERN PyObject *_wrap_AngularInfo___str__(PyObject *SWIGUNUSEDPARM(self), P
   PyObject * obj0 = 0 ;
   char *result = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"AngularInfo___str__",1,1,&obj0)) SWIG_fail;
+  if(!PyArg_UnpackTuple(args,(char *)"AngularInfo___repr__",1,1,&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_AngularInfo, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AngularInfo___str__" "', argument " "1"" of type '" "AngularInfo *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AngularInfo___repr__" "', argument " "1"" of type '" "AngularInfo *""'"); 
   }
   arg1 = reinterpret_cast< AngularInfo * >(argp1);
-  result = (char *)AngularInfo___str__(arg1);
+  result = (char *)AngularInfo___repr__(arg1);
   resultobj = SWIG_FromCharPtr((const char *)result);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AngularInfo___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  AngularInfo *arg1 = (AngularInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"AngularInfo___len__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_AngularInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AngularInfo___len__" "', argument " "1"" of type '" "AngularInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< AngularInfo * >(argp1);
+  result = (int)AngularInfo___len__(arg1);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AngularInfo___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  AngularInfo *arg1 = (AngularInfo *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"AngularInfo___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_AngularInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AngularInfo___getitem__" "', argument " "1"" of type '" "AngularInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< AngularInfo * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "AngularInfo___getitem__" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    assert(!INDEX_EXCEPT);
+    result = (float)AngularInfo___getitem__(arg1,arg2);
+    if (INDEX_EXCEPT) {
+      INDEX_EXCEPT = 0; // clear flag for next time
+      SWIG_exception(SWIG_IndexError, "Index out of bounds");
+    }
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AngularInfo___setitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  AngularInfo *arg1 = (AngularInfo *) 0 ;
+  int arg2 ;
+  float arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  float val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"AngularInfo___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_AngularInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AngularInfo___setitem__" "', argument " "1"" of type '" "AngularInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< AngularInfo * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "AngularInfo___setitem__" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_float(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "AngularInfo___setitem__" "', argument " "3"" of type '" "float""'");
+  } 
+  arg3 = static_cast< float >(val3);
+  {
+    assert(!INDEX_EXCEPT);
+    AngularInfo___setitem__(arg1,arg2,arg3);
+    if (INDEX_EXCEPT) {
+      INDEX_EXCEPT = 0; // clear flag for next time
+      SWIG_exception(SWIG_IndexError, "Index out of bounds");
+    }
+  }
+  resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
   return NULL;
@@ -8226,7 +8472,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_CartesianInfo___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_CartesianInfo___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   CartesianInfo *arg1 = (CartesianInfo *) 0 ;
   void *argp1 = 0 ;
@@ -8234,14 +8480,120 @@ SWIGINTERN PyObject *_wrap_CartesianInfo___str__(PyObject *SWIGUNUSEDPARM(self),
   PyObject * obj0 = 0 ;
   char *result = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfo___str__",1,1,&obj0)) SWIG_fail;
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfo___repr__",1,1,&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfo, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfo___str__" "', argument " "1"" of type '" "CartesianInfo *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfo___repr__" "', argument " "1"" of type '" "CartesianInfo *""'"); 
   }
   arg1 = reinterpret_cast< CartesianInfo * >(argp1);
-  result = (char *)CartesianInfo___str__(arg1);
+  result = (char *)CartesianInfo___repr__(arg1);
   resultobj = SWIG_FromCharPtr((const char *)result);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CartesianInfo___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianInfo *arg1 = (CartesianInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfo___len__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfo___len__" "', argument " "1"" of type '" "CartesianInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianInfo * >(argp1);
+  result = (int)CartesianInfo___len__(arg1);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CartesianInfo___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianInfo *arg1 = (CartesianInfo *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfo___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfo___getitem__" "', argument " "1"" of type '" "CartesianInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianInfo * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CartesianInfo___getitem__" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    assert(!INDEX_EXCEPT);
+    result = (float)CartesianInfo___getitem__(arg1,arg2);
+    if (INDEX_EXCEPT) {
+      INDEX_EXCEPT = 0; // clear flag for next time
+      SWIG_exception(SWIG_IndexError, "Index out of bounds");
+    }
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CartesianInfo___setitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianInfo *arg1 = (CartesianInfo *) 0 ;
+  int arg2 ;
+  float arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  float val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfo___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfo___setitem__" "', argument " "1"" of type '" "CartesianInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianInfo * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CartesianInfo___setitem__" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_float(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "CartesianInfo___setitem__" "', argument " "3"" of type '" "float""'");
+  } 
+  arg3 = static_cast< float >(val3);
+  {
+    assert(!INDEX_EXCEPT);
+    CartesianInfo___setitem__(arg1,arg2,arg3);
+    if (INDEX_EXCEPT) {
+      INDEX_EXCEPT = 0; // clear flag for next time
+      SWIG_exception(SWIG_IndexError, "Index out of bounds");
+    }
+  }
+  resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
   return NULL;
@@ -9308,6 +9660,134 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_FingersPosition___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  FingersPosition *arg1 = (FingersPosition *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"FingersPosition___repr__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_FingersPosition, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FingersPosition___repr__" "', argument " "1"" of type '" "FingersPosition *""'"); 
+  }
+  arg1 = reinterpret_cast< FingersPosition * >(argp1);
+  result = (char *)FingersPosition___repr__(arg1);
+  resultobj = SWIG_FromCharPtr((const char *)result);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FingersPosition___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  FingersPosition *arg1 = (FingersPosition *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"FingersPosition___len__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_FingersPosition, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FingersPosition___len__" "', argument " "1"" of type '" "FingersPosition *""'"); 
+  }
+  arg1 = reinterpret_cast< FingersPosition * >(argp1);
+  result = (int)FingersPosition___len__(arg1);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FingersPosition___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  FingersPosition *arg1 = (FingersPosition *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"FingersPosition___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_FingersPosition, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FingersPosition___getitem__" "', argument " "1"" of type '" "FingersPosition *""'"); 
+  }
+  arg1 = reinterpret_cast< FingersPosition * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FingersPosition___getitem__" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    assert(!INDEX_EXCEPT);
+    result = (float)FingersPosition___getitem__(arg1,arg2);
+    if (INDEX_EXCEPT) {
+      INDEX_EXCEPT = 0; // clear flag for next time
+      SWIG_exception(SWIG_IndexError, "Index out of bounds");
+    }
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FingersPosition___setitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  FingersPosition *arg1 = (FingersPosition *) 0 ;
+  int arg2 ;
+  float arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  float val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"FingersPosition___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_FingersPosition, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FingersPosition___setitem__" "', argument " "1"" of type '" "FingersPosition *""'"); 
+  }
+  arg1 = reinterpret_cast< FingersPosition * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FingersPosition___setitem__" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_float(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "FingersPosition___setitem__" "', argument " "3"" of type '" "float""'");
+  } 
+  arg3 = static_cast< float >(val3);
+  {
+    assert(!INDEX_EXCEPT);
+    FingersPosition___setitem__(arg1,arg2,arg3);
+    if (INDEX_EXCEPT) {
+      INDEX_EXCEPT = 0; // clear flag for next time
+      SWIG_exception(SWIG_IndexError, "Index out of bounds");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_new_FingersPosition(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   FingersPosition *result = 0 ;
@@ -9474,7 +9954,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_CartesianPosition___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_CartesianPosition___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   CartesianPosition *arg1 = (CartesianPosition *) 0 ;
   void *argp1 = 0 ;
@@ -9482,13 +9962,13 @@ SWIGINTERN PyObject *_wrap_CartesianPosition___str__(PyObject *SWIGUNUSEDPARM(se
   PyObject * obj0 = 0 ;
   char *result = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"CartesianPosition___str__",1,1,&obj0)) SWIG_fail;
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianPosition___repr__",1,1,&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianPosition, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianPosition___str__" "', argument " "1"" of type '" "CartesianPosition *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianPosition___repr__" "', argument " "1"" of type '" "CartesianPosition *""'"); 
   }
   arg1 = reinterpret_cast< CartesianPosition * >(argp1);
-  result = (char *)CartesianPosition___str__(arg1);
+  result = (char *)CartesianPosition___repr__(arg1);
   resultobj = SWIG_FromCharPtr((const char *)result);
   return resultobj;
 fail:
@@ -9662,7 +10142,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_AngularPosition___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_AngularPosition___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   AngularPosition *arg1 = (AngularPosition *) 0 ;
   void *argp1 = 0 ;
@@ -9670,13 +10150,13 @@ SWIGINTERN PyObject *_wrap_AngularPosition___str__(PyObject *SWIGUNUSEDPARM(self
   PyObject * obj0 = 0 ;
   char *result = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"AngularPosition___str__",1,1,&obj0)) SWIG_fail;
+  if(!PyArg_UnpackTuple(args,(char *)"AngularPosition___repr__",1,1,&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_AngularPosition, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AngularPosition___str__" "', argument " "1"" of type '" "AngularPosition *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AngularPosition___repr__" "', argument " "1"" of type '" "AngularPosition *""'"); 
   }
   arg1 = reinterpret_cast< AngularPosition * >(argp1);
-  result = (char *)AngularPosition___str__(arg1);
+  result = (char *)AngularPosition___repr__(arg1);
   resultobj = SWIG_FromCharPtr((const char *)result);
   return resultobj;
 fail:
@@ -17787,7 +18267,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_ForcesInfo___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_ForcesInfo___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   ForcesInfo *arg1 = (ForcesInfo *) 0 ;
   void *argp1 = 0 ;
@@ -17795,13 +18275,13 @@ SWIGINTERN PyObject *_wrap_ForcesInfo___str__(PyObject *SWIGUNUSEDPARM(self), Py
   PyObject * obj0 = 0 ;
   char *result = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"ForcesInfo___str__",1,1,&obj0)) SWIG_fail;
+  if(!PyArg_UnpackTuple(args,(char *)"ForcesInfo___repr__",1,1,&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ForcesInfo, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ForcesInfo___str__" "', argument " "1"" of type '" "ForcesInfo *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ForcesInfo___repr__" "', argument " "1"" of type '" "ForcesInfo *""'"); 
   }
   arg1 = reinterpret_cast< ForcesInfo * >(argp1);
-  result = (char *)ForcesInfo___str__(arg1);
+  result = (char *)ForcesInfo___repr__(arg1);
   resultobj = SWIG_FromCharPtr((const char *)result);
   return resultobj;
 fail:
@@ -18578,7 +19058,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_QuickStatus___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_QuickStatus___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   QuickStatus *arg1 = (QuickStatus *) 0 ;
   void *argp1 = 0 ;
@@ -18586,13 +19066,13 @@ SWIGINTERN PyObject *_wrap_QuickStatus___str__(PyObject *SWIGUNUSEDPARM(self), P
   PyObject * obj0 = 0 ;
   char *result = 0 ;
   
-  if(!PyArg_UnpackTuple(args,(char *)"QuickStatus___str__",1,1,&obj0)) SWIG_fail;
+  if(!PyArg_UnpackTuple(args,(char *)"QuickStatus___repr__",1,1,&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_QuickStatus, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "QuickStatus___str__" "', argument " "1"" of type '" "QuickStatus *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "QuickStatus___repr__" "', argument " "1"" of type '" "QuickStatus *""'"); 
   }
   arg1 = reinterpret_cast< QuickStatus * >(argp1);
-  result = (char *)QuickStatus___str__(arg1);
+  result = (char *)QuickStatus___repr__(arg1);
   resultobj = SWIG_FromCharPtr((const char *)result);
   return resultobj;
 fail:
@@ -23550,7 +24030,14 @@ SWIGINTERN PyObject *_wrap_GeneralInformations_ControlIncrement_get(PyObject *SW
   }
   arg1 = reinterpret_cast< GeneralInformations * >(argp1);
   result = (float *)(float *) ((arg1)->ControlIncrement);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_float, 0 |  0 );
+  {
+    int i;
+    resultobj = PyList_New(7);
+    for (i = 0; i < 7; i++) {
+      PyObject *o = PyFloat_FromDouble((double) result[i]);
+      PyList_SetItem(resultobj, i, o);
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -23609,7 +24096,14 @@ SWIGINTERN PyObject *_wrap_GeneralInformations_FingerControlIncrement_get(PyObje
   }
   arg1 = reinterpret_cast< GeneralInformations * >(argp1);
   result = (float *)(float *) ((arg1)->FingerControlIncrement);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_float, 0 |  0 );
+  {
+    int i;
+    resultobj = PyList_New(3);
+    for (i = 0; i < 3; i++) {
+      PyObject *o = PyFloat_FromDouble((double) result[i]);
+      PyList_SetItem(resultobj, i, o);
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -23838,7 +24332,14 @@ SWIGINTERN PyObject *_wrap_GeneralInformations_ActuatorsTemperatures_get(PyObjec
   }
   arg1 = reinterpret_cast< GeneralInformations * >(argp1);
   result = (float *)(float *) ((arg1)->ActuatorsTemperatures);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_float, 0 |  0 );
+  {
+    int i;
+    resultobj = PyList_New(7);
+    for (i = 0; i < 7; i++) {
+      PyObject *o = PyFloat_FromDouble((double) result[i]);
+      PyList_SetItem(resultobj, i, o);
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -23897,7 +24398,14 @@ SWIGINTERN PyObject *_wrap_GeneralInformations_FingersTemperatures_get(PyObject 
   }
   arg1 = reinterpret_cast< GeneralInformations * >(argp1);
   result = (float *)(float *) ((arg1)->FingersTemperatures);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_float, 0 |  0 );
+  {
+    int i;
+    resultobj = PyList_New(3);
+    for (i = 0; i < 3; i++) {
+      PyObject *o = PyFloat_FromDouble((double) result[i]);
+      PyList_SetItem(resultobj, i, o);
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -23956,7 +24464,14 @@ SWIGINTERN PyObject *_wrap_GeneralInformations_FutureTemperatures_get(PyObject *
   }
   arg1 = reinterpret_cast< GeneralInformations * >(argp1);
   result = (float *)(float *) ((arg1)->FutureTemperatures);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_float, 0 |  0 );
+  {
+    int i;
+    resultobj = PyList_New(3);
+    for (i = 0; i < 3; i++) {
+      PyObject *o = PyFloat_FromDouble((double) result[i]);
+      PyList_SetItem(resultobj, i, o);
+    }
+  }
   return resultobj;
 fail:
   return NULL;
@@ -36995,7 +37510,10 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"AngularInfo_Actuator7_set", _wrap_AngularInfo_Actuator7_set, METH_VARARGS, (char *)"AngularInfo_Actuator7_set(AngularInfo self, float Actuator7)"},
 	 { (char *)"AngularInfo_Actuator7_get", _wrap_AngularInfo_Actuator7_get, METH_VARARGS, (char *)"AngularInfo_Actuator7_get(AngularInfo self) -> float"},
 	 { (char *)"AngularInfo_InitStruct", _wrap_AngularInfo_InitStruct, METH_VARARGS, (char *)"AngularInfo_InitStruct(AngularInfo self)"},
-	 { (char *)"AngularInfo___str__", _wrap_AngularInfo___str__, METH_VARARGS, (char *)"AngularInfo___str__(AngularInfo self) -> char *"},
+	 { (char *)"AngularInfo___repr__", _wrap_AngularInfo___repr__, METH_VARARGS, (char *)"AngularInfo___repr__(AngularInfo self) -> char *"},
+	 { (char *)"AngularInfo___len__", _wrap_AngularInfo___len__, METH_VARARGS, (char *)"AngularInfo___len__(AngularInfo self) -> int"},
+	 { (char *)"AngularInfo___getitem__", _wrap_AngularInfo___getitem__, METH_VARARGS, (char *)"AngularInfo___getitem__(AngularInfo self, int i) -> float"},
+	 { (char *)"AngularInfo___setitem__", _wrap_AngularInfo___setitem__, METH_VARARGS, (char *)"AngularInfo___setitem__(AngularInfo self, int i, float angle)"},
 	 { (char *)"new_AngularInfo", _wrap_new_AngularInfo, METH_VARARGS, (char *)"new_AngularInfo() -> AngularInfo"},
 	 { (char *)"delete_AngularInfo", _wrap_delete_AngularInfo, METH_VARARGS, (char *)"delete_AngularInfo(AngularInfo self)"},
 	 { (char *)"AngularInfo_swigregister", AngularInfo_swigregister, METH_VARARGS, NULL},
@@ -37012,7 +37530,10 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"CartesianInfo_ThetaZ_set", _wrap_CartesianInfo_ThetaZ_set, METH_VARARGS, (char *)"CartesianInfo_ThetaZ_set(CartesianInfo self, float ThetaZ)"},
 	 { (char *)"CartesianInfo_ThetaZ_get", _wrap_CartesianInfo_ThetaZ_get, METH_VARARGS, (char *)"CartesianInfo_ThetaZ_get(CartesianInfo self) -> float"},
 	 { (char *)"CartesianInfo_InitStruct", _wrap_CartesianInfo_InitStruct, METH_VARARGS, (char *)"CartesianInfo_InitStruct(CartesianInfo self)"},
-	 { (char *)"CartesianInfo___str__", _wrap_CartesianInfo___str__, METH_VARARGS, (char *)"CartesianInfo___str__(CartesianInfo self) -> char *"},
+	 { (char *)"CartesianInfo___repr__", _wrap_CartesianInfo___repr__, METH_VARARGS, (char *)"CartesianInfo___repr__(CartesianInfo self) -> char *"},
+	 { (char *)"CartesianInfo___len__", _wrap_CartesianInfo___len__, METH_VARARGS, (char *)"CartesianInfo___len__(CartesianInfo self) -> int"},
+	 { (char *)"CartesianInfo___getitem__", _wrap_CartesianInfo___getitem__, METH_VARARGS, (char *)"CartesianInfo___getitem__(CartesianInfo self, int i) -> float"},
+	 { (char *)"CartesianInfo___setitem__", _wrap_CartesianInfo___setitem__, METH_VARARGS, (char *)"CartesianInfo___setitem__(CartesianInfo self, int i, float position)"},
 	 { (char *)"new_CartesianInfo", _wrap_new_CartesianInfo, METH_VARARGS, (char *)"new_CartesianInfo() -> CartesianInfo"},
 	 { (char *)"delete_CartesianInfo", _wrap_delete_CartesianInfo, METH_VARARGS, (char *)"delete_CartesianInfo(CartesianInfo self)"},
 	 { (char *)"CartesianInfo_swigregister", CartesianInfo_swigregister, METH_VARARGS, NULL},
@@ -37057,6 +37578,10 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"FingersPosition_Finger3_set", _wrap_FingersPosition_Finger3_set, METH_VARARGS, (char *)"FingersPosition_Finger3_set(FingersPosition self, float Finger3)"},
 	 { (char *)"FingersPosition_Finger3_get", _wrap_FingersPosition_Finger3_get, METH_VARARGS, (char *)"FingersPosition_Finger3_get(FingersPosition self) -> float"},
 	 { (char *)"FingersPosition_InitStruct", _wrap_FingersPosition_InitStruct, METH_VARARGS, (char *)"FingersPosition_InitStruct(FingersPosition self)"},
+	 { (char *)"FingersPosition___repr__", _wrap_FingersPosition___repr__, METH_VARARGS, (char *)"FingersPosition___repr__(FingersPosition self) -> char *"},
+	 { (char *)"FingersPosition___len__", _wrap_FingersPosition___len__, METH_VARARGS, (char *)"FingersPosition___len__(FingersPosition self) -> int"},
+	 { (char *)"FingersPosition___getitem__", _wrap_FingersPosition___getitem__, METH_VARARGS, (char *)"FingersPosition___getitem__(FingersPosition self, int i) -> float"},
+	 { (char *)"FingersPosition___setitem__", _wrap_FingersPosition___setitem__, METH_VARARGS, (char *)"FingersPosition___setitem__(FingersPosition self, int i, float position)"},
 	 { (char *)"new_FingersPosition", _wrap_new_FingersPosition, METH_VARARGS, (char *)"new_FingersPosition() -> FingersPosition"},
 	 { (char *)"delete_FingersPosition", _wrap_delete_FingersPosition, METH_VARARGS, (char *)"delete_FingersPosition(FingersPosition self)"},
 	 { (char *)"FingersPosition_swigregister", FingersPosition_swigregister, METH_VARARGS, NULL},
@@ -37065,7 +37590,7 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"CartesianPosition_Fingers_set", _wrap_CartesianPosition_Fingers_set, METH_VARARGS, (char *)"CartesianPosition_Fingers_set(CartesianPosition self, FingersPosition Fingers)"},
 	 { (char *)"CartesianPosition_Fingers_get", _wrap_CartesianPosition_Fingers_get, METH_VARARGS, (char *)"CartesianPosition_Fingers_get(CartesianPosition self) -> FingersPosition"},
 	 { (char *)"CartesianPosition_InitStruct", _wrap_CartesianPosition_InitStruct, METH_VARARGS, (char *)"CartesianPosition_InitStruct(CartesianPosition self)"},
-	 { (char *)"CartesianPosition___str__", _wrap_CartesianPosition___str__, METH_VARARGS, (char *)"CartesianPosition___str__(CartesianPosition self) -> char *"},
+	 { (char *)"CartesianPosition___repr__", _wrap_CartesianPosition___repr__, METH_VARARGS, (char *)"CartesianPosition___repr__(CartesianPosition self) -> char *"},
 	 { (char *)"new_CartesianPosition", _wrap_new_CartesianPosition, METH_VARARGS, (char *)"new_CartesianPosition() -> CartesianPosition"},
 	 { (char *)"delete_CartesianPosition", _wrap_delete_CartesianPosition, METH_VARARGS, (char *)"delete_CartesianPosition(CartesianPosition self)"},
 	 { (char *)"CartesianPosition_swigregister", CartesianPosition_swigregister, METH_VARARGS, NULL},
@@ -37074,7 +37599,7 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"AngularPosition_Fingers_set", _wrap_AngularPosition_Fingers_set, METH_VARARGS, (char *)"AngularPosition_Fingers_set(AngularPosition self, FingersPosition Fingers)"},
 	 { (char *)"AngularPosition_Fingers_get", _wrap_AngularPosition_Fingers_get, METH_VARARGS, (char *)"AngularPosition_Fingers_get(AngularPosition self) -> FingersPosition"},
 	 { (char *)"AngularPosition_InitStruct", _wrap_AngularPosition_InitStruct, METH_VARARGS, (char *)"AngularPosition_InitStruct(AngularPosition self)"},
-	 { (char *)"AngularPosition___str__", _wrap_AngularPosition___str__, METH_VARARGS, (char *)"AngularPosition___str__(AngularPosition self) -> char *"},
+	 { (char *)"AngularPosition___repr__", _wrap_AngularPosition___repr__, METH_VARARGS, (char *)"AngularPosition___repr__(AngularPosition self) -> char *"},
 	 { (char *)"new_AngularPosition", _wrap_new_AngularPosition, METH_VARARGS, (char *)"new_AngularPosition() -> AngularPosition"},
 	 { (char *)"delete_AngularPosition", _wrap_delete_AngularPosition, METH_VARARGS, (char *)"delete_AngularPosition(AngularPosition self)"},
 	 { (char *)"AngularPosition_swigregister", AngularPosition_swigregister, METH_VARARGS, NULL},
@@ -37461,7 +37986,7 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"ForcesInfo_ThetaY_get", _wrap_ForcesInfo_ThetaY_get, METH_VARARGS, (char *)"ForcesInfo_ThetaY_get(ForcesInfo self) -> float"},
 	 { (char *)"ForcesInfo_ThetaZ_set", _wrap_ForcesInfo_ThetaZ_set, METH_VARARGS, (char *)"ForcesInfo_ThetaZ_set(ForcesInfo self, float ThetaZ)"},
 	 { (char *)"ForcesInfo_ThetaZ_get", _wrap_ForcesInfo_ThetaZ_get, METH_VARARGS, (char *)"ForcesInfo_ThetaZ_get(ForcesInfo self) -> float"},
-	 { (char *)"ForcesInfo___str__", _wrap_ForcesInfo___str__, METH_VARARGS, (char *)"ForcesInfo___str__(ForcesInfo self) -> char *"},
+	 { (char *)"ForcesInfo___repr__", _wrap_ForcesInfo___repr__, METH_VARARGS, (char *)"ForcesInfo___repr__(ForcesInfo self) -> char *"},
 	 { (char *)"new_ForcesInfo", _wrap_new_ForcesInfo, METH_VARARGS, (char *)"new_ForcesInfo() -> ForcesInfo"},
 	 { (char *)"delete_ForcesInfo", _wrap_delete_ForcesInfo, METH_VARARGS, (char *)"delete_ForcesInfo(ForcesInfo self)"},
 	 { (char *)"ForcesInfo_swigregister", ForcesInfo_swigregister, METH_VARARGS, NULL},
@@ -37493,7 +38018,7 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"QuickStatus_RobotEdition_get", _wrap_QuickStatus_RobotEdition_get, METH_VARARGS, (char *)"QuickStatus_RobotEdition_get(QuickStatus self) -> unsigned char"},
 	 { (char *)"QuickStatus_TorqueSensorsStatus_set", _wrap_QuickStatus_TorqueSensorsStatus_set, METH_VARARGS, (char *)"QuickStatus_TorqueSensorsStatus_set(QuickStatus self, unsigned char TorqueSensorsStatus)"},
 	 { (char *)"QuickStatus_TorqueSensorsStatus_get", _wrap_QuickStatus_TorqueSensorsStatus_get, METH_VARARGS, (char *)"QuickStatus_TorqueSensorsStatus_get(QuickStatus self) -> unsigned char"},
-	 { (char *)"QuickStatus___str__", _wrap_QuickStatus___str__, METH_VARARGS, (char *)"QuickStatus___str__(QuickStatus self) -> char *"},
+	 { (char *)"QuickStatus___repr__", _wrap_QuickStatus___repr__, METH_VARARGS, (char *)"QuickStatus___repr__(QuickStatus self) -> char *"},
 	 { (char *)"new_QuickStatus", _wrap_new_QuickStatus, METH_VARARGS, (char *)"new_QuickStatus() -> QuickStatus"},
 	 { (char *)"delete_QuickStatus", _wrap_delete_QuickStatus, METH_VARARGS, (char *)"delete_QuickStatus(QuickStatus self)"},
 	 { (char *)"QuickStatus_swigregister", QuickStatus_swigregister, METH_VARARGS, NULL},
