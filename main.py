@@ -25,48 +25,40 @@ raw.InitFingers()
 # raw.SetActuatorMaxVelocity(limit_array)
 # ipdb.set_trace()
 
-position = raw.AngularPosition()
-position.InitStruct()
-raw.GetAngularPosition(position)
+for i in range(100):
+    position = raw.AngularPosition()
+    position.InitStruct()
+    raw.GetAngularPosition(position)
 
-print("Current position: ")
-print(position.Actuators)
+    traj2 = raw.TrajectoryPoint()
+    traj2.InitStruct()
+    traj2.Position.Type = raw.ANGULAR_POSITION
+    traj2.Position.HAND_MODE = raw.POSITION_MODE
+    traj2.Position.Actuators = position.Actuators
+    traj2.Position.Fingers = position.Fingers
 
-traj2 = raw.TrajectoryPoint()
-traj2.InitStruct()
-traj2.Position.Type = raw.ANGULAR_POSITION
-traj2.Position.HAND_MODE = raw.POSITION_MODE
-traj2.Position.Actuators = position.Actuators
-# traj2.Position.Actuators.Actuator1 = traj2.Position.Actuators.Actuator1 + 20.0
-# traj2.Position.CartesianPosition.X = 0.0
+    print(traj2.Position.Actuators)
+    raw.SendBasicTrajectory(traj2)
+    time.sleep(0.05)
 
-traj2.Position.Actuators.Actuator6 += 20.0
-
-traj2.Position.Fingers.Finger1 = 0.0
-traj2.Position.Fingers.Finger2 = 5000.0
-traj2.Position.Fingers.Finger3 = 6700.0
-
-print(traj2.Position.Actuators)
-raw.SendBasicTrajectory(traj2)
-
-# position = raw.CartesianPosition()
-# position.InitStruct()
-# raw.GetCartesianPosition(position)
+# for i in range(100):
+#     position = raw.CartesianPosition()
+#     position.InitStruct()
+#     raw.GetCartesianPosition(position)
 #
-# print("Current position: ")
-# print(position.Coordinates)
+#     # print("Current position: ")
+#     # print(position.Coordinates)
 #
-# traj2 = raw.TrajectoryPoint()
-# traj2.InitStruct()
-# traj2.Position.Type = raw.CARTESIAN_POSITION
+#     traj2 = raw.TrajectoryPoint()
+#     traj2.InitStruct()
+#     traj2.Position.Type = raw.CARTESIAN_POSITION
 #
-# print(traj2.Position.CartesianPosition)
-# traj2.Position.CartesianPosition = position.Coordinates
-# print(traj2.Position.CartesianPosition)
+#     traj2.Position.CartesianPosition = position.Coordinates
+#     traj2.Position.Fingers = position.Fingers
+#     print(traj2.Position.CartesianPosition)
 #
-# traj2.Position.CartesianPosition.Z = traj2.Position.CartesianPosition.Z + -0.2
-# # traj2.Position.CartesianPosition.X = 0.0
-# raw.SendBasicTrajectory(traj2)
+#     raw.SendBasicTrajectory(traj2)
+#     time.sleep(0.05)
 
 raw.CloseCommunication()
 raw.CloseAPI()

@@ -14,8 +14,8 @@ import kinova
 kinova.start()
 # kinova.move_home()
 
-position = kinova.get_angular_position()
-new_angles = list(position.Actuators)
+# position = kinova.get_angular_position()
+# new_angles = list(position.Actuators)
 # new_angles = [
 #     position.Actuators.Actuator1,
 #     position.Actuators.Actuator2,
@@ -35,7 +35,11 @@ new_angles = list(position.Actuators)
 # angle_deltas[1] += -20.0
 # kinova.move_angular_delta(angle_deltas)
 
-import random
-angles = [0.0, 0.5, 1.0]
-random.shuffle(angles)
-kinova.move_fingers(angles)
+# import random
+# angles = [0.0, 0.5, 1.0]
+# random.shuffle(angles)
+# kinova.move_fingers(angles)
+
+kinova.move_cartesian_delta([0,0,0.1])
+
+kinova.close()

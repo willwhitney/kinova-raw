@@ -40,29 +40,26 @@ def get_cartesian_position():
 def add_trajectory_point(point):
     maybe_err(raw.SendBasicTrajectory(point))
 
-def move_cartesian_delta(x, y, z):
+def move_cartesian_delta(deltas):
+    assert(len(deltas) == 3)
+
     position = get_cartesian_position()
-    position.Coordinates.X += x
-    position.Coordinates.Y += y
-    position.Coordinates.Z += z
+    coords = position.Coordinates
+    move_cartesian([coord + delta for coord, delta in zip(coords, deltas)])
 
-    trajectory_point = raw.TrajectoryPoint()
-    trajectory_point.InitStruct()
-    trajectory_point.Type = raw.CARTESIAN_POSITION
-    trajectory_point.Position.CartesianPosition = position.Coordinates
-    add_trajectory_point(trajectory_point)
+def move_cartesian(coordinates):
+    assert(len(coordinates) == 3)
 
-def move_cartesian(x, y, z):
     # start with the current position so we don't move fingers or wrist
     position = get_cartesian_position()
-    position.Coordinates.X = x
-    position.Coordinates.Y = y
-    position.Coordinates.Z = z
+    for i in range(len(coordinates)):
+        position.Coordinates[i] = coordinates[i]
 
     trajectory_point = raw.TrajectoryPoint()
     trajectory_point.InitStruct()
     trajectory_point.Type = raw.CARTESIAN_POSITION
     trajectory_point.Position.CartesianPosition = position.Coordinates
+    trajectory_point.Position.Fingers = position.Fingers
     add_trajectory_point(trajectory_point)
 
 def move_angular(angles):
@@ -77,6 +74,7 @@ def move_angular(angles):
     trajectory_point.InitStruct()
     trajectory_point.Position.Type = raw.ANGULAR_POSITION
     trajectory_point.Position.Actuators = position.Actuators
+    trajectory_point.Position.Fingers = position.Fingers
     add_trajectory_point(trajectory_point)
 
 def move_angular_delta(deltas):

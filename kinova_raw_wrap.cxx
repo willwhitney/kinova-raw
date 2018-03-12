@@ -3447,7 +3447,7 @@ SWIG_From_float  (float value)
 
 SWIGINTERN char *AngularInfo___repr__(AngularInfo *self){
     static char tmp[512];
-    snprintf(tmp, 512, "[%f, %f, %f, %f, %f, %f]",
+    snprintf(tmp, 512, "AngularInfo [%f, %f, %f, %f, %f, %f]",
       self->Actuator1,
       self->Actuator2,
       self->Actuator3,
@@ -3618,10 +3618,13 @@ SWIGINTERN void AngularInfo___setitem__(AngularInfo *self,int i,float angle){
   }
 SWIGINTERN char *CartesianInfo___repr__(CartesianInfo *self){
     static char tmp[512];
-    snprintf(tmp, 512, "[%f, %f, %f]",
+    snprintf(tmp, 512, "CartesianInfo [%f, %f, %f], angles [%f, %f, %f]",
       self->X,
       self->Y,
-      self->Z
+      self->Z,
+      self->ThetaX,
+      self->ThetaY,
+      self->ThetaZ
     );
     return tmp;
   }

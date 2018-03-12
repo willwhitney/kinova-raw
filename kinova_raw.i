@@ -65,7 +65,7 @@ namespace std {
 %extend AngularInfo {
   char *__repr__() {
     static char tmp[512];
-    snprintf(tmp, 512, "[%f, %f, %f, %f, %f, %f]",
+    snprintf(tmp, 512, "AngularInfo [%f, %f, %f, %f, %f, %f]",
       self->Actuator1,
       self->Actuator2,
       self->Actuator3,
@@ -246,10 +246,13 @@ namespace std {
 %extend CartesianInfo {
   char *__repr__() {
     static char tmp[512];
-    snprintf(tmp, 512, "[%f, %f, %f]",
+    snprintf(tmp, 512, "CartesianInfo [%f, %f, %f], angles [%f, %f, %f]",
       self->X,
       self->Y,
-      self->Z
+      self->Z,
+      self->ThetaX,
+      self->ThetaY,
+      self->ThetaZ
     );
     return tmp;
   }
