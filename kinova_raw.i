@@ -30,8 +30,13 @@ namespace std {
    %template(DoubleVector) vector<double>;
    /* %template(FloatVector) vector<float>; */
 }
+
 %include "carrays.i"
 %array_class(float, FloatArray);
+%array_class(CartesianInfo, CartesianInfoArray);
+%array_class(Zone, ZoneArray);
+
+
 %include "exception.i"
 /* %array_functions(float, floatArray); */
 /* void print_array(float arr[6]) {

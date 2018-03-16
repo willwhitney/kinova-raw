@@ -5,7 +5,7 @@ import kinova_raw as raw
 import ipdb
 
 ERROR_TBL = {}
-for name, value in raw.__dict__.iteritems():
+for name, value in raw.__dict__.items():
     if "error" in name.lower() and type(value) is int and value is not 1:
         ERROR_TBL[value] = name
 
@@ -14,11 +14,6 @@ def maybe_err(result):
         if result in ERROR_TBL:
             raise Exception(ERROR_TBL[result])
     return result
-
-# for name, value in raw.__dict__.iteritems():
-#     if callable(value):
-
-
 
 def start():
     raw.InitAPI()
@@ -64,6 +59,7 @@ def move_cartesian(coordinates):
 
 def move_angular(angles):
     assert(len(angles) == 6)
+
     # start with the current position so we don't move the fingers
     position = get_angular_position()
     for i in range(len(position.Actuators)):
@@ -89,9 +85,7 @@ def move_fingers(angles):
 
     position = get_angular_position()
     finger_pos = position.Fingers
-    # print(finger_pos)
     for i in range(len(finger_pos)):
-        # print(i, finger_pos, angles)
         finger_pos[i] = angles[i] * 6800.0
 
     trajectory_point = raw.TrajectoryPoint()

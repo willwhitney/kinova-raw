@@ -3394,5 +3394,91 @@ def FloatArray_frompointer(t):
     """FloatArray_frompointer(float * t) -> FloatArray"""
     return _kinova_raw.FloatArray_frompointer(t)
 
+class CartesianInfoArray(object):
+    """Proxy of C++ CartesianInfoArray class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, nelements):
+        """__init__(CartesianInfoArray self, size_t nelements) -> CartesianInfoArray"""
+        this = _kinova_raw.new_CartesianInfoArray(nelements)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+    __swig_destroy__ = _kinova_raw.delete_CartesianInfoArray
+    __del__ = lambda self: None
+
+    def __getitem__(self, index):
+        """__getitem__(CartesianInfoArray self, size_t index) -> CartesianInfo"""
+        return _kinova_raw.CartesianInfoArray___getitem__(self, index)
+
+
+    def __setitem__(self, index, value):
+        """__setitem__(CartesianInfoArray self, size_t index, CartesianInfo value)"""
+        return _kinova_raw.CartesianInfoArray___setitem__(self, index, value)
+
+
+    def cast(self):
+        """cast(CartesianInfoArray self) -> CartesianInfo"""
+        return _kinova_raw.CartesianInfoArray_cast(self)
+
+
+    def frompointer(t):
+        """frompointer(CartesianInfo t) -> CartesianInfoArray"""
+        return _kinova_raw.CartesianInfoArray_frompointer(t)
+
+    frompointer = staticmethod(frompointer)
+CartesianInfoArray_swigregister = _kinova_raw.CartesianInfoArray_swigregister
+CartesianInfoArray_swigregister(CartesianInfoArray)
+
+def CartesianInfoArray_frompointer(t):
+    """CartesianInfoArray_frompointer(CartesianInfo t) -> CartesianInfoArray"""
+    return _kinova_raw.CartesianInfoArray_frompointer(t)
+
+class ZoneArray(object):
+    """Proxy of C++ ZoneArray class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, nelements):
+        """__init__(ZoneArray self, size_t nelements) -> ZoneArray"""
+        this = _kinova_raw.new_ZoneArray(nelements)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+    __swig_destroy__ = _kinova_raw.delete_ZoneArray
+    __del__ = lambda self: None
+
+    def __getitem__(self, index):
+        """__getitem__(ZoneArray self, size_t index) -> Zone"""
+        return _kinova_raw.ZoneArray___getitem__(self, index)
+
+
+    def __setitem__(self, index, value):
+        """__setitem__(ZoneArray self, size_t index, Zone value)"""
+        return _kinova_raw.ZoneArray___setitem__(self, index, value)
+
+
+    def cast(self):
+        """cast(ZoneArray self) -> Zone"""
+        return _kinova_raw.ZoneArray_cast(self)
+
+
+    def frompointer(t):
+        """frompointer(Zone t) -> ZoneArray"""
+        return _kinova_raw.ZoneArray_frompointer(t)
+
+    frompointer = staticmethod(frompointer)
+ZoneArray_swigregister = _kinova_raw.ZoneArray_swigregister
+ZoneArray_swigregister(ZoneArray)
+
+def ZoneArray_frompointer(t):
+    """ZoneArray_frompointer(Zone t) -> ZoneArray"""
+    return _kinova_raw.ZoneArray_frompointer(t)
+
 
 

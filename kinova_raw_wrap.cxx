@@ -3014,64 +3014,66 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_AngularPosition swig_types[2]
 #define SWIGTYPE_p_ButtonEvents swig_types[3]
 #define SWIGTYPE_p_CartesianInfo swig_types[4]
-#define SWIGTYPE_p_CartesianPosition swig_types[5]
-#define SWIGTYPE_p_ClientConfigurations swig_types[6]
-#define SWIGTYPE_p_ControlMapping swig_types[7]
-#define SWIGTYPE_p_ControlMappingCharts swig_types[8]
-#define SWIGTYPE_p_ControlsModeMap swig_types[9]
-#define SWIGTYPE_p_EthernetCommConfig swig_types[10]
-#define SWIGTYPE_p_EthernetConfiguration swig_types[11]
-#define SWIGTYPE_p_Finger swig_types[12]
-#define SWIGTYPE_p_FingersPosition swig_types[13]
-#define SWIGTYPE_p_FloatArray swig_types[14]
-#define SWIGTYPE_p_ForcesInfo swig_types[15]
-#define SWIGTYPE_p_GeneralInformations swig_types[16]
-#define SWIGTYPE_p_Gripper swig_types[17]
-#define SWIGTYPE_p_JoystickCommand swig_types[18]
-#define SWIGTYPE_p_KinovaDevice swig_types[19]
-#define SWIGTYPE_p_Limitation swig_types[20]
-#define SWIGTYPE_p_Packet swig_types[21]
-#define SWIGTYPE_p_PacketList swig_types[22]
-#define SWIGTYPE_p_PeripheralInfo swig_types[23]
-#define SWIGTYPE_p_QuickStatus swig_types[24]
-#define SWIGTYPE_p_RS485_Message swig_types[25]
-#define SWIGTYPE_p_RobotIdentity swig_types[26]
-#define SWIGTYPE_p_SdkEthernetConfiguration swig_types[27]
-#define SWIGTYPE_p_SensorsInfo swig_types[28]
-#define SWIGTYPE_p_SingularityVector swig_types[29]
-#define SWIGTYPE_p_StickEvents swig_types[30]
-#define SWIGTYPE_p_SystemError swig_types[31]
-#define SWIGTYPE_p_SystemStatus swig_types[32]
-#define SWIGTYPE_p_TrajectoryFIFO swig_types[33]
-#define SWIGTYPE_p_TrajectoryPoint swig_types[34]
-#define SWIGTYPE_p_UserPosition swig_types[35]
-#define SWIGTYPE_p_Zone swig_types[36]
-#define SWIGTYPE_p_ZoneLimitation swig_types[37]
-#define SWIGTYPE_p_ZoneList swig_types[38]
-#define SWIGTYPE_p_ZoneShape swig_types[39]
-#define SWIGTYPE_p_allocator_type swig_types[40]
-#define SWIGTYPE_p_bool swig_types[41]
-#define SWIGTYPE_p_char swig_types[42]
-#define SWIGTYPE_p_difference_type swig_types[43]
-#define SWIGTYPE_p_double swig_types[44]
-#define SWIGTYPE_p_float swig_types[45]
-#define SWIGTYPE_p_int swig_types[46]
-#define SWIGTYPE_p_p_PyObject swig_types[47]
-#define SWIGTYPE_p_short swig_types[48]
-#define SWIGTYPE_p_size_type swig_types[49]
-#define SWIGTYPE_p_std__allocatorT_double_t swig_types[50]
-#define SWIGTYPE_p_std__allocatorT_int_t swig_types[51]
-#define SWIGTYPE_p_std__invalid_argument swig_types[52]
-#define SWIGTYPE_p_std__vectorT_Packet_std__allocatorT_Packet_t_t swig_types[53]
-#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[54]
-#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[55]
-#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[56]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[57]
-#define SWIGTYPE_p_unsigned_char swig_types[58]
-#define SWIGTYPE_p_unsigned_int swig_types[59]
-#define SWIGTYPE_p_value_type swig_types[60]
-static swig_type_info *swig_types[62];
-static swig_module_info swig_module = {swig_types, 61, 0, 0, 0, 0};
+#define SWIGTYPE_p_CartesianInfoArray swig_types[5]
+#define SWIGTYPE_p_CartesianPosition swig_types[6]
+#define SWIGTYPE_p_ClientConfigurations swig_types[7]
+#define SWIGTYPE_p_ControlMapping swig_types[8]
+#define SWIGTYPE_p_ControlMappingCharts swig_types[9]
+#define SWIGTYPE_p_ControlsModeMap swig_types[10]
+#define SWIGTYPE_p_EthernetCommConfig swig_types[11]
+#define SWIGTYPE_p_EthernetConfiguration swig_types[12]
+#define SWIGTYPE_p_Finger swig_types[13]
+#define SWIGTYPE_p_FingersPosition swig_types[14]
+#define SWIGTYPE_p_FloatArray swig_types[15]
+#define SWIGTYPE_p_ForcesInfo swig_types[16]
+#define SWIGTYPE_p_GeneralInformations swig_types[17]
+#define SWIGTYPE_p_Gripper swig_types[18]
+#define SWIGTYPE_p_JoystickCommand swig_types[19]
+#define SWIGTYPE_p_KinovaDevice swig_types[20]
+#define SWIGTYPE_p_Limitation swig_types[21]
+#define SWIGTYPE_p_Packet swig_types[22]
+#define SWIGTYPE_p_PacketList swig_types[23]
+#define SWIGTYPE_p_PeripheralInfo swig_types[24]
+#define SWIGTYPE_p_QuickStatus swig_types[25]
+#define SWIGTYPE_p_RS485_Message swig_types[26]
+#define SWIGTYPE_p_RobotIdentity swig_types[27]
+#define SWIGTYPE_p_SdkEthernetConfiguration swig_types[28]
+#define SWIGTYPE_p_SensorsInfo swig_types[29]
+#define SWIGTYPE_p_SingularityVector swig_types[30]
+#define SWIGTYPE_p_StickEvents swig_types[31]
+#define SWIGTYPE_p_SystemError swig_types[32]
+#define SWIGTYPE_p_SystemStatus swig_types[33]
+#define SWIGTYPE_p_TrajectoryFIFO swig_types[34]
+#define SWIGTYPE_p_TrajectoryPoint swig_types[35]
+#define SWIGTYPE_p_UserPosition swig_types[36]
+#define SWIGTYPE_p_Zone swig_types[37]
+#define SWIGTYPE_p_ZoneArray swig_types[38]
+#define SWIGTYPE_p_ZoneLimitation swig_types[39]
+#define SWIGTYPE_p_ZoneList swig_types[40]
+#define SWIGTYPE_p_ZoneShape swig_types[41]
+#define SWIGTYPE_p_allocator_type swig_types[42]
+#define SWIGTYPE_p_bool swig_types[43]
+#define SWIGTYPE_p_char swig_types[44]
+#define SWIGTYPE_p_difference_type swig_types[45]
+#define SWIGTYPE_p_double swig_types[46]
+#define SWIGTYPE_p_float swig_types[47]
+#define SWIGTYPE_p_int swig_types[48]
+#define SWIGTYPE_p_p_PyObject swig_types[49]
+#define SWIGTYPE_p_short swig_types[50]
+#define SWIGTYPE_p_size_type swig_types[51]
+#define SWIGTYPE_p_std__allocatorT_double_t swig_types[52]
+#define SWIGTYPE_p_std__allocatorT_int_t swig_types[53]
+#define SWIGTYPE_p_std__invalid_argument swig_types[54]
+#define SWIGTYPE_p_std__vectorT_Packet_std__allocatorT_Packet_t_t swig_types[55]
+#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[56]
+#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[57]
+#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[58]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[59]
+#define SWIGTYPE_p_unsigned_char swig_types[60]
+#define SWIGTYPE_p_unsigned_int swig_types[61]
+#define SWIGTYPE_p_value_type swig_types[62]
+static swig_type_info *swig_types[64];
+static swig_module_info swig_module = {swig_types, 63, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -5528,6 +5530,48 @@ SWIGINTERN float *FloatArray_cast(FloatArray *self){
   }
 SWIGINTERN FloatArray *FloatArray_frompointer(float *t){
     return static_cast< FloatArray * >(t);
+  }
+
+typedef CartesianInfo CartesianInfoArray;
+
+SWIGINTERN CartesianInfoArray *new_CartesianInfoArray(size_t nelements){
+    return (new CartesianInfo[nelements]);
+  }
+SWIGINTERN void delete_CartesianInfoArray(CartesianInfoArray *self){
+    delete[] self;
+  }
+SWIGINTERN CartesianInfo CartesianInfoArray___getitem__(CartesianInfoArray *self,size_t index){
+    return self[index];
+  }
+SWIGINTERN void CartesianInfoArray___setitem__(CartesianInfoArray *self,size_t index,CartesianInfo value){
+    self[index] = value;
+  }
+SWIGINTERN CartesianInfo *CartesianInfoArray_cast(CartesianInfoArray *self){
+    return self;
+  }
+SWIGINTERN CartesianInfoArray *CartesianInfoArray_frompointer(CartesianInfo *t){
+    return static_cast< CartesianInfoArray * >(t);
+  }
+
+typedef Zone ZoneArray;
+
+SWIGINTERN ZoneArray *new_ZoneArray(size_t nelements){
+    return (new Zone[nelements]);
+  }
+SWIGINTERN void delete_ZoneArray(ZoneArray *self){
+    delete[] self;
+  }
+SWIGINTERN Zone ZoneArray___getitem__(ZoneArray *self,size_t index){
+    return self[index];
+  }
+SWIGINTERN void ZoneArray___setitem__(ZoneArray *self,size_t index,Zone value){
+    self[index] = value;
+  }
+SWIGINTERN Zone *ZoneArray_cast(ZoneArray *self){
+    return self;
+  }
+SWIGINTERN ZoneArray *ZoneArray_frompointer(Zone *t){
+    return static_cast< ZoneArray * >(t);
   }
 #ifdef __cplusplus
 extern "C" {
@@ -37348,6 +37392,350 @@ SWIGINTERN PyObject *FloatArray_swigregister(PyObject *SWIGUNUSEDPARM(self), PyO
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_new_CartesianInfoArray(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  size_t arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  CartesianInfoArray *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_CartesianInfoArray",1,1,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_CartesianInfoArray" "', argument " "1"" of type '" "size_t""'");
+  } 
+  arg1 = static_cast< size_t >(val1);
+  result = (CartesianInfoArray *)new_CartesianInfoArray(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_CartesianInfoArray, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_CartesianInfoArray(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianInfoArray *arg1 = (CartesianInfoArray *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_CartesianInfoArray",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfoArray, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_CartesianInfoArray" "', argument " "1"" of type '" "CartesianInfoArray *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianInfoArray * >(argp1);
+  delete_CartesianInfoArray(arg1);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CartesianInfoArray___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianInfoArray *arg1 = (CartesianInfoArray *) 0 ;
+  size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  CartesianInfo result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfoArray___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfoArray, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfoArray___getitem__" "', argument " "1"" of type '" "CartesianInfoArray *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianInfoArray * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CartesianInfoArray___getitem__" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = static_cast< size_t >(val2);
+  result = CartesianInfoArray___getitem__(arg1,arg2);
+  resultobj = SWIG_NewPointerObj((new CartesianInfo(static_cast< const CartesianInfo& >(result))), SWIGTYPE_p_CartesianInfo, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CartesianInfoArray___setitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianInfoArray *arg1 = (CartesianInfoArray *) 0 ;
+  size_t arg2 ;
+  CartesianInfo arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfoArray___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfoArray, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfoArray___setitem__" "', argument " "1"" of type '" "CartesianInfoArray *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianInfoArray * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CartesianInfoArray___setitem__" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = static_cast< size_t >(val2);
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_CartesianInfo,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "CartesianInfoArray___setitem__" "', argument " "3"" of type '" "CartesianInfo""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "CartesianInfoArray___setitem__" "', argument " "3"" of type '" "CartesianInfo""'");
+    } else {
+      CartesianInfo * temp = reinterpret_cast< CartesianInfo * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  CartesianInfoArray___setitem__(arg1,arg2,arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CartesianInfoArray_cast(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianInfoArray *arg1 = (CartesianInfoArray *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  CartesianInfo *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfoArray_cast",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfoArray, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfoArray_cast" "', argument " "1"" of type '" "CartesianInfoArray *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianInfoArray * >(argp1);
+  result = (CartesianInfo *)CartesianInfoArray_cast(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_CartesianInfo, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CartesianInfoArray_frompointer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CartesianInfo *arg1 = (CartesianInfo *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  CartesianInfoArray *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"CartesianInfoArray_frompointer",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CartesianInfo, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CartesianInfoArray_frompointer" "', argument " "1"" of type '" "CartesianInfo *""'"); 
+  }
+  arg1 = reinterpret_cast< CartesianInfo * >(argp1);
+  result = (CartesianInfoArray *)CartesianInfoArray_frompointer(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_CartesianInfoArray, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *CartesianInfoArray_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_CartesianInfoArray, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_ZoneArray(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  size_t arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  ZoneArray *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_ZoneArray",1,1,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_ZoneArray" "', argument " "1"" of type '" "size_t""'");
+  } 
+  arg1 = static_cast< size_t >(val1);
+  result = (ZoneArray *)new_ZoneArray(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ZoneArray, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_ZoneArray(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ZoneArray *arg1 = (ZoneArray *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_ZoneArray",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ZoneArray, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ZoneArray" "', argument " "1"" of type '" "ZoneArray *""'"); 
+  }
+  arg1 = reinterpret_cast< ZoneArray * >(argp1);
+  delete_ZoneArray(arg1);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ZoneArray___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ZoneArray *arg1 = (ZoneArray *) 0 ;
+  size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Zone result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ZoneArray___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ZoneArray, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ZoneArray___getitem__" "', argument " "1"" of type '" "ZoneArray *""'"); 
+  }
+  arg1 = reinterpret_cast< ZoneArray * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ZoneArray___getitem__" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = static_cast< size_t >(val2);
+  result = ZoneArray___getitem__(arg1,arg2);
+  resultobj = SWIG_NewPointerObj((new Zone(static_cast< const Zone& >(result))), SWIGTYPE_p_Zone, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ZoneArray___setitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ZoneArray *arg1 = (ZoneArray *) 0 ;
+  size_t arg2 ;
+  Zone arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ZoneArray___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ZoneArray, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ZoneArray___setitem__" "', argument " "1"" of type '" "ZoneArray *""'"); 
+  }
+  arg1 = reinterpret_cast< ZoneArray * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ZoneArray___setitem__" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = static_cast< size_t >(val2);
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Zone,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ZoneArray___setitem__" "', argument " "3"" of type '" "Zone""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ZoneArray___setitem__" "', argument " "3"" of type '" "Zone""'");
+    } else {
+      Zone * temp = reinterpret_cast< Zone * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  ZoneArray___setitem__(arg1,arg2,arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ZoneArray_cast(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ZoneArray *arg1 = (ZoneArray *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Zone *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ZoneArray_cast",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ZoneArray, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ZoneArray_cast" "', argument " "1"" of type '" "ZoneArray *""'"); 
+  }
+  arg1 = reinterpret_cast< ZoneArray * >(argp1);
+  result = (Zone *)ZoneArray_cast(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Zone, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ZoneArray_frompointer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Zone *arg1 = (Zone *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  ZoneArray *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ZoneArray_frompointer",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Zone, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ZoneArray_frompointer" "', argument " "1"" of type '" "Zone *""'"); 
+  }
+  arg1 = reinterpret_cast< Zone * >(argp1);
+  result = (ZoneArray *)ZoneArray_frompointer(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ZoneArray, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *ZoneArray_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_ZoneArray, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { (char *)"ROBOT_CONFIG_ERROR_swigconstant", ROBOT_CONFIG_ERROR_swigconstant, METH_VARARGS, NULL},
@@ -38787,12 +39175,32 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"FloatArray_cast", _wrap_FloatArray_cast, METH_VARARGS, (char *)"FloatArray_cast(FloatArray self) -> float *"},
 	 { (char *)"FloatArray_frompointer", _wrap_FloatArray_frompointer, METH_VARARGS, (char *)"FloatArray_frompointer(float * t) -> FloatArray"},
 	 { (char *)"FloatArray_swigregister", FloatArray_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_CartesianInfoArray", _wrap_new_CartesianInfoArray, METH_VARARGS, (char *)"new_CartesianInfoArray(size_t nelements) -> CartesianInfoArray"},
+	 { (char *)"delete_CartesianInfoArray", _wrap_delete_CartesianInfoArray, METH_VARARGS, (char *)"delete_CartesianInfoArray(CartesianInfoArray self)"},
+	 { (char *)"CartesianInfoArray___getitem__", _wrap_CartesianInfoArray___getitem__, METH_VARARGS, (char *)"CartesianInfoArray___getitem__(CartesianInfoArray self, size_t index) -> CartesianInfo"},
+	 { (char *)"CartesianInfoArray___setitem__", _wrap_CartesianInfoArray___setitem__, METH_VARARGS, (char *)"CartesianInfoArray___setitem__(CartesianInfoArray self, size_t index, CartesianInfo value)"},
+	 { (char *)"CartesianInfoArray_cast", _wrap_CartesianInfoArray_cast, METH_VARARGS, (char *)"CartesianInfoArray_cast(CartesianInfoArray self) -> CartesianInfo"},
+	 { (char *)"CartesianInfoArray_frompointer", _wrap_CartesianInfoArray_frompointer, METH_VARARGS, (char *)"CartesianInfoArray_frompointer(CartesianInfo t) -> CartesianInfoArray"},
+	 { (char *)"CartesianInfoArray_swigregister", CartesianInfoArray_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_ZoneArray", _wrap_new_ZoneArray, METH_VARARGS, (char *)"new_ZoneArray(size_t nelements) -> ZoneArray"},
+	 { (char *)"delete_ZoneArray", _wrap_delete_ZoneArray, METH_VARARGS, (char *)"delete_ZoneArray(ZoneArray self)"},
+	 { (char *)"ZoneArray___getitem__", _wrap_ZoneArray___getitem__, METH_VARARGS, (char *)"ZoneArray___getitem__(ZoneArray self, size_t index) -> Zone"},
+	 { (char *)"ZoneArray___setitem__", _wrap_ZoneArray___setitem__, METH_VARARGS, (char *)"ZoneArray___setitem__(ZoneArray self, size_t index, Zone value)"},
+	 { (char *)"ZoneArray_cast", _wrap_ZoneArray_cast, METH_VARARGS, (char *)"ZoneArray_cast(ZoneArray self) -> Zone"},
+	 { (char *)"ZoneArray_frompointer", _wrap_ZoneArray_frompointer, METH_VARARGS, (char *)"ZoneArray_frompointer(Zone t) -> ZoneArray"},
+	 { (char *)"ZoneArray_swigregister", ZoneArray_swigregister, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
+static void *_p_CartesianInfoArrayTo_p_CartesianInfo(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((CartesianInfo *)  ((CartesianInfoArray *) x));
+}
+static void *_p_ZoneArrayTo_p_Zone(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((Zone *)  ((ZoneArray *) x));
+}
 static void *_p_FloatArrayTo_p_float(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((float *)  ((FloatArray *) x));
 }
@@ -38801,6 +39209,7 @@ static swig_type_info _swigt__p_AngularInfo = {"_p_AngularInfo", "AngularInfo *"
 static swig_type_info _swigt__p_AngularPosition = {"_p_AngularPosition", "AngularPosition *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ButtonEvents = {"_p_ButtonEvents", "ButtonEvents *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CartesianInfo = {"_p_CartesianInfo", "CartesianInfo *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CartesianInfoArray = {"_p_CartesianInfoArray", "CartesianInfoArray *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CartesianPosition = {"_p_CartesianPosition", "CartesianPosition *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ClientConfigurations = {"_p_ClientConfigurations", "ClientConfigurations *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ControlMapping = {"_p_ControlMapping", "ControlMapping *", 0, 0, (void*)0, 0};
@@ -38833,6 +39242,7 @@ static swig_type_info _swigt__p_TrajectoryFIFO = {"_p_TrajectoryFIFO", "Trajecto
 static swig_type_info _swigt__p_TrajectoryPoint = {"_p_TrajectoryPoint", "TrajectoryPoint *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_UserPosition = {"_p_UserPosition", "UserPosition *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Zone = {"_p_Zone", "Zone *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_ZoneArray = {"_p_ZoneArray", "ZoneArray *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ZoneLimitation = {"_p_ZoneLimitation", "ZoneLimitation *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ZoneList = {"_p_ZoneList", "ZoneList *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ZoneShape = {"_p_ZoneShape", "ZoneShape *", 0, 0, (void*)0, 0};
@@ -38864,6 +39274,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_AngularPosition,
   &_swigt__p_ButtonEvents,
   &_swigt__p_CartesianInfo,
+  &_swigt__p_CartesianInfoArray,
   &_swigt__p_CartesianPosition,
   &_swigt__p_ClientConfigurations,
   &_swigt__p_ControlMapping,
@@ -38896,6 +39307,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_TrajectoryPoint,
   &_swigt__p_UserPosition,
   &_swigt__p_Zone,
+  &_swigt__p_ZoneArray,
   &_swigt__p_ZoneLimitation,
   &_swigt__p_ZoneList,
   &_swigt__p_ZoneShape,
@@ -38926,7 +39338,8 @@ static swig_cast_info _swigc__p_AngularAcceleration[] = {  {&_swigt__p_AngularAc
 static swig_cast_info _swigc__p_AngularInfo[] = {  {&_swigt__p_AngularInfo, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_AngularPosition[] = {  {&_swigt__p_AngularPosition, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ButtonEvents[] = {  {&_swigt__p_ButtonEvents, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_CartesianInfo[] = {  {&_swigt__p_CartesianInfo, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CartesianInfo[] = {  {&_swigt__p_CartesianInfo, 0, 0, 0},  {&_swigt__p_CartesianInfoArray, _p_CartesianInfoArrayTo_p_CartesianInfo, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CartesianInfoArray[] = {  {&_swigt__p_CartesianInfoArray, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CartesianPosition[] = {  {&_swigt__p_CartesianPosition, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ClientConfigurations[] = {  {&_swigt__p_ClientConfigurations, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ControlMapping[] = {  {&_swigt__p_ControlMapping, 0, 0, 0},{0, 0, 0, 0}};
@@ -38958,7 +39371,8 @@ static swig_cast_info _swigc__p_SystemStatus[] = {  {&_swigt__p_SystemStatus, 0,
 static swig_cast_info _swigc__p_TrajectoryFIFO[] = {  {&_swigt__p_TrajectoryFIFO, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_TrajectoryPoint[] = {  {&_swigt__p_TrajectoryPoint, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_UserPosition[] = {  {&_swigt__p_UserPosition, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_Zone[] = {  {&_swigt__p_Zone, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Zone[] = {  {&_swigt__p_ZoneArray, _p_ZoneArrayTo_p_Zone, 0, 0},  {&_swigt__p_Zone, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_ZoneArray[] = {  {&_swigt__p_ZoneArray, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ZoneLimitation[] = {  {&_swigt__p_ZoneLimitation, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ZoneList[] = {  {&_swigt__p_ZoneList, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ZoneShape[] = {  {&_swigt__p_ZoneShape, 0, 0, 0},{0, 0, 0, 0}};
@@ -38990,6 +39404,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_AngularPosition,
   _swigc__p_ButtonEvents,
   _swigc__p_CartesianInfo,
+  _swigc__p_CartesianInfoArray,
   _swigc__p_CartesianPosition,
   _swigc__p_ClientConfigurations,
   _swigc__p_ControlMapping,
@@ -39022,6 +39437,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_TrajectoryPoint,
   _swigc__p_UserPosition,
   _swigc__p_Zone,
+  _swigc__p_ZoneArray,
   _swigc__p_ZoneLimitation,
   _swigc__p_ZoneList,
   _swigc__p_ZoneShape,
