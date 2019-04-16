@@ -3,10 +3,13 @@ import time
 
 import ipdb
 
+print('about to init')
 raw.InitAPI()
+print('about to comm')
 raw.InitCommunication()
+print('about to fingers')
 raw.InitFingers()
-# raw.MoveHome()
+raw.MoveHome()
 
 # traj = raw.TrajectoryPoint()
 # traj.InitStruct()
@@ -62,45 +65,45 @@ raw.InitFingers()
 
 
 
-zone_shape = raw.ZoneShape()
-zone_shape.shapeType = raw.PrismSquareBase_Z
+# zone_shape = raw.ZoneShape()
+# zone_shape.shapeType = raw.PrismSquareBase_Z
 
-points = raw.CartesianInfoArray(8)
+# points = raw.CartesianInfoArray(8)
 
-points[0].X =  0.1
-points[0].Y = -0.52
-points[0].Z =  0.23
-points[0].ThetaX =  0.0
-points[0].ThetaY =  0.0
-points[0].ThetaZ =  0.0
-points[1].X =  0.1
-points[1].Y = -0.32
-points[1].Z =  0.23
-points[2].X =  0.3
-points[2].Y = -0.32
-points[2].Z =  0.23
-points[3].X =  0.3
-points[3].Y = -0.54
-points[3].Z =  0.23
-points[4].Z =  0.63
+# points[0].X =  0.1
+# points[0].Y = -0.52
+# points[0].Z =  0.23
+# points[0].ThetaX =  0.0
+# points[0].ThetaY =  0.0
+# points[0].ThetaZ =  0.0
+# points[1].X =  0.1
+# points[1].Y = -0.32
+# points[1].Z =  0.23
+# points[2].X =  0.3
+# points[2].Y = -0.32
+# points[2].Z =  0.23
+# points[3].X =  0.3
+# points[3].Y = -0.54
+# points[3].Z =  0.23
+# points[4].Z =  0.63
 
-zone_shape.Points = points
+# zone_shape.Points = points
 
-limitation = raw.ZoneLimitation()
-limitation.speedParameter1 = 0.0
-limitation.speedParameter2 = 0.0
-limitation.speedParameter3 = 0.0
+# limitation = raw.ZoneLimitation()
+# limitation.speedParameter1 = 0.0
+# limitation.speedParameter2 = 0.0
+# limitation.speedParameter3 = 0.0
 
-zone = raw.Zone()
-zone.zoneShape = zone_shape
-zone.zoneLimitation = limitation
+# zone = raw.Zone()
+# zone.zoneShape = zone_shape
+# zone.zoneLimitation = limitation
 
-zone_array = raw.ZoneArray(1)
-zone_array[0] = zone
+# zone_array = raw.ZoneArray(1)
+# zone_array[0] = zone
 
-zone_list = raw.ZoneList()
-zone_list.NbZones = 1
-zone_list.Zones = zone_array
+# zone_list = raw.ZoneList()
+# zone_list.NbZones = 1
+# zone_list.Zones = zone_array
 
 # zones = raw.ZoneList()
 # zones.NbZones = 1
@@ -145,30 +148,30 @@ zone_list.Zones = zone_array
 
 
 
-import kinova
-kinova.maybe_err(raw.SetProtectionZone(zone_list))
-info = raw.GeneralInformations()
+# import kinova
+# kinova.maybe_err(raw.SetProtectionZone(zone_list))
+# info = raw.GeneralInformations()
 
-kinova.move_cartesian([0.1, -0.52, 0.23])
-time.sleep(5)
-raw.GetGeneralInformations(info)
-print("Speed param 1: ", info.ActualLimitations.speedParameter1)
-kinova.move_cartesian_delta([0.1, 0.1, -0.1])
-time.sleep(5)
-raw.GetGeneralInformations(info)
-print("Speed param 1: ", info.ActualLimitations.speedParameter1)
-kinova.move_cartesian_delta([0, 0, 0.1])
-time.sleep(5)
+# kinova.move_cartesian([0.1, -0.52, 0.23])
+# time.sleep(5)
+# raw.GetGeneralInformations(info)
+# print("Speed param 1: ", info.ActualLimitations.speedParameter1)
+# kinova.move_cartesian_delta([0.1, 0.1, -0.1])
+# time.sleep(5)
+# raw.GetGeneralInformations(info)
+# print("Speed param 1: ", info.ActualLimitations.speedParameter1)
+# kinova.move_cartesian_delta([0, 0, 0.1])
+# time.sleep(5)
 
 
-recovered_zone = raw.ZoneList()
-raw.GetProtectionZone(recovered_zone)
-# print(recovered_zone.Zones.zoneLimitation.speedParameter1)
+# recovered_zone = raw.ZoneList()
+# raw.GetProtectionZone(recovered_zone)
+# # print(recovered_zone.Zones.zoneLimitation.speedParameter1)
 
-raw.GetGeneralInformations(info)
-print("Speed param 1: ", info.ActualLimitations.speedParameter1)
+# raw.GetGeneralInformations(info)
+# print("Speed param 1: ", info.ActualLimitations.speedParameter1)
 
-ipdb.set_trace()
+# ipdb.set_trace()
 
-raw.CloseCommunication()
-raw.CloseAPI()
+# raw.CloseCommunication()
+# raw.CloseAPI()

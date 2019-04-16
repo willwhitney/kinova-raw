@@ -10,8 +10,9 @@ import time
 #
 # kinova.close()
 
-import kinova
+# import kinova
 kinova.start()
+import ipdb; ipdb.set_trace()
 # kinova.move_home()
 
 # position = kinova.get_angular_position()

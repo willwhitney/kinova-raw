@@ -1,9 +1,9 @@
 #include <iostream>
 #include <dlfcn.h>
 #include <vector>
-#include "../../../API/USBCommLayerUbuntu/Projects/Eclipse/Kinova.API.CommLayerUbuntu.h"
-#include "../../../API/USBCommandLayerUbuntu/Projects/Eclipse/Kinova.API.UsbCommandLayerUbuntu.h"
-#include "../../../API/USBCommandLayerUbuntu/Projects/Eclipse/KinovaTypes.h"
+#include "/opt/kinova/API/Kinova.API.CommLayerUbuntu.h"
+#include "/opt/kinova/API/Kinova.API.UsbCommandLayerUbuntu.h"
+#include "/opt/kinova/API/KinovaTypes.h"
 #include <stdio.h>
 
 using namespace std;
